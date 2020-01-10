@@ -1,0 +1,3189 @@
+# Ukrainian translation to printconf.
+# Copyright (C) Free Software Foundation
+# This file is distributed under the same license as the printconf package.
+# Maxim Dubovoy <max@mylinux.com.ua>, 2003.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2003-2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: printconf\n"
+"Report-Msgid-Bugs-To: https://bugzilla.redhat.com/bugzilla\n"
+"POT-Creation-Date: 2009-12-22 14:44+0000\n"
+"PO-Revision-Date: 2009-09-10 20:22+0300\n"
+"Last-Translator: Maxim Dziumanenko <dziumanenko@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../AdvancedServerSettings.py:42
+msgid "Advanced Server Settings"
+msgstr "Додаткові параметри сервера"
+
+#: ../AdvancedServerSettings.py:59
+msgid "Job History"
+msgstr "Історія завдань"
+
+#: ../AdvancedServerSettings.py:70
+msgid "Do not preserve job history"
+msgstr "Не зберігати історію завдань"
+
+#: ../AdvancedServerSettings.py:72
+msgid "Preserve job history but not files"
+msgstr "Зберігати історію без файлів"
+
+#: ../AdvancedServerSettings.py:75
+msgid "Preserve job files (allow reprinting)"
+msgstr "Зберігати файли завдань (дозволяє повторний друк)"
+
+#: ../AdvancedServerSettings.py:83
+msgid "Browse Servers"
+msgstr "Огляд серверів"
+
+#: ../AdvancedServerSettings.py:94
+msgid ""
+"Usually print servers broadcast their queues.  Specify print servers below "
+"to periodically ask for queues instead."
+msgstr ""
+"Як правило, сервери друку розсилають відомості про свої черги. Якщо замість "
+"цього ви хочете періодично їх опитувати, вкажіть нижче список серверів."
+
+#: ../AdvancedServerSettings.py:215
+msgid "Enter IP address"
+msgstr "Введіть IP-адресу"
+
+#: ../asyncipp.py:420 ../authconn.py:402 ../authconn.py:404
+#: ../errordialogs.py:65 ../pysmb.py:75 ../pysmb.py:77
+msgid "Not authorized"
+msgstr "Немає авторизації"
+
+#: ../asyncipp.py:421 ../authconn.py:405 ../pysmb.py:78
+msgid "The password may be incorrect."
+msgstr "Можливо неправильний пароль."
+
+#: ../asyncipp.py:432 ../authconn.py:426
+#, python-format
+msgid "Authentication (%s)"
+msgstr "Автентифікація (%s)"
+
+#: ../asyncipp.py:497 ../authconn.py:259 ../errordialogs.py:56
+#: ../errordialogs.py:70
+msgid "CUPS server error"
+msgstr "Помилка сервера CUPS"
+
+#: ../asyncipp.py:499 ../authconn.py:257
+#, python-format
+msgid "CUPS server error (%s)"
+msgstr "Помилка сервера CUPS (%s)"
+
+#: ../asyncipp.py:516 ../authconn.py:268 ../errordialogs.py:57
+#: ../troubleshoot/PrintTestPage.py:417
+#, python-format
+msgid "There was an error during the CUPS operation: '%s'."
+msgstr "Помилка при операції CUPS: '%s'."
+
+#: ../asyncipp.py:519 ../authconn.py:271
+msgid "Retry"
+msgstr "Повтор"
+
+#: ../asyncipp.py:530 ../authconn.py:218 ../authconn.py:240
+msgid "Operation canceled"
+msgstr "Дію скасоввано"
+
+#: ../authconn.py:37 ../glade/NewPrinterWindow.glade.h:106
+msgid "Username:"
+msgstr "Користувач:"
+
+#: ../authconn.py:38 ../glade/NewPrinterWindow.glade.h:75
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ../authconn.py:39
+msgid "Domain:"
+msgstr "Домен:"
+
+#: ../authconn.py:48 ../authconn.py:428
+msgid "Authentication"
+msgstr "Автентифікація"
+
+#: ../authconn.py:87
+msgid "Remember password"
+msgstr "Запам'ятати пароль"
+
+#: ../errordialogs.py:66
+msgid ""
+"The password may be incorrect, or the server may be configured to deny "
+"remote administration."
+msgstr ""
+"Можливо, вказано неправильний або сервер налаштований на заборону "
+"віддаленого керування."
+
+#: ../errordialogs.py:72
+msgid "Bad request"
+msgstr "Неправильний запит"
+
+#: ../errordialogs.py:74
+msgid "Not found"
+msgstr "Не знайдений"
+
+#: ../errordialogs.py:76
+msgid "Request timeout"
+msgstr "Час очікування запиту"
+
+#: ../errordialogs.py:78
+msgid "Upgrade required"
+msgstr "Вимагається оновлення"
+
+#: ../errordialogs.py:80
+msgid "Server error"
+msgstr "Помилка сервера"
+
+#: ../errordialogs.py:82 ../system-config-printer.py:1216
+msgid "Not connected"
+msgstr "Не підключений"
+
+#: ../errordialogs.py:84
+#, python-format
+msgid "status %s"
+msgstr "статус %s"
+
+#: ../errordialogs.py:86
+#, python-format
+msgid "There was an HTTP error: %s."
+msgstr "Помилка HTTP сервера: %s."
+
+#: ../GroupsPane.py:92
+msgid "_New Group"
+msgstr "_Нова група"
+
+#: ../GroupsPane.py:95
+msgid "_New Group from Selection"
+msgstr "_Нова група з вибору"
+
+#: ../GroupsPane.py:98 ../system-config-printer.py:407
+msgid "_Rename"
+msgstr "Перей_менувати"
+
+#: ../GroupsPane.py:170
+msgid "The item could not be renamed."
+msgstr "Елемент неможливо перейменувати."
+
+#: ../GroupsPane.py:171
+#, python-format
+msgid "The name \"%s\" is already in use. Please use a different name."
+msgstr "Назва \"%s\" вже використовується. Будь ласка, виберіть іншу назву."
+
+#: ../GroupsPane.py:290
+#, python-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "Ви дійсно хочете видалити \"%s\"?"
+
+#: ../GroupsPane.py:296
+msgid ""
+"This will not delete any printer queues from your computer. To delete queues "
+"completely, you must delete them from the 'All Printers' group."
+msgstr ""
+"Чергу друку не буде видалено. Щоб видалити їх назавжди, видаліть їх з групи "
+"«Всі принтери»."
+
+#: ../GroupsPane.py:318
+msgid "New Group"
+msgstr "Нова група"
+
+#: ../GroupsPaneModel.py:47
+msgid "All Printers"
+msgstr "Всі принтери"
+
+#: ../GroupsPaneModel.py:60
+msgid "Favorites"
+msgstr "Улюблені"
+
+#: ../jobviewer.py:167
+msgid "_Hold"
+msgstr "_Призупинити"
+
+#: ../jobviewer.py:169
+msgid "_Release"
+msgstr "_Скинути"
+
+#: ../jobviewer.py:171
+msgid "Re_print"
+msgstr "Пере_друкувати"
+
+#: ../jobviewer.py:173
+msgid "_Authenticate"
+msgstr "_Автентифікація"
+
+#: ../jobviewer.py:211 ../troubleshoot/PrintTestPage.py:82
+msgid "Job"
+msgstr "Завдання"
+
+#: ../jobviewer.py:212
+msgid "User"
+msgstr "Користувач"
+
+#: ../jobviewer.py:213 ../troubleshoot/PrintTestPage.py:86
+msgid "Document"
+msgstr "Документ"
+
+#: ../jobviewer.py:214 ../my-default-printer.py:153
+#: ../system-config-printer.py:380 ../system-config-printer.py:1364
+#: ../troubleshoot/PrintTestPage.py:84
+msgid "Printer"
+msgstr "Принтер"
+
+#: ../jobviewer.py:215
+msgid "Size"
+msgstr "Розмір"
+
+#: ../jobviewer.py:231
+msgid "Time submitted"
+msgstr "Час надсилання"
+
+#: ../jobviewer.py:235 ../troubleshoot/PrintTestPage.py:87
+msgid "Status"
+msgstr "Статус"
+
+#: ../jobviewer.py:267
+#, python-format
+msgid "my jobs on %s"
+msgstr "мої завдання на %s"
+
+#: ../jobviewer.py:269
+msgid "my jobs"
+msgstr "мої завдання"
+
+#: ../jobviewer.py:274
+msgid "all jobs"
+msgstr "усі завдання"
+
+#: ../jobviewer.py:275
+#, python-format
+msgid "Document Print Status (%s)"
+msgstr "Стан друку документу (%s)"
+
+#: ../jobviewer.py:425 ../jobviewer.py:701 ../jobviewer.py:1510
+#: ../jobviewer.py:1515 ../jobviewer.py:1524 ../jobviewer.py:1603
+#: ../system-config-printer.py:2630 ../glade/NewPrinterWindow.glade.h:104
+#: ../troubleshoot/ChooseNetworkPrinter.py:102
+#: ../troubleshoot/ChooseNetworkPrinter.py:103
+#: ../troubleshoot/ChooseNetworkPrinter.py:106
+#: ../troubleshoot/ChooseNetworkPrinter.py:107
+#: ../troubleshoot/ChoosePrinter.py:87 ../troubleshoot/ChoosePrinter.py:88
+#: ../troubleshoot/ChoosePrinter.py:91 ../troubleshoot/ChoosePrinter.py:92
+#: ../troubleshoot/DeviceListed.py:92 ../troubleshoot/DeviceListed.py:93
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: ../jobviewer.py:431
+msgid "a minute ago"
+msgstr "хвилину тому"
+
+#: ../jobviewer.py:434
+#, python-format
+msgid "%d minutes ago"
+msgstr "%d хвилин тому"
+
+#: ../jobviewer.py:438
+msgid "an hour ago"
+msgstr "1 годину тому"
+
+#: ../jobviewer.py:440
+#, python-format
+msgid "%d hours ago"
+msgstr "%d годин тому"
+
+#: ../jobviewer.py:444
+msgid "yesterday"
+msgstr "вчора"
+
+#: ../jobviewer.py:446
+#, python-format
+msgid "%d days ago"
+msgstr "%d годин тому"
+
+#: ../jobviewer.py:450
+msgid "last week"
+msgstr "останнього тижня"
+
+#: ../jobviewer.py:452
+#, python-format
+msgid "%d weeks ago"
+msgstr "%d тижнів тому"
+
+#: ../jobviewer.py:652 ../jobviewer.py:731
+msgid "authenticating job"
+msgstr "Задача автентифікації"
+
+#: ../jobviewer.py:699
+#, python-format
+msgid "Authentication required for printing document `%s' (job %d)"
+msgstr "Для друку документу «%s» (завдання %d) потрібна перевірка автентичності"
+
+#: ../jobviewer.py:873
+msgid "Cancel Job"
+msgstr "Скасувати завдання"
+
+#: ../jobviewer.py:887
+msgid "Do you really want to cancel this job?"
+msgstr "Дійсно хочете скасувати це завдання?"
+
+#: ../jobviewer.py:915
+msgid "canceling job"
+msgstr "скасування завдання"
+
+#: ../jobviewer.py:939
+msgid "holding job"
+msgstr "затримка завдання"
+
+#: ../jobviewer.py:963
+msgid "releasing job"
+msgstr "звільнення завдання"
+
+#: ../jobviewer.py:1083
+msgid "No documents queued"
+msgstr "Немає документів у черзі"
+
+#: ../jobviewer.py:1085
+msgid "1 document queued"
+msgstr "1 документ у черзі"
+
+#: ../jobviewer.py:1087
+#, python-format
+msgid "%d documents queued"
+msgstr "%d докум. у черзі"
+
+#: ../jobviewer.py:1310
+#, python-format
+msgid "There was a problem sending document `%s' (job %d) to the printer."
+msgstr "При надсиланні на друк документу «%s» (завдання %d) виникла проблема."
+
+#: ../jobviewer.py:1313
+#, python-format
+msgid "There was a problem processing document `%s' (job %d)."
+msgstr "При обробці документу «%s» (завдання %d) виникла проблема."
+
+#. Give up and use the provided message untranslated.
+#: ../jobviewer.py:1320
+#, python-format
+msgid "There was a problem printing document `%s' (job %d): `%s'."
+msgstr "Під час друку документу «%s» (завдання %d) виникла проблема: «%s»."
+
+#: ../jobviewer.py:1327 ../jobviewer.py:1343
+msgid "Print Error"
+msgstr "Помилка друку"
+
+#: ../jobviewer.py:1328
+msgid "_Diagnose"
+msgstr "_Діагностика"
+
+#: ../jobviewer.py:1349
+#, python-format
+msgid "The printer called `%s' has been disabled."
+msgstr "Принтер «%s» було увімкнено."
+
+#: ../jobviewer.py:1538
+msgid "Held for authentication"
+msgstr "Утримувати для автентифікації"
+
+#: ../jobviewer.py:1540 ../troubleshoot/PrintTestPage.py:42
+msgid "Held"
+msgstr "Призупинено"
+
+#: ../jobviewer.py:1576
+#, python-format
+msgid "Held until %s"
+msgstr "Утримувати до %s"
+
+#: ../jobviewer.py:1580
+msgid "Held until day-time"
+msgstr "Утримувати до денного часу"
+
+#: ../jobviewer.py:1582
+msgid "Held until evening"
+msgstr "Утримувати до вечора"
+
+#: ../jobviewer.py:1584
+msgid "Held until night-time"
+msgstr "Утримувати до ночі"
+
+#: ../jobviewer.py:1586
+msgid "Held until second shift"
+msgstr "Утримувати до другої зміни"
+
+#: ../jobviewer.py:1588
+msgid "Held until third shift"
+msgstr "Утримувати до третьої зміни"
+
+#: ../jobviewer.py:1590
+msgid "Held until weekend"
+msgstr "Утримувати до вихідних"
+
+#: ../jobviewer.py:1593 ../troubleshoot/PrintTestPage.py:41
+msgid "Pending"
+msgstr "Заплановано"
+
+#: ../jobviewer.py:1594 ../system-config-printer.py:198
+#: ../troubleshoot/PrintTestPage.py:43
+msgid "Processing"
+msgstr "Оброблює"
+
+#: ../jobviewer.py:1595 ../system-config-printer.py:200
+#: ../troubleshoot/PrintTestPage.py:44
+msgid "Stopped"
+msgstr "Зупинено"
+
+#: ../jobviewer.py:1596 ../troubleshoot/PrintTestPage.py:45
+msgid "Canceled"
+msgstr "Скасовано"
+
+#: ../jobviewer.py:1597 ../troubleshoot/PrintTestPage.py:46
+msgid "Aborted"
+msgstr "Перервано"
+
+#: ../jobviewer.py:1598 ../troubleshoot/PrintTestPage.py:47
+msgid "Completed"
+msgstr "Виконано"
+
+#: ../my-default-printer.py:137 ../my-default-printer.desktop.in.h:1
+msgid "Default Printer"
+msgstr "Типовий принтер"
+
+#: ../my-default-printer.py:141 ../my-default-printer.py:177
+msgid "_Use System Default"
+msgstr "Використовувати _системний"
+
+#: ../my-default-printer.py:142 ../my-default-printer.py:179
+msgid "_Set Default"
+msgstr "_Зробити типовим"
+
+#: ../my-default-printer.py:158 ../system-config-printer.py:437
+#: ../troubleshoot/ChooseNetworkPrinter.py:37
+#: ../troubleshoot/ChoosePrinter.py:38
+msgid "Location"
+msgstr "Розташування"
+
+#: ../optionwidgets.py:128
+msgid "Conflicts with:"
+msgstr "Конфліктує з:"
+
+#: ../ppdippstr.py:45
+msgid "Abort job"
+msgstr "Скасувати завдання"
+
+#: ../ppdippstr.py:46
+#, fuzzy
+msgid "Retry current job"
+msgstr "Повтор завдання"
+
+#: ../ppdippstr.py:47
+msgid "Retry job"
+msgstr "Повтор завдання"
+
+#: ../ppdippstr.py:48
+msgid "Stop printer"
+msgstr "Зупинити принтер"
+
+#: ../ppdippstr.py:54
+msgid "Default behavior"
+msgstr "Стандартна поведінка"
+
+#: ../ppdippstr.py:55
+msgid "Authenticated"
+msgstr "Авторизований"
+
+#: ../ppdippstr.py:61 ../system-config-printer.py:6498
+msgid "None"
+msgstr "Немає"
+
+#: ../ppdippstr.py:62
+msgid "Classified"
+msgstr "Класифікований"
+
+#: ../ppdippstr.py:63
+msgid "Confidential"
+msgstr "Конфіденційно"
+
+#: ../ppdippstr.py:64
+msgid "Secret"
+msgstr "Секретний"
+
+#: ../ppdippstr.py:65
+msgid "Standard"
+msgstr "Стандартний"
+
+#: ../ppdippstr.py:66
+msgid "Top secret"
+msgstr "Абсолютно таємний"
+
+#: ../ppdippstr.py:67
+msgid "Unclassified"
+msgstr "Некласифікований"
+
+#: ../ppdippstr.py:73
+msgid "No hold"
+msgstr "Не утримувати"
+
+#: ../ppdippstr.py:74
+msgid "Indefinite"
+msgstr "Безстроково"
+
+#: ../ppdippstr.py:75
+msgid "Daytime"
+msgstr "День"
+
+#: ../ppdippstr.py:76
+msgid "Evening"
+msgstr "Вечір"
+
+#: ../ppdippstr.py:77
+msgid "Night"
+msgstr "Ніч"
+
+#: ../ppdippstr.py:78
+msgid "Second shift"
+msgstr "Друга зміна"
+
+#: ../ppdippstr.py:79
+msgid "Third shift"
+msgstr "Третя зміна"
+
+#: ../ppdippstr.py:80
+msgid "Weekend"
+msgstr "Вихідні"
+
+#: ../ppdippstr.py:90
+msgid "General"
+msgstr "Загальний"
+
+#. HPIJS options
+#: ../ppdippstr.py:93
+msgid "Printout mode"
+msgstr "Режим друку"
+
+#: ../ppdippstr.py:95
+msgid "Draft (auto-detect-paper type)"
+msgstr "Чорновий (автоматичне визначення типу паперу)"
+
+#: ../ppdippstr.py:97
+msgid "Draft grayscale (auto-detect-paper type)"
+msgstr "Чорновий, чорно-білий (автоматичне визначення типу паперу)"
+
+#: ../ppdippstr.py:99
+msgid "Normal (auto-detect-paper type)"
+msgstr "Звичайний (автоматичне визначення паперу)"
+
+#: ../ppdippstr.py:101
+msgid "Normal grayscale (auto-detect-paper type)"
+msgstr "Звичайний чорно-білий (автоматичне визначення типу паперу)"
+
+#: ../ppdippstr.py:103
+msgid "High quality (auto-detect-paper type)"
+msgstr "Висока якість (автоматичне визначення паперу)"
+
+#: ../ppdippstr.py:105
+msgid "High quality grayscale (auto-detect-paper type)"
+msgstr "Висока якість, чорно білий (автоматичне визначення паперу)"
+
+#: ../ppdippstr.py:106
+msgid "Photo (on photo paper)"
+msgstr "Фото (на фото-папері)"
+
+#: ../ppdippstr.py:108
+msgid "Best quality (color on photo paper)"
+msgstr "Максимальна якість (колір на фото-папері)"
+
+#: ../ppdippstr.py:110
+msgid "Normal quality (color on photo paper)"
+msgstr "Звичайна якість (колір на фото-папері)"
+
+#: ../ppdippstr.py:112
+msgid "Media source"
+msgstr "Медіа"
+
+#: ../ppdippstr.py:113
+msgid "Printer default"
+msgstr "Стандартний принтер"
+
+#: ../ppdippstr.py:114
+msgid "Photo tray"
+msgstr "Фото лоток"
+
+#: ../ppdippstr.py:115
+msgid "Upper tray"
+msgstr "Верхній лоток"
+
+#: ../ppdippstr.py:116
+msgid "Lower tray"
+msgstr "Нижній лоток"
+
+#: ../ppdippstr.py:117
+msgid "CD or DVD tray"
+msgstr "Лоток CD чи DVD"
+
+#: ../ppdippstr.py:118
+msgid "Envelope feeder"
+msgstr "Лоток подачі конвертів"
+
+#: ../ppdippstr.py:119
+msgid "Large capacity tray"
+msgstr "Лоток великої місткості"
+
+#: ../ppdippstr.py:120
+msgid "Manual feeder"
+msgstr "Лоток ручної подачі"
+
+#: ../ppdippstr.py:121
+msgid "Multi-purpose tray"
+msgstr "Універсальний лоток"
+
+#: ../ppdippstr.py:123
+msgid "Page size"
+msgstr "Розмір паперу"
+
+#: ../ppdippstr.py:124
+msgid "Custom"
+msgstr "Довільний"
+
+#: ../ppdippstr.py:125
+msgid "Photo or 4x6 inch index card"
+msgstr "Фото або картка 4x6 дюймів"
+
+#: ../ppdippstr.py:126
+msgid "Photo or 5x7 inch index card"
+msgstr "Фото або картка 5x7 дюймів"
+
+#: ../ppdippstr.py:127
+msgid "Photo with tear-off tab"
+msgstr "Фото з відривним полем"
+
+#: ../ppdippstr.py:128
+msgid "3x5 inch index card"
+msgstr "Картка 3x5 дюймів"
+
+#: ../ppdippstr.py:129
+msgid "5x8 inch index card"
+msgstr "Картка 5x8 дюймів"
+
+#: ../ppdippstr.py:130
+msgid "A6 with tear-off tab"
+msgstr "A6 з відривним полем"
+
+#: ../ppdippstr.py:131
+msgid "CD or DVD 80mm"
+msgstr "CD чи DVD 80мм"
+
+#: ../ppdippstr.py:132
+msgid "CD or DVD 120mm"
+msgstr "CD чи DVD 120мм"
+
+#: ../ppdippstr.py:134
+msgid "Double-sided printing"
+msgstr "Двосторонній друк"
+
+#: ../ppdippstr.py:135
+msgid "Long edge (standard)"
+msgstr "Стандартний"
+
+#: ../ppdippstr.py:136
+msgid "Short edge (flip)"
+msgstr "Блокнот"
+
+#: ../ppdippstr.py:137
+msgid "Off"
+msgstr "Вимкн"
+
+#: ../ppdippstr.py:140
+msgid "Resolution, quality, ink type, media type"
+msgstr "Роздільна здатність, якість, тип чорнил, тип медіа"
+
+#: ../ppdippstr.py:141
+msgid "Controlled by 'Printout mode'"
+msgstr "Під керуванням режиму друку"
+
+#: ../ppdippstr.py:143
+msgid "300 dpi, color, black + color cartridge"
+msgstr "300 dpi, колір, чорний та кольоровий картридж"
+
+#: ../ppdippstr.py:145
+msgid "300 dpi, draft, color, black + color cartridge"
+msgstr "300 dpi, чернетка, чорний та кольоровий картридж"
+
+#: ../ppdippstr.py:147
+msgid "300 dpi, draft, grayscale, black + color cartridge"
+msgstr "300 dpi, чернетка, чорно-білий та кольоровий картридж"
+
+#: ../ppdippstr.py:149
+msgid "300 dpi, grayscale, black + color cartridge"
+msgstr "300 dpi, чорно-білий, чорний та кольоровий картридж"
+
+#: ../ppdippstr.py:151
+msgid "600 dpi, color, black + color cartridge"
+msgstr "600 dpi, колір, чорний та кольоровий картридж"
+
+#: ../ppdippstr.py:153
+msgid "600 dpi, grayscale, black + color cartridge"
+msgstr "600 dpi, чорно-білий, чорний та кольоровий картридж"
+
+#: ../ppdippstr.py:155
+msgid "600 dpi, photo, black + color cartridge, photo paper"
+msgstr "300 dpi, фото, чорний та кольоровий картридж, фотопапір"
+
+#: ../ppdippstr.py:157
+msgid "600 dpi, color, black + color cartridge, photo paper, normal"
+msgstr "600 dpi, кольоровий, чорний та кольоровий картридж, звичайний"
+
+#: ../ppdippstr.py:159
+msgid "1200 dpi, photo, black + color cartridge, photo paper"
+msgstr "1200 dpi, фото, чорний та кольоровий картридж, фото-папір"
+
+#: ../system-config-printer.py:142
+msgid "To do this, select System->Administration->Firewall from the main menu."
+msgstr ""
+"Для цього виберіть Система->Адміністрування->Мережний екран у головному меню."
+
+#: ../system-config-printer.py:197
+msgid "Idle"
+msgstr "Простоює"
+
+#: ../system-config-printer.py:199
+msgid "Busy"
+msgstr "Зайнятий"
+
+#: ../system-config-printer.py:386 ../system-config-printer.py:1370
+msgid "Class"
+msgstr "Класс"
+
+#: ../system-config-printer.py:413
+msgid "Set As De_fault"
+msgstr "Зробити _типовим"
+
+#: ../system-config-printer.py:417
+msgid "_Create class"
+msgstr "_Створити класс"
+
+#: ../system-config-printer.py:419
+msgid "View Print _Queue"
+msgstr "Перегляд _черги друку"
+
+#: ../system-config-printer.py:421
+msgid "_Add to Group"
+msgstr "_Додати до групи"
+
+#: ../system-config-printer.py:423
+msgid "Save Results as _Group"
+msgstr "Зберегти результати як _групу"
+
+#: ../system-config-printer.py:425
+msgid "Save Filter as _Search Group"
+msgstr "Зберегти фільтр як групу _пошуку"
+
+#: ../system-config-printer.py:429
+msgid "E_nabled"
+msgstr "_Увімкнено"
+
+#: ../system-config-printer.py:431
+msgid "_Shared"
+msgstr "_Спільний доступ"
+
+#: ../system-config-printer.py:435 ../troubleshoot/ChooseNetworkPrinter.py:35
+#: ../troubleshoot/ChoosePrinter.py:36 ../troubleshoot/DeviceListed.py:36
+msgid "Name"
+msgstr "Назва"
+
+#: ../system-config-printer.py:436
+msgid "Description"
+msgstr "Опис"
+
+#: ../system-config-printer.py:438
+msgid "Manufacturer / Model"
+msgstr "Виробник/ модель"
+
+#. Printer state reasons list
+#: ../system-config-printer.py:513
+msgid "Message"
+msgstr "Повідомлення"
+
+#: ../system-config-printer.py:548
+msgid "Problems?"
+msgstr "Проблеми?"
+
+#: ../system-config-printer.py:653 ../system-config-printer.py:655
+msgid "Members of this class"
+msgstr "Члени цього класу"
+
+#: ../system-config-printer.py:654 ../system-config-printer.py:656
+msgid "Others"
+msgstr "Інші"
+
+#: ../system-config-printer.py:657
+msgid "Devices"
+msgstr "Пристрої"
+
+#: ../system-config-printer.py:658
+msgid "Connections"
+msgstr "З'єднання"
+
+#: ../system-config-printer.py:659
+msgid "Makes"
+msgstr "Виробники"
+
+#: ../system-config-printer.py:660
+msgid "Models"
+msgstr "Моделі"
+
+#: ../system-config-printer.py:661
+msgid "Drivers"
+msgstr "Драйвери"
+
+#: ../system-config-printer.py:662 ../glade/NewPrinterWindow.glade.h:54
+msgid "Downloadable Drivers"
+msgstr "Доступні для завантаження драйвера"
+
+#: ../system-config-printer.py:663
+msgid "Users"
+msgstr "Користувачі"
+
+#: ../system-config-printer.py:698
+msgid "Automatic rotation"
+msgstr "Автоматично"
+
+#: ../system-config-printer.py:983
+#, python-format
+msgid "Printer Properties - '%s' on %s"
+msgstr "Властивості принтера «%s» на %s"
+
+#. The Conflict button was pressed.
+#: ../system-config-printer.py:991
+msgid ""
+"There are conflicting options.\n"
+"Changes can only be applied after\n"
+"these conflicts are resolved."
+msgstr ""
+"Є конфліктуючі параметри.\n"
+"Зміни можуть бути збережені\n"
+"лише після розв'язання конфлікту."
+
+#: ../system-config-printer.py:1210
+#, python-format
+msgid "Printer configuration - %s"
+msgstr "Налаштовування принтера - %s"
+
+#: ../system-config-printer.py:1214
+#, python-format
+msgid "Connected to %s"
+msgstr "Підключений до %s"
+
+#. Update our copy of the printer's settings.
+#: ../system-config-printer.py:1254 ../system-config-printer.py:2100
+msgid "obtaining queue details"
+msgstr "отримання параметрів черги"
+
+#: ../system-config-printer.py:1292
+msgid "Remove from Group"
+msgstr "Видалити з групи"
+
+#: ../system-config-printer.py:1358
+msgid "Network printer (discovered)"
+msgstr "Мережний принтер (виявлений)"
+
+#: ../system-config-printer.py:1361
+msgid "Network class (discovered)"
+msgstr "Мережний клас (виявлений)"
+
+#: ../system-config-printer.py:1367 ../system-config-printer.py:5768
+#: ../system-config-printer.py:5838 ../system-config-printer.py:5840
+msgid "Fax"
+msgstr "Факс"
+
+#: ../system-config-printer.py:1373 ../system-config-printer.py:1379
+#: ../troubleshoot/LocalOrRemote.py:30
+msgid "Network printer"
+msgstr "Мережний принтер"
+
+#: ../system-config-printer.py:1376
+msgid "Network print share"
+msgstr "Ресурс мережного принтера"
+
+#: ../system-config-printer.py:1561 ../glade/ConnectingDialog.glade.h:2
+#, no-c-format, python-format
+msgid "<i>Opening connection to %s</i>"
+msgstr "<i>Відкривається з'єднання з %s</i>"
+
+#: ../system-config-printer.py:1944
+msgid "Installable Options"
+msgstr "Можливості що встановлюються"
+
+#: ../system-config-printer.py:1945
+#: ../glade/PrinterPropertiesDialog.glade.h:111
+msgid "Printer Options"
+msgstr "Параметри принтера"
+
+#: ../system-config-printer.py:1982
+#, python-format
+msgid "modifying class %s"
+msgstr "зміна класу %s"
+
+#: ../system-config-printer.py:1984 ../system-config-printer.py:3138
+#: ../system-config-printer.py:3163 ../system-config-printer.py:6795
+#: ../system-config-printer.py:6807 ../system-config-printer.py:6829
+#, python-format
+msgid "modifying printer %s"
+msgstr "зміна принтера %s"
+
+#: ../system-config-printer.py:1999
+msgid "This will delete this class!"
+msgstr "Це призведе до видалення класу!"
+
+#: ../system-config-printer.py:2000
+msgid "Proceed anyway?"
+msgstr "Продовжити?"
+
+#. We can authenticate with the server correctly at this point,
+#. but we have never fetched the server settings to see whether
+#. the server is publishing shared printers.  Fetch the settings
+#. now so that we can update the "not published" label if necessary.
+#: ../system-config-printer.py:2088 ../system-config-printer.py:3334
+msgid "fetching server settings"
+msgstr "отримання параметрів сервера"
+
+#: ../system-config-printer.py:2158
+msgid "Set Default Printer"
+msgstr "Зробити типовим принтером"
+
+#: ../system-config-printer.py:2160
+msgid "Do you want to set this as the system-wide default printer?"
+msgstr "Призначити цей принтер типовим системним принтером?"
+
+#: ../system-config-printer.py:2162
+msgid "Set as the _system-wide default printer"
+msgstr "Призначити _типовим системним"
+
+#: ../system-config-printer.py:2164
+msgid "_Clear my personal default setting"
+msgstr "_Скинути мій типовий принтер"
+
+#: ../system-config-printer.py:2165
+msgid "Set as my _personal default printer"
+msgstr "Зробити типовим принтером для цього _користувача"
+
+#: ../system-config-printer.py:2170
+msgid "setting default printer"
+msgstr "налаштовування стандартного принтера"
+
+#: ../system-config-printer.py:2227
+msgid "printing test page"
+msgstr "друк тестової сторінки"
+
+#: ../system-config-printer.py:2240 ../system-config-printer.py:2275
+msgid "Not possible"
+msgstr "Неможливо"
+
+#: ../system-config-printer.py:2241 ../system-config-printer.py:2276
+msgid ""
+"The remote server did not accept the print job, most likely because the "
+"printer is not shared."
+msgstr ""
+"Віддалений сервер не прийняв завдання для друку, швидше за все, принтер не "
+"налаштований для спільного доступу."
+
+#: ../system-config-printer.py:2253 ../system-config-printer.py:2268
+msgid "Submitted"
+msgstr "Переслано"
+
+#: ../system-config-printer.py:2254
+#, python-format
+msgid "Test page submitted as job %d"
+msgstr "Тестова сторінка вставлена у чергу як завдання %d"
+
+#: ../system-config-printer.py:2261
+msgid "sending maintenance command"
+msgstr "надсилається команда обслуговування"
+
+#: ../system-config-printer.py:2269
+#, python-format
+msgid "Maintenance command submitted as job %d"
+msgstr "Команду обслуговування поставлено до черги як завдання %d"
+
+#. The underlying cupsGetPPD2() function returned NULL without
+#. setting an IPP error, so it'll be something like a failed
+#. connection.
+#: ../system-config-printer.py:2342 ../system-config-printer.py:2438
+msgid "Error"
+msgstr "Помилка"
+
+#: ../system-config-printer.py:2343
+msgid "There was a problem connecting to the CUPS server."
+msgstr "Помилка підключення до сервера CUPS."
+
+#: ../system-config-printer.py:2439
+#, python-format
+msgid "Option '%s' has value '%s' and cannot be edited."
+msgstr "Параметр «%s» має значення «%s» та не може бути змінений."
+
+#: ../system-config-printer.py:2540
+msgid "Marker levels are not reported for this printer."
+msgstr "Для цього принтера не визначено рівні маркерів."
+
+#: ../system-config-printer.py:2849
+msgid "Cannot Rename"
+msgstr "Перейменування неможливе"
+
+#: ../system-config-printer.py:2850
+msgid "There are queued jobs."
+msgstr "У черзі друку залишились завдання."
+
+#: ../system-config-printer.py:2868
+msgid "Renaming will lose history"
+msgstr "При перейменуванні історію буде втрачено."
+
+#: ../system-config-printer.py:2870
+msgid "Completed jobs will no longer be available for re-printing."
+msgstr "Завершені завдання не будуть доступні для повторного друку."
+
+#: ../system-config-printer.py:2941
+msgid "renaming printer"
+msgstr "перейменування принтера"
+
+#. for classes make sure all members
+#. will get added
+#: ../system-config-printer.py:3026
+msgid "copying printer"
+msgstr "копіювання принтера"
+
+#: ../system-config-printer.py:3090
+#, python-format
+msgid "Really delete class '%s'?"
+msgstr "Справді видалити клас '%s'?"
+
+#: ../system-config-printer.py:3092
+#, python-format
+msgid "Really delete printer '%s'?"
+msgstr "Справді видалити принтер'%s'?"
+
+#: ../system-config-printer.py:3094
+msgid "Really delete selected destinations?"
+msgstr "Справді видалити обрані пункти призначенні?"
+
+#: ../system-config-printer.py:3115
+#, python-format
+msgid "deleting printer %s"
+msgstr "видалення принтера %s"
+
+#: ../system-config-printer.py:3201
+msgid "Publish Shared Printers"
+msgstr "Публікація спільних принтерів"
+
+#: ../system-config-printer.py:3202
+msgid ""
+"Shared printers are not available to other people unless the 'Publish shared "
+"printers' option is enabled in the server settings."
+msgstr ""
+"Спільні принтери не будуть доступні іншим користувачам, якщо у параметрах "
+"сервера не увімкнено «Публікація спільних принтерів»."
+
+#: ../system-config-printer.py:3395
+msgid "modifying server settings"
+msgstr "зміна параметрів сервера"
+
+#: ../system-config-printer.py:3423
+msgid "Review Firewall"
+msgstr "Перегляньте параметри мережного екрану"
+
+#: ../system-config-printer.py:3424
+msgid ""
+"You may need to adjust the firewall to allow network printing to this "
+"computer."
+msgstr ""
+"Щоб дозволити мережний друк на цьому комп'ютері може знадобитися змінити "
+"параметри мережного екрану."
+
+#: ../system-config-printer.py:3771
+msgid "Browsing not available (pysmbc not installed)"
+msgstr "Перегляд недоступний (не встановлено pysmbc)"
+
+#. SMB list columns
+#: ../system-config-printer.py:3777
+msgid "Share"
+msgstr "Спільний ресурс"
+
+#: ../system-config-printer.py:3783
+msgid "Comment"
+msgstr "Коментар"
+
+#: ../system-config-printer.py:3798
+msgid ""
+"PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+"PPD.GZ)"
+msgstr ""
+"Файли описів PostScript-принтерів (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *.PPD."
+"GZ)"
+
+#: ../system-config-printer.py:3807
+msgid "All files (*)"
+msgstr "Усі файли (*)"
+
+#: ../system-config-printer.py:3863 ../system-config-printer.py:6184
+#: ../system-config-printer.py:6222 ../applet.py:129
+msgid "Search"
+msgstr "Пошук"
+
+#: ../system-config-printer.py:3887 ../system-config-printer.py:3909
+#: ../glade/NewPrinterWindow.glade.h:72
+msgid "New Printer"
+msgstr "Новий принтер"
+
+#: ../system-config-printer.py:3896
+msgid "New Class"
+msgstr "Новий клас"
+
+#: ../system-config-printer.py:3901
+msgid "Change Device URI"
+msgstr "Зміна URI адреси пристрою"
+
+#: ../system-config-printer.py:3907
+msgid "Change Driver"
+msgstr "Змінити драйвер"
+
+#: ../system-config-printer.py:4087 ../system-config-printer.py:4167
+#: ../system-config-printer.py:4538 ../system-config-printer.py:6019
+#: ../system-config-printer.py:6209
+msgid "Searching"
+msgstr "Пошук"
+
+#: ../system-config-printer.py:4088
+msgid "Searching for downloadable drivers"
+msgstr "Пошук драйверів, що завантажуються"
+
+#: ../system-config-printer.py:4168 ../system-config-printer.py:4539
+msgid "Searching for drivers"
+msgstr "Пошук драйверів"
+
+#. Tell the user why he needs the plugin
+#: ../system-config-printer.py:4913
+msgid "For this printer a proprietary driver plugin from HP is available.\n"
+msgstr "Для цього принтера доступний модуль драйвера HP.\n"
+
+#: ../system-config-printer.py:4916
+msgid ""
+"The installation of the plugin is required for your printer to work.\n"
+"\n"
+msgstr ""
+"Для роботи принтера треба встановити додатковий модуль.\n"
+"\n"
+
+#: ../system-config-printer.py:4919
+msgid ""
+"Installing the plugin is optional, it completes or enhances the "
+"functionality\n"
+"of your printer. Without plugin at least basic operations work.\n"
+"\n"
+msgstr ""
+"Встановлення додаткового модуля не є обов'язковим, але дозволяє розширити "
+"функціональність принтера.\n"
+"Без модуля будуть доступні лише базові функції.\n"
+"\n"
+
+#: ../system-config-printer.py:4923
+msgid "The plugin provides the following features:\n"
+msgstr "Модуль включає наступні функції:\n"
+
+#: ../system-config-printer.py:4926
+msgid " - Printing support\n"
+msgstr " - підтримка друку\n"
+
+#: ../system-config-printer.py:4929
+msgid " - Faster printing\n"
+msgstr " - швидкий друк\n"
+
+#: ../system-config-printer.py:4932
+msgid " - Better printout quality\n"
+msgstr " - покращена якість друку\n"
+
+#: ../system-config-printer.py:4935
+msgid " - Extra printing features\n"
+msgstr " - додаткові можливості друку\n"
+
+#: ../system-config-printer.py:4938
+msgid " - Scanning support\n"
+msgstr " - підтримка сканування\n"
+
+#: ../system-config-printer.py:4941
+msgid " - Faster scanning\n"
+msgstr " - швидке сканування\n"
+
+#: ../system-config-printer.py:4944
+msgid " - Better scanning image quality\n"
+msgstr " - покращена якість сканованих зображень\n"
+
+#: ../system-config-printer.py:4947
+msgid " - Faxing support\n"
+msgstr " - підтримка факсу\n"
+
+#: ../system-config-printer.py:4950
+msgid " - Extra fax features\n"
+msgstr " - додаткові можливості факсу\n"
+
+#: ../system-config-printer.py:4953
+msgid " - Better Input/Output support\n"
+msgstr " - покращена підтримка вводу та виводу\n"
+
+#: ../system-config-printer.py:4956
+msgid " - Extra user interface features\n"
+msgstr " - додаткові можливості інтерфейсу користувача\n"
+
+#: ../system-config-printer.py:4959
+msgid " - Other extra features\n"
+msgstr " - інші додаткові можливості\n"
+
+#: ../system-config-printer.py:4964
+msgid "Install plugin"
+msgstr "Встановити додатковий модуль"
+
+#: ../system-config-printer.py:4965
+msgid "Do not set up printer"
+msgstr "Не налаштовувати принтер"
+
+#: ../system-config-printer.py:4966
+msgid "Set up without plugin"
+msgstr "Налаштувати без додаткового модуля"
+
+#: ../system-config-printer.py:4968 ../troubleshoot/PrintTestPage.py:118
+msgid "Yes"
+msgstr "Так"
+
+#: ../system-config-printer.py:4969 ../troubleshoot/PrintTestPage.py:119
+msgid "No"
+msgstr "Ні"
+
+#. device-info
+#. PhysicalDevice obj
+#. Separator?
+#: ../system-config-printer.py:5130
+msgid "Other"
+msgstr "Інший"
+
+#: ../system-config-printer.py:5134
+msgid "Network Printer"
+msgstr "Мережний принтер"
+
+#: ../system-config-printer.py:5138
+msgid "Find Network Printer"
+msgstr "Знайти мережний принтер"
+
+#: ../system-config-printer.py:5153
+msgid "fetching device list"
+msgstr "отримання списку пристроїв"
+
+#: ../system-config-printer.py:5237
+msgid " (Current)"
+msgstr " (Поточний)"
+
+#: ../system-config-printer.py:5307
+msgid "Scanning..."
+msgstr "Сканування..."
+
+#: ../system-config-printer.py:5362
+msgid "No Print Shares"
+msgstr "Спальних принтерів не знайдено"
+
+#: ../system-config-printer.py:5363
+msgid ""
+"There were no print shares found.  Please check that the Samba service is "
+"marked as trusted in your firewall configuration."
+msgstr ""
+"Спільних принтерів не знайдено. Перевірте, що службу Samba помічено як "
+"довірену у параметрах вашого мережного екрану."
+
+#: ../system-config-printer.py:5624 ../system-config-printer.py:5701
+msgid "Print Share Verified"
+msgstr "Спільний принтер перевірено"
+
+#: ../system-config-printer.py:5625 ../system-config-printer.py:5702
+msgid "This print share is accessible."
+msgstr "Цей принтер (спільний ресурс) доступний."
+
+#: ../system-config-printer.py:5630 ../system-config-printer.py:5706
+msgid "This print share is not accessible."
+msgstr "Цей принтер (спільний ресурс) недоступний."
+
+#: ../system-config-printer.py:5633
+msgid "Print Share Inaccessible"
+msgstr "Спільний принтер недоступний"
+
+#: ../system-config-printer.py:5679
+msgid "Verifying"
+msgstr "Перевіряється"
+
+#: ../system-config-printer.py:5680
+msgid "Verifying printer"
+msgstr "Перевіряється перевірка принтера"
+
+#: ../system-config-printer.py:5705
+msgid "Inaccessible"
+msgstr "Недоступний"
+
+#: ../system-config-printer.py:5760
+msgid "Parallel Port"
+msgstr "Паралельний порт"
+
+#: ../system-config-printer.py:5762
+msgid "Serial Port"
+msgstr "Послідовний порт"
+
+#: ../system-config-printer.py:5764
+msgid "USB"
+msgstr "USB"
+
+#: ../system-config-printer.py:5766 ../system-config-printer.py:5769
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr "HPLIP (HP Linux Imaging and Printing)"
+
+#: ../system-config-printer.py:5771
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr "HAL (Hardware Abstraction Layer) "
+
+#: ../system-config-printer.py:5773
+msgid "AppSocket/HP JetDirect"
+msgstr "AppSocket/HP JetDirect"
+
+#: ../system-config-printer.py:5782
+#, python-format
+msgid "LPD/LPR queue '%s'"
+msgstr "черга LPD/LPR '%s'"
+
+#: ../system-config-printer.py:5784
+msgid "LPD/LPR queue"
+msgstr "черга LPD/LPR"
+
+#: ../system-config-printer.py:5787
+msgid "Windows Printer via SAMBA"
+msgstr "Принтер Windows через SAMBA"
+
+#: ../system-config-printer.py:5789 ../glade/NewPrinterWindow.glade.h:64
+msgid "IPP"
+msgstr "IPP"
+
+#: ../system-config-printer.py:5791
+msgid "HTTP"
+msgstr "HTTP"
+
+#: ../system-config-printer.py:5878
+msgid "A printer connected to the parallel port."
+msgstr "Принтер підключений до паралельного порту."
+
+#: ../system-config-printer.py:5880
+msgid "A printer connected to a USB port."
+msgstr "Принтер підключений до порту USB."
+
+#: ../system-config-printer.py:5882
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device."
+msgstr ""
+"Роботу принтера забезпечує HPLIP або функція принтера багатофункціонального "
+"пристрою."
+
+#: ../system-config-printer.py:5885
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device."
+msgstr ""
+"Роботу принтера забезпечує HPLIP або функція факсу багатофункціонального "
+"пристрою."
+
+#: ../system-config-printer.py:5888
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)."
+msgstr "HAL (Hardware Abstraction Layer) виявив локальний принтер."
+
+#: ../system-config-printer.py:6020
+msgid "Searching for printers"
+msgstr "Пошук принтерів"
+
+#: ../system-config-printer.py:6097
+msgid "No printer was found at that address."
+msgstr "За цією адресою принтер не знайдено."
+
+#: ../system-config-printer.py:6234
+msgid "-- Select from search results --"
+msgstr "-- Виберіть з результатів пошуку --"
+
+#: ../system-config-printer.py:6236
+msgid "-- No matches found --"
+msgstr "-- Збігів не знайдено --"
+
+#: ../system-config-printer.py:6430
+msgid " (recommended)"
+msgstr " (рекомендований)"
+
+#: ../system-config-printer.py:6455
+msgid "This PPD is generated by foomatic."
+msgstr "Цей PPD сформовано foomatic."
+
+#: ../system-config-printer.py:6480
+msgid "OpenPrinting"
+msgstr "OpenPrinting"
+
+#: ../system-config-printer.py:6491
+msgid "Distributable"
+msgstr "Поширюваний"
+
+#: ../system-config-printer.py:6532
+msgid ", "
+msgstr ", "
+
+#: ../system-config-printer.py:6537
+#, python-format
+msgid ""
+"\n"
+"(%s)"
+msgstr ""
+"\n"
+"(%s)"
+
+#: ../system-config-printer.py:6542
+msgid "No support contacts known"
+msgstr "Немає контактів підтримки"
+
+#: ../system-config-printer.py:6546 ../system-config-printer.py:6559
+msgid "Not specified."
+msgstr "Не вказано."
+
+#. Foomatic database problem of some sort.
+#: ../system-config-printer.py:6599
+msgid "Database error"
+msgstr "Помилка бази даних"
+
+#: ../system-config-printer.py:6600
+#, python-format
+msgid "The '%s' driver cannot be used with printer '%s %s'."
+msgstr "Драйвер '%s' не може використовуватись з принтером '%s %s'."
+
+#. This printer references some XML that is not
+#. installed by default.  Point the user at the
+#. package they need to install.
+#: ../system-config-printer.py:6610
+#, python-format
+msgid "You will need to install the '%s' package in order to use this driver."
+msgstr "Щоб скористатись цим драйвером необхідно встановити пакет '%s'."
+
+#. This error came from trying to open the PPD file.
+#: ../system-config-printer.py:6617
+msgid "PPD error"
+msgstr "Помилка PPD"
+
+#: ../system-config-printer.py:6619
+msgid "Failed to read PPD file.  Possible reason follows:"
+msgstr "Не вдається прочитати файл PPD. Можливі причини:"
+
+#. Failed to get PPD downloaded from OpenPrinting XXX
+#: ../system-config-printer.py:6636
+msgid "Downloadable drivers"
+msgstr "Доступні для завантаження драйвери"
+
+#: ../system-config-printer.py:6637
+msgid "Failed to download PPD."
+msgstr "Не вдалось завантажити PPD."
+
+#: ../system-config-printer.py:6644
+msgid "fetching PPD"
+msgstr "отримання PPD"
+
+#: ../system-config-printer.py:6673 ../system-config-printer.py:6711
+msgid "No Installable Options"
+msgstr "Немає встановлюваних параметрів"
+
+#: ../system-config-printer.py:6768
+#, python-format
+msgid "adding printer %s"
+msgstr "додавання принтера %s"
+
+#: ../system-config-printer.py:6941
+msgid "Would you like to print a test page?"
+msgstr "Друкувати тестову сторінку?"
+
+#: ../system-config-printer.py:7002
+msgid "Install driver"
+msgstr "Встановити драйвер"
+
+#: ../system-config-printer.py:7003 ../troubleshoot/CheckPPDSanity.py:131
+#, python-format
+msgid "Printer '%s' requires the %s package but it is not currently installed."
+msgstr "Принтер «%s» потребує пакет %s, який наразі не встановлено."
+
+#: ../system-config-printer.py:7019
+msgid "Missing driver"
+msgstr "Відсутній драйвер"
+
+#: ../system-config-printer.py:7020
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed.  "
+"Please install it before using this printer."
+msgstr ""
+"Принтеру '%s' потрібна програма '%s', але вона не встановлена. Будь ласка, "
+"встановіть її перш ніж використовувати принтер."
+
+#: ../glade/AboutDialog.glade.h:1
+msgid "A CUPS configuration tool."
+msgstr "Інструмент налаштовування CUPS."
+
+#: ../glade/AboutDialog.glade.h:2
+msgid "Copyright © 2006-2008 Red Hat, Inc."
+msgstr "Copyright © 2006-2008 Red Hat, Inc."
+
+#: ../glade/AboutDialog.glade.h:3
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA."
+msgstr ""
+"Ця програма — вільне програмне забезпечення; ви можете поширювати та/або "
+"змінювати її  на умовах ліцензії GNU General Public License, що видана "
+"Фондом вільного програмного забезпечення; версії 2 цієї ліцензії, або (на "
+"ваш вибір) будь-якою старшою версією.\n"
+"\n"
+"Ця програма поширюється зі сподіванням, що вона буде корисною, але БЕЗ БУДЬ-"
+"ЯКИХ ГАРАНТІЙ, ЯВНИХ ЧИ НЕЯВНИХ, ВКЛЮЧАЮЧИ, АЛЕ НЕ ОБМЕЖУЮЧИСЬ НЕЯВНИМИ "
+"ГАРАНТІЯМИ КОМЕРЦІЙНОЇ ЦІННОСТІ ТА ВІДПОВІДНОСТІ ПЕВНІЙ МЕТІ. Для отримання "
+"додаткових відомостей зверніться до ліцензії GNU General Public License.\n"
+"\n"
+"Ви мали б отримати копію GNU General Public License з програмою; інакше, "
+"напишіть до  Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA "
+"02139, USA."
+
+#: ../glade/AboutDialog.glade.h:8
+msgid "system-config-printer"
+msgstr "system-config-printer"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.  Thank you very much for your effort on translating system-config-printer and all our other tools!
+#: ../glade/AboutDialog.glade.h:10
+msgid "translator-credits"
+msgstr "Максим Дзюманенко"
+
+#: ../glade/ConnectDialog.glade.h:1
+msgid "CUPS _server:"
+msgstr "_Сервер CUPS:"
+
+#: ../glade/ConnectDialog.glade.h:2
+msgid "Connect to CUPS server"
+msgstr "Підключення до сервера CUPS"
+
+#: ../glade/ConnectDialog.glade.h:3
+msgid "Require _encryption"
+msgstr "Вимагати _шифрування"
+
+#: ../glade/ConnectingDialog.glade.h:3
+msgid "<span weight=\"bold\" size=\"larger\">Connecting to CUPS server</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Підключення до сервера CUPS</span>"
+
+#: ../glade/ConnectingDialog.glade.h:4
+msgid "Connecting to CUPS server"
+msgstr "Підключення до сервера CUPS"
+
+#: ../glade/InstallDialog.glade.h:1
+msgid "_Install"
+msgstr "_Встановити"
+
+#: ../glade/JobsWindow.glade.h:1
+msgid "Show _completed jobs"
+msgstr "Показати _виконані завдання"
+
+#: ../glade/JobsWindow.glade.h:2
+msgid "_File"
+msgstr "_Файл"
+
+#: ../glade/JobsWindow.glade.h:3
+msgid "_Job"
+msgstr "_Завдання"
+
+#: ../glade/JobsWindow.glade.h:4
+msgid "_Refresh"
+msgstr "_Оновити"
+
+#: ../glade/JobsWindow.glade.h:5 ../glade/PrintersWindow.glade.h:17
+msgid "_View"
+msgstr "_Вигляд"
+
+#: ../glade/NewPrinterName.glade.h:1
+msgid "Copy Printer"
+msgstr "Копіювати принтер"
+
+#: ../glade/NewPrinterName.glade.h:2
+msgid "New name for the printer"
+msgstr "Нова назва принтера"
+
+#: ../glade/NewPrinterWindow.glade.h:1
+msgid "<b>Authentication</b>"
+msgstr "<b>Автентифікація</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:2
+msgid "<b>Description</b>"
+msgstr "<b>Опис</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:3
+msgid "<b>Description</b> (optional)"
+msgstr "<b>Опис</b> (не обов'язково)"
+
+#: ../glade/NewPrinterWindow.glade.h:4
+msgid "<b>Enter device URI</b>"
+msgstr "<b>Вкажіть URI пристрою</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:5
+msgid "<b>IPP Printer</b>"
+msgstr "<b>IPP-принтер</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:6
+msgid "<b>License Terms</b>"
+msgstr "<b>Умови використання</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:7
+msgid "<b>Location of the LPD network printer</b>"
+msgstr "<b>Розташування мережного принтера LPD</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:8
+msgid "<b>Location of the network printer</b>"
+msgstr "<b>Розташування мережного принтера</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:9
+msgid "<b>Location</b> (optional)"
+msgstr "<b>Розташування</b> (не обов'язково)"
+
+#: ../glade/NewPrinterWindow.glade.h:10
+msgid "<b>Network Printer</b>"
+msgstr "<b>Мережний принтер</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:11
+msgid "<b>Note</b>"
+msgstr "<b>Примітки</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:12
+msgid "<b>Output Quality</b>"
+msgstr "<b>Якість виводу</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:13
+msgid "<b>Printer Name</b>"
+msgstr "<b>Назва принтера</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:14
+msgid "<b>SMB Printer</b>"
+msgstr "<b>SMB-принтер</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:15
+msgid "<b>Select Driver</b>"
+msgstr "<b>Виберіть драйвер</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:16
+msgid "<b>Settings of the serial port</b>"
+msgstr "<b>Параметри послідовного порту</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:17
+msgid "<i>smb://[workgroup/]server[:port]/printer</i>"
+msgstr "<i>smb://[робочагрупа/]сервер[:порт]/принтер</i>"
+
+#: ../glade/NewPrinterWindow.glade.h:18
+msgid "<span weight=\"bold\" size=\"larger\">Choose Class Members</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Виберіть учасників класу</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:19
+msgid "<span weight=\"bold\" size=\"larger\">Choose Driver</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Виберіть драйвер</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:20
+msgid "<span weight=\"bold\" size=\"larger\">Describe Printer</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Опишіть принтер</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:21
+msgid "<span weight=\"bold\" size=\"larger\">Existing Settings</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Наявні пареметри</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:22
+msgid "<span weight=\"bold\" size=\"larger\">Installable Options</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Встановлювані параметри</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:23
+msgid "<span weight=\"bold\" size=\"larger\">Select Device</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Виберіть пристрій</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:24
+msgid "Baud Rate"
+msgstr "Швидкість передачі"
+
+#: ../glade/NewPrinterWindow.glade.h:25
+msgid "Browse..."
+msgstr "Огляд..."
+
+#: ../glade/NewPrinterWindow.glade.h:26
+msgid "Comments..."
+msgstr "Коментарі..."
+
+#: ../glade/NewPrinterWindow.glade.h:27
+msgid "Connection"
+msgstr "З'єднання"
+
+#: ../glade/NewPrinterWindow.glade.h:28
+msgid "Data Bits"
+msgstr "Біти даних"
+
+#: ../glade/NewPrinterWindow.glade.h:29
+msgid ""
+"Default\n"
+"1200\n"
+"2400\n"
+"4800\n"
+"9600\n"
+"19200\n"
+"38400\n"
+"57600\n"
+"115200"
+msgstr ""
+"Типово\n"
+"1200\n"
+"2400\n"
+"4800\n"
+"9600\n"
+"19200\n"
+"38400\n"
+"57600\n"
+"115200"
+
+#: ../glade/NewPrinterWindow.glade.h:38
+msgid ""
+"Default\n"
+"8\n"
+"7"
+msgstr ""
+"Типово\n"
+"8\n"
+"7"
+
+#: ../glade/NewPrinterWindow.glade.h:41
+msgid ""
+"Default\n"
+"None\n"
+"Odd\n"
+"Even"
+msgstr ""
+"Типово\n"
+"Немає\n"
+"Непарний\n"
+"Парний"
+
+#: ../glade/NewPrinterWindow.glade.h:45
+msgid ""
+"Default\n"
+"None\n"
+"XON/XOFF (Software)\n"
+"RTS/CTS (Hardware)\n"
+"DTR/DSR (Hardware)"
+msgstr ""
+"Типово\n"
+"Немає\n"
+"XON/XOFF (програмно)\n"
+"RTS/CTS (апаратно)\n"
+"DTR/DSR (апаратно)"
+
+#: ../glade/NewPrinterWindow.glade.h:50
+#: ../glade/PrinterPropertiesDialog.glade.h:35
+msgid "Description:"
+msgstr "Опис:"
+
+#: ../glade/NewPrinterWindow.glade.h:51 ../troubleshoot/DeviceListed.py:40
+msgid "Device URI"
+msgstr "URI пристрою"
+
+#: ../glade/NewPrinterWindow.glade.h:52
+msgid "Device description."
+msgstr "Опис пристрою."
+
+#: ../glade/NewPrinterWindow.glade.h:53
+msgid "DirectJet"
+msgstr "DirectJet"
+
+#: ../glade/NewPrinterWindow.glade.h:55
+msgid "Driver details"
+msgstr "Властивості драйвера"
+
+#: ../glade/NewPrinterWindow.glade.h:56
+msgid "Empty"
+msgstr "Немає"
+
+#: ../glade/NewPrinterWindow.glade.h:57
+msgid "Flow Control"
+msgstr "Керування потоком"
+
+#: ../glade/NewPrinterWindow.glade.h:58
+msgid ""
+"For the printer you have selected there are drivers available for download."
+msgstr "Для вказаного принтера є драйвери, доступні для завантаження."
+
+#: ../glade/NewPrinterWindow.glade.h:59
+msgid "Free software"
+msgstr "Вільне ПО"
+
+#: ../glade/NewPrinterWindow.glade.h:60
+msgid "Graphics:"
+msgstr "Графіка:"
+
+#: ../glade/NewPrinterWindow.glade.h:61
+msgid "Host:"
+msgstr "Вузол:"
+
+#: ../glade/NewPrinterWindow.glade.h:62
+msgid "Human-readable description such as \"HP LaserJet with Duplexer\""
+msgstr "Зрозумілий людині опис, наприклад \"HP LaserJet with Duplexer\""
+
+#: ../glade/NewPrinterWindow.glade.h:63
+msgid "Human-readable location such as \"Lab 1\""
+msgstr "Зрозуміле людині розташування, наприклад, \"Лабораторія 1\""
+
+#: ../glade/NewPrinterWindow.glade.h:65
+msgid "LPD"
+msgstr "LPD"
+
+#: ../glade/NewPrinterWindow.glade.h:66
+msgid "License:"
+msgstr "Ліцензія:"
+
+#: ../glade/NewPrinterWindow.glade.h:67
+msgid "Line art:"
+msgstr "Контур:"
+
+#: ../glade/NewPrinterWindow.glade.h:68
+msgid "Local Driver"
+msgstr "Локальний драйвер"
+
+#: ../glade/NewPrinterWindow.glade.h:69
+msgid "Make and model:"
+msgstr "Виробник та модель:"
+
+#: ../glade/NewPrinterWindow.glade.h:70
+msgid "Manufacturer"
+msgstr "Виробник"
+
+#: ../glade/NewPrinterWindow.glade.h:71
+msgid "Network"
+msgstr "Мережа"
+
+#: ../glade/NewPrinterWindow.glade.h:73
+msgid "No, I do not accept this license"
+msgstr "Ні, я не приймаю цю ліцензію"
+
+#: ../glade/NewPrinterWindow.glade.h:74
+msgid "Parity"
+msgstr "Парність"
+
+#: ../glade/NewPrinterWindow.glade.h:76
+msgid "Patented algorithms"
+msgstr "Запатентовані алгоритми"
+
+#: ../glade/NewPrinterWindow.glade.h:77
+msgid "Photo:"
+msgstr "Фото:"
+
+#: ../glade/NewPrinterWindow.glade.h:78
+msgid "Port number:"
+msgstr "Порт:"
+
+#: ../glade/NewPrinterWindow.glade.h:79
+msgid ""
+"PostScript Printer Description (PPD) files can often be found on the driver "
+"disk that comes with the printer. For PostScript printers they are often "
+"part of the Windows<sup>®</sup> driver."
+msgstr ""
+"Файли описів PostScript принтерів (PostScript Printer Description, PPD) "
+"можна знайти на диску з драйверами у поставці принтера. Для PostScript "
+"принтерів вони часто входять до складу драйвера Windows<sup>®</sup>."
+
+#: ../glade/NewPrinterWindow.glade.h:80
+msgid "Printer model:"
+msgstr "Модель принтера:"
+
+#: ../glade/NewPrinterWindow.glade.h:81
+msgid "Probe"
+msgstr "Випробувати"
+
+#: ../glade/NewPrinterWindow.glade.h:82
+msgid "Prompt user if authentication is required"
+msgstr "Запитувати, якщо потрібна автентифікація"
+
+#: ../glade/NewPrinterWindow.glade.h:83
+msgid "Provide PPD file"
+msgstr "Використовувати PPD-файл"
+
+#: ../glade/NewPrinterWindow.glade.h:84
+msgid "Queue:"
+msgstr "Черга:"
+
+#: ../glade/NewPrinterWindow.glade.h:85
+msgid "SCSI"
+msgstr "SCSI"
+
+#: ../glade/NewPrinterWindow.glade.h:86
+msgid "SMB"
+msgstr "SMB"
+
+#: ../glade/NewPrinterWindow.glade.h:87
+msgid "Search for a printer driver to download"
+msgstr "Знайти драйвер принтера для завантаження"
+
+#: ../glade/NewPrinterWindow.glade.h:88
+msgid "Searching..."
+msgstr "Пошук..."
+
+#: ../glade/NewPrinterWindow.glade.h:89
+msgid "Select A File"
+msgstr "Вкажіть файл"
+
+#: ../glade/NewPrinterWindow.glade.h:90
+msgid "Select printer from database"
+msgstr "Виберіть принтер з бази даних"
+
+#: ../glade/NewPrinterWindow.glade.h:91
+msgid "Serial"
+msgstr "Послідовний порт"
+
+#: ../glade/NewPrinterWindow.glade.h:92
+msgid "Set authentication details now"
+msgstr "Ввести параметри автентифікації"
+
+#: ../glade/NewPrinterWindow.glade.h:93
+msgid "Short name for this printer such as \"laserjet\""
+msgstr "Коротка назва для цього принтера, наприклад «laserjet»"
+
+#: ../glade/NewPrinterWindow.glade.h:94
+msgid "Supplier:"
+msgstr "Постачальник:"
+
+#: ../glade/NewPrinterWindow.glade.h:95
+msgid "Support:"
+msgstr "Підтримка"
+
+#: ../glade/NewPrinterWindow.glade.h:96
+msgid "Text:"
+msgstr "Текст:"
+
+#: ../glade/NewPrinterWindow.glade.h:97
+msgid ""
+"The foomatic printer database contains various manufacturer provided "
+"PostScript Printer Description (PPD) files and also can generate PPD files "
+"for a large number of (non PostScript) printers. But in general manufacturer "
+"provided PPD files provide better access to the specific features of the "
+"printer."
+msgstr ""
+"База принтерів foomatic містить різні PPD файли описів PostScript принтерів "
+"(PostScript Printer Description), а також може формувати PPD файли для "
+"великого числа (не PostScript) принтерів. Звичайно файли PPD від виробника "
+"надають кращий доступ до специфічних можливостей принтера."
+
+#: ../glade/NewPrinterWindow.glade.h:98
+msgid ""
+"These drivers do not come from your operating system supplier and will not "
+"be covered by their commercial support.  See the support and license terms "
+"of the driver's supplier."
+msgstr ""
+"Ці драйвери не постачаються виробником вашої ОС, та на них не поширюються "
+"умови платної підтримки. Зверніть увагу на умови використання та підтримки "
+"цього драйвера."
+
+#: ../glade/NewPrinterWindow.glade.h:99
+msgid ""
+"This driver supports additional hardware that may be installed in the "
+"printer."
+msgstr ""
+"Цей драйвер підтримує додаткове обладнання, яке може бути підключене до "
+"принтера."
+
+#: ../glade/NewPrinterWindow.glade.h:100
+msgid ""
+"This is done by assuming that options with the same name do have the same "
+"meaning. Settings of options that are not present in the new PPD will be "
+"lost and options only present in the new PPD will be set to default."
+msgstr ""
+"Ця дія буде використана з припущенням, що параметри з однаковими назвами "
+"мають однакове значення. Значення параметрів, що відсутні у новому PPD "
+"будуть втрачені, а нові параметри у PPD отримають типові значення."
+
+#: ../glade/NewPrinterWindow.glade.h:101
+msgid ""
+"This way all current option settings will be lost. The default settings of "
+"the new PPD will be used. "
+msgstr ""
+"Таким чином усі поточні значення параметрів будуть втрачені. Будуть "
+"використовуватись стандартні параметри з нового опису PPD."
+
+#: ../glade/NewPrinterWindow.glade.h:102
+msgid "Try to copy the option settings over from the old PPD. "
+msgstr "Намагатись копіювати значення параметрів зі старого PPD. "
+
+#: ../glade/NewPrinterWindow.glade.h:103
+msgid "URI:"
+msgstr "URI:"
+
+#: ../glade/NewPrinterWindow.glade.h:105
+msgid "Use the new PPD (Postscript Printer Description) as is."
+msgstr "Використовувати новий PPD (Postscript Printer Description) як є."
+
+#: ../glade/NewPrinterWindow.glade.h:107
+msgid ""
+"With this choice no driver download will be performed. In the next steps a "
+"locally installed driver will be selected."
+msgstr ""
+"В результаті цього вибору драйвер не буде завантажено. На наступному кроці "
+"вам буде запропоновано обрати локально встановлений драйвер."
+
+#: ../glade/NewPrinterWindow.glade.h:108
+msgid "Yes, I accept this license"
+msgstr "Так, я приймаю угоду"
+
+#: ../glade/NewPrinterWindow.glade.h:109
+msgid "_Search"
+msgstr "З_найти"
+
+#: ../glade/NewPrinterWindow.glade.h:110
+msgid "_Verify..."
+msgstr "_Перевірити..."
+
+#: ../glade/NewPrinterWindow.glade.h:111
+#: ../glade/PrinterPropertiesDialog.glade.h:130
+msgid "move left"
+msgstr "перемістити ліворуч"
+
+#: ../glade/NewPrinterWindow.glade.h:112
+#: ../glade/PrinterPropertiesDialog.glade.h:131
+msgid "move right"
+msgstr "перемістити праворуч"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:1
+msgid " "
+msgstr " "
+
+#: ../glade/PrinterPropertiesDialog.glade.h:2
+msgid ""
+"1\n"
+"2\n"
+"4\n"
+"6\n"
+"9\n"
+"16"
+msgstr ""
+"1\n"
+"2\n"
+"4\n"
+"6\n"
+"9\n"
+"16"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:8
+msgid "72 points per inch"
+msgstr "72 точки на дюйм"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:9
+msgid "<b>Banner</b>"
+msgstr "<b>Розділювач</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:10
+msgid "<b>Common Options</b>"
+msgstr "<b>Загальні параметри</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:11
+msgid "<b>Image Options</b>"
+msgstr "<b>Параметри зображень</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:12
+msgid "<b>Ink/Toner Levels</b>"
+msgstr "<b>Рівень чорнил/тонера</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:13
+msgid "<b>Other Options (Advanced)</b>"
+msgstr "<b>Інші параметри (Розширені)</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:14
+msgid "<b>Policies</b>"
+msgstr "<b>Політики</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:15
+msgid "<b>Settings</b>"
+msgstr "<b>Параметри</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:16
+msgid "<b>State</b>"
+msgstr "<b>Стан</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:17
+msgid "<b>Status Messages</b>"
+msgstr "<b>Повідомлення про стан</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:18
+msgid "<b>Tests and Maintenance</b>"
+msgstr "<b>Перевірка та обслуговування</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:19
+msgid "<b>Text Options</b>"
+msgstr "<b>Параметри тексту</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:20
+msgid ""
+"<i>Not published\n"
+"See server settings</i>"
+msgstr ""
+"<i>Не доступний\n"
+"Перевірте параметри сервера</i>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:22
+msgid "Accepting jobs"
+msgstr "Приймає завдання"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:23
+msgid "Access Control"
+msgstr "Керування доступом"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:24
+msgid "Add or Remove Members"
+msgstr "Додавання або видалення учасників"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:25
+msgid "Allow printing for everyone except these users:"
+msgstr "Дозволити друк усім, окрім вказаних користувачів:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:26
+msgid "Bottom margin:"
+msgstr "Нижнє поле:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:27
+msgid "Brightness:"
+msgstr "Яскравість:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:28
+msgid "Change..."
+msgstr "Змінити..."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:29
+msgid "Characters per inch:"
+msgstr "Знаків на дюйм:"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:31
+msgid "Clean Print Heads"
+msgstr "Чистка головок принтера"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:32
+msgid "Columns:"
+msgstr "Стовпчики:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:33
+msgid "Copies:"
+msgstr "Копій:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:34
+msgid "Deny printing for everyone except these users:"
+msgstr "Заборонити друк усім, окрім вказаних користувачів:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:36
+msgid "Device URI:"
+msgstr "URI пристрою:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:37
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:38
+msgid "Ending Banner:"
+msgstr "Кінцевий розділювач:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:39
+msgid "Error Policy: \t"
+msgstr "Політика помилок: \t"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:40
+msgid "Finishings:"
+msgstr "Фінальна обробка:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:41
+msgid "Gamma:"
+msgstr "Контраст:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:42
+msgid "Hold until:"
+msgstr "Утримувати до:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:43
+msgid "Hue adjustment:"
+msgstr "Налаштовування відтінків:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:44
+msgid "Ink/Toner Levels"
+msgstr "Рівень чорнил/ тонера"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:45
+msgid "Installed Options"
+msgstr "Встановлені параметри"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:46
+msgid "Job Options"
+msgstr "Параметри завдання"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:47
+msgid "Job priority:"
+msgstr "Пріоритет завдання:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:48
+msgid "Left margin:"
+msgstr "Ліве поле:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:49
+msgid ""
+"Left to right, top to bottom\n"
+"Left to right, bottom to top\n"
+"Right to left, top to bottom\n"
+"Right to left, bottom to top\n"
+"Top to bottom, left to right\n"
+"Top to bottom, right to left\n"
+"Bottom to top, left to right\n"
+"Bottom to top, right to left"
+msgstr ""
+"Зліва направо, згори вниз\n"
+"Зліва направо, знизу вгору\n"
+"Справа наліво, згори вниз\n"
+"Справа наліво, знизу вверх\n"
+"Згори вниз, зліва направо\n"
+"Згори вниз, справа наліво\n"
+"Знизу вверх, зліва направо\n"
+"Знизу вверх, справа наліво"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:57
+msgid "Lines per inch:"
+msgstr "Ліній на дюйм:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:58
+msgid "Location:"
+msgstr "Розташування:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:59
+msgid "Make and Model:"
+msgstr "Виробник та модель:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:60
+msgid "Media:"
+msgstr "Носій:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:61
+msgid "Members"
+msgstr "Учасники"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:62
+msgid "Mirror"
+msgstr "Дзеркально"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:63
+msgid "More"
+msgstr "Ще"
+
+#. See section 4.2.6 of this document:
+#. ftp://ftp.pwg.org/pub/pwg/candidates/cs-ippfinishings10-20010205-5100.1.pdf
+#: ../glade/PrinterPropertiesDialog.glade.h:66
+msgid ""
+"None\n"
+"Staple\n"
+"Punch\n"
+"Cover\n"
+"Bind\n"
+"Saddle stitch\n"
+"Edge stitch\n"
+"Fold\n"
+"Trim\n"
+"Bale\n"
+"Booklet maker\n"
+"Job offset\n"
+"Staple (top left)\n"
+"Staple (bottom left)\n"
+"Staple (top right)\n"
+"Staple (bottom right)\n"
+"Edge stitch (left)\n"
+"Edge stitch (top)\n"
+"Edge stitch (right)\n"
+"Edge stitch (bottom)\n"
+"Staple dual (left)\n"
+"Staple dual (top)\n"
+"Staple dual (right)\n"
+"Staple dual (bottom)\n"
+"Bind (left)\n"
+"Bind (top)\n"
+"Bind (right)\n"
+"Bind (bottom)"
+msgstr ""
+"Немає\n"
+"Брошурування\n"
+"Швидкозшивач\n"
+"Обкладинка\n"
+"Зшивання\n"
+"Шиття внакладку\n"
+"Обробка країв\n"
+"Фальцювати\n"
+"Обрізка\n"
+"Зібрати\n"
+"Буклет\n"
+"Офсет\n"
+"Брошурування (згори ліворуч)\n"
+"Брошурування (внизу ліворуч)\n"
+"Брошурування (згори справа)\n"
+"Брошурування (внизу справа)\n"
+"Обробка країв (зліва)\n"
+"Обробка країв (згори)\n"
+"Обробка країв (справа)\n"
+"Обробка країв (внизу)\n"
+"Подвійне зшиття (зліва)\n"
+"Подвійне зшиття (згори)\n"
+"Подвійне зшиття (справа)\n"
+"Подвійне зшиття (знизу)\n"
+"Зшиття (зліва)\n"
+"Зшиття (згори)\n"
+"Зшиття (справа)\n"
+"Зшиття (знизу)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:94
+msgid ""
+"One-sided\n"
+"Two-sided (long edge)\n"
+"Two-sided (short edge)"
+msgstr ""
+"Одностороння\n"
+"Двостороння (по довгому краю)\n"
+"Двостороння (по короткому краю)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:97
+msgid "Operation Policy:"
+msgstr "Політика роботи:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:98
+msgid "Orientation:"
+msgstr "Розташування:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:99
+msgid "Pages per side layout:"
+msgstr "Сторінок на аркуші:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:100
+msgid "Pages per side:"
+msgstr "Сторінок на аркуші:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:101
+msgid "Policies"
+msgstr "Політики"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:102
+msgid ""
+"Portrait (no rotation)\n"
+"Landscape (90°)\n"
+"Reverse landscape (270°)\n"
+"Reverse portrait (180°)"
+msgstr ""
+"Книжна (без обертання)\n"
+"Альбомна (90°)\n"
+"Альбомна обернена (270°)\n"
+"Книжна обернена (180°)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:106
+msgid "Pretty print"
+msgstr "Гарний друк"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:108
+msgid "Print Self-Test Page"
+msgstr "Пробна сторінка принтера"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:110
+#: ../troubleshoot/PrintTestPage.py:72
+msgid "Print Test Page"
+msgstr "Надрукувати тестову сторінку"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:112
+msgid "Printer Properties"
+msgstr "Властивості принтера"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:113
+msgid "Printer State:"
+msgstr "Стан принтера:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:114
+msgid "Reset"
+msgstr "Скинути"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:115
+msgid "Reset to system default"
+msgstr "Встановити типово"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:116
+msgid "Right margin:"
+msgstr "Праве поле:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:117
+msgid "Saturation:"
+msgstr "Насиченість:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:118
+msgid "Scale to fit"
+msgstr "Масштабувати по сторінці"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:119
+msgid "Scaling:"
+msgstr "Масштаб:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:120
+msgid "Settings"
+msgstr "Параметри"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:121
+msgid "Shared"
+msgstr "Спільний доступ"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:122
+msgid "Sides:"
+msgstr "Сторони:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:123
+msgid ""
+"Specify the default job options for this printer.  Jobs arriving at this "
+"print server will have these options added if they are not already set by "
+"the application."
+msgstr ""
+"Вкажіть параметри завдань типового принтера. Завдання, що підходять на "
+"сервер друку будуть мати ці параметри, якщо вони не вказані програмою."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:124
+msgid "Starting Banner:"
+msgstr "Стартовий розділювач:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:125
+msgid "There are no status messages for this printer."
+msgstr "Для цього принтера немає статус-повідомлень."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:126
+msgid "To add a new option, enter its name in the box below and click to add."
+msgstr ""
+"Щоб додати новий параметр, введіть його назву у цьому полі та натисніть "
+"кнопку додавання."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:127
+msgid "Top margin:"
+msgstr "Верхнє поле:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:128
+msgid "Word wrap"
+msgstr "Перенос слів"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:129
+msgid "default"
+msgstr "типово"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:132
+msgid "none"
+msgstr "немає"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:133
+msgid "points"
+msgstr "точок"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:134
+msgid "user"
+msgstr "користувач"
+
+#: ../glade/PrintersWindow.glade.h:1
+msgid "Adjust server settings"
+msgstr "Змінити параметри сервера"
+
+#: ../glade/PrintersWindow.glade.h:2
+msgid "Choose a different CUPS server"
+msgstr "Виберіть інший сервер CUPS"
+
+#: ../glade/PrintersWindow.glade.h:3
+msgid "Show printer groups"
+msgstr "Показати групи принтерів"
+
+#: ../glade/PrintersWindow.glade.h:4
+msgid "Show printers shared by other systems"
+msgstr "Показувати принтери, відкрити для спільного доступу іншими системами"
+
+#: ../glade/PrintersWindow.glade.h:5
+msgid "System-Config-Printer"
+msgstr "Налаштовування принтера"
+
+#: ../glade/PrintersWindow.glade.h:6
+msgid "_Class"
+msgstr "_Клас"
+
+#: ../glade/PrintersWindow.glade.h:7
+msgid "_Connect..."
+msgstr "_З'єднатися..."
+
+#: ../glade/PrintersWindow.glade.h:8
+msgid "_Discovered Printers"
+msgstr "_Виявлені принтери"
+
+#: ../glade/PrintersWindow.glade.h:9
+msgid "_Group"
+msgstr "_Група"
+
+#: ../glade/PrintersWindow.glade.h:10
+msgid "_Groups"
+msgstr "_Групи"
+
+#: ../glade/PrintersWindow.glade.h:11
+msgid "_Help"
+msgstr "_Довідка"
+
+#: ../glade/PrintersWindow.glade.h:12
+msgid "_New"
+msgstr "_Новий"
+
+#: ../glade/PrintersWindow.glade.h:13
+msgid "_Printer"
+msgstr "_Принтер"
+
+#: ../glade/PrintersWindow.glade.h:14
+msgid "_Server"
+msgstr "_Cервер"
+
+#: ../glade/PrintersWindow.glade.h:15
+msgid "_Settings..."
+msgstr "_Параметри..."
+
+#: ../glade/PrintersWindow.glade.h:16
+msgid "_Troubleshoot"
+msgstr "_Усунення неполадок"
+
+#: ../glade/ServerSettingsDialog.glade.h:1
+msgid "<b>Basic Server Settings</b>"
+msgstr "<b>Основні параметри сервера</b>"
+
+#: ../glade/ServerSettingsDialog.glade.h:2
+msgid "Allow _remote administration"
+msgstr "Дозволити _віддалене керування"
+
+#: ../glade/ServerSettingsDialog.glade.h:3
+msgid "Allow _users to cancel any job (not just their own)"
+msgstr "Дозволити _користувачам знімати будь-які завдання (не лише їх власні)"
+
+#: ../glade/ServerSettingsDialog.glade.h:4
+msgid "Allow printing from the _Internet"
+msgstr "Дозволити друк з _Інтернету"
+
+#: ../glade/ServerSettingsDialog.glade.h:5
+msgid "Basic Server Settings"
+msgstr "Основні параметри сервера"
+
+#: ../glade/ServerSettingsDialog.glade.h:6
+msgid "Save _debugging information for troubleshooting"
+msgstr "Зберігати _налагоджувальну інформацію для усунення проблем"
+
+#: ../glade/ServerSettingsDialog.glade.h:7
+msgid "_Advanced..."
+msgstr "_Додатково..."
+
+#: ../glade/ServerSettingsDialog.glade.h:8
+msgid "_Publish shared printers connected to this system"
+msgstr "П_ублікувати спільні принтери, приєднані до цієї системи"
+
+#: ../glade/ServerSettingsDialog.glade.h:9
+msgid "_Show printers shared by other systems"
+msgstr "_Показувати принтери, відкриті для спільного доступу іншими системами"
+
+#: ../glade/SMBBrowseDialog.glade.h:1
+msgid "SMB Browser"
+msgstr "SMB-навігатор"
+
+#: ../glade/statusicon_popupmenu.glade.h:1
+msgid "_Configure Printers"
+msgstr "_Налаштовувати принтери"
+
+#: ../glade/statusicon_popupmenu.glade.h:2
+msgid "_Hide"
+msgstr "С_ховати"
+
+#: ../glade/WaitWindow.glade.h:1
+msgid "Please Wait"
+msgstr "Будь ласка, зачекайте"
+
+#: ../system-config-printer.desktop.in.h:1
+msgid "Configure printers"
+msgstr "Налаштовування принтерів"
+
+#: ../system-config-printer.desktop.in.h:2
+msgid "Printing"
+msgstr "Друк"
+
+#: ../statereason.py:90
+msgid "Toner low"
+msgstr "Мало тонера"
+
+#: ../statereason.py:91
+#, python-format
+msgid "Printer '%s' is low on toner."
+msgstr "У принтері '%s' мало тонера."
+
+#: ../statereason.py:92
+msgid "Toner empty"
+msgstr "Тонер закінчився"
+
+#: ../statereason.py:93
+#, python-format
+msgid "Printer '%s' has no toner left."
+msgstr "У принтері '%s' закінчився тонер."
+
+#: ../statereason.py:94
+msgid "Cover open"
+msgstr "Кришка відкрита"
+
+#: ../statereason.py:95
+#, python-format
+msgid "The cover is open on printer '%s'."
+msgstr "У принтера '%s' відкрита кришка."
+
+#: ../statereason.py:96
+msgid "Door open"
+msgstr "Відкритий лоток"
+
+#: ../statereason.py:97
+#, python-format
+msgid "The door is open on printer '%s'."
+msgstr "У принтера '%s' відкритий лоток."
+
+#: ../statereason.py:98
+msgid "Paper low"
+msgstr "Мало паперу"
+
+#: ../statereason.py:99
+#, python-format
+msgid "Printer '%s' is low on paper."
+msgstr "У принтері '%s' мало паперу."
+
+#: ../statereason.py:100
+msgid "Out of paper"
+msgstr "Закінчився папір"
+
+#: ../statereason.py:101
+#, python-format
+msgid "Printer '%s' is out of paper."
+msgstr "У принтері '%s' закінчився папір."
+
+#: ../statereason.py:102
+msgid "Ink low"
+msgstr "Мало чорнил"
+
+#: ../statereason.py:103
+#, python-format
+msgid "Printer '%s' is low on ink."
+msgstr "У принтері '%s' закінчуються чорнила."
+
+#: ../statereason.py:104
+msgid "Ink empty"
+msgstr "Чорнила закінчились"
+
+#: ../statereason.py:105
+#, python-format
+msgid "Printer '%s' has no ink left."
+msgstr "У принтері '%s' закінчились чорнила."
+
+#: ../statereason.py:106
+msgid "Printer off-line"
+msgstr "Принтер вимкнено"
+
+#: ../statereason.py:107
+#, python-format
+msgid "Printer '%s' is currently off-line."
+msgstr "Принтер «%s» вимкнено."
+
+#: ../statereason.py:108
+msgid "Not connected?"
+msgstr "Не підключений?"
+
+#: ../statereason.py:109
+#, python-format
+msgid "Printer '%s' may not be connected."
+msgstr "Можливо, принтер «%s» не приєднаний."
+
+#: ../statereason.py:110 ../statereason.py:126
+msgid "Printer error"
+msgstr "Помилка принтера"
+
+#: ../statereason.py:111
+#, python-format
+msgid "There is a problem on printer '%s'."
+msgstr "Виявлено помилку у принтері «%s»."
+
+#: ../statereason.py:122
+msgid "Printer report"
+msgstr "Звіт принтера"
+
+#: ../statereason.py:124
+msgid "Printer warning"
+msgstr "Попередження принтера"
+
+#: ../statereason.py:144
+#, python-format
+msgid "Printer '%s': '%s'."
+msgstr "Принтер '%s': '%s'."
+
+#: ../timedops.py:102 ../timedops.py:181
+msgid "Please wait"
+msgstr "Будь ласка, зачекайте"
+
+#: ../timedops.py:108 ../timedops.py:188
+msgid "Gathering information"
+msgstr "Збір інформації"
+
+#: ../ToolbarSearchEntry.py:69
+msgid "_Filter:"
+msgstr "_Фільтр:"
+
+#: ../troubleshoot/__init__.py:54
+msgid "Printing troubleshooter"
+msgstr "Усунення помилок друку"
+
+#: ../troubleshoot/base.py:33
+msgid ""
+"To start this tool, select System->Administration->Printing from the main "
+"menu."
+msgstr ""
+"Для запуску цього інструменту, виберіть Система->Адміністрування->Друк з "
+"головного меню."
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:28
+msgid "Server Not Exporting Printers"
+msgstr "Сервер не експортує принтери"
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:29
+msgid ""
+"Although one or more printers are marked as being shared, this print server "
+"is not exporting shared printers to the network."
+msgstr ""
+"Один чи більше принтерів були позначені як спільні, проте сервер друку не "
+"експортує ці принтери у мережу."
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:33
+msgid ""
+"Enable the 'Publish shared printers connected to this system' option in the "
+"server settings using the printing administration tool."
+msgstr ""
+"Активуйте параметр «Публікувати спільні принтери, приєднані до цієї системи» "
+"у програмі адміністрування друку."
+
+#: ../troubleshoot/CheckPPDSanity.py:44 ../applet.py:185
+msgid "Install"
+msgstr "Встановити"
+
+#: ../troubleshoot/CheckPPDSanity.py:96
+msgid "Invalid PPD File"
+msgstr "Неправильний файл PPD"
+
+#: ../troubleshoot/CheckPPDSanity.py:106
+#, python-format
+msgid ""
+"The PPD file for printer '%s' does not conform to the specification.  "
+"Possible reason follows:"
+msgstr "PPD-файл для принтера «%s» не відповідає специфікації. Можлива причина:"
+
+#. Perhaps cupstestppd is not in the path.
+#: ../troubleshoot/CheckPPDSanity.py:112
+#, python-format
+msgid "There is a problem with the PPD file for printer '%s'."
+msgstr "Помилка PPD-файла для принтера «%s»."
+
+#: ../troubleshoot/CheckPPDSanity.py:122
+msgid "Missing Printer Driver"
+msgstr "Драйвер принтера відсутній"
+
+#: ../troubleshoot/CheckPPDSanity.py:136
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed."
+msgstr "Для роботи принтера «%s» потрібна програма «%s», але її не встановлено."
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:29
+msgid "Choose Network Printer"
+msgstr "Виберіть мережний принтер"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:30
+msgid ""
+"Please select the network printer you are trying to use from the list below. "
+"If it does not appear in the list, select 'Not listed'."
+msgstr ""
+"Будь ласка, виберіть мережний принтер, який ви намагаєтесь використовувати, "
+"з наступного списку. Якщо його немає у списку, виберіть «Немає у списку»."
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:39
+#: ../troubleshoot/ChoosePrinter.py:40 ../troubleshoot/DeviceListed.py:38
+msgid "Information"
+msgstr "Інформація"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:75
+#: ../troubleshoot/ChoosePrinter.py:64 ../troubleshoot/DeviceListed.py:70
+msgid "Not listed"
+msgstr "Немає у списку"
+
+#: ../troubleshoot/ChoosePrinter.py:30
+msgid "Choose Printer"
+msgstr "Виберіть принтер"
+
+#: ../troubleshoot/ChoosePrinter.py:31
+msgid ""
+"Please select the printer you are trying to use from the list below. If it "
+"does not appear in the list, select 'Not listed'."
+msgstr ""
+"Виберіть потрібний вам принтер з наступного списку. Якщо потрібного принтера "
+"у списку немає, виберіть «Немає у списку»."
+
+#: ../troubleshoot/DeviceListed.py:30
+msgid "Choose Device"
+msgstr "Виберіть пристрій"
+
+#: ../troubleshoot/DeviceListed.py:31
+msgid ""
+"Please select the device you want to use from the list below. If it does not "
+"appear in the list, select 'Not listed'."
+msgstr ""
+"Виберіть потрібний вам пристрій з наступного списку. Якщо потрібного "
+"принтера у списку немає, виберіть «Немає у списку»."
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:31
+msgid "Debugging"
+msgstr "Налагодження"
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:32
+msgid ""
+"I would like to enable debugging output from the CUPS scheduler.  This may "
+"cause the scheduler to restart.  Click the button below to enable debugging."
+msgstr ""
+"Зараз буде увімкнено налагоджувальний вивід планувальника CUPS. Це може "
+"змусити планувальник перезавантажитися. Натисніть наступну кнопку для "
+"вмикання налагодження."
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:36
+msgid "Enable Debugging"
+msgstr "Увімкнути налагодження"
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:215
+msgid "Debug logging enabled."
+msgstr "Журнал налагодження запущено."
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:217
+msgid "Debug logging was already enabled."
+msgstr "Журнал налагодження вже увімкнено."
+
+#: ../troubleshoot/ErrorLogParse.py:29
+msgid "Error log messages"
+msgstr "Повідомлення про помилки у журналі"
+
+#: ../troubleshoot/ErrorLogParse.py:30
+msgid "There are messages in the error log."
+msgstr "У журналі помилок є повідомлення."
+
+#: ../troubleshoot/Locale.py:29
+msgid "Incorrect Page Size"
+msgstr "Неправильний розмір сторінки"
+
+#: ../troubleshoot/Locale.py:30
+msgid ""
+"The page size for the print job was not the printer's default page size.  If "
+"this is not intentional it may cause alignment problems."
+msgstr ""
+"Розмір сторінки завдання друку не відповідає стандартному розміру сторінки "
+"принтера. Це може призвести до проблем вирівнювання."
+
+#: ../troubleshoot/Locale.py:43
+msgid "Print job page size:"
+msgstr "Розмір сторінки завдання друку:"
+
+#: ../troubleshoot/Locale.py:48
+msgid "Printer page size:"
+msgstr "Розмір друку принтера:"
+
+#: ../troubleshoot/LocalOrRemote.py:26
+msgid "Printer Location"
+msgstr "Розташування принтера"
+
+#: ../troubleshoot/LocalOrRemote.py:27
+msgid "Is the printer connected to this computer or available on the network?"
+msgstr "Принтер приєднаний до цього комп'ютера або доступний з мережі?"
+
+#: ../troubleshoot/LocalOrRemote.py:29
+msgid "Locally connected printer"
+msgstr "Локально приєднаний принтер"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:28
+msgid "Queue Not Shared"
+msgstr "Немає доступу до черги"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:29
+msgid "The CUPS printer on the server is not shared."
+msgstr "Немає доступу до принтера CUPS на сервері."
+
+#: ../troubleshoot/PrinterStateReasons.py:29
+msgid "Status Messages"
+msgstr "Повідомлення про стан"
+
+#: ../troubleshoot/PrinterStateReasons.py:30
+msgid "There are status messages associated with this queue."
+msgstr "Є повідомлення про стан, пов'язані з цією чергою."
+
+#: ../troubleshoot/PrinterStateReasons.py:58
+#, python-format
+msgid "The printer's state message is: '%s'."
+msgstr "Повідомлення про стан принтера: «%s»."
+
+#: ../troubleshoot/PrinterStateReasons.py:83
+msgid "Errors are listed below:"
+msgstr "Помилки:"
+
+#: ../troubleshoot/PrinterStateReasons.py:88
+msgid "Warnings are listed below:"
+msgstr "Попередження:"
+
+#: ../troubleshoot/PrintTestPage.py:62
+msgid "Test Page"
+msgstr "Тестова сторінка"
+
+#: ../troubleshoot/PrintTestPage.py:63
+msgid ""
+"Now print a test page.  If you are having problems printing a specific "
+"document, print that document now and mark the print job below."
+msgstr ""
+"Спробуйте надрукувати тестову сторінку. Якщо проблема виникне під час друку "
+"певного документу, роздрукуйте цей документ та позначте нижче відповідне "
+"завдання."
+
+#: ../troubleshoot/PrintTestPage.py:75
+msgid "Cancel All Jobs"
+msgstr "Скасувати усі завдання"
+
+#: ../troubleshoot/PrintTestPage.py:81
+msgid "Test"
+msgstr "Перевірка"
+
+#: ../troubleshoot/PrintTestPage.py:111
+msgid "Did the marked print jobs print correctly?"
+msgstr "Чи були успішно надруковані позначені завдання?"
+
+#: ../troubleshoot/PrintTestPage.py:143
+#, python-format
+msgid "Remember to load paper of type '%s' into the printer first."
+msgstr "Не забудьте завантажити папір типу «%s»."
+
+#: ../troubleshoot/PrintTestPage.py:416
+msgid "Error submitting test page"
+msgstr "Помилка надсилання тестової сторінки"
+
+#: ../troubleshoot/QueueNotEnabled.py:56
+#: ../troubleshoot/QueueRejectingJobs.py:66
+#, python-format
+msgid "The reason given is: '%s'."
+msgstr "Вказана причина: «%s»"
+
+#: ../troubleshoot/QueueNotEnabled.py:58
+msgid "This may be due to the printer being disconnected or switched off."
+msgstr "Ймовірно, принтер від'єднаний або вимкнений."
+
+#: ../troubleshoot/QueueNotEnabled.py:62
+msgid "Queue Not Enabled"
+msgstr "Чергу не увімкнено"
+
+#: ../troubleshoot/QueueNotEnabled.py:63
+#, python-format
+msgid "The queue '%s' is not enabled."
+msgstr "Чергу «%s» не увімкнено."
+
+#: ../troubleshoot/QueueNotEnabled.py:71
+msgid ""
+"To enable it, select the 'Enabled' checkbox in the 'Policies' tab for the "
+"printer in the printer administration tool."
+msgstr ""
+"Щоб її увімкнути активуйте «Увімкнути» на вкладці «Політики» для цього "
+"принтера."
+
+#: ../troubleshoot/QueueRejectingJobs.py:31
+msgid "Queue Rejecting Jobs"
+msgstr "Черга не приймає завдання"
+
+#: ../troubleshoot/QueueRejectingJobs.py:63
+#, python-format
+msgid "The queue '%s' is rejecting jobs."
+msgstr "Черга «%s» не приймає завдання."
+
+#: ../troubleshoot/QueueRejectingJobs.py:70
+msgid ""
+"To make the queue accept jobs, select the 'Accepting Jobs' checkbox in the "
+"'Policies' tab for the printer in the printer administration tool."
+msgstr ""
+"Щоб дозволити прийом завдань у цій черзі, активуйте «Приймає завдання» на "
+"вкладці «Політики» у програмі налаштовування друку."
+
+#: ../troubleshoot/RemoteAddress.py:26
+msgid "Remote Address"
+msgstr "Віддалена адреса"
+
+#: ../troubleshoot/RemoteAddress.py:27
+msgid ""
+"Please enter as many details as you can about the network address of this "
+"printer."
+msgstr "Введіть всі можливі відомості про мережну адресу цього принтера."
+
+#: ../troubleshoot/RemoteAddress.py:35
+msgid "Server name:"
+msgstr "Назва сервера:"
+
+#: ../troubleshoot/RemoteAddress.py:42
+msgid "Server IP address:"
+msgstr "IP-адреса сервера:"
+
+#: ../troubleshoot/SchedulerNotRunning.py:28
+msgid "CUPS Service Stopped"
+msgstr "Служба CUPS зупинена"
+
+#: ../troubleshoot/SchedulerNotRunning.py:29
+msgid ""
+"The CUPS print spooler does not appear to be running.  To correct this, "
+"choose System->Administration->Services from the main menu and look for the "
+"'cups' service."
+msgstr ""
+"Ймовірно, планувальник друку CUPS не було запущено. Щоб запустити його, "
+"виберіть Система->Адміністрування->Служби у головному меню та активуйте "
+"службу «cups»."
+
+#: ../troubleshoot/ServerFirewalled.py:26
+msgid "Check Server Firewall"
+msgstr "Потрібна перевірка мережного екрану"
+
+#: ../troubleshoot/ServerFirewalled.py:27
+msgid "It is not possible to connect to the server."
+msgstr "Не вдалось приєднатися до сервера."
+
+#: ../troubleshoot/ServerFirewalled.py:42
+#, python-format
+msgid ""
+"Please check to see if a firewall or router configuration is blocking TCP "
+"port %d on server '%s'."
+msgstr "Перевірте, чи не заблоковано TCP-порт %d на сервері «%s»."
+
+#: ../troubleshoot/Shrug.py:26
+msgid "Sorry!"
+msgstr "Пробачте!"
+
+#: ../troubleshoot/Shrug.py:27
+msgid ""
+"I have not been able to work out what the problem is, but I have collected "
+"some useful information to put in a bug report."
+msgstr ""
+"Причину несправності виявити не вдалось, проте було зібрано певну корисну "
+"інформацію, яка може допомогти скласти звіт про помилку."
+
+#: ../troubleshoot/Shrug.py:32
+msgid "Diagnostic Output (Advanced)"
+msgstr "Налагоджувальні повідомлення (розширені)"
+
+#: ../troubleshoot/Welcome.py:43
+msgid "Trouble-shooting Printing"
+msgstr "Вирішення проблем з друком"
+
+#: ../troubleshoot/Welcome.py:45
+msgid ""
+"In the next few screens I will ask you some questions about your problem "
+"with printing. Based on your answers I will try to suggest a solution."
+msgstr ""
+"Зараз Вас запитають декілька питань про характер проблем з друком. На основі "
+"ваших відповідей буде запропоновано вирішення проблеми."
+
+#: ../troubleshoot/Welcome.py:49
+msgid "Click 'Forward' to begin."
+msgstr "Щоб почати, натисніть «Далі»"
+
+#: ../applet.py:94
+msgid "Configuring new printer"
+msgstr "Налаштовування нового принтера"
+
+#. name is a URI, no queue was generated, because no suitable
+#. driver was found
+#: ../applet.py:116 ../applet.py:174
+msgid "Missing printer driver"
+msgstr "Відсутній драйвер принтера"
+
+#: ../applet.py:123
+#, python-format
+msgid "No printer driver for %s."
+msgstr "Відсутній драйвер принтера для %s."
+
+#: ../applet.py:125
+msgid "No driver for this printer."
+msgstr "Немає драйвера для цього принтера."
+
+#: ../applet.py:172
+msgid "Printer added"
+msgstr "Принтер додано"
+
+#: ../applet.py:178
+msgid "Install printer driver"
+msgstr "Встановити драйвер принтера"
+
+#: ../applet.py:179
+#, python-format
+msgid "`%s' requires driver installation: %s."
+msgstr "«%s» потребує встановлення драйвера: %s."
+
+#: ../applet.py:201
+#, python-format
+msgid "`%s' is ready for printing."
+msgstr "«%s» готовий до друку."
+
+#: ../applet.py:205 ../applet.py:217
+msgid "Print test page"
+msgstr "Тестова сторінка"
+
+#: ../applet.py:208
+msgid "Configure"
+msgstr "Налаштовувати"
+
+#: ../applet.py:212
+#, python-format
+msgid "`%s' has been added, using the `%s' driver."
+msgstr "«%s» було додано з драйвером «%s»."
+
+#: ../applet.py:220
+msgid "Find driver"
+msgstr "Знайти драйвер"
+
+#: ../print-applet.desktop.in.h:1
+msgid "Print Queue Applet"
+msgstr "Аплет черги друку"
+
+#: ../print-applet.desktop.in.h:2
+msgid "System tray icon for managing print jobs"
+msgstr "Значок у системній області для керування завданнями друку"
+
+#: ../manage-print-jobs.desktop.in.h:1
+msgid "Cancel, pause, resume or reprint jobs"
+msgstr "Скасувати, призупинити, відновити чи повторити завдання"
+
+#: ../manage-print-jobs.desktop.in.h:2
+msgid "Manage Print Jobs"
+msgstr "Керування завданнями друку"
+
+#: ../my-default-printer.desktop.in.h:2
+msgid "Select default printer"
+msgstr "Зробити типовим принтером"
+
+#~ msgid "Unauthorized request (%s)"
+#~ msgstr "Неавторизований запит (%s)"
+
+#~ msgid "You are not authorized to carry out the requested action."
+#~ msgstr "У вас немає повноважень для виконання заитаної дії"

@@ -1,0 +1,3515 @@
+# Jika takut risiko, Jangan bicara tentang Perjuangan
+# Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: printconf\n"
+"Report-Msgid-Bugs-To: https://bugzilla.redhat.com/bugzilla\n"
+"POT-Creation-Date: 2009-12-22 14:44+0000\n"
+"PO-Revision-Date: 2007-05-28 23:01+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
+"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+# ui/galeon.glade.h:247
+#: ../AdvancedServerSettings.py:42
+#, fuzzy
+msgid "Advanced Server Settings"
+msgstr "Lebih Tetapan Pelayan"
+
+#: ../AdvancedServerSettings.py:59
+#, fuzzy
+msgid "Job History"
+msgstr "prioriti tidak sah `%s'"
+
+#: ../AdvancedServerSettings.py:70
+msgid "Do not preserve job history"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:72
+msgid "Preserve job history but not files"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:75
+msgid "Preserve job files (allow reprinting)"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:83
+#, fuzzy
+msgid "Browse Servers"
+msgstr "_Pelayan NIS:"
+
+#: ../AdvancedServerSettings.py:94
+msgid ""
+"Usually print servers broadcast their queues.  Specify print servers below "
+"to periodically ask for queues instead."
+msgstr ""
+
+#: ../AdvancedServerSettings.py:215
+#, fuzzy
+msgid "Enter IP address"
+msgstr "Model Keselamatan:"
+
+#: ../asyncipp.py:420 ../authconn.py:402 ../authconn.py:404
+#: ../errordialogs.py:65 ../pysmb.py:75 ../pysmb.py:77
+#, fuzzy
+msgid "Not authorized"
+msgstr "%s tidak dijumpai"
+
+#: ../asyncipp.py:421 ../authconn.py:405 ../pysmb.py:78
+#, fuzzy
+msgid "The password may be incorrect."
+msgstr "Katalaluan pengguna FTP salah\n"
+
+#: ../asyncipp.py:432 ../authconn.py:426
+#, fuzzy, python-format
+msgid "Authentication (%s)"
+msgstr "Pengesahan"
+
+#: ../asyncipp.py:497 ../authconn.py:259 ../errordialogs.py:56
+#: ../errordialogs.py:70
+#, fuzzy
+msgid "CUPS server error"
+msgstr "Ralat Dalaman Pelayan"
+
+#: ../asyncipp.py:499 ../authconn.py:257
+#, fuzzy, python-format
+msgid "CUPS server error (%s)"
+msgstr "Ralat Dalaman Pelayan"
+
+#: ../asyncipp.py:516 ../authconn.py:268 ../errordialogs.py:57
+#: ../troubleshoot/PrintTestPage.py:417
+#, fuzzy, python-format
+msgid "There was an error during the CUPS operation: '%s'."
+msgstr "Terdapat ralat ketika cuba mencetak halaman ujian."
+
+#: ../asyncipp.py:519 ../authconn.py:271
+#, fuzzy
+msgid "Retry"
+msgstr "Ulangtetap"
+
+#: ../asyncipp.py:530 ../authconn.py:218 ../authconn.py:240
+#, fuzzy
+msgid "Operation canceled"
+msgstr "Menghimpun polisi"
+
+#: ../authconn.py:37 ../glade/NewPrinterWindow.glade.h:106
+msgid "Username:"
+msgstr "Namapengguna:"
+
+#: ../authconn.py:38 ../glade/NewPrinterWindow.glade.h:75
+msgid "Password:"
+msgstr "Katalaluan:"
+
+#: ../authconn.py:39
+#, fuzzy
+msgid "Domain:"
+msgstr "Margin atas (pt):"
+
+#: ../authconn.py:48 ../authconn.py:428
+#, fuzzy
+msgid "Authentication"
+msgstr "Pengesahan"
+
+#: ../authconn.py:87
+msgid "Remember password"
+msgstr ""
+
+#: ../errordialogs.py:66
+msgid ""
+"The password may be incorrect, or the server may be configured to deny "
+"remote administration."
+msgstr ""
+
+#: ../errordialogs.py:72
+#, fuzzy
+msgid "Bad request"
+msgstr "Permintaan tidak sah"
+
+#: ../errordialogs.py:74
+#, fuzzy
+msgid "Not found"
+msgstr "%s tidak dijumpai"
+
+#: ../errordialogs.py:76
+#, fuzzy
+msgid "Request timeout"
+msgstr "Sambungan Masatamat:"
+
+#: ../errordialogs.py:78
+#, fuzzy
+msgid "Upgrade required"
+msgstr "Kebenaran Diperlukan"
+
+#: ../errordialogs.py:80
+#, fuzzy
+msgid "Server error"
+msgstr "Ralat Dalaman Pelayan"
+
+#: ../errordialogs.py:82 ../system-config-printer.py:1216
+msgid "Not connected"
+msgstr "Tidak disambung"
+
+#: ../errordialogs.py:84
+#, fuzzy, python-format
+msgid "status %s"
+msgstr "status %d"
+
+#: ../errordialogs.py:86
+#, fuzzy, python-format
+msgid "There was an HTTP error: %s."
+msgstr "Terdapat ralat RPM.  Mesejnya ialah:\n"
+
+#: ../GroupsPane.py:92
+msgid "_New Group"
+msgstr ""
+
+#: ../GroupsPane.py:95
+msgid "_New Group from Selection"
+msgstr ""
+
+#: ../GroupsPane.py:98 ../system-config-printer.py:407
+#, fuzzy
+msgid "_Rename"
+msgstr "Kelua_ran"
+
+#: ../GroupsPane.py:170
+msgid "The item could not be renamed."
+msgstr ""
+
+#: ../GroupsPane.py:171
+#, python-format
+msgid "The name \"%s\" is already in use. Please use a different name."
+msgstr ""
+
+#: ../GroupsPane.py:290
+#, python-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr ""
+
+#: ../GroupsPane.py:296
+msgid ""
+"This will not delete any printer queues from your computer. To delete queues "
+"completely, you must delete them from the 'All Printers' group."
+msgstr ""
+
+#: ../GroupsPane.py:318
+msgid "New Group"
+msgstr ""
+
+#: ../GroupsPaneModel.py:47
+#, fuzzy
+msgid "All Printers"
+msgstr "Pencetak"
+
+#: ../GroupsPaneModel.py:60
+msgid "Favorites"
+msgstr ""
+
+#: ../jobviewer.py:167
+msgid "_Hold"
+msgstr ""
+
+#: ../jobviewer.py:169
+msgid "_Release"
+msgstr "Kelua_ran"
+
+#: ../jobviewer.py:171
+msgid "Re_print"
+msgstr "_Ulangcetak"
+
+#: ../jobviewer.py:173
+#, fuzzy
+msgid "_Authenticate"
+msgstr "Pengesahan"
+
+#: ../jobviewer.py:211 ../troubleshoot/PrintTestPage.py:82
+msgid "Job"
+msgstr "Tugas"
+
+#: ../jobviewer.py:212
+#, fuzzy
+msgid "User"
+msgstr "Pengguna"
+
+#: ../jobviewer.py:213 ../troubleshoot/PrintTestPage.py:86
+msgid "Document"
+msgstr "Dokumen"
+
+#: ../jobviewer.py:214 ../my-default-printer.py:153
+#: ../system-config-printer.py:380 ../system-config-printer.py:1364
+#: ../troubleshoot/PrintTestPage.py:84
+msgid "Printer"
+msgstr "Pencetak"
+
+#: ../jobviewer.py:215
+msgid "Size"
+msgstr "Saiz"
+
+#: ../jobviewer.py:231
+msgid "Time submitted"
+msgstr "Masa dihantar"
+
+#: ../jobviewer.py:235 ../troubleshoot/PrintTestPage.py:87
+msgid "Status"
+msgstr "Status"
+
+#: ../jobviewer.py:267
+#, python-format
+msgid "my jobs on %s"
+msgstr ""
+
+#: ../jobviewer.py:269
+msgid "my jobs"
+msgstr ""
+
+#: ../jobviewer.py:274
+msgid "all jobs"
+msgstr ""
+
+#: ../jobviewer.py:275
+#, fuzzy, python-format
+msgid "Document Print Status (%s)"
+msgstr "Status cetakan dokumen"
+
+#: ../jobviewer.py:425 ../jobviewer.py:701 ../jobviewer.py:1510
+#: ../jobviewer.py:1515 ../jobviewer.py:1524 ../jobviewer.py:1603
+#: ../system-config-printer.py:2630 ../glade/NewPrinterWindow.glade.h:104
+#: ../troubleshoot/ChooseNetworkPrinter.py:102
+#: ../troubleshoot/ChooseNetworkPrinter.py:103
+#: ../troubleshoot/ChooseNetworkPrinter.py:106
+#: ../troubleshoot/ChooseNetworkPrinter.py:107
+#: ../troubleshoot/ChoosePrinter.py:87 ../troubleshoot/ChoosePrinter.py:88
+#: ../troubleshoot/ChoosePrinter.py:91 ../troubleshoot/ChoosePrinter.py:92
+#: ../troubleshoot/DeviceListed.py:92 ../troubleshoot/DeviceListed.py:93
+#, fuzzy
+msgid "Unknown"
+msgstr "Entah"
+
+#: ../jobviewer.py:431
+msgid "a minute ago"
+msgstr ""
+
+#: ../jobviewer.py:434
+#, python-format
+msgid "%d minutes ago"
+msgstr "%d minit lalu"
+
+#: ../jobviewer.py:438
+#, fuzzy
+msgid "an hour ago"
+msgstr "%d jam lalu"
+
+#: ../jobviewer.py:440
+#, python-format
+msgid "%d hours ago"
+msgstr "%d jam lalu"
+
+#: ../jobviewer.py:444
+msgid "yesterday"
+msgstr ""
+
+#: ../jobviewer.py:446
+#, fuzzy, python-format
+msgid "%d days ago"
+msgstr "%d jam lalu"
+
+#: ../jobviewer.py:450
+msgid "last week"
+msgstr ""
+
+#: ../jobviewer.py:452
+#, fuzzy, python-format
+msgid "%d weeks ago"
+msgstr "%d minit lalu"
+
+#: ../jobviewer.py:652 ../jobviewer.py:731
+#, fuzzy
+msgid "authenticating job"
+msgstr "Pengesahan"
+
+#: ../jobviewer.py:699
+#, python-format
+msgid "Authentication required for printing document `%s' (job %d)"
+msgstr ""
+
+#: ../jobviewer.py:873
+#, fuzzy
+msgid "Cancel Job"
+msgstr "Dibatalkan"
+
+#: ../jobviewer.py:887
+msgid "Do you really want to cancel this job?"
+msgstr ""
+
+#: ../jobviewer.py:915
+#, fuzzy
+msgid "canceling job"
+msgstr "Laksana tugas terjadual"
+
+#: ../jobviewer.py:939
+msgid "holding job"
+msgstr ""
+
+#: ../jobviewer.py:963
+msgid "releasing job"
+msgstr ""
+
+#: ../jobviewer.py:1083
+msgid "No documents queued"
+msgstr "Tiada dokumen digilirkan"
+
+#: ../jobviewer.py:1085
+msgid "1 document queued"
+msgstr "1 dokumen digilirkan"
+
+#: ../jobviewer.py:1087
+#, python-format
+msgid "%d documents queued"
+msgstr "%d dokumen digilirkan"
+
+#: ../jobviewer.py:1310
+#, fuzzy, python-format
+msgid "There was a problem sending document `%s' (job %d) to the printer."
+msgstr "Terdapat ralat ketika cuba mencetak halaman ujian."
+
+#: ../jobviewer.py:1313
+#, python-format
+msgid "There was a problem processing document `%s' (job %d)."
+msgstr ""
+
+#. Give up and use the provided message untranslated.
+#: ../jobviewer.py:1320
+#, python-format
+msgid "There was a problem printing document `%s' (job %d): `%s'."
+msgstr ""
+
+#: ../jobviewer.py:1327 ../jobviewer.py:1343
+#, fuzzy
+msgid "Print Error"
+msgstr "Ralat pencetak"
+
+#: ../jobviewer.py:1328
+msgid "_Diagnose"
+msgstr ""
+
+#: ../jobviewer.py:1349
+#, python-format
+msgid "The printer called `%s' has been disabled."
+msgstr ""
+
+#: ../jobviewer.py:1538
+#, fuzzy
+msgid "Held for authentication"
+msgstr "Pengesahan"
+
+#: ../jobviewer.py:1540 ../troubleshoot/PrintTestPage.py:42
+msgid "Held"
+msgstr "Dipegang"
+
+#: ../jobviewer.py:1576
+#, fuzzy, python-format
+msgid "Held until %s"
+msgstr "Kitar sehingga disambung"
+
+#: ../jobviewer.py:1580
+#, fuzzy
+msgid "Held until day-time"
+msgstr "Kitar sehingga disambung"
+
+#: ../jobviewer.py:1582
+#, fuzzy
+msgid "Held until evening"
+msgstr "Kitar sehingga disambung"
+
+#: ../jobviewer.py:1584
+msgid "Held until night-time"
+msgstr ""
+
+#: ../jobviewer.py:1586
+msgid "Held until second shift"
+msgstr ""
+
+#: ../jobviewer.py:1588
+msgid "Held until third shift"
+msgstr ""
+
+#: ../jobviewer.py:1590
+#, fuzzy
+msgid "Held until weekend"
+msgstr "Kitar sehingga disambung"
+
+# libgnomeui/gnome-messagebox.c:120 libgnomeui/gnome-messagebox.c:253
+#: ../jobviewer.py:1593 ../troubleshoot/PrintTestPage.py:41
+msgid "Pending"
+msgstr "Tertangguh"
+
+#: ../jobviewer.py:1594 ../system-config-printer.py:198
+#: ../troubleshoot/PrintTestPage.py:43
+msgid "Processing"
+msgstr "Memproses"
+
+#: ../jobviewer.py:1595 ../system-config-printer.py:200
+#: ../troubleshoot/PrintTestPage.py:44
+msgid "Stopped"
+msgstr "Dihentikan"
+
+#: ../jobviewer.py:1596 ../troubleshoot/PrintTestPage.py:45
+msgid "Canceled"
+msgstr "Dibatalkan"
+
+#: ../jobviewer.py:1597 ../troubleshoot/PrintTestPage.py:46
+msgid "Aborted"
+msgstr "Dibatalkan"
+
+#: ../jobviewer.py:1598 ../troubleshoot/PrintTestPage.py:47
+msgid "Completed"
+msgstr "Selesai"
+
+#: ../my-default-printer.py:137 ../my-default-printer.desktop.in.h:1
+#, fuzzy
+msgid "Default Printer"
+msgstr "dihantar kepada pencetak default"
+
+#: ../my-default-printer.py:141 ../my-default-printer.py:177
+#, fuzzy
+msgid "_Use System Default"
+msgstr "Ulangtetap kepada pilihan default"
+
+#: ../my-default-printer.py:142 ../my-default-printer.py:179
+#, fuzzy
+msgid "_Set Default"
+msgstr "default"
+
+#: ../my-default-printer.py:158 ../system-config-printer.py:437
+#: ../troubleshoot/ChooseNetworkPrinter.py:37
+#: ../troubleshoot/ChoosePrinter.py:38
+#, fuzzy
+msgid "Location"
+msgstr "Lokasi:"
+
+#: ../optionwidgets.py:128
+#, fuzzy
+msgid "Conflicts with:"
+msgstr "kerana konflik dengan %s"
+
+#: ../ppdippstr.py:45
+#, fuzzy
+msgid "Abort job"
+msgstr "Dibatalkan"
+
+#: ../ppdippstr.py:46
+msgid "Retry current job"
+msgstr ""
+
+#: ../ppdippstr.py:47
+msgid "Retry job"
+msgstr ""
+
+#: ../ppdippstr.py:48
+#, fuzzy
+msgid "Stop printer"
+msgstr "Tetapan pencetak"
+
+#: ../ppdippstr.py:54
+#, fuzzy
+msgid "Default behavior"
+msgstr "dihantar kepada pencetak default"
+
+#: ../ppdippstr.py:55
+#, fuzzy
+msgid "Authenticated"
+msgstr "Pengesahan"
+
+#: ../ppdippstr.py:61 ../system-config-printer.py:6498
+#, fuzzy
+msgid "None"
+msgstr "tiada"
+
+#: ../ppdippstr.py:62
+#, fuzzy
+msgid "Classified"
+msgstr "Kelas Java"
+
+#: ../ppdippstr.py:63
+msgid "Confidential"
+msgstr ""
+
+#: ../ppdippstr.py:64
+#, fuzzy
+msgid "Secret"
+msgstr "_Pergi Ke Pelayan"
+
+#: ../ppdippstr.py:65
+msgid "Standard"
+msgstr ""
+
+#: ../ppdippstr.py:66
+msgid "Top secret"
+msgstr ""
+
+#: ../ppdippstr.py:67
+msgid "Unclassified"
+msgstr ""
+
+#: ../ppdippstr.py:73
+#, fuzzy
+msgid "No hold"
+msgstr "%s tidak dijumpai"
+
+#: ../ppdippstr.py:74
+msgid "Indefinite"
+msgstr ""
+
+#: ../ppdippstr.py:75
+msgid "Daytime"
+msgstr ""
+
+# libgnomeui/gnome-messagebox.c:120 libgnomeui/gnome-messagebox.c:253
+#: ../ppdippstr.py:76
+#, fuzzy
+msgid "Evening"
+msgstr "Tertangguh"
+
+#: ../ppdippstr.py:77
+msgid "Night"
+msgstr ""
+
+#: ../ppdippstr.py:78
+msgid "Second shift"
+msgstr ""
+
+#: ../ppdippstr.py:79
+msgid "Third shift"
+msgstr ""
+
+#: ../ppdippstr.py:80
+msgid "Weekend"
+msgstr ""
+
+#: ../ppdippstr.py:90
+#, fuzzy
+msgid "General"
+msgstr "Bersiri"
+
+#. HPIJS options
+#: ../ppdippstr.py:93
+#, fuzzy
+msgid "Printout mode"
+msgstr "Model Keselamatan:"
+
+#: ../ppdippstr.py:95
+msgid "Draft (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:97
+msgid "Draft grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:99
+msgid "Normal (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:101
+msgid "Normal grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:103
+msgid "High quality (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:105
+msgid "High quality grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:106
+msgid "Photo (on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:108
+msgid "Best quality (color on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:110
+msgid "Normal quality (color on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:112
+msgid "Media source"
+msgstr ""
+
+#: ../ppdippstr.py:113
+#, fuzzy
+msgid "Printer default"
+msgstr "Model Keselamatan:"
+
+#: ../ppdippstr.py:114
+msgid "Photo tray"
+msgstr ""
+
+#: ../ppdippstr.py:115
+msgid "Upper tray"
+msgstr ""
+
+#: ../ppdippstr.py:116
+msgid "Lower tray"
+msgstr ""
+
+#: ../ppdippstr.py:117
+msgid "CD or DVD tray"
+msgstr ""
+
+#: ../ppdippstr.py:118
+msgid "Envelope feeder"
+msgstr ""
+
+#: ../ppdippstr.py:119
+msgid "Large capacity tray"
+msgstr ""
+
+#: ../ppdippstr.py:120
+msgid "Manual feeder"
+msgstr ""
+
+#: ../ppdippstr.py:121
+msgid "Multi-purpose tray"
+msgstr ""
+
+#: ../ppdippstr.py:123
+#, fuzzy
+msgid "Page size"
+msgstr "Permintaan per Sambungan"
+
+#: ../ppdippstr.py:124
+msgid "Custom"
+msgstr ""
+
+#: ../ppdippstr.py:125
+msgid "Photo or 4x6 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:126
+msgid "Photo or 5x7 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:127
+msgid "Photo with tear-off tab"
+msgstr ""
+
+#: ../ppdippstr.py:128
+msgid "3x5 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:129
+msgid "5x8 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:130
+msgid "A6 with tear-off tab"
+msgstr ""
+
+#: ../ppdippstr.py:131
+msgid "CD or DVD 80mm"
+msgstr ""
+
+#: ../ppdippstr.py:132
+msgid "CD or DVD 120mm"
+msgstr ""
+
+#: ../ppdippstr.py:134
+msgid "Double-sided printing"
+msgstr ""
+
+#: ../ppdippstr.py:135
+msgid "Long edge (standard)"
+msgstr ""
+
+#: ../ppdippstr.py:136
+msgid "Short edge (flip)"
+msgstr ""
+
+#: ../ppdippstr.py:137
+msgid "Off"
+msgstr ""
+
+#: ../ppdippstr.py:140
+msgid "Resolution, quality, ink type, media type"
+msgstr ""
+
+#: ../ppdippstr.py:141
+msgid "Controlled by 'Printout mode'"
+msgstr ""
+
+#: ../ppdippstr.py:143
+msgid "300 dpi, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:145
+msgid "300 dpi, draft, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:147
+msgid "300 dpi, draft, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:149
+msgid "300 dpi, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:151
+msgid "600 dpi, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:153
+msgid "600 dpi, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:155
+msgid "600 dpi, photo, black + color cartridge, photo paper"
+msgstr ""
+
+#: ../ppdippstr.py:157
+msgid "600 dpi, color, black + color cartridge, photo paper, normal"
+msgstr ""
+
+#: ../ppdippstr.py:159
+msgid "1200 dpi, photo, black + color cartridge, photo paper"
+msgstr ""
+
+#: ../system-config-printer.py:142
+msgid "To do this, select System->Administration->Firewall from the main menu."
+msgstr ""
+
+#: ../system-config-printer.py:197
+#, fuzzy
+msgid "Idle"
+msgstr "LEKA"
+
+#: ../system-config-printer.py:199
+#, fuzzy
+msgid "Busy"
+msgstr "Saya sibuk"
+
+#: ../system-config-printer.py:386 ../system-config-printer.py:1370
+#, fuzzy
+msgid "Class"
+msgstr "Kelas Java"
+
+#: ../system-config-printer.py:413
+#, fuzzy
+msgid "Set As De_fault"
+msgstr "default"
+
+#: ../system-config-printer.py:417
+#, fuzzy
+msgid "_Create class"
+msgstr "Pentadbiran jauh"
+
+#: ../system-config-printer.py:419
+#, fuzzy
+msgid "View Print _Queue"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:421
+msgid "_Add to Group"
+msgstr ""
+
+#: ../system-config-printer.py:423
+msgid "Save Results as _Group"
+msgstr ""
+
+#: ../system-config-printer.py:425
+msgid "Save Filter as _Search Group"
+msgstr ""
+
+#: ../system-config-printer.py:429
+#, fuzzy
+msgid "E_nabled"
+msgstr "Hidupkan"
+
+#: ../system-config-printer.py:431
+#, fuzzy
+msgid "_Shared"
+msgstr "Dikongsi"
+
+#: ../system-config-printer.py:435 ../troubleshoot/ChooseNetworkPrinter.py:35
+#: ../troubleshoot/ChoosePrinter.py:36 ../troubleshoot/DeviceListed.py:36
+msgid "Name"
+msgstr "Nama"
+
+#: ../system-config-printer.py:436
+#, fuzzy
+msgid "Description"
+msgstr "Huraian:"
+
+#: ../system-config-printer.py:438
+msgid "Manufacturer / Model"
+msgstr ""
+
+#. Printer state reasons list
+#: ../system-config-printer.py:513
+msgid "Message"
+msgstr "Mesej"
+
+#: ../system-config-printer.py:548
+#, fuzzy
+msgid "Problems?"
+msgstr "Tidak dapat mengesan"
+
+#: ../system-config-printer.py:653 ../system-config-printer.py:655
+#, fuzzy
+msgid "Members of this class"
+msgstr "Sunting hos ini"
+
+#: ../system-config-printer.py:654 ../system-config-printer.py:656
+msgid "Others"
+msgstr "Lain-lain"
+
+#: ../system-config-printer.py:657
+msgid "Devices"
+msgstr "Peranti"
+
+#: ../system-config-printer.py:658
+#, fuzzy
+msgid "Connections"
+msgstr "Menyambung..."
+
+#: ../system-config-printer.py:659
+msgid "Makes"
+msgstr ""
+
+#: ../system-config-printer.py:660
+msgid "Models"
+msgstr "Model"
+
+#: ../system-config-printer.py:661
+msgid "Drivers"
+msgstr "Pemandu"
+
+#: ../system-config-printer.py:662 ../glade/NewPrinterWindow.glade.h:54
+msgid "Downloadable Drivers"
+msgstr ""
+
+#: ../system-config-printer.py:663
+msgid "Users"
+msgstr "Pengguna"
+
+#: ../system-config-printer.py:698
+msgid "Automatic rotation"
+msgstr ""
+
+# ui/galeon.glade.h:247
+#: ../system-config-printer.py:983
+#, fuzzy, python-format
+msgid "Printer Properties - '%s' on %s"
+msgstr "Laporan pencetak"
+
+#. The Conflict button was pressed.
+#: ../system-config-printer.py:991
+msgid ""
+"There are conflicting options.\n"
+"Changes can only be applied after\n"
+"these conflicts are resolved."
+msgstr ""
+
+#: ../system-config-printer.py:1210
+#, python-format
+msgid "Printer configuration - %s"
+msgstr "Tetapan pencetak - %s"
+
+#: ../system-config-printer.py:1214
+#, fuzzy, python-format
+msgid "Connected to %s"
+msgstr "Tersambung ke %s:%u"
+
+#. Update our copy of the printer's settings.
+#: ../system-config-printer.py:1254 ../system-config-printer.py:2100
+msgid "obtaining queue details"
+msgstr ""
+
+#: ../system-config-printer.py:1292
+msgid "Remove from Group"
+msgstr ""
+
+#: ../system-config-printer.py:1358
+#, fuzzy
+msgid "Network printer (discovered)"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:1361
+msgid "Network class (discovered)"
+msgstr ""
+
+#: ../system-config-printer.py:1367 ../system-config-printer.py:5768
+#: ../system-config-printer.py:5838 ../system-config-printer.py:5840
+msgid "Fax"
+msgstr ""
+
+#: ../system-config-printer.py:1373 ../system-config-printer.py:1379
+#: ../troubleshoot/LocalOrRemote.py:30
+#, fuzzy
+msgid "Network printer"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:1376
+#, fuzzy
+msgid "Network print share"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:1561 ../glade/ConnectingDialog.glade.h:2
+#, no-c-format, python-format
+msgid "<i>Opening connection to %s</i>"
+msgstr ""
+
+#: ../system-config-printer.py:1944
+#, fuzzy
+msgid "Installable Options"
+msgstr "Opsyen RAID"
+
+# ui/galeon.glade.h:247
+#: ../system-config-printer.py:1945
+#: ../glade/PrinterPropertiesDialog.glade.h:111
+#, fuzzy
+msgid "Printer Options"
+msgstr "Opsyen RAID"
+
+#: ../system-config-printer.py:1982
+#, python-format
+msgid "modifying class %s"
+msgstr ""
+
+#: ../system-config-printer.py:1984 ../system-config-printer.py:3138
+#: ../system-config-printer.py:3163 ../system-config-printer.py:6795
+#: ../system-config-printer.py:6807 ../system-config-printer.py:6829
+#, fuzzy, python-format
+msgid "modifying printer %s"
+msgstr "Tetapkan pencetak"
+
+#: ../system-config-printer.py:1999
+#, fuzzy
+msgid "This will delete this class!"
+msgstr "Padam pad ini?"
+
+#: ../system-config-printer.py:2000
+#, fuzzy
+msgid "Proceed anyway?"
+msgstr "_Pasang juga"
+
+# ui/galeon.glade.h:247
+#. We can authenticate with the server correctly at this point,
+#. but we have never fetched the server settings to see whether
+#. the server is publishing shared printers.  Fetch the settings
+#. now so that we can update the "not published" label if necessary.
+#: ../system-config-printer.py:2088 ../system-config-printer.py:3334
+#, fuzzy
+msgid "fetching server settings"
+msgstr "Lebih Tetapan Pelayan"
+
+#: ../system-config-printer.py:2158
+#, fuzzy
+msgid "Set Default Printer"
+msgstr "dihantar kepada pencetak default"
+
+#: ../system-config-printer.py:2160
+msgid "Do you want to set this as the system-wide default printer?"
+msgstr ""
+
+#: ../system-config-printer.py:2162
+#, fuzzy
+msgid "Set as the _system-wide default printer"
+msgstr "Ini adalah huraian bagi pencetak."
+
+#: ../system-config-printer.py:2164
+msgid "_Clear my personal default setting"
+msgstr ""
+
+#: ../system-config-printer.py:2165
+#, fuzzy
+msgid "Set as my _personal default printer"
+msgstr "dihantar kepada pencetak default"
+
+#: ../system-config-printer.py:2170
+#, fuzzy
+msgid "setting default printer"
+msgstr "dihantar kepada pencetak default"
+
+#: ../system-config-printer.py:2227
+#, fuzzy
+msgid "printing test page"
+msgstr "Halaman ujian _CUPS"
+
+#: ../system-config-printer.py:2240 ../system-config-printer.py:2275
+#, fuzzy
+msgid "Not possible"
+msgstr "pembatalan tidak mungkin"
+
+#: ../system-config-printer.py:2241 ../system-config-printer.py:2276
+msgid ""
+"The remote server did not accept the print job, most likely because the "
+"printer is not shared."
+msgstr ""
+
+#: ../system-config-printer.py:2253 ../system-config-printer.py:2268
+msgid "Submitted"
+msgstr ""
+
+#: ../system-config-printer.py:2254
+#, python-format
+msgid "Test page submitted as job %d"
+msgstr ""
+
+#: ../system-config-printer.py:2261
+msgid "sending maintenance command"
+msgstr ""
+
+#: ../system-config-printer.py:2269
+#, python-format
+msgid "Maintenance command submitted as job %d"
+msgstr ""
+
+#. The underlying cupsGetPPD2() function returned NULL without
+#. setting an IPP error, so it'll be something like a failed
+#. connection.
+#: ../system-config-printer.py:2342 ../system-config-printer.py:2438
+msgid "Error"
+msgstr "Ralat"
+
+#: ../system-config-printer.py:2343
+#, fuzzy
+msgid "There was a problem connecting to the CUPS server."
+msgstr "Terdapat ralat ketika cuba mencetak halaman ujian."
+
+#: ../system-config-printer.py:2439
+#, python-format
+msgid "Option '%s' has value '%s' and cannot be edited."
+msgstr ""
+
+#: ../system-config-printer.py:2540
+msgid "Marker levels are not reported for this printer."
+msgstr ""
+
+#: ../system-config-printer.py:2849
+#, fuzzy
+msgid "Cannot Rename"
+msgstr "Kelua_ran"
+
+#: ../system-config-printer.py:2850
+msgid "There are queued jobs."
+msgstr ""
+
+#: ../system-config-printer.py:2868
+msgid "Renaming will lose history"
+msgstr ""
+
+#: ../system-config-printer.py:2870
+msgid "Completed jobs will no longer be available for re-printing."
+msgstr ""
+
+#: ../system-config-printer.py:2941
+#, fuzzy
+msgid "renaming printer"
+msgstr "Tetapkan pencetak"
+
+#. for classes make sure all members
+#. will get added
+#: ../system-config-printer.py:3026
+#, fuzzy
+msgid "copying printer"
+msgstr "Tetapkan pencetak"
+
+#: ../system-config-printer.py:3090
+#, fuzzy, python-format
+msgid "Really delete class '%s'?"
+msgstr "Tidak dapat Dipadam"
+
+#: ../system-config-printer.py:3092
+#, fuzzy, python-format
+msgid "Really delete printer '%s'?"
+msgstr "Anda tidak boleh padam pencetak terimport."
+
+#: ../system-config-printer.py:3094
+#, fuzzy
+msgid "Really delete selected destinations?"
+msgstr "Anda tidak boleh padam pencetak terimport."
+
+#: ../system-config-printer.py:3115
+#, fuzzy, python-format
+msgid "deleting printer %s"
+msgstr "Tetapkan pencetak"
+
+#: ../system-config-printer.py:3201
+msgid "Publish Shared Printers"
+msgstr ""
+
+#: ../system-config-printer.py:3202
+msgid ""
+"Shared printers are not available to other people unless the 'Publish shared "
+"printers' option is enabled in the server settings."
+msgstr ""
+
+# ui/galeon.glade.h:247
+#: ../system-config-printer.py:3395
+#, fuzzy
+msgid "modifying server settings"
+msgstr "Lebih Tetapan Pelayan"
+
+#: ../system-config-printer.py:3423
+msgid "Review Firewall"
+msgstr ""
+
+#: ../system-config-printer.py:3424
+msgid ""
+"You may need to adjust the firewall to allow network printing to this "
+"computer."
+msgstr ""
+
+#: ../system-config-printer.py:3771
+msgid "Browsing not available (pysmbc not installed)"
+msgstr ""
+
+#. SMB list columns
+#: ../system-config-printer.py:3777
+msgid "Share"
+msgstr "Kongsi"
+
+#: ../system-config-printer.py:3783
+msgid "Comment"
+msgstr "Komen"
+
+#: ../system-config-printer.py:3798
+msgid ""
+"PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+"PPD.GZ)"
+msgstr ""
+
+#: ../system-config-printer.py:3807
+msgid "All files (*)"
+msgstr ""
+
+#: ../system-config-printer.py:3863 ../system-config-printer.py:6184
+#: ../system-config-printer.py:6222 ../applet.py:129
+#, fuzzy
+msgid "Search"
+msgstr "Isi nama kumpulan baru:"
+
+#: ../system-config-printer.py:3887 ../system-config-printer.py:3909
+#: ../glade/NewPrinterWindow.glade.h:72
+#, fuzzy
+msgid "New Printer"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:3896
+#, fuzzy
+msgid "New Class"
+msgstr "Kelas Java"
+
+#: ../system-config-printer.py:3901
+#, fuzzy
+msgid "Change Device URI"
+msgstr "Jadikan Peranti RAID."
+
+#: ../system-config-printer.py:3907
+#, fuzzy
+msgid "Change Driver"
+msgstr "Cekera jurupacu"
+
+#: ../system-config-printer.py:4087 ../system-config-printer.py:4167
+#: ../system-config-printer.py:4538 ../system-config-printer.py:6019
+#: ../system-config-printer.py:6209
+msgid "Searching"
+msgstr ""
+
+#: ../system-config-printer.py:4088
+#, fuzzy
+msgid "Searching for downloadable drivers"
+msgstr "Isi nama kumpulan baru:"
+
+#: ../system-config-printer.py:4168 ../system-config-printer.py:4539
+msgid "Searching for drivers"
+msgstr ""
+
+#. Tell the user why he needs the plugin
+#: ../system-config-printer.py:4913
+msgid "For this printer a proprietary driver plugin from HP is available.\n"
+msgstr ""
+
+#: ../system-config-printer.py:4916
+msgid ""
+"The installation of the plugin is required for your printer to work.\n"
+"\n"
+msgstr ""
+
+#: ../system-config-printer.py:4919
+msgid ""
+"Installing the plugin is optional, it completes or enhances the "
+"functionality\n"
+"of your printer. Without plugin at least basic operations work.\n"
+"\n"
+msgstr ""
+
+#: ../system-config-printer.py:4923
+msgid "The plugin provides the following features:\n"
+msgstr ""
+
+#: ../system-config-printer.py:4926
+msgid " - Printing support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4929
+msgid " - Faster printing\n"
+msgstr ""
+
+#: ../system-config-printer.py:4932
+msgid " - Better printout quality\n"
+msgstr ""
+
+#: ../system-config-printer.py:4935
+msgid " - Extra printing features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4938
+msgid " - Scanning support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4941
+msgid " - Faster scanning\n"
+msgstr ""
+
+#: ../system-config-printer.py:4944
+msgid " - Better scanning image quality\n"
+msgstr ""
+
+#: ../system-config-printer.py:4947
+msgid " - Faxing support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4950
+msgid " - Extra fax features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4953
+msgid " - Better Input/Output support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4956
+msgid " - Extra user interface features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4959
+msgid " - Other extra features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4964
+#, fuzzy
+msgid "Install plugin"
+msgstr "Opsyen RAID"
+
+#: ../system-config-printer.py:4965
+#, fuzzy
+msgid "Do not set up printer"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:4966
+msgid "Set up without plugin"
+msgstr ""
+
+#: ../system-config-printer.py:4968 ../troubleshoot/PrintTestPage.py:118
+msgid "Yes"
+msgstr ""
+
+#: ../system-config-printer.py:4969 ../troubleshoot/PrintTestPage.py:119
+msgid "No"
+msgstr ""
+
+#. device-info
+#. PhysicalDevice obj
+#. Separator?
+#: ../system-config-printer.py:5130
+msgid "Other"
+msgstr "Lain-lain"
+
+#: ../system-config-printer.py:5134
+#, fuzzy
+msgid "Network Printer"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:5138
+#, fuzzy
+msgid "Find Network Printer"
+msgstr "Tetapan pencetak"
+
+# ui/galeon.glade.h:247
+#: ../system-config-printer.py:5153
+#, fuzzy
+msgid "fetching device list"
+msgstr "Lebih Tetapan Pelayan"
+
+#: ../system-config-printer.py:5237
+#, fuzzy
+msgid " (Current)"
+msgstr "Masa Semasa:"
+
+#: ../system-config-printer.py:5307
+#, fuzzy
+msgid "Scanning..."
+msgstr "Pengskalaan (peratusan)"
+
+#: ../system-config-printer.py:5362
+#, fuzzy
+msgid "No Print Shares"
+msgstr "Tetapan pencetak"
+
+#: ../system-config-printer.py:5363
+msgid ""
+"There were no print shares found.  Please check that the Samba service is "
+"marked as trusted in your firewall configuration."
+msgstr ""
+
+#: ../system-config-printer.py:5624 ../system-config-printer.py:5701
+msgid "Print Share Verified"
+msgstr ""
+
+#: ../system-config-printer.py:5625 ../system-config-printer.py:5702
+msgid "This print share is accessible."
+msgstr ""
+
+#: ../system-config-printer.py:5630 ../system-config-printer.py:5706
+msgid "This print share is not accessible."
+msgstr ""
+
+#: ../system-config-printer.py:5633
+#, fuzzy
+msgid "Print Share Inaccessible"
+msgstr "`%s' menjadi tidak boleh diakses"
+
+#: ../system-config-printer.py:5679
+#, fuzzy
+msgid "Verifying"
+msgstr "(Dinyatakan)"
+
+#: ../system-config-printer.py:5680
+#, fuzzy
+msgid "Verifying printer"
+msgstr "Tetapkan pencetak"
+
+#: ../system-config-printer.py:5705
+#, fuzzy
+msgid "Inaccessible"
+msgstr "`%s' menjadi tidak boleh diakses"
+
+#: ../system-config-printer.py:5760
+msgid "Parallel Port"
+msgstr ""
+
+#: ../system-config-printer.py:5762
+#, fuzzy
+msgid "Serial Port"
+msgstr "Bersiri"
+
+#: ../system-config-printer.py:5764
+#, fuzzy
+msgid "USB"
+msgstr "SMB"
+
+#: ../system-config-printer.py:5766 ../system-config-printer.py:5769
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr ""
+
+#: ../system-config-printer.py:5771
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr ""
+
+#: ../system-config-printer.py:5773
+msgid "AppSocket/HP JetDirect"
+msgstr ""
+
+#: ../system-config-printer.py:5782
+#, python-format
+msgid "LPD/LPR queue '%s'"
+msgstr ""
+
+#: ../system-config-printer.py:5784
+#, fuzzy
+msgid "LPD/LPR queue"
+msgstr "LPD"
+
+#: ../system-config-printer.py:5787
+msgid "Windows Printer via SAMBA"
+msgstr ""
+
+#: ../system-config-printer.py:5789 ../glade/NewPrinterWindow.glade.h:64
+msgid "IPP"
+msgstr "IPP"
+
+#: ../system-config-printer.py:5791
+msgid "HTTP"
+msgstr ""
+
+#: ../system-config-printer.py:5878
+msgid "A printer connected to the parallel port."
+msgstr ""
+
+#: ../system-config-printer.py:5880
+msgid "A printer connected to a USB port."
+msgstr ""
+
+#: ../system-config-printer.py:5882
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device."
+msgstr ""
+
+#: ../system-config-printer.py:5885
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device."
+msgstr ""
+
+#: ../system-config-printer.py:5888
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)."
+msgstr ""
+
+#: ../system-config-printer.py:6020
+#, fuzzy
+msgid "Searching for printers"
+msgstr "Isi nama kumpulan baru:"
+
+#: ../system-config-printer.py:6097
+msgid "No printer was found at that address."
+msgstr ""
+
+#: ../system-config-printer.py:6234
+#, fuzzy
+msgid "-- Select from search results --"
+msgstr "Nota daripada Linux Printing Database"
+
+#: ../system-config-printer.py:6236
+msgid "-- No matches found --"
+msgstr ""
+
+#: ../system-config-printer.py:6430
+#, fuzzy
+msgid " (recommended)"
+msgstr "dicadangkan"
+
+#: ../system-config-printer.py:6455
+msgid "This PPD is generated by foomatic."
+msgstr ""
+
+# libgnomeui/gnome-messagebox.c:120 libgnomeui/gnome-messagebox.c:253
+#: ../system-config-printer.py:6480
+#, fuzzy
+msgid "OpenPrinting"
+msgstr "Mencetak"
+
+#: ../system-config-printer.py:6491
+msgid "Distributable"
+msgstr ""
+
+#: ../system-config-printer.py:6532
+msgid ", "
+msgstr ""
+
+#: ../system-config-printer.py:6537
+#, python-format
+msgid ""
+"\n"
+"(%s)"
+msgstr ""
+
+#: ../system-config-printer.py:6542
+msgid "No support contacts known"
+msgstr ""
+
+#: ../system-config-printer.py:6546 ../system-config-printer.py:6559
+msgid "Not specified."
+msgstr ""
+
+#. Foomatic database problem of some sort.
+#: ../system-config-printer.py:6599
+#, fuzzy
+msgid "Database error"
+msgstr "Ralat pengkalan data"
+
+#: ../system-config-printer.py:6600
+#, python-format
+msgid "The '%s' driver cannot be used with printer '%s %s'."
+msgstr ""
+
+#. This printer references some XML that is not
+#. installed by default.  Point the user at the
+#. package they need to install.
+#: ../system-config-printer.py:6610
+#, python-format
+msgid "You will need to install the '%s' package in order to use this driver."
+msgstr ""
+
+#. This error came from trying to open the PPD file.
+#: ../system-config-printer.py:6617
+#, fuzzy
+msgid "PPD error"
+msgstr "Ralat Tidak Diketahui"
+
+#: ../system-config-printer.py:6619
+msgid "Failed to read PPD file.  Possible reason follows:"
+msgstr ""
+
+#. Failed to get PPD downloaded from OpenPrinting XXX
+#: ../system-config-printer.py:6636
+msgid "Downloadable drivers"
+msgstr ""
+
+#: ../system-config-printer.py:6637
+msgid "Failed to download PPD."
+msgstr ""
+
+#: ../system-config-printer.py:6644
+#, fuzzy
+msgid "fetching PPD"
+msgstr "PPD diimport."
+
+#: ../system-config-printer.py:6673 ../system-config-printer.py:6711
+#, fuzzy
+msgid "No Installable Options"
+msgstr "Opsyen RAID"
+
+#: ../system-config-printer.py:6768
+#, fuzzy, python-format
+msgid "adding printer %s"
+msgstr "Tetapkan pencetak"
+
+#: ../system-config-printer.py:6941
+msgid "Would you like to print a test page?"
+msgstr ""
+
+#: ../system-config-printer.py:7002
+#, fuzzy
+msgid "Install driver"
+msgstr "Cekera jurupacu"
+
+#: ../system-config-printer.py:7003 ../troubleshoot/CheckPPDSanity.py:131
+#, python-format
+msgid "Printer '%s' requires the %s package but it is not currently installed."
+msgstr ""
+
+#: ../system-config-printer.py:7019
+#, fuzzy
+msgid "Missing driver"
+msgstr "Cekera jurupacu"
+
+#: ../system-config-printer.py:7020
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed.  "
+"Please install it before using this printer."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:1
+#, fuzzy
+msgid "A CUPS configuration tool."
+msgstr "Tetapan pencetak - %s"
+
+#: ../glade/AboutDialog.glade.h:2
+#, fuzzy
+msgid "Copyright © 2006-2008 Red Hat, Inc."
+msgstr "Hakcipta (c) 2001-2003 Red Hat, Inc."
+
+#: ../glade/AboutDialog.glade.h:3
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:8
+#, fuzzy
+msgid "system-config-printer"
+msgstr "Sistem Tetapan Gnome."
+
+#. TRANSLATORS: Replace this string with your names, one name per line.  Thank you very much for your effort on translating system-config-printer and all our other tools!
+#: ../glade/AboutDialog.glade.h:10
+msgid "translator-credits"
+msgstr ""
+
+#: ../glade/ConnectDialog.glade.h:1
+#, fuzzy
+msgid "CUPS _server:"
+msgstr "_Pelayan NIS:"
+
+#: ../glade/ConnectDialog.glade.h:2
+#, fuzzy
+msgid "Connect to CUPS server"
+msgstr "Tidak dapat menyambung ke pelayan VNC"
+
+#: ../glade/ConnectDialog.glade.h:3
+#, fuzzy
+msgid "Require _encryption"
+msgstr "_Kekunci Enkripsi"
+
+#: ../glade/ConnectingDialog.glade.h:3
+#, fuzzy
+msgid "<span weight=\"bold\" size=\"larger\">Connecting to CUPS server</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Selitkan CD berikutnya.</span>"
+
+#: ../glade/ConnectingDialog.glade.h:4
+#, fuzzy
+msgid "Connecting to CUPS server"
+msgstr "Tidak dapat menyambung ke pelayan VNC"
+
+#: ../glade/InstallDialog.glade.h:1
+msgid "_Install"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:1
+msgid "Show _completed jobs"
+msgstr "_Papar tugas selesai"
+
+#: ../glade/JobsWindow.glade.h:2
+msgid "_File"
+msgstr "_Fail"
+
+#: ../glade/JobsWindow.glade.h:3
+#, fuzzy
+msgid "_Job"
+msgstr "Tugas"
+
+#: ../glade/JobsWindow.glade.h:4
+#, fuzzy
+msgid "_Refresh"
+msgstr "Kelua_ran"
+
+#: ../glade/JobsWindow.glade.h:5 ../glade/PrintersWindow.glade.h:17
+msgid "_View"
+msgstr "_Lihat"
+
+#: ../glade/NewPrinterName.glade.h:1
+#, fuzzy
+msgid "Copy Printer"
+msgstr "Tetapan pencetak"
+
+#: ../glade/NewPrinterName.glade.h:2
+#, fuzzy
+msgid "New name for the printer"
+msgstr "Isi nama kumpulan baru:"
+
+#: ../glade/NewPrinterWindow.glade.h:1
+#, fuzzy
+msgid "<b>Authentication</b>"
+msgstr "Pengesahan"
+
+#: ../glade/NewPrinterWindow.glade.h:2
+#, fuzzy
+msgid "<b>Description</b>"
+msgstr "Huraian"
+
+#: ../glade/NewPrinterWindow.glade.h:3
+#, fuzzy
+msgid "<b>Description</b> (optional)"
+msgstr "Pakej Opsyenal"
+
+#: ../glade/NewPrinterWindow.glade.h:4
+#, fuzzy
+msgid "<b>Enter device URI</b>"
+msgstr "Jadikan Peranti RAID."
+
+#: ../glade/NewPrinterWindow.glade.h:5
+#, fuzzy
+msgid "<b>IPP Printer</b>"
+msgstr "Nama Pencetak"
+
+#: ../glade/NewPrinterWindow.glade.h:6
+#, fuzzy
+msgid "<b>License Terms</b>"
+msgstr "Nama Pencetak"
+
+#: ../glade/NewPrinterWindow.glade.h:7
+msgid "<b>Location of the LPD network printer</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:8
+#, fuzzy
+msgid "<b>Location of the network printer</b>"
+msgstr "port pencetak rangkaian"
+
+#: ../glade/NewPrinterWindow.glade.h:9
+#, fuzzy
+msgid "<b>Location</b> (optional)"
+msgstr "Pakej Opsyenal"
+
+#: ../glade/NewPrinterWindow.glade.h:10
+#, fuzzy
+msgid "<b>Network Printer</b>"
+msgstr "Tetapan pencetak"
+
+#: ../glade/NewPrinterWindow.glade.h:11
+#, fuzzy
+msgid "<b>Note</b>"
+msgstr "Keadaan"
+
+#: ../glade/NewPrinterWindow.glade.h:12
+#, fuzzy
+msgid "<b>Output Quality</b>"
+msgstr "Keadaan"
+
+#: ../glade/NewPrinterWindow.glade.h:13
+#, fuzzy
+msgid "<b>Printer Name</b>"
+msgstr "Nama Pencetak"
+
+#: ../glade/NewPrinterWindow.glade.h:14
+#, fuzzy
+msgid "<b>SMB Printer</b>"
+msgstr "Nama Pencetak"
+
+#: ../glade/NewPrinterWindow.glade.h:15
+#, fuzzy
+msgid "<b>Select Driver</b>"
+msgstr "Pencetak Default"
+
+#: ../glade/NewPrinterWindow.glade.h:16
+#, fuzzy
+msgid "<b>Settings of the serial port</b>"
+msgstr "Amerika/Port_of_Spain"
+
+#: ../glade/NewPrinterWindow.glade.h:17
+msgid "<i>smb://[workgroup/]server[:port]/printer</i>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:18
+#, fuzzy
+msgid "<span weight=\"bold\" size=\"larger\">Choose Class Members</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Selitkan CD berikutnya.</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:19
+#, fuzzy
+msgid "<span weight=\"bold\" size=\"larger\">Choose Driver</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Selitkan CD berikutnya.</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:20
+#, fuzzy
+msgid "<span weight=\"bold\" size=\"larger\">Describe Printer</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Selitkan CD berikutnya.</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:21
+#, fuzzy
+msgid "<span weight=\"bold\" size=\"larger\">Existing Settings</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Selitkan CD berikutnya.</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:22
+#, fuzzy
+msgid "<span weight=\"bold\" size=\"larger\">Installable Options</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Selitkan CD berikutnya.</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:23
+#, fuzzy
+msgid "<span weight=\"bold\" size=\"larger\">Select Device</span>"
+msgstr "<span size=\"larger\" weight=\"bold\">Selitkan CD berikutnya.</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:24
+#, fuzzy
+msgid "Baud Rate"
+msgstr "Kadar HSync: "
+
+#: ../glade/NewPrinterWindow.glade.h:25
+msgid "Browse..."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:26
+#, fuzzy
+msgid "Comments..."
+msgstr "Komen"
+
+#: ../glade/NewPrinterWindow.glade.h:27
+#, fuzzy
+msgid "Connection"
+msgstr "Menyambung..."
+
+#: ../glade/NewPrinterWindow.glade.h:28
+#, fuzzy
+msgid "Data Bits"
+msgstr " Modulus: %d bit\n"
+
+#: ../glade/NewPrinterWindow.glade.h:29
+msgid ""
+"Default\n"
+"1200\n"
+"2400\n"
+"4800\n"
+"9600\n"
+"19200\n"
+"38400\n"
+"57600\n"
+"115200"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:38
+#, fuzzy
+msgid ""
+"Default\n"
+"8\n"
+"7"
+msgstr "_Sasaran But Default"
+
+#: ../glade/NewPrinterWindow.glade.h:41
+msgid ""
+"Default\n"
+"None\n"
+"Odd\n"
+"Even"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:45
+msgid ""
+"Default\n"
+"None\n"
+"XON/XOFF (Software)\n"
+"RTS/CTS (Hardware)\n"
+"DTR/DSR (Hardware)"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:50
+#: ../glade/PrinterPropertiesDialog.glade.h:35
+msgid "Description:"
+msgstr "Huraian:"
+
+#: ../glade/NewPrinterWindow.glade.h:51 ../troubleshoot/DeviceListed.py:40
+#, fuzzy
+msgid "Device URI"
+msgstr "Peranti RAID"
+
+#: ../glade/NewPrinterWindow.glade.h:52
+#, fuzzy
+msgid "Device description."
+msgstr "Penerangan masukan"
+
+#: ../glade/NewPrinterWindow.glade.h:53
+msgid "DirectJet"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:55
+#, fuzzy
+msgid "Driver details"
+msgstr "Pemandu"
+
+#: ../glade/NewPrinterWindow.glade.h:56
+msgid "Empty"
+msgstr "Kosong"
+
+#: ../glade/NewPrinterWindow.glade.h:57
+#, fuzzy
+msgid "Flow Control"
+msgstr "Kawalan aliran"
+
+#: ../glade/NewPrinterWindow.glade.h:58
+msgid ""
+"For the printer you have selected there are drivers available for download."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:59
+msgid "Free software"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:60
+msgid "Graphics:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:61
+#, fuzzy
+msgid "Host:"
+msgstr "Namahos"
+
+#: ../glade/NewPrinterWindow.glade.h:62
+msgid "Human-readable description such as \"HP LaserJet with Duplexer\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:63
+msgid "Human-readable location such as \"Lab 1\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:65
+msgid "LPD"
+msgstr "LPD"
+
+#: ../glade/NewPrinterWindow.glade.h:66
+msgid "License:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:67
+#, fuzzy
+msgid "Line art:"
+msgstr "keadaan tidak diketahui"
+
+#: ../glade/NewPrinterWindow.glade.h:68
+#, fuzzy
+msgid "Local Driver"
+msgstr "Tetapkan pencetak"
+
+#: ../glade/NewPrinterWindow.glade.h:69
+#, fuzzy
+msgid "Make and model:"
+msgstr "Memerlukan pembuat dan model.\n"
+
+#: ../glade/NewPrinterWindow.glade.h:70
+msgid "Manufacturer"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:71
+#, fuzzy
+msgid "Network"
+msgstr "Tetapan pencetak"
+
+#: ../glade/NewPrinterWindow.glade.h:73
+msgid "No, I do not accept this license"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:74
+#, fuzzy
+msgid "Parity"
+msgstr "Tiada pariti"
+
+#: ../glade/NewPrinterWindow.glade.h:76
+msgid "Patented algorithms"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:77
+msgid "Photo:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:78
+#, fuzzy
+msgid "Port number:"
+msgstr "<b>Nombor _Port:</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:79
+msgid ""
+"PostScript Printer Description (PPD) files can often be found on the driver "
+"disk that comes with the printer. For PostScript printers they are often "
+"part of the Windows<sup>®</sup> driver."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:80
+#, fuzzy
+msgid "Printer model:"
+msgstr "Model Keselamatan:"
+
+#: ../glade/NewPrinterWindow.glade.h:81
+#, fuzzy
+msgid "Probe"
+msgstr "Tidak dapat mengesan"
+
+#: ../glade/NewPrinterWindow.glade.h:82
+#, fuzzy
+msgid "Prompt user if authentication is required"
+msgstr "Pengesahan"
+
+#: ../glade/NewPrinterWindow.glade.h:83
+#, fuzzy
+msgid "Provide PPD file"
+msgstr "Sila Nyatakan Fail Kulit"
+
+#: ../glade/NewPrinterWindow.glade.h:84
+msgid "Queue:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:85
+msgid "SCSI"
+msgstr "SCSI"
+
+#: ../glade/NewPrinterWindow.glade.h:86
+msgid "SMB"
+msgstr "SMB"
+
+#: ../glade/NewPrinterWindow.glade.h:87
+msgid "Search for a printer driver to download"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:88
+#, fuzzy
+msgid "Searching..."
+msgstr "Pengskalaan (peratusan)"
+
+#: ../glade/NewPrinterWindow.glade.h:89
+#, fuzzy
+msgid "Select A File"
+msgstr "Pilih fail:"
+
+#: ../glade/NewPrinterWindow.glade.h:90
+#, fuzzy
+msgid "Select printer from database"
+msgstr "Nota daripada Linux Printing Database"
+
+#: ../glade/NewPrinterWindow.glade.h:91
+msgid "Serial"
+msgstr "Bersiri"
+
+#: ../glade/NewPrinterWindow.glade.h:92
+#, fuzzy
+msgid "Set authentication details now"
+msgstr "Pengesahan"
+
+#: ../glade/NewPrinterWindow.glade.h:93
+msgid "Short name for this printer such as \"laserjet\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:94
+msgid "Supplier:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:95
+msgid "Support:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:96
+#, fuzzy
+msgid "Text:"
+msgstr "Ulangtetap"
+
+#: ../glade/NewPrinterWindow.glade.h:97
+msgid ""
+"The foomatic printer database contains various manufacturer provided "
+"PostScript Printer Description (PPD) files and also can generate PPD files "
+"for a large number of (non PostScript) printers. But in general manufacturer "
+"provided PPD files provide better access to the specific features of the "
+"printer."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:98
+msgid ""
+"These drivers do not come from your operating system supplier and will not "
+"be covered by their commercial support.  See the support and license terms "
+"of the driver's supplier."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:99
+msgid ""
+"This driver supports additional hardware that may be installed in the "
+"printer."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:100
+msgid ""
+"This is done by assuming that options with the same name do have the same "
+"meaning. Settings of options that are not present in the new PPD will be "
+"lost and options only present in the new PPD will be set to default."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:101
+msgid ""
+"This way all current option settings will be lost. The default settings of "
+"the new PPD will be used. "
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:102
+msgid "Try to copy the option settings over from the old PPD. "
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:103
+msgid "URI:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:105
+msgid "Use the new PPD (Postscript Printer Description) as is."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:107
+msgid ""
+"With this choice no driver download will be performed. In the next steps a "
+"locally installed driver will be selected."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:108
+#, fuzzy
+msgid "Yes, I accept this license"
+msgstr "Laksana tugas terjadual"
+
+#: ../glade/NewPrinterWindow.glade.h:109
+msgid "_Search"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:110
+msgid "_Verify..."
+msgstr "_Tentusah..."
+
+#: ../glade/NewPrinterWindow.glade.h:111
+#: ../glade/PrinterPropertiesDialog.glade.h:130
+msgid "move left"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:112
+#: ../glade/PrinterPropertiesDialog.glade.h:131
+#, fuzzy
+msgid "move right"
+msgstr "Hakcipta (c) %s %s <%s>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:1
+msgid " "
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:2
+msgid ""
+"1\n"
+"2\n"
+"4\n"
+"6\n"
+"9\n"
+"16"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:8
+#, fuzzy
+msgid "72 points per inch"
+msgstr "point (72 point per inci)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:9
+#, fuzzy
+msgid "<b>Banner</b>"
+msgstr "Halaman sepanduk"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:10
+#, fuzzy
+msgid "<b>Common Options</b>"
+msgstr "Opsyen RAID"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:11
+#, fuzzy
+msgid "<b>Image Options</b>"
+msgstr "Opsyen RAID"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:12
+#, fuzzy
+msgid "<b>Ink/Toner Levels</b>"
+msgstr "Halaman sepanduk"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:13
+#, fuzzy
+msgid "<b>Other Options (Advanced)</b>"
+msgstr "_Sorok pilihan lanjutan"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:14
+msgid "<b>Policies</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:15
+#, fuzzy
+msgid "<b>Settings</b>"
+msgstr "_Tetapan"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:16
+#, fuzzy
+msgid "<b>State</b>"
+msgstr "Keadaan"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:17
+#, fuzzy
+msgid "<b>Status Messages</b>"
+msgstr "Mesej"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:18
+msgid "<b>Tests and Maintenance</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:19
+#, fuzzy
+msgid "<b>Text Options</b>"
+msgstr "Opsyen RAID"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:20
+msgid ""
+"<i>Not published\n"
+"See server settings</i>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:22
+#, fuzzy
+msgid "Accepting jobs"
+msgstr "Laksana tugas terjadual"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:23
+#, fuzzy
+msgid "Access Control"
+msgstr "Utiliti senarai kawalan akses."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:24
+#, fuzzy
+msgid "Add or Remove Members"
+msgstr "Tambah atau buang pengguna dan kumpulan"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:25
+msgid "Allow printing for everyone except these users:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:26
+#, fuzzy
+msgid "Bottom margin:"
+msgstr "Margin bawah (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:27
+msgid "Brightness:"
+msgstr "Kecerahan:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:28
+#, fuzzy
+msgid "Change..."
+msgstr "Ubah"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:29
+#, fuzzy
+msgid "Characters per inch:"
+msgstr "Aksara per inci"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:31
+msgid "Clean Print Heads"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:32
+#, fuzzy
+msgid "Columns:"
+msgstr "lajur dahulu"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:33
+#, fuzzy
+msgid "Copies:"
+msgstr "Salinan penuh:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:34
+msgid "Deny printing for everyone except these users:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:36
+#, fuzzy
+msgid "Device URI:"
+msgstr "Peranti RAID"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:37
+msgid "Enabled"
+msgstr "Hidupkan"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:38
+#, fuzzy
+msgid "Ending Banner:"
+msgstr "Halaman sepanduk"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:39
+#, fuzzy
+msgid "Error Policy: \t"
+msgstr "Menghimpun polisi"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:40
+msgid "Finishings:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:41
+msgid "Gamma:"
+msgstr "Gamma:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:42
+#, fuzzy
+msgid "Hold until:"
+msgstr "Kitar sehingga disambung"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:43
+#, fuzzy
+msgid "Hue adjustment:"
+msgstr "Pelarasan Volum:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:44
+msgid "Ink/Toner Levels"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:45
+#, fuzzy
+msgid "Installed Options"
+msgstr "Opsyen RAID"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:46
+#, fuzzy
+msgid "Job Options"
+msgstr "Opsyen RAID"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:47
+#, fuzzy
+msgid "Job priority:"
+msgstr "prioriti tidak sah `%s'"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:48
+#, fuzzy
+msgid "Left margin:"
+msgstr "Margin kiri (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:49
+msgid ""
+"Left to right, top to bottom\n"
+"Left to right, bottom to top\n"
+"Right to left, top to bottom\n"
+"Right to left, bottom to top\n"
+"Top to bottom, left to right\n"
+"Top to bottom, right to left\n"
+"Bottom to top, left to right\n"
+"Bottom to top, right to left"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:57
+#, fuzzy
+msgid "Lines per inch:"
+msgstr "Baris per inci"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:58
+msgid "Location:"
+msgstr "Lokasi:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:59
+#, fuzzy
+msgid "Make and Model:"
+msgstr "Memerlukan pembuat dan model.\n"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:60
+msgid "Media:"
+msgstr "Media:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:61
+msgid "Members"
+msgstr "Ahli-ahli"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:62
+msgid "Mirror"
+msgstr "Cermin"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:63
+msgid "More"
+msgstr "Lagi"
+
+#. See section 4.2.6 of this document:
+#. ftp://ftp.pwg.org/pub/pwg/candidates/cs-ippfinishings10-20010205-5100.1.pdf
+#: ../glade/PrinterPropertiesDialog.glade.h:66
+msgid ""
+"None\n"
+"Staple\n"
+"Punch\n"
+"Cover\n"
+"Bind\n"
+"Saddle stitch\n"
+"Edge stitch\n"
+"Fold\n"
+"Trim\n"
+"Bale\n"
+"Booklet maker\n"
+"Job offset\n"
+"Staple (top left)\n"
+"Staple (bottom left)\n"
+"Staple (top right)\n"
+"Staple (bottom right)\n"
+"Edge stitch (left)\n"
+"Edge stitch (top)\n"
+"Edge stitch (right)\n"
+"Edge stitch (bottom)\n"
+"Staple dual (left)\n"
+"Staple dual (top)\n"
+"Staple dual (right)\n"
+"Staple dual (bottom)\n"
+"Bind (left)\n"
+"Bind (top)\n"
+"Bind (right)\n"
+"Bind (bottom)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:94
+msgid ""
+"One-sided\n"
+"Two-sided (long edge)\n"
+"Two-sided (short edge)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:97
+#, fuzzy
+msgid "Operation Policy:"
+msgstr "Menghimpun polisi"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:98
+msgid "Orientation:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:99
+msgid "Pages per side layout:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:100
+#, fuzzy
+msgid "Pages per side:"
+msgstr "Permintaan per Sambungan"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:101
+msgid "Policies"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:102
+msgid ""
+"Portrait (no rotation)\n"
+"Landscape (90°)\n"
+"Reverse landscape (270°)\n"
+"Reverse portrait (180°)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:106
+#, fuzzy
+msgid "Pretty print"
+msgstr "Teks cetakan-cantik (%s atau %s)"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:108
+#, fuzzy
+msgid "Print Self-Test Page"
+msgstr "Halaman ujian _CUPS"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:110
+#: ../troubleshoot/PrintTestPage.py:72
+#, fuzzy
+msgid "Print Test Page"
+msgstr "Halaman ujian _CUPS"
+
+# ui/galeon.glade.h:247
+#: ../glade/PrinterPropertiesDialog.glade.h:112
+#, fuzzy
+msgid "Printer Properties"
+msgstr "Laporan pencetak"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:113
+#, fuzzy
+msgid "Printer State:"
+msgstr "keadaan tidak diketahui"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:114
+msgid "Reset"
+msgstr "Ulangtetap"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:115
+#, fuzzy
+msgid "Reset to system default"
+msgstr "Ulangtetap kepada pilihan default"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:116
+#, fuzzy
+msgid "Right margin:"
+msgstr "Margin kanan (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:117
+msgid "Saturation:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:118
+#, fuzzy
+msgid "Scale to fit"
+msgstr "_Simpan ke cakera liut"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:119
+#, fuzzy
+msgid "Scaling:"
+msgstr "Pengskalaan (peratusan)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:120
+#, fuzzy
+msgid "Settings"
+msgstr "Setting"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:121
+msgid "Shared"
+msgstr "Dikongsi"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:122
+msgid "Sides:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:123
+msgid ""
+"Specify the default job options for this printer.  Jobs arriving at this "
+"print server will have these options added if they are not already set by "
+"the application."
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:124
+#, fuzzy
+msgid "Starting Banner:"
+msgstr "Halaman sepanduk"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:125
+#, fuzzy
+msgid "There are no status messages for this printer."
+msgstr "Isi nama kumpulan baru:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:126
+msgid "To add a new option, enter its name in the box below and click to add."
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:127
+#, fuzzy
+msgid "Top margin:"
+msgstr "Margin atas (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:128
+msgid "Word wrap"
+msgstr "Lilit perkataan"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:129
+msgid "default"
+msgstr "default"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:132
+msgid "none"
+msgstr "tiada"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:133
+msgid "points"
+msgstr "point"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:134
+#, fuzzy
+msgid "user"
+msgstr "Pengguna"
+
+# ui/galeon.glade.h:247
+#: ../glade/PrintersWindow.glade.h:1
+#, fuzzy
+msgid "Adjust server settings"
+msgstr "Lebih Tetapan Pelayan"
+
+#: ../glade/PrintersWindow.glade.h:2
+#, fuzzy
+msgid "Choose a different CUPS server"
+msgstr "Tidak dapat menyambung ke pelayan VNC"
+
+#: ../glade/PrintersWindow.glade.h:3
+#, fuzzy
+msgid "Show printer groups"
+msgstr "Papar status _pencetak"
+
+#: ../glade/PrintersWindow.glade.h:4
+msgid "Show printers shared by other systems"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:5
+#, fuzzy
+msgid "System-Config-Printer"
+msgstr "Sistem Tetapan Gnome."
+
+#: ../glade/PrintersWindow.glade.h:6
+#, fuzzy
+msgid "_Class"
+msgstr "Kelas Java"
+
+#: ../glade/PrintersWindow.glade.h:7
+#, fuzzy
+msgid "_Connect..."
+msgstr "Menyambung..."
+
+#: ../glade/PrintersWindow.glade.h:8
+msgid "_Discovered Printers"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:9
+msgid "_Group"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:10
+msgid "_Groups"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:11
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../glade/PrintersWindow.glade.h:12
+#, fuzzy
+msgid "_New"
+msgstr "_Lihat"
+
+#: ../glade/PrintersWindow.glade.h:13
+#, fuzzy
+msgid "_Printer"
+msgstr "Pencetak"
+
+#: ../glade/PrintersWindow.glade.h:14
+#, fuzzy
+msgid "_Server"
+msgstr "_Pergi Ke Pelayan"
+
+#: ../glade/PrintersWindow.glade.h:15
+#, fuzzy
+msgid "_Settings..."
+msgstr "Setting"
+
+#: ../glade/PrintersWindow.glade.h:16
+msgid "_Troubleshoot"
+msgstr ""
+
+# ui/galeon.glade.h:247
+#: ../glade/ServerSettingsDialog.glade.h:1
+#, fuzzy
+msgid "<b>Basic Server Settings</b>"
+msgstr "Lebih Tetapan Pelayan"
+
+#: ../glade/ServerSettingsDialog.glade.h:2
+#, fuzzy
+msgid "Allow _remote administration"
+msgstr "Logmasuk Jauh (SSH)"
+
+#: ../glade/ServerSettingsDialog.glade.h:3
+msgid "Allow _users to cancel any job (not just their own)"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:4
+msgid "Allow printing from the _Internet"
+msgstr ""
+
+# ui/galeon.glade.h:247
+#: ../glade/ServerSettingsDialog.glade.h:5
+#, fuzzy
+msgid "Basic Server Settings"
+msgstr "Lebih Tetapan Pelayan"
+
+#: ../glade/ServerSettingsDialog.glade.h:6
+msgid "Save _debugging information for troubleshooting"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:7
+msgid "_Advanced..."
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:8
+msgid "_Publish shared printers connected to this system"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:9
+msgid "_Show printers shared by other systems"
+msgstr ""
+
+#: ../glade/SMBBrowseDialog.glade.h:1
+msgid "SMB Browser"
+msgstr ""
+
+#: ../glade/statusicon_popupmenu.glade.h:1
+#, fuzzy
+msgid "_Configure Printers"
+msgstr "Tetapkan pencetak"
+
+#: ../glade/statusicon_popupmenu.glade.h:2
+msgid "_Hide"
+msgstr "_Sembunyi"
+
+#: ../glade/WaitWindow.glade.h:1
+msgid "Please Wait"
+msgstr ""
+
+#: ../system-config-printer.desktop.in.h:1
+msgid "Configure printers"
+msgstr "Tetapkan pencetak"
+
+# libgnomeui/gnome-messagebox.c:120 libgnomeui/gnome-messagebox.c:253
+#: ../system-config-printer.desktop.in.h:2
+msgid "Printing"
+msgstr "Mencetak"
+
+#: ../statereason.py:90
+#, fuzzy
+msgid "Toner low"
+msgstr "Memori Rendah"
+
+#: ../statereason.py:91
+#, python-format
+msgid "Printer '%s' is low on toner."
+msgstr ""
+
+#: ../statereason.py:92
+#, fuzzy
+msgid "Toner empty"
+msgstr "Parameter kosong"
+
+#: ../statereason.py:93
+#, python-format
+msgid "Printer '%s' has no toner left."
+msgstr ""
+
+#: ../statereason.py:94
+#, fuzzy
+msgid "Cover open"
+msgstr "tidak dapat membuka %s!\n"
+
+#: ../statereason.py:95
+#, python-format
+msgid "The cover is open on printer '%s'."
+msgstr ""
+
+#: ../statereason.py:96
+#, fuzzy
+msgid "Door open"
+msgstr "tidak dapat membuka %s!\n"
+
+#: ../statereason.py:97
+#, python-format
+msgid "The door is open on printer '%s'."
+msgstr ""
+
+#: ../statereason.py:98
+#, fuzzy
+msgid "Paper low"
+msgstr "Memori Rendah"
+
+#: ../statereason.py:99
+#, python-format
+msgid "Printer '%s' is low on paper."
+msgstr ""
+
+#: ../statereason.py:100
+#, fuzzy
+msgid "Out of paper"
+msgstr "Saiz Kertas"
+
+#: ../statereason.py:101
+#, fuzzy, python-format
+msgid "Printer '%s' is out of paper."
+msgstr "nano tidak cukup memori!"
+
+#: ../statereason.py:102
+#, fuzzy
+msgid "Ink low"
+msgstr "Memori Rendah"
+
+#: ../statereason.py:103
+#, python-format
+msgid "Printer '%s' is low on ink."
+msgstr ""
+
+#: ../statereason.py:104
+#, fuzzy
+msgid "Ink empty"
+msgstr "Parameter kosong"
+
+#: ../statereason.py:105
+#, python-format
+msgid "Printer '%s' has no ink left."
+msgstr ""
+
+# ui/galeon.glade.h:247
+#: ../statereason.py:106
+#, fuzzy
+msgid "Printer off-line"
+msgstr "Opsyen RAID"
+
+#: ../statereason.py:107
+#, fuzzy, python-format
+msgid "Printer '%s' is currently off-line."
+msgstr "nano tidak cukup memori!"
+
+#: ../statereason.py:108
+msgid "Not connected?"
+msgstr "Tidak disambung?"
+
+#: ../statereason.py:109
+#, python-format
+msgid "Printer '%s' may not be connected."
+msgstr "Pencetak '%s' mungkin tidak disambung."
+
+#: ../statereason.py:110 ../statereason.py:126
+msgid "Printer error"
+msgstr "Ralat pencetak"
+
+#: ../statereason.py:111
+#, fuzzy, python-format
+msgid "There is a problem on printer '%s'."
+msgstr "Terdapat ralat ketika cuba mencetak halaman ujian."
+
+# ui/galeon.glade.h:247
+#: ../statereason.py:122
+msgid "Printer report"
+msgstr "Laporan pencetak"
+
+# libgnomeui/gnome-messagebox.c:120 libgnomeui/gnome-messagebox.c:253
+#: ../statereason.py:124
+msgid "Printer warning"
+msgstr "Amaran pencetak"
+
+#: ../statereason.py:144
+#, python-format
+msgid "Printer '%s': '%s'."
+msgstr "Pencetak '%s': '%s'."
+
+#: ../timedops.py:102 ../timedops.py:181
+msgid "Please wait"
+msgstr ""
+
+#: ../timedops.py:108 ../timedops.py:188
+#, fuzzy
+msgid "Gathering information"
+msgstr "Lokasi:"
+
+#: ../ToolbarSearchEntry.py:69
+#, fuzzy
+msgid "_Filter:"
+msgstr "_Fail"
+
+#: ../troubleshoot/__init__.py:54
+msgid "Printing troubleshooter"
+msgstr ""
+
+#: ../troubleshoot/base.py:33
+msgid ""
+"To start this tool, select System->Administration->Printing from the main "
+"menu."
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:28
+msgid "Server Not Exporting Printers"
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:29
+msgid ""
+"Although one or more printers are marked as being shared, this print server "
+"is not exporting shared printers to the network."
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:33
+msgid ""
+"Enable the 'Publish shared printers connected to this system' option in the "
+"server settings using the printing administration tool."
+msgstr ""
+
+#: ../troubleshoot/CheckPPDSanity.py:44 ../applet.py:185
+#, fuzzy
+msgid "Install"
+msgstr "Cekera jurupacu"
+
+#: ../troubleshoot/CheckPPDSanity.py:96
+#, fuzzy
+msgid "Invalid PPD File"
+msgstr "Sila Nyatakan Fail Kulit"
+
+#: ../troubleshoot/CheckPPDSanity.py:106
+#, python-format
+msgid ""
+"The PPD file for printer '%s' does not conform to the specification.  "
+"Possible reason follows:"
+msgstr ""
+
+#. Perhaps cupstestppd is not in the path.
+#: ../troubleshoot/CheckPPDSanity.py:112
+#, fuzzy, python-format
+msgid "There is a problem with the PPD file for printer '%s'."
+msgstr "Terdapat ralat ketika cuba mencetak halaman ujian."
+
+#: ../troubleshoot/CheckPPDSanity.py:122
+#, fuzzy
+msgid "Missing Printer Driver"
+msgstr "Cekera jurupacu"
+
+#: ../troubleshoot/CheckPPDSanity.py:136
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed."
+msgstr ""
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:29
+#, fuzzy
+msgid "Choose Network Printer"
+msgstr "Tetapan pencetak"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:30
+msgid ""
+"Please select the network printer you are trying to use from the list below. "
+"If it does not appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:39
+#: ../troubleshoot/ChoosePrinter.py:40 ../troubleshoot/DeviceListed.py:38
+#, fuzzy
+msgid "Information"
+msgstr "Lokasi:"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:75
+#: ../troubleshoot/ChoosePrinter.py:64 ../troubleshoot/DeviceListed.py:70
+#, fuzzy
+msgid "Not listed"
+msgstr "Tidak disambung"
+
+#: ../troubleshoot/ChoosePrinter.py:30
+#, fuzzy
+msgid "Choose Printer"
+msgstr "Tetapan pencetak"
+
+#: ../troubleshoot/ChoosePrinter.py:31
+msgid ""
+"Please select the printer you are trying to use from the list below. If it "
+"does not appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/DeviceListed.py:30
+#, fuzzy
+msgid "Choose Device"
+msgstr "Jadikan Peranti RAID."
+
+#: ../troubleshoot/DeviceListed.py:31
+msgid ""
+"Please select the device you want to use from the list below. If it does not "
+"appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:31
+msgid "Debugging"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:32
+msgid ""
+"I would like to enable debugging output from the CUPS scheduler.  This may "
+"cause the scheduler to restart.  Click the button below to enable debugging."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:36
+msgid "Enable Debugging"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:215
+msgid "Debug logging enabled."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:217
+msgid "Debug logging was already enabled."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogParse.py:29
+msgid "Error log messages"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogParse.py:30
+msgid "There are messages in the error log."
+msgstr ""
+
+#: ../troubleshoot/Locale.py:29
+msgid "Incorrect Page Size"
+msgstr ""
+
+#: ../troubleshoot/Locale.py:30
+msgid ""
+"The page size for the print job was not the printer's default page size.  If "
+"this is not intentional it may cause alignment problems."
+msgstr ""
+
+#: ../troubleshoot/Locale.py:43
+#, fuzzy
+msgid "Print job page size:"
+msgstr "Halaman ujian _CUPS"
+
+#: ../troubleshoot/Locale.py:48
+#, fuzzy
+msgid "Printer page size:"
+msgstr "keadaan tidak diketahui"
+
+# ui/galeon.glade.h:247
+#: ../troubleshoot/LocalOrRemote.py:26
+#, fuzzy
+msgid "Printer Location"
+msgstr "Opsyen RAID"
+
+#: ../troubleshoot/LocalOrRemote.py:27
+msgid "Is the printer connected to this computer or available on the network?"
+msgstr ""
+
+#: ../troubleshoot/LocalOrRemote.py:29
+#, fuzzy
+msgid "Locally connected printer"
+msgstr "Anda tidak boleh padam pencetak terimport."
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:28
+msgid "Queue Not Shared"
+msgstr ""
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:29
+msgid "The CUPS printer on the server is not shared."
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:29
+#, fuzzy
+msgid "Status Messages"
+msgstr "Mesej"
+
+#: ../troubleshoot/PrinterStateReasons.py:30
+msgid "There are status messages associated with this queue."
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:58
+#, fuzzy, python-format
+msgid "The printer's state message is: '%s'."
+msgstr "keadaan tidak diketahui"
+
+#: ../troubleshoot/PrinterStateReasons.py:83
+msgid "Errors are listed below:"
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:88
+msgid "Warnings are listed below:"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:62
+#, fuzzy
+msgid "Test Page"
+msgstr "Halaman ujian _CUPS"
+
+#: ../troubleshoot/PrintTestPage.py:63
+msgid ""
+"Now print a test page.  If you are having problems printing a specific "
+"document, print that document now and mark the print job below."
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:75
+msgid "Cancel All Jobs"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:81
+#, fuzzy
+msgid "Test"
+msgstr "Ulangtetap"
+
+#: ../troubleshoot/PrintTestPage.py:111
+msgid "Did the marked print jobs print correctly?"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:143
+#, python-format
+msgid "Remember to load paper of type '%s' into the printer first."
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:416
+msgid "Error submitting test page"
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:56
+#: ../troubleshoot/QueueRejectingJobs.py:66
+#, fuzzy, python-format
+msgid "The reason given is: '%s'."
+msgstr "keadaan tidak diketahui"
+
+#: ../troubleshoot/QueueNotEnabled.py:58
+msgid "This may be due to the printer being disconnected or switched off."
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:62
+msgid "Queue Not Enabled"
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:63
+#, python-format
+msgid "The queue '%s' is not enabled."
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:71
+msgid ""
+"To enable it, select the 'Enabled' checkbox in the 'Policies' tab for the "
+"printer in the printer administration tool."
+msgstr ""
+
+#: ../troubleshoot/QueueRejectingJobs.py:31
+msgid "Queue Rejecting Jobs"
+msgstr ""
+
+#: ../troubleshoot/QueueRejectingJobs.py:63
+#, python-format
+msgid "The queue '%s' is rejecting jobs."
+msgstr ""
+
+#: ../troubleshoot/QueueRejectingJobs.py:70
+msgid ""
+"To make the queue accept jobs, select the 'Accepting Jobs' checkbox in the "
+"'Policies' tab for the printer in the printer administration tool."
+msgstr ""
+
+#: ../troubleshoot/RemoteAddress.py:26
+#, fuzzy
+msgid "Remote Address"
+msgstr "Tetapkan pencetak"
+
+#: ../troubleshoot/RemoteAddress.py:27
+msgid ""
+"Please enter as many details as you can about the network address of this "
+"printer."
+msgstr ""
+
+#: ../troubleshoot/RemoteAddress.py:35
+#, fuzzy
+msgid "Server name:"
+msgstr "Nama pengguna:"
+
+#: ../troubleshoot/RemoteAddress.py:42
+msgid "Server IP address:"
+msgstr ""
+
+#: ../troubleshoot/SchedulerNotRunning.py:28
+msgid "CUPS Service Stopped"
+msgstr ""
+
+#: ../troubleshoot/SchedulerNotRunning.py:29
+msgid ""
+"The CUPS print spooler does not appear to be running.  To correct this, "
+"choose System->Administration->Services from the main menu and look for the "
+"'cups' service."
+msgstr ""
+
+#: ../troubleshoot/ServerFirewalled.py:26
+msgid "Check Server Firewall"
+msgstr ""
+
+#: ../troubleshoot/ServerFirewalled.py:27
+#, fuzzy
+msgid "It is not possible to connect to the server."
+msgstr "Terdapat ralat ketika cuba mencetak halaman ujian."
+
+#: ../troubleshoot/ServerFirewalled.py:42
+#, python-format
+msgid ""
+"Please check to see if a firewall or router configuration is blocking TCP "
+"port %d on server '%s'."
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:26
+msgid "Sorry!"
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:27
+msgid ""
+"I have not been able to work out what the problem is, but I have collected "
+"some useful information to put in a bug report."
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:32
+msgid "Diagnostic Output (Advanced)"
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:43
+msgid "Trouble-shooting Printing"
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:45
+msgid ""
+"In the next few screens I will ask you some questions about your problem "
+"with printing. Based on your answers I will try to suggest a solution."
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:49
+msgid "Click 'Forward' to begin."
+msgstr ""
+
+#: ../applet.py:94
+#, fuzzy
+msgid "Configuring new printer"
+msgstr "Tetapkan pencetak"
+
+#. name is a URI, no queue was generated, because no suitable
+#. driver was found
+#: ../applet.py:116 ../applet.py:174
+#, fuzzy
+msgid "Missing printer driver"
+msgstr "Cekera jurupacu"
+
+#: ../applet.py:123
+#, fuzzy, python-format
+msgid "No printer driver for %s."
+msgstr "Cekera jurupacu"
+
+#: ../applet.py:125
+#, fuzzy
+msgid "No driver for this printer."
+msgstr "Isi nama kumpulan baru:"
+
+#: ../applet.py:172
+#, fuzzy
+msgid "Printer added"
+msgstr "Model Keselamatan:"
+
+#: ../applet.py:178
+#, fuzzy
+msgid "Install printer driver"
+msgstr "Cekera jurupacu"
+
+#: ../applet.py:179
+#, python-format
+msgid "`%s' requires driver installation: %s."
+msgstr ""
+
+#: ../applet.py:201
+#, python-format
+msgid "`%s' is ready for printing."
+msgstr ""
+
+#: ../applet.py:205 ../applet.py:217
+#, fuzzy
+msgid "Print test page"
+msgstr "Halaman ujian _CUPS"
+
+#: ../applet.py:208
+#, fuzzy
+msgid "Configure"
+msgstr "Tetapkan pencetak"
+
+#: ../applet.py:212
+#, python-format
+msgid "`%s' has been added, using the `%s' driver."
+msgstr ""
+
+#: ../applet.py:220
+#, fuzzy
+msgid "Find driver"
+msgstr "Cekera jurupacu"
+
+#: ../print-applet.desktop.in.h:1
+#, fuzzy
+msgid "Print Queue Applet"
+msgstr "Applet giliran cetakan"
+
+#: ../print-applet.desktop.in.h:2
+msgid "System tray icon for managing print jobs"
+msgstr ""
+
+#: ../manage-print-jobs.desktop.in.h:1
+msgid "Cancel, pause, resume or reprint jobs"
+msgstr ""
+
+#: ../manage-print-jobs.desktop.in.h:2
+#, fuzzy
+msgid "Manage Print Jobs"
+msgstr "Urus tugas cetakan"
+
+#: ../my-default-printer.desktop.in.h:2
+#, fuzzy
+msgid "Select default printer"
+msgstr "dihantar kepada pencetak default"
+
+#, fuzzy
+#~ msgid "Document printed"
+#~ msgstr "Dokumen"
+
+#, fuzzy
+#~ msgid "It is not possible to obtain a list of queues from '%s'."
+#~ msgstr "Terdapat ralat ketika cuba mencetak halaman ujian."
+
+#, fuzzy
+#~ msgid "Job %d completed"
+#~ msgstr "Selesai"
+
+#, fuzzy
+#~ msgid "<b>HP Printer (HPLIP) via network</b>"
+#~ msgstr "Nama Pencetak"
+
+#, fuzzy
+#~ msgid "Not Found"
+#~ msgstr "%s tidak dijumpai"
+
+#, fuzzy
+#~ msgid "Authentication Required"
+#~ msgstr "Pengesahan"
+
+#, fuzzy
+#~ msgid "Job requires authentication to proceed."
+#~ msgstr "Pengesahan"
+
+#, fuzzy
+#~ msgid "Authenticate"
+#~ msgstr "Pengesahan"
+
+# libgnomeui/gnome-messagebox.c:120 libgnomeui/gnome-messagebox.c:253
+#, fuzzy
+#~ msgid "Adding"
+#~ msgstr "Tertangguh"
+
+#, fuzzy
+#~ msgid "Adding printer"
+#~ msgstr "Tetapkan pencetak"
+
+#~ msgid "Show _printer status"
+#~ msgstr "Papar status _pencetak"
+
+#~ msgid "Printer status"
+#~ msgstr "Status pencetak"
+
+#, fuzzy
+#~ msgid "<b>Recommended Driver</b>"
+#~ msgstr "Pencetak Default"
+
+#, fuzzy
+#~ msgid ""
+#~ "Connecting to server:\n"
+#~ "%s"
+#~ msgstr "Menyambung ke Internet"
+
+#, fuzzy
+#~ msgid ""
+#~ "Connecting to Server:\n"
+#~ "%s\n"
+#~ msgstr "Menyambung ke Internet"
+
+#, fuzzy
+#~ msgid "<b>Download Printer Driver</b>"
+#~ msgstr "Perihal Peranti Kayuria"
+
+#, fuzzy
+#~ msgid "<b>Installed Options</b>"
+#~ msgstr "Opsyen RAID"
+
+#, fuzzy
+#~ msgid "<b>Select Connection</b>"
+#~ msgstr "Sila pilih jenis sambungan:"
+
+#, fuzzy
+#~ msgid "Set As Default"
+#~ msgstr "default"
+
+#, fuzzy
+#~ msgid "_Enabled"
+#~ msgstr "Hidupkan"
+
+#~ msgid "_Do not apply"
+#~ msgstr "_Jangan terapkan"
+
+#, fuzzy
+#~ msgid "Remote class"
+#~ msgstr "Pentadbiran jauh"
+
+#, fuzzy
+#~ msgid "Remote printer"
+#~ msgstr "Tetapkan pencetak"
+
+#, fuzzy
+#~ msgid "Local class"
+#~ msgstr "CDROM lokal"
+
+#, fuzzy
+#~ msgid "Local printer"
+#~ msgstr "Tetapkan pencetak"
+
+#, fuzzy
+#~ msgid "New Clas_s"
+#~ msgstr "Shell Baru"
+
+#, fuzzy
+#~ msgid "New _Printer"
+#~ msgstr "Tetapan pencetak"
+
+#, fuzzy
+#~ msgid "_Disable"
+#~ msgstr "_Fail"
+
+#~ msgid "_Edit"
+#~ msgstr "_Sunting"
+
+# ui/galeon.glade.h:247
+#, fuzzy
+#~ msgid "_Server Settings..."
+#~ msgstr "Tetapan Pelayan"
+
+#, fuzzy
+#~ msgid "No default printer set."
+#~ msgstr "Tetapkan pilihan direktori default"
+
+#, fuzzy
+#~ msgid "Cancel Tests"
+#~ msgstr "Batal fungsi semasa"
+
+#, fuzzy
+#~ msgid "Default Printer:"
+#~ msgstr "dihantar kepada pencetak default"
+
+#, fuzzy
+#~ msgid "Make Default"
+#~ msgstr "default"
+
+#~ msgid "User name:"
+#~ msgstr "Nama pengguna:"
+
+#, fuzzy
+#~ msgid "Search terms:"
+#~ msgstr "Isi nama kumpulan baru:"
+
+#, fuzzy
+#~ msgid "Copy this printer queue"
+#~ msgstr "Tetapan pencetak"
+
+#, fuzzy
+#~ msgid "Password required"
+#~ msgstr "Kebenaran Diperlukan"
+
+#, fuzzy
+#~ msgid "Queue Not Accepting Jobs"
+#~ msgstr "Laksana tugas terjadual"
+
+#, fuzzy
+#~ msgid "Printer's state reasons:"
+#~ msgstr "keadaan tidak diketahui"
+
+#~ msgid "Hostname"
+#~ msgstr "Namahos"
+
+#, fuzzy
+#~ msgid "Printername"
+#~ msgstr "Model Keselamatan:"
+
+#, fuzzy
+#~ msgid "Default printer is %s"
+#~ msgstr "Ini adalah huraian bagi pencetak."
+
+#~ msgid " PPD "
+#~ msgstr " PPD "
+
+#, fuzzy
+#~ msgid "<b>Comment about the Printer</b>"
+#~ msgstr "Edit Pencetak Lokal"
+
+#, fuzzy
+#~ msgid "<b>Information about the PPD</b>"
+#~ msgstr "Informasi umum mengenai instalasi rpm..."
+
+#~ msgid "About"
+#~ msgstr "Perihal"
+
+#, fuzzy
+#~ msgid "About System-Config-Printer"
+#~ msgstr "Perihal system-config-nfs"
+
+#~ msgid "Apply"
+#~ msgstr "Terap"
+
+#~ msgid "Authors"
+#~ msgstr "Penulis"
+
+#, fuzzy
+#~ msgid "Class Members"
+#~ msgstr "Ahli _RAID:"
+
+#~ msgid "Comments: "
+#~ msgstr "Komen:"
+
+#~ msgid "Device"
+#~ msgstr "Peranti"
+
+#~ msgid "Driver"
+#~ msgstr "Jurupacu"
+
+#, fuzzy
+#~ msgid "Make Default Printer"
+#~ msgstr "dihantar kepada pencetak default"
+
+#~ msgid "PPD"
+#~ msgstr "PPD"
+
+#, fuzzy
+#~ msgid "System-Config-Printer %s"
+#~ msgstr "Sistem Tetapan Gnome."

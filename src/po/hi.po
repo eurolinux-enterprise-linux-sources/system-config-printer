@@ -1,0 +1,3182 @@
+# translation of system-config-printer.1-1-x.po to Hindi
+# Rajesh Ranjan <rranjan@redhat.com>, 2004, 2005, 2006, 2009.
+# hi <rranjan@redhat.com>, 2007.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-printer.1-1-x\n"
+"Report-Msgid-Bugs-To: https://bugzilla.redhat.com/bugzilla\n"
+"POT-Creation-Date: 2009-12-22 14:44+0000\n"
+"PO-Revision-Date: 2009-11-12 16:27+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Hindi <hindi.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../AdvancedServerSettings.py:42
+msgid "Advanced Server Settings"
+msgstr "उन्नत सर्वर सेटिंग"
+
+#: ../AdvancedServerSettings.py:59
+msgid "Job History"
+msgstr "कार्य इतिहास"
+
+#: ../AdvancedServerSettings.py:70
+msgid "Do not preserve job history"
+msgstr "कार्य इतिहास संरक्षित मत रखें"
+
+#: ../AdvancedServerSettings.py:72
+msgid "Preserve job history but not files"
+msgstr "कार्य इतिहास संरक्षित रखें लेकिन फ़ाइल नहीं"
+
+#: ../AdvancedServerSettings.py:75
+msgid "Preserve job files (allow reprinting)"
+msgstr "कार्य फ़ाइल संरक्षित रखें (फिर छपाई की स्वीकृति दें)"
+
+#: ../AdvancedServerSettings.py:83
+msgid "Browse Servers"
+msgstr "सर्वर ब्राउज़ करें"
+
+#: ../AdvancedServerSettings.py:94
+msgid ""
+"Usually print servers broadcast their queues.  Specify print servers below "
+"to periodically ask for queues instead."
+msgstr ""
+"प्रायः छपाई सर्वर अपनी कतार प्रसारित करता है.  छपाई सर्वर को नीचे निर्दिष्ट करें आवधिक "
+"रूप से कतार के लिए बदले में पूछने के लिए."
+
+#: ../AdvancedServerSettings.py:215
+msgid "Enter IP address"
+msgstr "IP पता दाखिल करें"
+
+#: ../asyncipp.py:420 ../authconn.py:402 ../authconn.py:404
+#: ../errordialogs.py:65 ../pysmb.py:75 ../pysmb.py:77
+msgid "Not authorized"
+msgstr "अधिकृत नहीं"
+
+#: ../asyncipp.py:421 ../authconn.py:405 ../pysmb.py:78
+msgid "The password may be incorrect."
+msgstr "शब्दकूट गलत हो सकता है."
+
+#: ../asyncipp.py:432 ../authconn.py:426
+#, python-format
+msgid "Authentication (%s)"
+msgstr "सत्यापन (%s)"
+
+#: ../asyncipp.py:497 ../authconn.py:259 ../errordialogs.py:56
+#: ../errordialogs.py:70
+msgid "CUPS server error"
+msgstr "CUPS सर्वर त्रुटि"
+
+#: ../asyncipp.py:499 ../authconn.py:257
+#, python-format
+msgid "CUPS server error (%s)"
+msgstr "CUPS सर्वर त्रुटि (%s)"
+
+#: ../asyncipp.py:516 ../authconn.py:268 ../errordialogs.py:57
+#: ../troubleshoot/PrintTestPage.py:417
+#, python-format
+msgid "There was an error during the CUPS operation: '%s'."
+msgstr "CUPS संक्रिया के दौरान एक गलती हुई: '%s'."
+
+#: ../asyncipp.py:519 ../authconn.py:271
+msgid "Retry"
+msgstr "फिर कोशिश करें"
+
+#: ../asyncipp.py:530 ../authconn.py:218 ../authconn.py:240
+msgid "Operation canceled"
+msgstr "संक्रिया रद्द"
+
+#: ../authconn.py:37 ../glade/NewPrinterWindow.glade.h:106
+msgid "Username:"
+msgstr "उपयोक्ता नाम:"
+
+#: ../authconn.py:38 ../glade/NewPrinterWindow.glade.h:75
+msgid "Password:"
+msgstr "शब्दकूट:"
+
+#: ../authconn.py:39
+msgid "Domain:"
+msgstr "डोमेन:"
+
+#: ../authconn.py:48 ../authconn.py:428
+msgid "Authentication"
+msgstr "सत्यापन"
+
+#: ../authconn.py:87
+msgid "Remember password"
+msgstr "कूटशब्द याद रखें"
+
+#: ../errordialogs.py:66
+msgid ""
+"The password may be incorrect, or the server may be configured to deny "
+"remote administration."
+msgstr ""
+"शब्दकूट गलत हो सकता है, या सर्वर को दूरस्थ प्रशासन मना करने के लिये विन्यस्त हो सकता है."
+
+#: ../errordialogs.py:72
+msgid "Bad request"
+msgstr "गलत आग्रह"
+
+#: ../errordialogs.py:74
+msgid "Not found"
+msgstr "नहीं मिला"
+
+#: ../errordialogs.py:76
+msgid "Request timeout"
+msgstr "आग्रह समय समाप्त"
+
+#: ../errordialogs.py:78
+msgid "Upgrade required"
+msgstr "उन्नत जरूरी"
+
+#: ../errordialogs.py:80
+msgid "Server error"
+msgstr "सर्वर त्रुटि"
+
+#: ../errordialogs.py:82 ../system-config-printer.py:1216
+msgid "Not connected"
+msgstr "संबंधित नहीं"
+
+#: ../errordialogs.py:84
+#, python-format
+msgid "status %s"
+msgstr "स्थिति %s"
+
+#: ../errordialogs.py:86
+#, python-format
+msgid "There was an HTTP error: %s."
+msgstr "एक HTTP त्रुटि थी: %s."
+
+#: ../GroupsPane.py:92
+msgid "_New Group"
+msgstr "नया समूह (_N)"
+
+#: ../GroupsPane.py:95
+msgid "_New Group from Selection"
+msgstr "चयन से नया समूह (_N)"
+
+#: ../GroupsPane.py:98 ../system-config-printer.py:407
+msgid "_Rename"
+msgstr "नाम बदलें (_R)"
+
+#: ../GroupsPane.py:170
+msgid "The item could not be renamed."
+msgstr "इस वस्तु का नाम नहीं बदला जा सकता है."
+
+#: ../GroupsPane.py:171
+#, python-format
+msgid "The name \"%s\" is already in use. Please use a different name."
+msgstr "यह नाम \"%s\" पहले से प्रयोग में है. कृपया कोई भिन्न नाम चुनें."
+
+#: ../GroupsPane.py:290
+#, python-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "क्या आप \"%s\" को स्थायी रूप से मिटाने के लिए निश्चित हैं?"
+
+#: ../GroupsPane.py:296
+msgid ""
+"This will not delete any printer queues from your computer. To delete queues "
+"completely, you must delete them from the 'All Printers' group."
+msgstr ""
+"यह किसी मुद्रक कतार को आपके कंप्यूटर से नहीं मिटाएगा. कतार को पूरी तरह से मिटाने के लिए, "
+"आप जरूर 'सभी मुद्रक' समूह से उन्हें मिटाएँ."
+
+#: ../GroupsPane.py:318
+msgid "New Group"
+msgstr "नया समूह"
+
+#: ../GroupsPaneModel.py:47
+msgid "All Printers"
+msgstr "सभी मुद्रक"
+
+#: ../GroupsPaneModel.py:60
+msgid "Favorites"
+msgstr "प्रिय"
+
+#: ../jobviewer.py:167
+msgid "_Hold"
+msgstr "रोकें (_H)"
+
+#: ../jobviewer.py:169
+msgid "_Release"
+msgstr "जारी करें (_R)"
+
+#: ../jobviewer.py:171
+msgid "Re_print"
+msgstr "फिर छापें (_p)"
+
+#: ../jobviewer.py:173
+msgid "_Authenticate"
+msgstr "सत्यापित करें (_A)"
+
+#: ../jobviewer.py:211 ../troubleshoot/PrintTestPage.py:82
+msgid "Job"
+msgstr "कार्य"
+
+#: ../jobviewer.py:212
+msgid "User"
+msgstr "उपयोक्ता"
+
+#: ../jobviewer.py:213 ../troubleshoot/PrintTestPage.py:86
+msgid "Document"
+msgstr "दस्तावेज"
+
+#: ../jobviewer.py:214 ../my-default-printer.py:153
+#: ../system-config-printer.py:380 ../system-config-printer.py:1364
+#: ../troubleshoot/PrintTestPage.py:84
+msgid "Printer"
+msgstr "मुद्रक"
+
+#: ../jobviewer.py:215
+msgid "Size"
+msgstr "आकार"
+
+#: ../jobviewer.py:231
+msgid "Time submitted"
+msgstr "समय सुपुर्द"
+
+#: ../jobviewer.py:235 ../troubleshoot/PrintTestPage.py:87
+msgid "Status"
+msgstr "प्रस्थिति"
+
+#: ../jobviewer.py:267
+#, python-format
+msgid "my jobs on %s"
+msgstr "%s पर मेरा कार्य"
+
+#: ../jobviewer.py:269
+msgid "my jobs"
+msgstr "मेरा कार्य"
+
+#: ../jobviewer.py:274
+msgid "all jobs"
+msgstr "सभी कार्य"
+
+#: ../jobviewer.py:275
+#, python-format
+msgid "Document Print Status (%s)"
+msgstr "दस्तावेज़ छपाई स्थिति (%s)"
+
+#: ../jobviewer.py:425 ../jobviewer.py:701 ../jobviewer.py:1510
+#: ../jobviewer.py:1515 ../jobviewer.py:1524 ../jobviewer.py:1603
+#: ../system-config-printer.py:2630 ../glade/NewPrinterWindow.glade.h:104
+#: ../troubleshoot/ChooseNetworkPrinter.py:102
+#: ../troubleshoot/ChooseNetworkPrinter.py:103
+#: ../troubleshoot/ChooseNetworkPrinter.py:106
+#: ../troubleshoot/ChooseNetworkPrinter.py:107
+#: ../troubleshoot/ChoosePrinter.py:87 ../troubleshoot/ChoosePrinter.py:88
+#: ../troubleshoot/ChoosePrinter.py:91 ../troubleshoot/ChoosePrinter.py:92
+#: ../troubleshoot/DeviceListed.py:92 ../troubleshoot/DeviceListed.py:93
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: ../jobviewer.py:431
+msgid "a minute ago"
+msgstr "एक मिनट पहले"
+
+#: ../jobviewer.py:434
+#, python-format
+msgid "%d minutes ago"
+msgstr "%d मिनट पहले"
+
+#: ../jobviewer.py:438
+msgid "an hour ago"
+msgstr "एक घंटा पहले"
+
+#: ../jobviewer.py:440
+#, python-format
+msgid "%d hours ago"
+msgstr "%d घंटा पहले"
+
+#: ../jobviewer.py:444
+msgid "yesterday"
+msgstr "कल"
+
+#: ../jobviewer.py:446
+#, python-format
+msgid "%d days ago"
+msgstr "%d घंटे पहले"
+
+#: ../jobviewer.py:450
+msgid "last week"
+msgstr "अंतिम सप्ताह"
+
+#: ../jobviewer.py:452
+#, python-format
+msgid "%d weeks ago"
+msgstr "%d सप्ताह पहले"
+
+#: ../jobviewer.py:652 ../jobviewer.py:731
+msgid "authenticating job"
+msgstr "कार्य सत्यापित कर रहा है"
+
+#: ../jobviewer.py:699
+#, python-format
+msgid "Authentication required for printing document `%s' (job %d)"
+msgstr "दस्तावेज़ `%s' (कार्य %d) छपाई के लिए सत्यापन जरूरी"
+
+#: ../jobviewer.py:873
+msgid "Cancel Job"
+msgstr "कार्य रद्द करें"
+
+#: ../jobviewer.py:887
+msgid "Do you really want to cancel this job?"
+msgstr "क्या आप वाकई कार्य रद्द करना चाहते हैं?"
+
+#: ../jobviewer.py:915
+msgid "canceling job"
+msgstr "कार्य रद्द कर रहा है"
+
+#: ../jobviewer.py:939
+msgid "holding job"
+msgstr "कार्य रोक रहा है"
+
+#: ../jobviewer.py:963
+msgid "releasing job"
+msgstr "कार्य जारी कर रहा है"
+
+#: ../jobviewer.py:1083
+msgid "No documents queued"
+msgstr "कोई दस्तावेज कतार बद्ध नहीं"
+
+#: ../jobviewer.py:1085
+msgid "1 document queued"
+msgstr "1 दस्तावेज कतारबद्ध"
+
+#: ../jobviewer.py:1087
+#, python-format
+msgid "%d documents queued"
+msgstr "%d दस्तावेज कतारबद्ध"
+
+#: ../jobviewer.py:1310
+#, python-format
+msgid "There was a problem sending document `%s' (job %d) to the printer."
+msgstr "दस्तावेज़`%s' (job %d) को मुद्रक में भेजने में समस्या थी."
+
+#: ../jobviewer.py:1313
+#, python-format
+msgid "There was a problem processing document `%s' (job %d)."
+msgstr "दस्तावेज़ `%s' (job %d) की प्रक्रिया में समस्या थी."
+
+#. Give up and use the provided message untranslated.
+#: ../jobviewer.py:1320
+#, python-format
+msgid "There was a problem printing document `%s' (job %d): `%s'."
+msgstr "दस्तावेज़ `%s' (job %d) की छपाई में समस्या थी: `%s'."
+
+#: ../jobviewer.py:1327 ../jobviewer.py:1343
+msgid "Print Error"
+msgstr "छपाई त्रुटि"
+
+#: ../jobviewer.py:1328
+msgid "_Diagnose"
+msgstr "निदान करें (_D)"
+
+#: ../jobviewer.py:1349
+#, python-format
+msgid "The printer called `%s' has been disabled."
+msgstr "`%s' नामक मुद्रक निष्क्रिय किया गया है."
+
+#: ../jobviewer.py:1538
+msgid "Held for authentication"
+msgstr "सत्यापन के लिए रोका हुआ"
+
+#: ../jobviewer.py:1540 ../troubleshoot/PrintTestPage.py:42
+msgid "Held"
+msgstr "रोकें"
+
+#: ../jobviewer.py:1576
+#, python-format
+msgid "Held until %s"
+msgstr "%s तक रोक कर रखें"
+
+#: ../jobviewer.py:1580
+msgid "Held until day-time"
+msgstr "दिन तक रोक कर रखें"
+
+#: ../jobviewer.py:1582
+msgid "Held until evening"
+msgstr "सायंकालीन तक रोक कर रखें"
+
+#: ../jobviewer.py:1584
+msgid "Held until night-time"
+msgstr "रात्रि कालीन तक रोक कर रखें"
+
+#: ../jobviewer.py:1586
+msgid "Held until second shift"
+msgstr "दूसरे शिफ्ट तक रोक कर रखें"
+
+#: ../jobviewer.py:1588
+msgid "Held until third shift"
+msgstr "तीसरे शिफ्ट तक रोक कर रखें"
+
+#: ../jobviewer.py:1590
+msgid "Held until weekend"
+msgstr "सप्ताहांत तक रोक कर रखें"
+
+#: ../jobviewer.py:1593 ../troubleshoot/PrintTestPage.py:41
+msgid "Pending"
+msgstr "स्थगित"
+
+#: ../jobviewer.py:1594 ../system-config-printer.py:198
+#: ../troubleshoot/PrintTestPage.py:43
+msgid "Processing"
+msgstr "प्रक्रिया कर रहा है"
+
+#: ../jobviewer.py:1595 ../system-config-printer.py:200
+#: ../troubleshoot/PrintTestPage.py:44
+msgid "Stopped"
+msgstr "रोकें "
+
+#: ../jobviewer.py:1596 ../troubleshoot/PrintTestPage.py:45
+msgid "Canceled"
+msgstr "रद्द"
+
+#: ../jobviewer.py:1597 ../troubleshoot/PrintTestPage.py:46
+msgid "Aborted"
+msgstr "छोड़ा"
+
+#: ../jobviewer.py:1598 ../troubleshoot/PrintTestPage.py:47
+msgid "Completed"
+msgstr "पूर्ण"
+
+#: ../my-default-printer.py:137 ../my-default-printer.desktop.in.h:1
+msgid "Default Printer"
+msgstr "तयशुदा मुद्रक"
+
+#: ../my-default-printer.py:141 ../my-default-printer.py:177
+msgid "_Use System Default"
+msgstr "तंत्र तयशुदा का प्रयोग करें (_U)"
+
+#: ../my-default-printer.py:142 ../my-default-printer.py:179
+msgid "_Set Default"
+msgstr "तयशुदा सेट करें (_S)"
+
+#: ../my-default-printer.py:158 ../system-config-printer.py:437
+#: ../troubleshoot/ChooseNetworkPrinter.py:37
+#: ../troubleshoot/ChoosePrinter.py:38
+msgid "Location"
+msgstr "स्थान"
+
+#: ../optionwidgets.py:128
+msgid "Conflicts with:"
+msgstr "इसके साथ विरोध:"
+
+#: ../ppdippstr.py:45
+msgid "Abort job"
+msgstr "कार्य छोड़ा"
+
+#: ../ppdippstr.py:46
+msgid "Retry current job"
+msgstr "मौजूदा कार्य के लिए फिर कोशिश करें"
+
+#: ../ppdippstr.py:47
+msgid "Retry job"
+msgstr "कार्य की फिर कोशिश करें"
+
+#: ../ppdippstr.py:48
+msgid "Stop printer"
+msgstr "मुद्रक रोकें"
+
+#: ../ppdippstr.py:54
+msgid "Default behavior"
+msgstr "तयशुदा व्यवहार"
+
+#: ../ppdippstr.py:55
+msgid "Authenticated"
+msgstr "सत्यापित"
+
+#: ../ppdippstr.py:61 ../system-config-printer.py:6498
+msgid "None"
+msgstr "कुछ नहीं"
+
+#: ../ppdippstr.py:62
+msgid "Classified"
+msgstr "वर्गीकृत"
+
+#: ../ppdippstr.py:63
+msgid "Confidential"
+msgstr "गोपनीय"
+
+#: ../ppdippstr.py:64
+msgid "Secret"
+msgstr "गुप्त"
+
+#: ../ppdippstr.py:65
+msgid "Standard"
+msgstr "मानक"
+
+#: ../ppdippstr.py:66
+msgid "Top secret"
+msgstr "अत्यधिक गुप्त"
+
+#: ../ppdippstr.py:67
+msgid "Unclassified"
+msgstr "अवर्गीकृत"
+
+#: ../ppdippstr.py:73
+msgid "No hold"
+msgstr "कोई रोक नहीं"
+
+#: ../ppdippstr.py:74
+msgid "Indefinite"
+msgstr "अनिश्चित"
+
+#: ../ppdippstr.py:75
+msgid "Daytime"
+msgstr "दिवस समय"
+
+#: ../ppdippstr.py:76
+msgid "Evening"
+msgstr "शाम"
+
+#: ../ppdippstr.py:77
+msgid "Night"
+msgstr "रात"
+
+#: ../ppdippstr.py:78
+msgid "Second shift"
+msgstr "दूसरा शिफ्ट"
+
+#: ../ppdippstr.py:79
+msgid "Third shift"
+msgstr "तीसरा शिफ्ट"
+
+#: ../ppdippstr.py:80
+msgid "Weekend"
+msgstr "सप्ताहांत"
+
+#: ../ppdippstr.py:90
+msgid "General"
+msgstr "सामान्य"
+
+#. HPIJS options
+#: ../ppdippstr.py:93
+msgid "Printout mode"
+msgstr "प्रिंटआउट विधि"
+
+#: ../ppdippstr.py:95
+msgid "Draft (auto-detect-paper type)"
+msgstr "ड्राफ़्ट (auto-detect-paper type)"
+
+#: ../ppdippstr.py:97
+msgid "Draft grayscale (auto-detect-paper type)"
+msgstr "ड्राफ़्ट ग्रेस्केल (auto-detect-paper type)"
+
+#: ../ppdippstr.py:99
+msgid "Normal (auto-detect-paper type)"
+msgstr "सामान्य (auto-detect-paper type)"
+
+#: ../ppdippstr.py:101
+msgid "Normal grayscale (auto-detect-paper type)"
+msgstr "सामान्य ग्रेस्केल (auto-detect-paper type)"
+
+#: ../ppdippstr.py:103
+msgid "High quality (auto-detect-paper type)"
+msgstr "उच्च गुणवत्ता (auto-detect-paper type)"
+
+#: ../ppdippstr.py:105
+msgid "High quality grayscale (auto-detect-paper type)"
+msgstr "उच्च गुणवत्ता ग्रेस्केल (auto-detect-paper type)"
+
+#: ../ppdippstr.py:106
+msgid "Photo (on photo paper)"
+msgstr "फोटो (फोटो कागज पर)"
+
+#: ../ppdippstr.py:108
+msgid "Best quality (color on photo paper)"
+msgstr "सर्वोत्तम गुणवत्ता (फोटो कागज पर रंग)"
+
+#: ../ppdippstr.py:110
+msgid "Normal quality (color on photo paper)"
+msgstr "सामान्य गुणवत्ता (फोटो कागज पर रंग)"
+
+#: ../ppdippstr.py:112
+msgid "Media source"
+msgstr "मीडिया स्रोत"
+
+#: ../ppdippstr.py:113
+msgid "Printer default"
+msgstr "मुद्रक तयशुदा"
+
+#: ../ppdippstr.py:114
+msgid "Photo tray"
+msgstr "फोटो तश्तरी"
+
+#: ../ppdippstr.py:115
+msgid "Upper tray"
+msgstr "ऊपरी तश्तरी"
+
+#: ../ppdippstr.py:116
+msgid "Lower tray"
+msgstr "निचली तश्तरी"
+
+#: ../ppdippstr.py:117
+msgid "CD or DVD tray"
+msgstr "CD या DVD तश्तरी"
+
+#: ../ppdippstr.py:118
+msgid "Envelope feeder"
+msgstr "लिफाफा फीडर"
+
+#: ../ppdippstr.py:119
+msgid "Large capacity tray"
+msgstr "अधिक क्षमता की तश्तरी"
+
+#: ../ppdippstr.py:120
+msgid "Manual feeder"
+msgstr "मैनुअल फीडर"
+
+#: ../ppdippstr.py:121
+msgid "Multi-purpose tray"
+msgstr "बहुद्देशीय तश्तरी"
+
+#: ../ppdippstr.py:123
+msgid "Page size"
+msgstr "कागज का आकार"
+
+#: ../ppdippstr.py:124
+msgid "Custom"
+msgstr "मनपसंद"
+
+#: ../ppdippstr.py:125
+msgid "Photo or 4x6 inch index card"
+msgstr "फोटो या 4x6 इंच इंडेक्स कार्ड"
+
+#: ../ppdippstr.py:126
+msgid "Photo or 5x7 inch index card"
+msgstr "फोटो या 5x7 इंच इंडेक्स कार्ड"
+
+#: ../ppdippstr.py:127
+msgid "Photo with tear-off tab"
+msgstr "टीयर ऑफ टैब सहित फोटो"
+
+#: ../ppdippstr.py:128
+msgid "3x5 inch index card"
+msgstr "3x5 इंच इंडेक्स कार्ड"
+
+#: ../ppdippstr.py:129
+msgid "5x8 inch index card"
+msgstr "5x8 इंच इंडेक्स कार्ड"
+
+#: ../ppdippstr.py:130
+msgid "A6 with tear-off tab"
+msgstr "टीयर ऑफ टैब सहित A6"
+
+#: ../ppdippstr.py:131
+msgid "CD or DVD 80mm"
+msgstr "CD या DVD 80mm"
+
+#: ../ppdippstr.py:132
+msgid "CD or DVD 120mm"
+msgstr "CD या DVD 120mm"
+
+#: ../ppdippstr.py:134
+msgid "Double-sided printing"
+msgstr "दोतरफा छपाई"
+
+#: ../ppdippstr.py:135
+msgid "Long edge (standard)"
+msgstr "लंबा किनारा (मानक)"
+
+#: ../ppdippstr.py:136
+msgid "Short edge (flip)"
+msgstr "छोटा किनारा (पलटें)"
+
+#: ../ppdippstr.py:137
+msgid "Off"
+msgstr "बंद"
+
+#: ../ppdippstr.py:140
+msgid "Resolution, quality, ink type, media type"
+msgstr "विभेदन, गुणवत्ता, इंक पृष्ठ, मीडिया प्रकार"
+
+#: ../ppdippstr.py:141
+msgid "Controlled by 'Printout mode'"
+msgstr "'Printout mode' से नियंत्रित"
+
+#: ../ppdippstr.py:143
+msgid "300 dpi, color, black + color cartridge"
+msgstr "300 dpi, रंग, काला + रंग काट्रिज"
+
+#: ../ppdippstr.py:145
+msgid "300 dpi, draft, color, black + color cartridge"
+msgstr "300 dpi, ड्राफ्ट, रंग, काला + रंग काट्रिज"
+
+#: ../ppdippstr.py:147
+msgid "300 dpi, draft, grayscale, black + color cartridge"
+msgstr "300 dpi, ड्राफ्ट, ग्रेस्केल, काला + रंग काट्रिज"
+
+#: ../ppdippstr.py:149
+msgid "300 dpi, grayscale, black + color cartridge"
+msgstr "300 dpi, ग्रेस्केल, काला + रंग काट्रिज"
+
+#: ../ppdippstr.py:151
+msgid "600 dpi, color, black + color cartridge"
+msgstr "600 dpi, रंग, काला + रंग काट्रिज"
+
+#: ../ppdippstr.py:153
+msgid "600 dpi, grayscale, black + color cartridge"
+msgstr "600 dpi, ग्रेस्केल, काला + रंग काट्रिज"
+
+#: ../ppdippstr.py:155
+msgid "600 dpi, photo, black + color cartridge, photo paper"
+msgstr "600 dpi, photo, काला + रंग काट्रिज, photo paper"
+
+#: ../ppdippstr.py:157
+msgid "600 dpi, color, black + color cartridge, photo paper, normal"
+msgstr "600 dpi, रंग, काला + रंग काट्रिज, photo paper, normal"
+
+#: ../ppdippstr.py:159
+msgid "1200 dpi, photo, black + color cartridge, photo paper"
+msgstr "1200 dpi, फोटो, काला + रंग काट्रिज, फोटो कागज"
+
+#: ../system-config-printer.py:142
+msgid "To do this, select System->Administration->Firewall from the main menu."
+msgstr "इसे करने के लिए, सिस्टम->प्रशासन->फायरवाल मुख्य मेन्यू से चुनें."
+
+#: ../system-config-printer.py:197
+msgid "Idle"
+msgstr "निष्क्रिय"
+
+#: ../system-config-printer.py:199
+msgid "Busy"
+msgstr "व्यस्त"
+
+#: ../system-config-printer.py:386 ../system-config-printer.py:1370
+msgid "Class"
+msgstr "वर्ग"
+
+#: ../system-config-printer.py:413
+msgid "Set As De_fault"
+msgstr "बतौर तयशुदा सेट करें (_f)"
+
+#: ../system-config-printer.py:417
+msgid "_Create class"
+msgstr "वर्ग बनाएँ (_C)"
+
+#: ../system-config-printer.py:419
+msgid "View Print _Queue"
+msgstr "छपाई कतार देखें (_Q)"
+
+#: ../system-config-printer.py:421
+msgid "_Add to Group"
+msgstr "समूह में जोड़ें (_A)"
+
+#: ../system-config-printer.py:423
+msgid "Save Results as _Group"
+msgstr "बतौर समूह परिणाम सहेजें (_G)"
+
+#: ../system-config-printer.py:425
+msgid "Save Filter as _Search Group"
+msgstr "बतौर खोज समूह फिल्टर सहेजें (_S)"
+
+#: ../system-config-printer.py:429
+msgid "E_nabled"
+msgstr "सक्रिय (_n)"
+
+#: ../system-config-printer.py:431
+msgid "_Shared"
+msgstr "साझा (_S)"
+
+#: ../system-config-printer.py:435 ../troubleshoot/ChooseNetworkPrinter.py:35
+#: ../troubleshoot/ChoosePrinter.py:36 ../troubleshoot/DeviceListed.py:36
+msgid "Name"
+msgstr "नाम"
+
+#: ../system-config-printer.py:436
+msgid "Description"
+msgstr "विवरण"
+
+#: ../system-config-printer.py:438
+msgid "Manufacturer / Model"
+msgstr "निर्माता / मॉडल"
+
+#. Printer state reasons list
+#: ../system-config-printer.py:513
+msgid "Message"
+msgstr "संदेश"
+
+#: ../system-config-printer.py:548
+msgid "Problems?"
+msgstr "समस्या?"
+
+#: ../system-config-printer.py:653 ../system-config-printer.py:655
+msgid "Members of this class"
+msgstr "इस वर्ग के सदस्य"
+
+#: ../system-config-printer.py:654 ../system-config-printer.py:656
+msgid "Others"
+msgstr "अन्य"
+
+#: ../system-config-printer.py:657
+msgid "Devices"
+msgstr "युक्ति"
+
+#: ../system-config-printer.py:658
+msgid "Connections"
+msgstr "कनेक्शन"
+
+#: ../system-config-printer.py:659
+msgid "Makes"
+msgstr "मुखौटा"
+
+#: ../system-config-printer.py:660
+msgid "Models"
+msgstr "मॉडल"
+
+#: ../system-config-printer.py:661
+msgid "Drivers"
+msgstr "ड्राइवर"
+
+#: ../system-config-printer.py:662 ../glade/NewPrinterWindow.glade.h:54
+msgid "Downloadable Drivers"
+msgstr "डाउनलोड करने योग्य ड्राइवर"
+
+#: ../system-config-printer.py:663
+msgid "Users"
+msgstr "उपयोक्ता"
+
+#: ../system-config-printer.py:698
+msgid "Automatic rotation"
+msgstr "स्वचालित घुमाव"
+
+#: ../system-config-printer.py:983
+#, python-format
+msgid "Printer Properties - '%s' on %s"
+msgstr "मुद्रक गुण - '%s' %s पर"
+
+#. The Conflict button was pressed.
+#: ../system-config-printer.py:991
+msgid ""
+"There are conflicting options.\n"
+"Changes can only be applied after\n"
+"these conflicts are resolved."
+msgstr ""
+"यहां विरोधी विकल्प हैं.\n"
+"बदलाव इन विरोधों के समाधान\n"
+"के बाद ही लागू हो सकता है."
+
+#: ../system-config-printer.py:1210
+#, python-format
+msgid "Printer configuration - %s"
+msgstr "मुद्रक विन्यास - %s"
+
+#: ../system-config-printer.py:1214
+#, python-format
+msgid "Connected to %s"
+msgstr "%s से संबंधित"
+
+#. Update our copy of the printer's settings.
+#: ../system-config-printer.py:1254 ../system-config-printer.py:2100
+msgid "obtaining queue details"
+msgstr "कतार विवरण पा रहा है"
+
+#: ../system-config-printer.py:1292
+msgid "Remove from Group"
+msgstr "समूह से निकालें"
+
+#: ../system-config-printer.py:1358
+msgid "Network printer (discovered)"
+msgstr "संजाल मुद्रक (अन्वेषित)"
+
+#: ../system-config-printer.py:1361
+msgid "Network class (discovered)"
+msgstr "संजाल वर्ग (अन्वेषित)"
+
+#: ../system-config-printer.py:1367 ../system-config-printer.py:5768
+#: ../system-config-printer.py:5838 ../system-config-printer.py:5840
+msgid "Fax"
+msgstr "फैक्स"
+
+#: ../system-config-printer.py:1373 ../system-config-printer.py:1379
+#: ../troubleshoot/LocalOrRemote.py:30
+msgid "Network printer"
+msgstr "संजाल मुद्रक"
+
+#: ../system-config-printer.py:1376
+msgid "Network print share"
+msgstr "संजाल मुद्रक साझा"
+
+#: ../system-config-printer.py:1561 ../glade/ConnectingDialog.glade.h:2
+#, no-c-format, python-format
+msgid "<i>Opening connection to %s</i>"
+msgstr "<i>%s में कनेक्शन खोल रहा है</i>"
+
+#: ../system-config-printer.py:1944
+msgid "Installable Options"
+msgstr "संस्थापन योग्य विकल्प"
+
+#: ../system-config-printer.py:1945
+#: ../glade/PrinterPropertiesDialog.glade.h:111
+msgid "Printer Options"
+msgstr "मुद्रक विकल्प"
+
+#: ../system-config-printer.py:1982
+#, python-format
+msgid "modifying class %s"
+msgstr "वर्ग %s रूपांतरित कर रहा है"
+
+#: ../system-config-printer.py:1984 ../system-config-printer.py:3138
+#: ../system-config-printer.py:3163 ../system-config-printer.py:6795
+#: ../system-config-printer.py:6807 ../system-config-printer.py:6829
+#, python-format
+msgid "modifying printer %s"
+msgstr "मुद्रक %s रूपांतरित कर रहा है"
+
+#: ../system-config-printer.py:1999
+msgid "This will delete this class!"
+msgstr "यह इस वर्ग को मिटा देगा!"
+
+#: ../system-config-printer.py:2000
+msgid "Proceed anyway?"
+msgstr "किसी तरह बढ़ें?"
+
+#. We can authenticate with the server correctly at this point,
+#. but we have never fetched the server settings to see whether
+#. the server is publishing shared printers.  Fetch the settings
+#. now so that we can update the "not published" label if necessary.
+#: ../system-config-printer.py:2088 ../system-config-printer.py:3334
+msgid "fetching server settings"
+msgstr "सर्वर सेटिंग पा रहा है"
+
+#: ../system-config-printer.py:2158
+msgid "Set Default Printer"
+msgstr "तयशुदा मुद्रक सेट करें"
+
+#: ../system-config-printer.py:2160
+msgid "Do you want to set this as the system-wide default printer?"
+msgstr "क्या आप इसे बतौर सिस्टम व्यापक तयशुदा मुद्रक सेट करना चाहते हैं?"
+
+#: ../system-config-printer.py:2162
+msgid "Set as the _system-wide default printer"
+msgstr "इसे बतौर सिस्टम व्यापक तयशुदा मुद्रक सेट करें (_s)"
+
+#: ../system-config-printer.py:2164
+msgid "_Clear my personal default setting"
+msgstr "मेरा निजी तयशुदा सेटिंग साफ करें (_C)"
+
+#: ../system-config-printer.py:2165
+msgid "Set as my _personal default printer"
+msgstr "इसे मेरे निजी तयशुदा मुद्रक सेट करें (_p)"
+
+#: ../system-config-printer.py:2170
+msgid "setting default printer"
+msgstr "तयशुदा मुद्रक सेट कर रहा है"
+
+#: ../system-config-printer.py:2227
+msgid "printing test page"
+msgstr "जाँच पृष्ठ छाप रहा है"
+
+#: ../system-config-printer.py:2240 ../system-config-printer.py:2275
+msgid "Not possible"
+msgstr "संभव नहीं"
+
+#: ../system-config-printer.py:2241 ../system-config-printer.py:2276
+msgid ""
+"The remote server did not accept the print job, most likely because the "
+"printer is not shared."
+msgstr ""
+"दूरस्थ सर्वर छपाई कार्य स्वीकार नहीं करता है, ज्यादा संभव इस कारण से कि मुद्रक साझाकृत "
+"नहीं है."
+
+#: ../system-config-printer.py:2253 ../system-config-printer.py:2268
+msgid "Submitted"
+msgstr "सुपुर्द"
+
+#: ../system-config-printer.py:2254
+#, python-format
+msgid "Test page submitted as job %d"
+msgstr "%d कार्य के रूप में जांच पृष्ठ सुपुर्द किया गया"
+
+#: ../system-config-printer.py:2261
+msgid "sending maintenance command"
+msgstr "अनुरक्षण कमांड भेज रहा है"
+
+#: ../system-config-printer.py:2269
+#, python-format
+msgid "Maintenance command submitted as job %d"
+msgstr "बतौर %d कार्य अनुरक्षण कमांड सुपुर्द"
+
+#. The underlying cupsGetPPD2() function returned NULL without
+#. setting an IPP error, so it'll be something like a failed
+#. connection.
+#: ../system-config-printer.py:2342 ../system-config-printer.py:2438
+msgid "Error"
+msgstr "त्रुटि"
+
+#: ../system-config-printer.py:2343
+msgid "There was a problem connecting to the CUPS server."
+msgstr "CUPS सर्वर में जोड़ने के दौरान समस्या थी."
+
+#: ../system-config-printer.py:2439
+#, python-format
+msgid "Option '%s' has value '%s' and cannot be edited."
+msgstr "विकल्प '%s' के पास '%s' मान है और संपादित नहीं किया जा सकता है."
+
+#: ../system-config-printer.py:2540
+msgid "Marker levels are not reported for this printer."
+msgstr "इस मुद्रक के लिए मार्कर स्तर रिपोर्ट नहीं किया हुआ है."
+
+#: ../system-config-printer.py:2849
+msgid "Cannot Rename"
+msgstr "नाम नहीं बदल सकता है"
+
+#: ../system-config-printer.py:2850
+msgid "There are queued jobs."
+msgstr "कोई भी कतारबद्ध कार्य नहीं है."
+
+#: ../system-config-printer.py:2868
+msgid "Renaming will lose history"
+msgstr "शेष का इतिहास नष्ट हो जाएगा"
+
+#: ../system-config-printer.py:2870
+msgid "Completed jobs will no longer be available for re-printing."
+msgstr "संपन्न कार्य फिर छपाई के लिए फिर उपलब्ध नहीं रहेगा."
+
+#: ../system-config-printer.py:2941
+msgid "renaming printer"
+msgstr "मुद्रक का नाम बदल रहा है"
+
+#. for classes make sure all members
+#. will get added
+#: ../system-config-printer.py:3026
+msgid "copying printer"
+msgstr "मुद्रक की नक़ल ले रहा है"
+
+#: ../system-config-printer.py:3090
+#, python-format
+msgid "Really delete class '%s'?"
+msgstr "क्या '%s' वर्ग वाकई मिटाना चाहते हैं?"
+
+#: ../system-config-printer.py:3092
+#, python-format
+msgid "Really delete printer '%s'?"
+msgstr "क्या मुद्रक '%s' वाकई मिटाना है?"
+
+#: ../system-config-printer.py:3094
+msgid "Really delete selected destinations?"
+msgstr "क्या चयनित गंतव्य वाकई मिटाना है?"
+
+#: ../system-config-printer.py:3115
+#, python-format
+msgid "deleting printer %s"
+msgstr "मुद्रक %s मिटा रहा है"
+
+#: ../system-config-printer.py:3201
+msgid "Publish Shared Printers"
+msgstr "साझा मुद्रक प्रकाशित करें"
+
+#: ../system-config-printer.py:3202
+msgid ""
+"Shared printers are not available to other people unless the 'Publish shared "
+"printers' option is enabled in the server settings."
+msgstr ""
+"साझा मुद्रक दूसरे लोगों के लिए उपलब्ध नहीं है जब तक कि 'साझा मुद्रक प्रकाशित करें' विकल्प "
+"को सर्वर सेटिंग में सक्रिय किया जाता है."
+
+#: ../system-config-printer.py:3395
+msgid "modifying server settings"
+msgstr "सर्वर सेटिंग बदल रहा है"
+
+#: ../system-config-printer.py:3423
+msgid "Review Firewall"
+msgstr "फ़ायरवाल की समीक्षा करें"
+
+#: ../system-config-printer.py:3424
+msgid ""
+"You may need to adjust the firewall to allow network printing to this "
+"computer."
+msgstr "आपको इस कंप्यूटर में संजाल छपाई के लिए फायरवाल को स्वीकृति देनी होगी."
+
+#: ../system-config-printer.py:3771
+msgid "Browsing not available (pysmbc not installed)"
+msgstr "ब्राउजिंग उपलब्ध नहीं (pysmbc संस्थापित नहीं)"
+
+#. SMB list columns
+#: ../system-config-printer.py:3777
+msgid "Share"
+msgstr "साझा करें"
+
+#: ../system-config-printer.py:3783
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: ../system-config-printer.py:3798
+msgid ""
+"PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+"PPD.GZ)"
+msgstr ""
+"पोस्ट स्क्रिप्ट मुद्रक विवरण फाइल (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *.PPD.GZ)"
+
+#: ../system-config-printer.py:3807
+msgid "All files (*)"
+msgstr "सभी फाइल (*)"
+
+#: ../system-config-printer.py:3863 ../system-config-printer.py:6184
+#: ../system-config-printer.py:6222 ../applet.py:129
+msgid "Search"
+msgstr "खोजें"
+
+#: ../system-config-printer.py:3887 ../system-config-printer.py:3909
+#: ../glade/NewPrinterWindow.glade.h:72
+msgid "New Printer"
+msgstr "नया मुद्रक"
+
+#: ../system-config-printer.py:3896
+msgid "New Class"
+msgstr "नया वर्ग"
+
+#: ../system-config-printer.py:3901
+msgid "Change Device URI"
+msgstr "युक्ति URI बदलें"
+
+#: ../system-config-printer.py:3907
+msgid "Change Driver"
+msgstr "ड्राइवर बदलें"
+
+#: ../system-config-printer.py:4087 ../system-config-printer.py:4167
+#: ../system-config-printer.py:4538 ../system-config-printer.py:6019
+#: ../system-config-printer.py:6209
+msgid "Searching"
+msgstr "खोज रहा है"
+
+#: ../system-config-printer.py:4088
+msgid "Searching for downloadable drivers"
+msgstr "डाउनलोड करने योग्य ड्राइवर के लिए खोज रहा है"
+
+#: ../system-config-printer.py:4168 ../system-config-printer.py:4539
+msgid "Searching for drivers"
+msgstr "ड्राइवर के लिए खोज"
+
+#. Tell the user why he needs the plugin
+#: ../system-config-printer.py:4913
+msgid "For this printer a proprietary driver plugin from HP is available.\n"
+msgstr "इस मुद्रक के लिए एक सांपत्तिक ड्राइवर प्लगिन HP से उपलब्ध है.\n"
+
+#: ../system-config-printer.py:4916
+msgid ""
+"The installation of the plugin is required for your printer to work.\n"
+"\n"
+msgstr ""
+"इस प्लगिन का संस्थापन आपके मुद्रक के कार्य करने के लिए जरूरी है.\n"
+"\n"
+
+#: ../system-config-printer.py:4919
+msgid ""
+"Installing the plugin is optional, it completes or enhances the "
+"functionality\n"
+"of your printer. Without plugin at least basic operations work.\n"
+"\n"
+msgstr ""
+"प्लगिन का संस्थापन वैकल्पिक है, यह आपके मुद्रक की प्रकार्यात्मकता\n"
+"पूरा करता या बढ़ाता है. बिना प्लगिन के कम से कम आधारभूत संक्रिया होती है.\n"
+"\n"
+
+#: ../system-config-printer.py:4923
+msgid "The plugin provides the following features:\n"
+msgstr "यह प्लगिन निम्नलिखित फीचर देता है:\n"
+
+#: ../system-config-printer.py:4926
+msgid " - Printing support\n"
+msgstr " - छपाई समर्थन\n"
+
+#: ../system-config-printer.py:4929
+msgid " - Faster printing\n"
+msgstr " - तेज छपाई\n"
+
+#: ../system-config-printer.py:4932
+msgid " - Better printout quality\n"
+msgstr " - बेहतर प्रिंटआउट गुणवत्ता\n"
+
+#: ../system-config-printer.py:4935
+msgid " - Extra printing features\n"
+msgstr " - अतिरिक्त मुद्रण फीचर\n"
+
+#: ../system-config-printer.py:4938
+msgid " - Scanning support\n"
+msgstr " - स्कैनिंग समर्थन\n"
+
+#: ../system-config-printer.py:4941
+msgid " - Faster scanning\n"
+msgstr " - तेज स्कैनिंग\n"
+
+#: ../system-config-printer.py:4944
+msgid " - Better scanning image quality\n"
+msgstr " - बेहतर स्कैनिंग छवि गुणवत्ता\n"
+
+#: ../system-config-printer.py:4947
+msgid " - Faxing support\n"
+msgstr " - फैक्सिंग समर्थन\n"
+
+#: ../system-config-printer.py:4950
+msgid " - Extra fax features\n"
+msgstr " - अतिरिक्त फैक्स फीचर\n"
+
+#: ../system-config-printer.py:4953
+msgid " - Better Input/Output support\n"
+msgstr " - बेहतर इनपुट/आउटपुट समर्थन\n"
+
+#: ../system-config-printer.py:4956
+msgid " - Extra user interface features\n"
+msgstr " - अतिरिक्त उपयोक्ता अंतरफलक गुण\n"
+
+#: ../system-config-printer.py:4959
+msgid " - Other extra features\n"
+msgstr " - अन्य अतिरिक्त गुण\n"
+
+#: ../system-config-printer.py:4964
+msgid "Install plugin"
+msgstr "प्लगिन संस्थापित करें"
+
+#: ../system-config-printer.py:4965
+msgid "Do not set up printer"
+msgstr "मुद्रक सेटअप मत करें"
+
+#: ../system-config-printer.py:4966
+msgid "Set up without plugin"
+msgstr "प्लगिन के साथ सेटअप करें"
+
+#: ../system-config-printer.py:4968 ../troubleshoot/PrintTestPage.py:118
+msgid "Yes"
+msgstr "हाँ"
+
+#: ../system-config-printer.py:4969 ../troubleshoot/PrintTestPage.py:119
+msgid "No"
+msgstr "नहीं"
+
+#. device-info
+#. PhysicalDevice obj
+#. Separator?
+#: ../system-config-printer.py:5130
+msgid "Other"
+msgstr "अन्य"
+
+#: ../system-config-printer.py:5134
+msgid "Network Printer"
+msgstr "संजाल मुद्रक"
+
+#: ../system-config-printer.py:5138
+msgid "Find Network Printer"
+msgstr "संजाल मुद्रक ढूँढ़ें"
+
+#: ../system-config-printer.py:5153
+msgid "fetching device list"
+msgstr "युक्ति सूची ला रहा है"
+
+#: ../system-config-printer.py:5237
+msgid " (Current)"
+msgstr " (वर्तमान)"
+
+#: ../system-config-printer.py:5307
+msgid "Scanning..."
+msgstr "स्कैन कर रहा है:"
+
+#: ../system-config-printer.py:5362
+msgid "No Print Shares"
+msgstr "कोई मुद्रक साझा नहीं"
+
+#: ../system-config-printer.py:5363
+msgid ""
+"There were no print shares found.  Please check that the Samba service is "
+"marked as trusted in your firewall configuration."
+msgstr ""
+"कोई छपाई साझा नहीं मिला था.  कृपया जाँचें कि सांबा सेवा आपके फायरवाल विन्यास में "
+"विश्वसनीय के रूप में चिह्नित है."
+
+#: ../system-config-printer.py:5624 ../system-config-printer.py:5701
+msgid "Print Share Verified"
+msgstr "छपाई साझा जाँच"
+
+#: ../system-config-printer.py:5625 ../system-config-printer.py:5702
+msgid "This print share is accessible."
+msgstr "छपाई साझा अभिगम योग्य है."
+
+#: ../system-config-printer.py:5630 ../system-config-printer.py:5706
+msgid "This print share is not accessible."
+msgstr "यह छपाई साझा अभिगम योग्य नहीं है."
+
+#: ../system-config-printer.py:5633
+msgid "Print Share Inaccessible"
+msgstr "छपाई साझा पहुँच योग्य नहीं"
+
+#: ../system-config-printer.py:5679
+msgid "Verifying"
+msgstr "जाँच रहा है (_V)..."
+
+#: ../system-config-printer.py:5680
+msgid "Verifying printer"
+msgstr "मुद्रक जाँच रहा है"
+
+#: ../system-config-printer.py:5705
+msgid "Inaccessible"
+msgstr "अनभिगम्य"
+
+#: ../system-config-printer.py:5760
+msgid "Parallel Port"
+msgstr "समांतर पोर्ट"
+
+#: ../system-config-printer.py:5762
+msgid "Serial Port"
+msgstr "क्रमिक पोर्ट"
+
+#: ../system-config-printer.py:5764
+msgid "USB"
+msgstr "USB"
+
+#: ../system-config-printer.py:5766 ../system-config-printer.py:5769
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr "HP लिनक्स छायांकन व छपाई (HPLIP)"
+
+#: ../system-config-printer.py:5771
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr "हार्डवेयर सारांश स्तर (HAL)"
+
+#: ../system-config-printer.py:5773
+msgid "AppSocket/HP JetDirect"
+msgstr "AppSocket/HP JetDirect"
+
+#: ../system-config-printer.py:5782
+#, python-format
+msgid "LPD/LPR queue '%s'"
+msgstr "LPD/LPR कतार '%s'"
+
+#: ../system-config-printer.py:5784
+msgid "LPD/LPR queue"
+msgstr "LPD/LPR कतार"
+
+#: ../system-config-printer.py:5787
+msgid "Windows Printer via SAMBA"
+msgstr "SAMBA से विंडोज़ मुद्रक"
+
+#: ../system-config-printer.py:5789 ../glade/NewPrinterWindow.glade.h:64
+msgid "IPP"
+msgstr "IPP"
+
+#: ../system-config-printer.py:5791
+msgid "HTTP"
+msgstr "HTTP"
+
+#: ../system-config-printer.py:5878
+msgid "A printer connected to the parallel port."
+msgstr "समांतर पोर्ट में एक मुद्रक संबंधित."
+
+#: ../system-config-printer.py:5880
+msgid "A printer connected to a USB port."
+msgstr "USB पोर्ट में एक मुद्रक संबंधित."
+
+#: ../system-config-printer.py:5882
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device."
+msgstr ""
+"HPLIP सॉफ्टवेयर जो एक मुद्रक को चलाता है, या बहुल प्रकार्य युक्ति का मुद्रक प्रकार्य."
+
+#: ../system-config-printer.py:5885
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device."
+msgstr ""
+"HPLIP सॉफ्टवेयर जो एक फैक्स मशीन को चलाता है, या बहुल प्रकार्य युक्ति का फैक्स प्रकार्य."
+
+#: ../system-config-printer.py:5888
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)."
+msgstr "हार्डवेयर सारांश स्तर (HAL) के द्वारा स्थानीय मुद्रक पाया गया."
+
+#: ../system-config-printer.py:6020
+msgid "Searching for printers"
+msgstr "मुद्रक के लिये खोज"
+
+#: ../system-config-printer.py:6097
+msgid "No printer was found at that address."
+msgstr "उस पता पर कोई मुद्रक नहीं मिला था."
+
+#: ../system-config-printer.py:6234
+msgid "-- Select from search results --"
+msgstr "-- खोज परिणाम के लिए चुनें --"
+
+#: ../system-config-printer.py:6236
+msgid "-- No matches found --"
+msgstr "-- कोई मेल नहीं मिला --"
+
+#: ../system-config-printer.py:6430
+msgid " (recommended)"
+msgstr " (अनुशंसित)"
+
+#: ../system-config-printer.py:6455
+msgid "This PPD is generated by foomatic."
+msgstr "यह PPD foomatic के द्वारा बनाया गया है."
+
+#: ../system-config-printer.py:6480
+msgid "OpenPrinting"
+msgstr "ओपनप्रिंटिग"
+
+#: ../system-config-printer.py:6491
+msgid "Distributable"
+msgstr "वितरणयोग्य"
+
+#: ../system-config-printer.py:6532
+msgid ", "
+msgstr ", "
+
+#: ../system-config-printer.py:6537
+#, python-format
+msgid ""
+"\n"
+"(%s)"
+msgstr ""
+"\n"
+"(%s)"
+
+#: ../system-config-printer.py:6542
+msgid "No support contacts known"
+msgstr "कोई समर्थन संपर्क नहीं ज्ञात"
+
+#: ../system-config-printer.py:6546 ../system-config-printer.py:6559
+msgid "Not specified."
+msgstr "निर्दिष्ट नहीं."
+
+#. Foomatic database problem of some sort.
+#: ../system-config-printer.py:6599
+msgid "Database error"
+msgstr "डाटाबेस त्रुटि"
+
+#: ../system-config-printer.py:6600
+#, python-format
+msgid "The '%s' driver cannot be used with printer '%s %s'."
+msgstr "'%s' ड्राइवर  '%s %s' मुद्रक के साथ प्रयुक्त नहीं हो सकता है."
+
+#. This printer references some XML that is not
+#. installed by default.  Point the user at the
+#. package they need to install.
+#: ../system-config-printer.py:6610
+#, python-format
+msgid "You will need to install the '%s' package in order to use this driver."
+msgstr ""
+"आपको '%s' संकुल को संस्थापित करने की जरूरत होगी इस ड्राइवर को प्रयोग करने के लिये."
+
+#. This error came from trying to open the PPD file.
+#: ../system-config-printer.py:6617
+msgid "PPD error"
+msgstr "PPD त्रुटि"
+
+#: ../system-config-printer.py:6619
+msgid "Failed to read PPD file.  Possible reason follows:"
+msgstr "PPD फाइल को पढ़ने में विफल.  संभावित कारण आगे है:"
+
+#. Failed to get PPD downloaded from OpenPrinting XXX
+#: ../system-config-printer.py:6636
+msgid "Downloadable drivers"
+msgstr "डाउनलोड करने योग्य ड्राइवर"
+
+#: ../system-config-printer.py:6637
+msgid "Failed to download PPD."
+msgstr "PPD डाउनलोड करने में विफल."
+
+#: ../system-config-printer.py:6644
+msgid "fetching PPD"
+msgstr "PPD ला रहा है"
+
+#: ../system-config-printer.py:6673 ../system-config-printer.py:6711
+msgid "No Installable Options"
+msgstr "संस्थापन योग्य विकल्प नहीं"
+
+#: ../system-config-printer.py:6768
+#, python-format
+msgid "adding printer %s"
+msgstr "मुद्रक %s जोड़ रहा है"
+
+#: ../system-config-printer.py:6941
+msgid "Would you like to print a test page?"
+msgstr "क्या आप जाँच पृष्ठ छापना चाहते हैं?"
+
+#: ../system-config-printer.py:7002
+msgid "Install driver"
+msgstr "ड्राइवर संस्थापित करें"
+
+#: ../system-config-printer.py:7003 ../troubleshoot/CheckPPDSanity.py:131
+#, python-format
+msgid "Printer '%s' requires the %s package but it is not currently installed."
+msgstr "'%s' मुद्रक %s संकुल की जरूरत होती है लेकिन यह अभी संस्थापित नहीं है."
+
+#: ../system-config-printer.py:7019
+msgid "Missing driver"
+msgstr "गुम ड्राइवर"
+
+#: ../system-config-printer.py:7020
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed.  "
+"Please install it before using this printer."
+msgstr ""
+"'%s' मुद्रक %s प्रोग्राम की जरूरत होती है लेकिन यह अभी संस्थापित नहीं है.  कृपया इस मुद्रक "
+"के प्रयोग के पहले इसे संस्थापित करें."
+
+#: ../glade/AboutDialog.glade.h:1
+msgid "A CUPS configuration tool."
+msgstr "CUPS विन्यास औज़ार."
+
+#: ../glade/AboutDialog.glade.h:2
+msgid "Copyright © 2006-2008 Red Hat, Inc."
+msgstr "कॉपीराइट © 2006-2008 Red Hat, Inc."
+
+#: ../glade/AboutDialog.glade.h:3
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA."
+msgstr ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA."
+
+#: ../glade/AboutDialog.glade.h:8
+msgid "system-config-printer"
+msgstr "system-config-printer"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.  Thank you very much for your effort on translating system-config-printer and all our other tools!
+#: ../glade/AboutDialog.glade.h:10
+msgid "translator-credits"
+msgstr "राजेश रंजन (rranjan@redhat.com; rajesh672@gmail.com)"
+
+#: ../glade/ConnectDialog.glade.h:1
+msgid "CUPS _server:"
+msgstr "CUPS सर्वर (_s):"
+
+#: ../glade/ConnectDialog.glade.h:2
+msgid "Connect to CUPS server"
+msgstr "CUPS सर्वर से जोड़ें"
+
+#: ../glade/ConnectDialog.glade.h:3
+msgid "Require _encryption"
+msgstr "गोपन जरूरी (_e)"
+
+#: ../glade/ConnectingDialog.glade.h:3
+msgid "<span weight=\"bold\" size=\"larger\">Connecting to CUPS server</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">CUPS सर्वर में जोड़ रहा है</span>"
+
+#: ../glade/ConnectingDialog.glade.h:4
+msgid "Connecting to CUPS server"
+msgstr "CUPS सर्वर से कनेक्ट हो रहा है"
+
+#: ../glade/InstallDialog.glade.h:1
+msgid "_Install"
+msgstr "संस्थापित करें (_I)"
+
+#: ../glade/JobsWindow.glade.h:1
+msgid "Show _completed jobs"
+msgstr "समाप्त कार्य दिखायें (_c)"
+
+#: ../glade/JobsWindow.glade.h:2
+msgid "_File"
+msgstr "फ़ाइल (_F)"
+
+#: ../glade/JobsWindow.glade.h:3
+msgid "_Job"
+msgstr "कार्य (_J)"
+
+#: ../glade/JobsWindow.glade.h:4
+msgid "_Refresh"
+msgstr "ताज़ा करें (_R)"
+
+#: ../glade/JobsWindow.glade.h:5 ../glade/PrintersWindow.glade.h:17
+msgid "_View"
+msgstr "दृश्य (_V)"
+
+#: ../glade/NewPrinterName.glade.h:1
+msgid "Copy Printer"
+msgstr "मुद्रक कॉपी करें"
+
+#: ../glade/NewPrinterName.glade.h:2
+msgid "New name for the printer"
+msgstr "मुद्रक के लिये नया नाम"
+
+#: ../glade/NewPrinterWindow.glade.h:1
+msgid "<b>Authentication</b>"
+msgstr "<b>सत्यापन</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:2
+msgid "<b>Description</b>"
+msgstr "<b>विवरण</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:3
+msgid "<b>Description</b> (optional)"
+msgstr "<b> वर्णन</b> (वैकल्पिक)"
+
+#: ../glade/NewPrinterWindow.glade.h:4
+msgid "<b>Enter device URI</b>"
+msgstr "<b>युक्ति URI डालें</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:5
+msgid "<b>IPP Printer</b>"
+msgstr "<b>IPP मुद्रक</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:6
+msgid "<b>License Terms</b>"
+msgstr "<b>लाइसेंस शर्त</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:7
+msgid "<b>Location of the LPD network printer</b>"
+msgstr "<b>LPD संजाल मुद्रक का स्थान</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:8
+msgid "<b>Location of the network printer</b>"
+msgstr "<b>संजाल मुद्रक का स्थान</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:9
+msgid "<b>Location</b> (optional)"
+msgstr "<b> स्थान</b> (वैकल्पिक)"
+
+#: ../glade/NewPrinterWindow.glade.h:10
+msgid "<b>Network Printer</b>"
+msgstr "<b>संजाल मुद्रक</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:11
+msgid "<b>Note</b>"
+msgstr "<b>नोट</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:12
+msgid "<b>Output Quality</b>"
+msgstr "<b>आउटपुट गुणवत्ता</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:13
+msgid "<b>Printer Name</b>"
+msgstr "<b> मुद्रक नाम</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:14
+msgid "<b>SMB Printer</b>"
+msgstr "<b>SMB मुद्रक</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:15
+msgid "<b>Select Driver</b>"
+msgstr "<b>ड्राइवर चुनें</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:16
+msgid "<b>Settings of the serial port</b>"
+msgstr "<b> क्रमिक पोर्ट की जमावट</b>"
+
+#: ../glade/NewPrinterWindow.glade.h:17
+msgid "<i>smb://[workgroup/]server[:port]/printer</i>"
+msgstr "<i>smb://[workgroup/]server[:port]/printer</i>"
+
+#: ../glade/NewPrinterWindow.glade.h:18
+msgid "<span weight=\"bold\" size=\"larger\">Choose Class Members</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">वर्ग संख्या चुनें</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:19
+msgid "<span weight=\"bold\" size=\"larger\">Choose Driver</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">ड्राइवर चुनें</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:20
+msgid "<span weight=\"bold\" size=\"larger\">Describe Printer</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">मुद्रक वर्णित करें</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:21
+msgid "<span weight=\"bold\" size=\"larger\">Existing Settings</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">मौजूदा सेटिंग</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:22
+msgid "<span weight=\"bold\" size=\"larger\">Installable Options</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">संस्थापन योग्य विकल्प</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:23
+msgid "<span weight=\"bold\" size=\"larger\">Select Device</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">युक्ति चुनें</span>"
+
+#: ../glade/NewPrinterWindow.glade.h:24
+msgid "Baud Rate"
+msgstr "बॉड दर"
+
+#: ../glade/NewPrinterWindow.glade.h:25
+msgid "Browse..."
+msgstr "ब्राउज़ करें..."
+
+#: ../glade/NewPrinterWindow.glade.h:26
+msgid "Comments..."
+msgstr "टिप्पणी..."
+
+#: ../glade/NewPrinterWindow.glade.h:27
+msgid "Connection"
+msgstr "कनेक्शन"
+
+#: ../glade/NewPrinterWindow.glade.h:28
+msgid "Data Bits"
+msgstr "डाटा बिट्स"
+
+#: ../glade/NewPrinterWindow.glade.h:29
+msgid ""
+"Default\n"
+"1200\n"
+"2400\n"
+"4800\n"
+"9600\n"
+"19200\n"
+"38400\n"
+"57600\n"
+"115200"
+msgstr ""
+"तयशुदा\n"
+"1200\n"
+"2400\n"
+"4800\n"
+"9600\n"
+"19200\n"
+"38400\n"
+"57600\n"
+"115200"
+
+#: ../glade/NewPrinterWindow.glade.h:38
+msgid ""
+"Default\n"
+"8\n"
+"7"
+msgstr ""
+"तयशुदा\n"
+"8\n"
+"7"
+
+#: ../glade/NewPrinterWindow.glade.h:41
+msgid ""
+"Default\n"
+"None\n"
+"Odd\n"
+"Even"
+msgstr ""
+"तयशुदा\n"
+"कोई नहीं\n"
+"विसम\n"
+"सम"
+
+#: ../glade/NewPrinterWindow.glade.h:45
+msgid ""
+"Default\n"
+"None\n"
+"XON/XOFF (Software)\n"
+"RTS/CTS (Hardware)\n"
+"DTR/DSR (Hardware)"
+msgstr ""
+"तयशुदा\n"
+"कोई नहीं\n"
+"XON/XOFF (सॉफ्टवेयर)\n"
+"RTS/CTS (हार्डवेयर)\n"
+"DTR/DSR (हार्डवेयर)"
+
+#: ../glade/NewPrinterWindow.glade.h:50
+#: ../glade/PrinterPropertiesDialog.glade.h:35
+msgid "Description:"
+msgstr "विवरणः"
+
+#: ../glade/NewPrinterWindow.glade.h:51 ../troubleshoot/DeviceListed.py:40
+msgid "Device URI"
+msgstr "युक्ति URI"
+
+#: ../glade/NewPrinterWindow.glade.h:52
+msgid "Device description."
+msgstr "युक्ति विवरणः"
+
+#: ../glade/NewPrinterWindow.glade.h:53
+msgid "DirectJet"
+msgstr "DirectJet"
+
+#: ../glade/NewPrinterWindow.glade.h:55
+msgid "Driver details"
+msgstr "ड्राइवर विवरण"
+
+#: ../glade/NewPrinterWindow.glade.h:56
+msgid "Empty"
+msgstr "खाली"
+
+#: ../glade/NewPrinterWindow.glade.h:57
+msgid "Flow Control"
+msgstr "प्रवाह नियंत्रण"
+
+#: ../glade/NewPrinterWindow.glade.h:58
+msgid ""
+"For the printer you have selected there are drivers available for download."
+msgstr "मुद्रक के लिए आपने चुना है डाउनलोड के लिए ड्राइवर उपलब्ध है."
+
+#: ../glade/NewPrinterWindow.glade.h:59
+msgid "Free software"
+msgstr "फ्री सॉफ़्टवेयर"
+
+#: ../glade/NewPrinterWindow.glade.h:60
+msgid "Graphics:"
+msgstr "आलेखी:"
+
+#: ../glade/NewPrinterWindow.glade.h:61
+msgid "Host:"
+msgstr "मेजबान:"
+
+#: ../glade/NewPrinterWindow.glade.h:62
+msgid "Human-readable description such as \"HP LaserJet with Duplexer\""
+msgstr "मानव पठनीय विवरण जैसे कि \"HP LaserJet with Duplexer\""
+
+#: ../glade/NewPrinterWindow.glade.h:63
+msgid "Human-readable location such as \"Lab 1\""
+msgstr "मानव पठनीय स्थान जैसे कि \"Lab 1\""
+
+#: ../glade/NewPrinterWindow.glade.h:65
+msgid "LPD"
+msgstr "LPD"
+
+#: ../glade/NewPrinterWindow.glade.h:66
+msgid "License:"
+msgstr "लाइसेंस:"
+
+#: ../glade/NewPrinterWindow.glade.h:67
+msgid "Line art:"
+msgstr "लाइन आर्ट:"
+
+#: ../glade/NewPrinterWindow.glade.h:68
+msgid "Local Driver"
+msgstr "स्थानीय ड्राइवर"
+
+#: ../glade/NewPrinterWindow.glade.h:69
+msgid "Make and model:"
+msgstr "निर्माण और मॉडल:"
+
+#: ../glade/NewPrinterWindow.glade.h:70
+msgid "Manufacturer"
+msgstr "निर्माता"
+
+#: ../glade/NewPrinterWindow.glade.h:71
+msgid "Network"
+msgstr "संजाल"
+
+#: ../glade/NewPrinterWindow.glade.h:73
+msgid "No, I do not accept this license"
+msgstr "नहीं, मैं यह लाइसेंस स्वीकार नहीं करता हूँ"
+
+#: ../glade/NewPrinterWindow.glade.h:74
+msgid "Parity"
+msgstr "समानता"
+
+#: ../glade/NewPrinterWindow.glade.h:76
+msgid "Patented algorithms"
+msgstr "पेटेंट किया अलगोरिथम"
+
+#: ../glade/NewPrinterWindow.glade.h:77
+msgid "Photo:"
+msgstr "फोटो:"
+
+#: ../glade/NewPrinterWindow.glade.h:78
+msgid "Port number:"
+msgstr "पोर्ट संख्या:"
+
+#: ../glade/NewPrinterWindow.glade.h:79
+msgid ""
+"PostScript Printer Description (PPD) files can often be found on the driver "
+"disk that comes with the printer. For PostScript printers they are often "
+"part of the Windows<sup>®</sup> driver."
+msgstr ""
+"पोस्ट स्क्रिप्ट मुद्रक विवरण (PPD) फाइल प्रायः ड्राइवर डिस्क पर पाया जा सकता है जो कि "
+"मुद्रक के साथ आता है. पोस्टस्क्रिप्ट मुद्रक के लिये वे हमेशा Windows<sup>®</sup> ड्राइवर का "
+"हिस्सा है."
+
+#: ../glade/NewPrinterWindow.glade.h:80
+msgid "Printer model:"
+msgstr "मुद्रक मॉडल:"
+
+#: ../glade/NewPrinterWindow.glade.h:81
+msgid "Probe"
+msgstr "जांच"
+
+#: ../glade/NewPrinterWindow.glade.h:82
+msgid "Prompt user if authentication is required"
+msgstr "उपयोक्ता को प्रांप्ट करें यदि सत्यापन जरूरी है"
+
+#: ../glade/NewPrinterWindow.glade.h:83
+msgid "Provide PPD file"
+msgstr "PPD फाइल दें"
+
+#: ../glade/NewPrinterWindow.glade.h:84
+msgid "Queue:"
+msgstr "कतार:"
+
+#: ../glade/NewPrinterWindow.glade.h:85
+msgid "SCSI"
+msgstr "SCSI"
+
+#: ../glade/NewPrinterWindow.glade.h:86
+msgid "SMB"
+msgstr "SMB"
+
+#: ../glade/NewPrinterWindow.glade.h:87
+msgid "Search for a printer driver to download"
+msgstr "डाउनलोड के लिए मुद्रक ड्राइवर खोजें"
+
+#: ../glade/NewPrinterWindow.glade.h:88
+msgid "Searching..."
+msgstr "खोज रहा है..."
+
+#: ../glade/NewPrinterWindow.glade.h:89
+msgid "Select A File"
+msgstr "एक फ़ाइल चुनें"
+
+#: ../glade/NewPrinterWindow.glade.h:90
+msgid "Select printer from database"
+msgstr "डेटाबेस से मुद्रक चुनें"
+
+#: ../glade/NewPrinterWindow.glade.h:91
+msgid "Serial"
+msgstr "धारावाहिक"
+
+#: ../glade/NewPrinterWindow.glade.h:92
+msgid "Set authentication details now"
+msgstr "सत्यापन विवरण अब सेट करें"
+
+#: ../glade/NewPrinterWindow.glade.h:93
+msgid "Short name for this printer such as \"laserjet\""
+msgstr "इस मुद्रक का छोटा नाम जैसे \"laserjet\""
+
+#: ../glade/NewPrinterWindow.glade.h:94
+msgid "Supplier:"
+msgstr "आपूर्तिकर्ता:"
+
+#: ../glade/NewPrinterWindow.glade.h:95
+msgid "Support:"
+msgstr "समर्थन:"
+
+#: ../glade/NewPrinterWindow.glade.h:96
+msgid "Text:"
+msgstr "पाठ:"
+
+#: ../glade/NewPrinterWindow.glade.h:97
+msgid ""
+"The foomatic printer database contains various manufacturer provided "
+"PostScript Printer Description (PPD) files and also can generate PPD files "
+"for a large number of (non PostScript) printers. But in general manufacturer "
+"provided PPD files provide better access to the specific features of the "
+"printer."
+msgstr ""
+"foomatic मुद्रक डाटाबेस में कई निर्माता जो पोस्ट स्क्रिप्ट मुद्रक विवरण (PPD) फाइल देता है "
+"और साथ ही PPD फाइल बड़ी संख्या में (गैर पोस्टस्क्रिप्ट) मुद्रक उत्पन्न कर सकता है. लेकिन "
+"सामान्य रूप से निर्माता PPD फाइल देता है मुद्रक के विशेष गुण में पहुंच के लिये."
+
+#: ../glade/NewPrinterWindow.glade.h:98
+msgid ""
+"These drivers do not come from your operating system supplier and will not "
+"be covered by their commercial support.  See the support and license terms "
+"of the driver's supplier."
+msgstr ""
+"ये ड्राइवर आपके ऑपरेटिंग सिस्टम आपूर्तिकर्ता से नहीं आ रहा है और उनके वाणिज्यिक समर्थन के "
+"अंतर्गत नहीं आएगा. ड्राइवर के आपूर्तिकर्ता का समर्थन व लाइसेंस शर्त देखें."
+
+#: ../glade/NewPrinterWindow.glade.h:99
+msgid ""
+"This driver supports additional hardware that may be installed in the "
+"printer."
+msgstr ""
+"यह ड्राइवर अतिरिक्त हार्डवेयर का समर्थन करता है जो कि मुद्रक में संस्थापित हो सकता है."
+
+#: ../glade/NewPrinterWindow.glade.h:100
+msgid ""
+"This is done by assuming that options with the same name do have the same "
+"meaning. Settings of options that are not present in the new PPD will be "
+"lost and options only present in the new PPD will be set to default."
+msgstr ""
+"यह उस विकल्प को मानकर किया जाता है समान नाम के साथ समान अर्थ को रखते हुये. विकल्प का "
+"जमावट जो कि नये PPD में मौजूद नहीं है वह गुम हो जायेगा और नया PPD में सिरफ विकल्प तयशुदा "
+"रूप में सेट किया जायेगा."
+
+#: ../glade/NewPrinterWindow.glade.h:101
+msgid ""
+"This way all current option settings will be lost. The default settings of "
+"the new PPD will be used. "
+msgstr ""
+"इस तरीके से सारे मौजूदा विकल्प जमावट खत्म हो जायेंगे. नया PPD का तयशुदा जमावट को प्रयोग "
+"किया जायेगा."
+
+#: ../glade/NewPrinterWindow.glade.h:102
+msgid "Try to copy the option settings over from the old PPD. "
+msgstr "पुराने PPD से विकल्प जमावट कॉपी करने को कोशिश करें. "
+
+#: ../glade/NewPrinterWindow.glade.h:103
+msgid "URI:"
+msgstr "URI:"
+
+#: ../glade/NewPrinterWindow.glade.h:105
+msgid "Use the new PPD (Postscript Printer Description) as is."
+msgstr "नया PPD (पोस्टस्क्रिप्ट मुद्रक विवरण) का प्रयोग करें जैसा है."
+
+#: ../glade/NewPrinterWindow.glade.h:107
+msgid ""
+"With this choice no driver download will be performed. In the next steps a "
+"locally installed driver will be selected."
+msgstr ""
+"इस पसंद के साथ कोई ड्राइवर डाउनलोड नहीं किया जाएगा. अगले चरण में स्थानीयर रूप से "
+"संस्थापित ड्राइवर चुना जाएगा."
+
+#: ../glade/NewPrinterWindow.glade.h:108
+msgid "Yes, I accept this license"
+msgstr "हाँ, मैं यह लाइसेंस स्वीकार करता हूँ"
+
+#: ../glade/NewPrinterWindow.glade.h:109
+msgid "_Search"
+msgstr "खोजें (_S)"
+
+#: ../glade/NewPrinterWindow.glade.h:110
+msgid "_Verify..."
+msgstr "जांचें (_V)..."
+
+#: ../glade/NewPrinterWindow.glade.h:111
+#: ../glade/PrinterPropertiesDialog.glade.h:130
+msgid "move left"
+msgstr "बाएँ खिसकें"
+
+#: ../glade/NewPrinterWindow.glade.h:112
+#: ../glade/PrinterPropertiesDialog.glade.h:131
+msgid "move right"
+msgstr "दाहिने जाएँ"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:1
+msgid " "
+msgstr " "
+
+#: ../glade/PrinterPropertiesDialog.glade.h:2
+msgid ""
+"1\n"
+"2\n"
+"4\n"
+"6\n"
+"9\n"
+"16"
+msgstr ""
+"1\n"
+"2\n"
+"4\n"
+"6\n"
+"9\n"
+"16"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:8
+msgid "72 points per inch"
+msgstr "72 बिंदु प्रति इंच"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:9
+msgid "<b>Banner</b>"
+msgstr "<b>बैनर</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:10
+msgid "<b>Common Options</b>"
+msgstr "<b>सामान्य विकल्प</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:11
+msgid "<b>Image Options</b>"
+msgstr "<b>बिंब विकल्प</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:12
+msgid "<b>Ink/Toner Levels</b>"
+msgstr "<b>इंक/टोनर स्तर</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:13
+msgid "<b>Other Options (Advanced)</b>"
+msgstr "<b>अन्य विकल्प (उन्नत)</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:14
+msgid "<b>Policies</b>"
+msgstr "<b>नीति</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:15
+msgid "<b>Settings</b>"
+msgstr "<b> जमावट</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:16
+msgid "<b>State</b>"
+msgstr "<b> स्थिति</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:17
+msgid "<b>Status Messages</b>"
+msgstr "<b>स्थिति संदेश</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:18
+msgid "<b>Tests and Maintenance</b>"
+msgstr "<b>जाँच व देखभाल</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:19
+msgid "<b>Text Options</b>"
+msgstr "<b>पाठ विकल्प</b>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:20
+msgid ""
+"<i>Not published\n"
+"See server settings</i>"
+msgstr ""
+"<i>प्रकाशित नहीं\n"
+"सर्वर जमावट देखें</i>"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:22
+msgid "Accepting jobs"
+msgstr "कार्य स्वीकार कर रहा है"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:23
+msgid "Access Control"
+msgstr "पहुँच नियंत्रण"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:24
+msgid "Add or Remove Members"
+msgstr "सदस्यों को जोड़ें या हटायें"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:25
+msgid "Allow printing for everyone except these users:"
+msgstr "इन उपयोक्ता के अलावे प्रत्येक के लिये मुद्रण की अनुमति दें:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:26
+msgid "Bottom margin:"
+msgstr "तल हाशिया:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:27
+msgid "Brightness:"
+msgstr "चमकीलापन:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:28
+msgid "Change..."
+msgstr "बदलें..."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:29
+msgid "Characters per inch:"
+msgstr "संप्रतीक प्रति इंच:"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:31
+msgid "Clean Print Heads"
+msgstr "छपाई शीर्ष साफ करें"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:32
+msgid "Columns:"
+msgstr "स्तंभ: "
+
+#: ../glade/PrinterPropertiesDialog.glade.h:33
+msgid "Copies:"
+msgstr "कॉपी:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:34
+msgid "Deny printing for everyone except these users:"
+msgstr "इन उपयोक्ता के अलावे प्रत्येक के लिये छपाई मना करें:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:36
+msgid "Device URI:"
+msgstr "युक्ति URI:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:37
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:38
+msgid "Ending Banner:"
+msgstr "समाप्ति बैनर:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:39
+msgid "Error Policy: \t"
+msgstr "त्रुटि नीति: \t"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:40
+msgid "Finishings:"
+msgstr "समाप्त कर रहा है:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:41
+msgid "Gamma:"
+msgstr "गामा:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:42
+msgid "Hold until:"
+msgstr "रोके रखें जबतक:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:43
+msgid "Hue adjustment:"
+msgstr "ह्यू समायोजन:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:44
+msgid "Ink/Toner Levels"
+msgstr "इंक/टोनर स्तर"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:45
+msgid "Installed Options"
+msgstr "संस्थापित विकल्प"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:46
+msgid "Job Options"
+msgstr "कार्य विकल्प"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:47
+msgid "Job priority:"
+msgstr "कार्य प्राथमिकता:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:48
+msgid "Left margin:"
+msgstr "बायां हाशिया:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:49
+msgid ""
+"Left to right, top to bottom\n"
+"Left to right, bottom to top\n"
+"Right to left, top to bottom\n"
+"Right to left, bottom to top\n"
+"Top to bottom, left to right\n"
+"Top to bottom, right to left\n"
+"Bottom to top, left to right\n"
+"Bottom to top, right to left"
+msgstr ""
+"बायें से दाहिने, शीर्ष से तल तक\n"
+"बायें से दाहिने, तल से शीर्ष तक\n"
+"बायें से दाहिने, शीर्ष से तल तक\n"
+"बायें से दाहिने, तल से शीर्ष तक\n"
+"शीर्ष से तल तक, बायें से दाहिने\n"
+"शीर्ष से तल तक, दाहिने से बायें\n"
+"तल से शीर्ष तक, बायें से दाहिने\n"
+"तल से शीर्ष तक, दाहिने से बायें"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:57
+msgid "Lines per inch:"
+msgstr "प्रति इंच पंक्तियां:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:58
+msgid "Location:"
+msgstr "स्थानः"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:59
+msgid "Make and Model:"
+msgstr "निर्माण और मॉडल:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:60
+msgid "Media:"
+msgstr "मीडिया:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:61
+msgid "Members"
+msgstr "सदस्यों"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:62
+msgid "Mirror"
+msgstr "मिरर"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:63
+msgid "More"
+msgstr "अधिक"
+
+#. See section 4.2.6 of this document:
+#. ftp://ftp.pwg.org/pub/pwg/candidates/cs-ippfinishings10-20010205-5100.1.pdf
+#: ../glade/PrinterPropertiesDialog.glade.h:66
+msgid ""
+"None\n"
+"Staple\n"
+"Punch\n"
+"Cover\n"
+"Bind\n"
+"Saddle stitch\n"
+"Edge stitch\n"
+"Fold\n"
+"Trim\n"
+"Bale\n"
+"Booklet maker\n"
+"Job offset\n"
+"Staple (top left)\n"
+"Staple (bottom left)\n"
+"Staple (top right)\n"
+"Staple (bottom right)\n"
+"Edge stitch (left)\n"
+"Edge stitch (top)\n"
+"Edge stitch (right)\n"
+"Edge stitch (bottom)\n"
+"Staple dual (left)\n"
+"Staple dual (top)\n"
+"Staple dual (right)\n"
+"Staple dual (bottom)\n"
+"Bind (left)\n"
+"Bind (top)\n"
+"Bind (right)\n"
+"Bind (bottom)"
+msgstr ""
+"कोई नहीं\n"
+"स्टेपल करें\n"
+"पंच करें\n"
+"कवर\n"
+"बांधें\n"
+"सैडल स्टिच\n"
+"किनारा स्टिच\n"
+"मोड़ें\n"
+"छांटें\n"
+"बेल\n"
+"पुस्तिका चिह्नक\n"
+"कार्य ऑफसेट\n"
+"स्टेपल (शीर्ष बायां)\n"
+"स्टेपल (तलवर्ती बायां)\n"
+"स्टेपल (शीर्ष दाहिना)\n"
+"स्टेपल (तलवर्ती दाहिना)\n"
+"किनारा नत्थी (बायां)\n"
+"किनारा नत्थी (शीर्ष)\n"
+"किनारा नत्थी (दाहिना)\n"
+"किनारा नत्थी (तल)\n"
+"स्टेपल दोहरा (बायां)\n"
+"स्टेपल दोहरा (शीर्ष)\n"
+"स्टेपल दोहरा (दाहिना)\n"
+"स्टेपल दोहरा (तल)\n"
+"बांधें (बायां)\n"
+"बांधें (शीर्ष)\n"
+"बांधें (दाहिना)\n"
+"बांधें (तल)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:94
+msgid ""
+"One-sided\n"
+"Two-sided (long edge)\n"
+"Two-sided (short edge)"
+msgstr ""
+"द्विपक्षीय\n"
+"द्विपक्षीय (लंबा किनारा)\n"
+"द्विपक्षीय (छोटा किनारा)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:97
+msgid "Operation Policy:"
+msgstr "प्रक्रिया नीति:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:98
+msgid "Orientation:"
+msgstr "अभिमुखन:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:99
+msgid "Pages per side layout:"
+msgstr "पृष्ठ प्रति स्लाइड लेआउट:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:100
+msgid "Pages per side:"
+msgstr "पृष्ठ प्रति पक्ष:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:101
+msgid "Policies"
+msgstr "नीति"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:102
+msgid ""
+"Portrait (no rotation)\n"
+"Landscape (90°)\n"
+"Reverse landscape (270°)\n"
+"Reverse portrait (180°)"
+msgstr ""
+"व्यक्तिचित्र (कोई घुमाव नहीं)\n"
+"भूदृश्य (90°)\n"
+"विपरीत भूदृश्य (270°)\n"
+"विपरीत व्यक्तिचित्र (180°)"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:106
+msgid "Pretty print"
+msgstr "बढ़िया छपाई"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:108
+msgid "Print Self-Test Page"
+msgstr "स्व जाँच पृष्ठ छापें"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:110
+#: ../troubleshoot/PrintTestPage.py:72
+msgid "Print Test Page"
+msgstr "जाँच पृष्ठ छापें"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:112
+msgid "Printer Properties"
+msgstr "मुद्रक गुण"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:113
+msgid "Printer State:"
+msgstr "मुद्रक स्थिति:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:114
+msgid "Reset"
+msgstr "फिर सेट करें"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:115
+msgid "Reset to system default"
+msgstr "तंत्र तयशुदा में फिर सेट करें"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:116
+msgid "Right margin:"
+msgstr "बायां हाशिया:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:117
+msgid "Saturation:"
+msgstr "संतृप्ति:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:118
+msgid "Scale to fit"
+msgstr "मापक में सटीक"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:119
+msgid "Scaling:"
+msgstr "माप रहा है:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:120
+msgid "Settings"
+msgstr "जमावट"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:121
+msgid "Shared"
+msgstr "साझा"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:122
+msgid "Sides:"
+msgstr "किनारा:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:123
+msgid ""
+"Specify the default job options for this printer.  Jobs arriving at this "
+"print server will have these options added if they are not already set by "
+"the application."
+msgstr ""
+"इस मुद्रक के लिये तयशुदा कार्य विकल्प निर्दिष्ट करें.  इस मुद्रण सर्वर पर आने वाले काम यह "
+"विकल्प रखेगा अगर वे पहले से अनुप्रयोग द्वारा सेट नहीं है."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:124
+msgid "Starting Banner:"
+msgstr "प्रारंभिक बैनर:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:125
+msgid "There are no status messages for this printer."
+msgstr "इस मुद्रक के लिए कोई स्थिति संदेश नहीं है."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:126
+msgid "To add a new option, enter its name in the box below and click to add."
+msgstr ""
+"एक नया विकल्प जोड़ने के लिये, इसके नाम को नीचे के बॉक्स में डालें और जोड़ने के लिये क्लिक करें."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:127
+msgid "Top margin:"
+msgstr "शीर्ष हाशिया:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:128
+msgid "Word wrap"
+msgstr "शब्द लपेटन"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:129
+msgid "default"
+msgstr "तयशुदा"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:132
+msgid "none"
+msgstr "कुछ नहीं"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:133
+msgid "points"
+msgstr "बिंदु"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:134
+msgid "user"
+msgstr "उपयोक्ता"
+
+#: ../glade/PrintersWindow.glade.h:1
+msgid "Adjust server settings"
+msgstr "सर्वर सेटिंग समायोजित करें"
+
+#: ../glade/PrintersWindow.glade.h:2
+msgid "Choose a different CUPS server"
+msgstr "भिन्न CUPS सर्वर चुनें"
+
+#: ../glade/PrintersWindow.glade.h:3
+msgid "Show printer groups"
+msgstr "मुद्रक समूह दिखाएँ"
+
+#: ../glade/PrintersWindow.glade.h:4
+msgid "Show printers shared by other systems"
+msgstr "अन्य तंत्र द्वारा साझा तंत्र दिखाएँ"
+
+#: ../glade/PrintersWindow.glade.h:5
+msgid "System-Config-Printer"
+msgstr "System-Config-Printer"
+
+#: ../glade/PrintersWindow.glade.h:6
+msgid "_Class"
+msgstr "वर्ग (_C)"
+
+#: ../glade/PrintersWindow.glade.h:7
+msgid "_Connect..."
+msgstr "जोड़ रहा है (_C)..."
+
+#: ../glade/PrintersWindow.glade.h:8
+msgid "_Discovered Printers"
+msgstr "खोजा गया मुद्रक (_D)"
+
+#: ../glade/PrintersWindow.glade.h:9
+msgid "_Group"
+msgstr "समूह (_G)"
+
+#: ../glade/PrintersWindow.glade.h:10
+msgid "_Groups"
+msgstr "समूह (_G)"
+
+#: ../glade/PrintersWindow.glade.h:11
+msgid "_Help"
+msgstr "मदद (_H)"
+
+#: ../glade/PrintersWindow.glade.h:12
+msgid "_New"
+msgstr "नया (_N)"
+
+#: ../glade/PrintersWindow.glade.h:13
+msgid "_Printer"
+msgstr "मुद्रक (_P)"
+
+#: ../glade/PrintersWindow.glade.h:14
+msgid "_Server"
+msgstr "सर्वर (_S)"
+
+#: ../glade/PrintersWindow.glade.h:15
+msgid "_Settings..."
+msgstr "सेटिंग (_S)..."
+
+#: ../glade/PrintersWindow.glade.h:16
+msgid "_Troubleshoot"
+msgstr "विघ्ननिवारण करें (_T)"
+
+#: ../glade/ServerSettingsDialog.glade.h:1
+msgid "<b>Basic Server Settings</b>"
+msgstr "<b> मूल सर्वर जमावट</b>"
+
+#: ../glade/ServerSettingsDialog.glade.h:2
+msgid "Allow _remote administration"
+msgstr "दूरस्थ प्रशासन की अनुमति दें (_r)"
+
+#: ../glade/ServerSettingsDialog.glade.h:3
+msgid "Allow _users to cancel any job (not just their own)"
+msgstr "किसी कार्य को रद्द करने के लिये उपयोक्ता को अनुमति दें (न केवल उनका अपना) (_u)"
+
+#: ../glade/ServerSettingsDialog.glade.h:4
+msgid "Allow printing from the _Internet"
+msgstr "इंटरनेट से छापने की अनुमति दें (_I)"
+
+#: ../glade/ServerSettingsDialog.glade.h:5
+msgid "Basic Server Settings"
+msgstr "मूल सर्वर सेटिंग"
+
+#: ../glade/ServerSettingsDialog.glade.h:6
+msgid "Save _debugging information for troubleshooting"
+msgstr "विघ्ननिवारण के लिये डिबगिंग सूचना सहेजें (_d)"
+
+#: ../glade/ServerSettingsDialog.glade.h:7
+msgid "_Advanced..."
+msgstr "उन्नत (_A)..."
+
+#: ../glade/ServerSettingsDialog.glade.h:8
+msgid "_Publish shared printers connected to this system"
+msgstr "इस तंत्र से जुड़े साझा मुद्रक प्रकाशित करें (_P)"
+
+#: ../glade/ServerSettingsDialog.glade.h:9
+msgid "_Show printers shared by other systems"
+msgstr "अन्य तंत्र द्वारा साझा मुद्रक दिखाएँ (_S)"
+
+#: ../glade/SMBBrowseDialog.glade.h:1
+msgid "SMB Browser"
+msgstr "SMB ब्राउज़र"
+
+#: ../glade/statusicon_popupmenu.glade.h:1
+msgid "_Configure Printers"
+msgstr "मुद्रक विन्यस्त करें (_C)"
+
+#: ../glade/statusicon_popupmenu.glade.h:2
+msgid "_Hide"
+msgstr "छिपायें (_H)"
+
+#: ../glade/WaitWindow.glade.h:1
+msgid "Please Wait"
+msgstr "कृपया प्रतीक्षा करें"
+
+#: ../system-config-printer.desktop.in.h:1
+msgid "Configure printers"
+msgstr "मुद्रक विन्यस्त करें"
+
+#: ../system-config-printer.desktop.in.h:2
+msgid "Printing"
+msgstr "छपाई कर रहा है"
+
+#: ../statereason.py:90
+msgid "Toner low"
+msgstr "टोनर कम"
+
+#: ../statereason.py:91
+#, python-format
+msgid "Printer '%s' is low on toner."
+msgstr "'%s' मुद्रक टोनर पर कम है."
+
+#: ../statereason.py:92
+msgid "Toner empty"
+msgstr "टोनर खाली"
+
+#: ../statereason.py:93
+#, python-format
+msgid "Printer '%s' has no toner left."
+msgstr "मुद्रक '%s' के पास कोई टोनर छूटा नहीं है."
+
+#: ../statereason.py:94
+msgid "Cover open"
+msgstr "कवर खुला"
+
+#: ../statereason.py:95
+#, python-format
+msgid "The cover is open on printer '%s'."
+msgstr "मुद्रक '%s' पर कवर खुला है."
+
+#: ../statereason.py:96
+msgid "Door open"
+msgstr "दरवाजा खुला"
+
+#: ../statereason.py:97
+#, python-format
+msgid "The door is open on printer '%s'."
+msgstr "दरवाजा '%s' मुद्रक पर खुला है."
+
+#: ../statereason.py:98
+msgid "Paper low"
+msgstr "कागज कम"
+
+#: ../statereason.py:99
+#, python-format
+msgid "Printer '%s' is low on paper."
+msgstr "मुद्रक '%s' कागज पर कम है."
+
+#: ../statereason.py:100
+msgid "Out of paper"
+msgstr "कागज के बाहर"
+
+#: ../statereason.py:101
+#, python-format
+msgid "Printer '%s' is out of paper."
+msgstr "मुद्रक '%s' कागज के बाहर है."
+
+#: ../statereason.py:102
+msgid "Ink low"
+msgstr "इंक कम है"
+
+#: ../statereason.py:103
+#, python-format
+msgid "Printer '%s' is low on ink."
+msgstr "मुद्रक '%s' में इंक कम है."
+
+#: ../statereason.py:104
+msgid "Ink empty"
+msgstr "इंक खाली है"
+
+#: ../statereason.py:105
+#, python-format
+msgid "Printer '%s' has no ink left."
+msgstr "मुद्रक '%s' के पास इंक नहीं बचा है."
+
+#: ../statereason.py:106
+msgid "Printer off-line"
+msgstr "मुद्रक ऑफलाइन"
+
+#: ../statereason.py:107
+#, python-format
+msgid "Printer '%s' is currently off-line."
+msgstr "मुद्रक '%s' अभी ऑफलाइन है."
+
+#: ../statereason.py:108
+msgid "Not connected?"
+msgstr "संबंधित नहीं?"
+
+#: ../statereason.py:109
+#, python-format
+msgid "Printer '%s' may not be connected."
+msgstr "मुद्रक '%s' संबंधित नहीं हो सकता है."
+
+#: ../statereason.py:110 ../statereason.py:126
+msgid "Printer error"
+msgstr "मुद्रक त्रुटि"
+
+#: ../statereason.py:111
+#, python-format
+msgid "There is a problem on printer '%s'."
+msgstr "'%s' मुद्रक कोई समस्या नहीं है."
+
+#: ../statereason.py:122
+msgid "Printer report"
+msgstr "मुद्रक रिपोर्ट"
+
+#: ../statereason.py:124
+msgid "Printer warning"
+msgstr "मुद्रक चेतावनी"
+
+#: ../statereason.py:144
+#, python-format
+msgid "Printer '%s': '%s'."
+msgstr "मुद्रक '%s': '%s'."
+
+#: ../timedops.py:102 ../timedops.py:181
+msgid "Please wait"
+msgstr "कृपया प्रतीक्षा करें"
+
+#: ../timedops.py:108 ../timedops.py:188
+msgid "Gathering information"
+msgstr "सूचना इकट्ठा कर रहा है"
+
+#: ../ToolbarSearchEntry.py:69
+msgid "_Filter:"
+msgstr "फिल्टर (_F):"
+
+#: ../troubleshoot/__init__.py:54
+msgid "Printing troubleshooter"
+msgstr "विघ्ननिवारक छपाई"
+
+#: ../troubleshoot/base.py:33
+msgid ""
+"To start this tool, select System->Administration->Printing from the main "
+"menu."
+msgstr "इस औज़ार को आरंभ करने के लिए, सिस्टम->प्रशासन->छपाई को मुख्य मेन्यू से चुनें."
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:28
+msgid "Server Not Exporting Printers"
+msgstr "सर्वर जो मुद्रक निर्यात नहीं कर रहा है"
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:29
+msgid ""
+"Although one or more printers are marked as being shared, this print server "
+"is not exporting shared printers to the network."
+msgstr ""
+"हालांकि एक या अधिक मुद्रक साझा किए जाने के लिए चिह्नित किए गए थे, यह छपाई सर्वर संजाल "
+"में साझा मुद्रक निर्यात नहीं कर रहा है."
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:33
+msgid ""
+"Enable the 'Publish shared printers connected to this system' option in the "
+"server settings using the printing administration tool."
+msgstr ""
+"'इस सिस्टम में कनेक्टेड साझा मुद्रक प्रकाशित करें' विकल्प को सर्वर सेटिंग में मुद्रण प्रशासन "
+"औज़ार के प्रयोग से सक्रिय करें."
+
+#: ../troubleshoot/CheckPPDSanity.py:44 ../applet.py:185
+msgid "Install"
+msgstr "संस्थापित करें"
+
+#: ../troubleshoot/CheckPPDSanity.py:96
+msgid "Invalid PPD File"
+msgstr "अवैध PPD फाइल"
+
+#: ../troubleshoot/CheckPPDSanity.py:106
+#, python-format
+msgid ""
+"The PPD file for printer '%s' does not conform to the specification.  "
+"Possible reason follows:"
+msgstr ""
+"मुद्रक '%s' के लिए PPD फ़ाइल विनिर्दिष्टता को संगत नहीं करता है.  संभावित कारण इस "
+"प्रकार हैं:"
+
+#. Perhaps cupstestppd is not in the path.
+#: ../troubleshoot/CheckPPDSanity.py:112
+#, python-format
+msgid "There is a problem with the PPD file for printer '%s'."
+msgstr "मुद्रक '%s' के लिए PPD फाइल के साथ एक समस्या है."
+
+#: ../troubleshoot/CheckPPDSanity.py:122
+msgid "Missing Printer Driver"
+msgstr "गुम मुद्रक ड्राइवर"
+
+#: ../troubleshoot/CheckPPDSanity.py:136
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed."
+msgstr "'%s' मुद्रक '%s' प्रोग्राम की जरूरत है लेकिन यह अभी संस्थापित नहीं है."
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:29
+msgid "Choose Network Printer"
+msgstr "संजाल मुद्रक चुनें"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:30
+msgid ""
+"Please select the network printer you are trying to use from the list below. "
+"If it does not appear in the list, select 'Not listed'."
+msgstr ""
+"कृपया यह संजाल मुद्रक चुनें जिसे आप नीचे की सूची से प्रयोग करना चाहते हैं. यदि यह सूची में "
+"प्रकट नहीं होता है, 'सूचीबद्ध नहीं' चुनें."
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:39
+#: ../troubleshoot/ChoosePrinter.py:40 ../troubleshoot/DeviceListed.py:38
+msgid "Information"
+msgstr "सूचना"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:75
+#: ../troubleshoot/ChoosePrinter.py:64 ../troubleshoot/DeviceListed.py:70
+msgid "Not listed"
+msgstr "सूचीबद्ध नहीं"
+
+#: ../troubleshoot/ChoosePrinter.py:30
+msgid "Choose Printer"
+msgstr "मुद्रक चुनें"
+
+#: ../troubleshoot/ChoosePrinter.py:31
+msgid ""
+"Please select the printer you are trying to use from the list below. If it "
+"does not appear in the list, select 'Not listed'."
+msgstr ""
+"कृपया यह मुद्रक चुनें जिसे आप नीचे की सूची से प्रयोग करना चाहते हैं. यदि यह सूची में प्रकट नहीं "
+"होता है, 'सूचीबद्ध नहीं' चुनें."
+
+#: ../troubleshoot/DeviceListed.py:30
+msgid "Choose Device"
+msgstr "युक्ति चुनें"
+
+#: ../troubleshoot/DeviceListed.py:31
+msgid ""
+"Please select the device you want to use from the list below. If it does not "
+"appear in the list, select 'Not listed'."
+msgstr ""
+"कृपया यह युक्ति चुनें जिसे आप नीचे की सूची से प्रयोग करना चाहते हैं. यदि यह सूची में प्रकट नहीं "
+"होता है, 'सूचीबद्ध नहीं' चुनें."
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:31
+msgid "Debugging"
+msgstr "डिबगिंग"
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:32
+msgid ""
+"I would like to enable debugging output from the CUPS scheduler.  This may "
+"cause the scheduler to restart.  Click the button below to enable debugging."
+msgstr ""
+"मैं CUPS नियोजक से डिबगिंग सक्रिय करना चाहूँगा.  यह नियोजक को फिर आरंभ करने का कारण "
+"बनेगा.  डिबगिंग सक्रिय करने के लिए बटन नीचे क्लिक करें."
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:36
+msgid "Enable Debugging"
+msgstr "डिबगिंग सक्रिय करें"
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:215
+msgid "Debug logging enabled."
+msgstr "डिबग लॉगिंग सक्रिय किया हुआ है."
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:217
+msgid "Debug logging was already enabled."
+msgstr "लॉगिंग का डिबग पहले से सक्रिय है."
+
+#: ../troubleshoot/ErrorLogParse.py:29
+msgid "Error log messages"
+msgstr "त्रुटि लॉग संदेश"
+
+#: ../troubleshoot/ErrorLogParse.py:30
+msgid "There are messages in the error log."
+msgstr "त्रुटि लॉग में संदेश हैं."
+
+#: ../troubleshoot/Locale.py:29
+msgid "Incorrect Page Size"
+msgstr "गलत पृष्ठ आकार"
+
+#: ../troubleshoot/Locale.py:30
+msgid ""
+"The page size for the print job was not the printer's default page size.  If "
+"this is not intentional it may cause alignment problems."
+msgstr ""
+"इस छपाई कार्य के लिए पृष्ठ आकार मुद्रक का तयशुदा पृष्ठ आकार नहीं था.  यदि यह जानबूझकर "
+"नहीं है तो यह संरेखण समस्या दे सकती है."
+
+#: ../troubleshoot/Locale.py:43
+msgid "Print job page size:"
+msgstr "मुद्रण कार्य पृष्ठ आकार:"
+
+#: ../troubleshoot/Locale.py:48
+msgid "Printer page size:"
+msgstr "मुद्रक पृष्ठ आकार:"
+
+#: ../troubleshoot/LocalOrRemote.py:26
+msgid "Printer Location"
+msgstr "मुद्रक अवस्थिति"
+
+#: ../troubleshoot/LocalOrRemote.py:27
+msgid "Is the printer connected to this computer or available on the network?"
+msgstr "क्या मुद्रक इस कंप्यूटर से कनेक्टेड है या इस संजाल पर उपलब्ध है?"
+
+#: ../troubleshoot/LocalOrRemote.py:29
+msgid "Locally connected printer"
+msgstr "स्थानीय रूप से कनेक्टेड मुद्रक"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:28
+msgid "Queue Not Shared"
+msgstr "कतार साझाकृत नहीं है"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:29
+msgid "The CUPS printer on the server is not shared."
+msgstr "सर्वर पर CUPS मुद्रक साझा नहीं है."
+
+#: ../troubleshoot/PrinterStateReasons.py:29
+msgid "Status Messages"
+msgstr "स्थिति संदेश"
+
+#: ../troubleshoot/PrinterStateReasons.py:30
+msgid "There are status messages associated with this queue."
+msgstr "इस कतार के साथ स्थिति संदेश जुड़ा है."
+
+#: ../troubleshoot/PrinterStateReasons.py:58
+#, python-format
+msgid "The printer's state message is: '%s'."
+msgstr "मुद्रक स्थिति संदेश है: '%s'."
+
+#: ../troubleshoot/PrinterStateReasons.py:83
+msgid "Errors are listed below:"
+msgstr "त्रुटियाँ नीचे सूचीबद्ध है:"
+
+#: ../troubleshoot/PrinterStateReasons.py:88
+msgid "Warnings are listed below:"
+msgstr "चेतावनी नीचे सूचीबद्ध है:"
+
+#: ../troubleshoot/PrintTestPage.py:62
+msgid "Test Page"
+msgstr "जाँच पृष्ठ"
+
+#: ../troubleshoot/PrintTestPage.py:63
+msgid ""
+"Now print a test page.  If you are having problems printing a specific "
+"document, print that document now and mark the print job below."
+msgstr ""
+"अब कोई जाँच पृष्ठ छापें.  यदि आपके पास किसी विशेष दस्तावेज़ छापने में कोई समस्या है, उसे अब "
+"छापें और छपाई कार्य को नीचे चिह्नित करें."
+
+#: ../troubleshoot/PrintTestPage.py:75
+msgid "Cancel All Jobs"
+msgstr "सभी कार्य रद्द करें"
+
+#: ../troubleshoot/PrintTestPage.py:81
+msgid "Test"
+msgstr "जाँचें"
+
+#: ../troubleshoot/PrintTestPage.py:111
+msgid "Did the marked print jobs print correctly?"
+msgstr "क्या चिह्नित छपाई कार्य सही तरीके से छपाई करता है?"
+
+#: ../troubleshoot/PrintTestPage.py:143
+#, python-format
+msgid "Remember to load paper of type '%s' into the printer first."
+msgstr "'%s' प्रकार के कागज को मुद्रक में पहले लोड करना याद रखें."
+
+#: ../troubleshoot/PrintTestPage.py:416
+msgid "Error submitting test page"
+msgstr "जाँच पृष्ठ सुपुर्दगी में त्रुटि"
+
+#: ../troubleshoot/QueueNotEnabled.py:56
+#: ../troubleshoot/QueueRejectingJobs.py:66
+#, python-format
+msgid "The reason given is: '%s'."
+msgstr "दिया कारण है: '%s'."
+
+#: ../troubleshoot/QueueNotEnabled.py:58
+msgid "This may be due to the printer being disconnected or switched off."
+msgstr "यह मुद्रक के डिसकनेक्टेड या स्विच ऑफ होने के कारण हो सकता है."
+
+#: ../troubleshoot/QueueNotEnabled.py:62
+msgid "Queue Not Enabled"
+msgstr "कतार सक्रिय नहीं"
+
+#: ../troubleshoot/QueueNotEnabled.py:63
+#, python-format
+msgid "The queue '%s' is not enabled."
+msgstr "यह कतार '%s' सक्रिय नहीं है."
+
+#: ../troubleshoot/QueueNotEnabled.py:71
+msgid ""
+"To enable it, select the 'Enabled' checkbox in the 'Policies' tab for the "
+"printer in the printer administration tool."
+msgstr ""
+"इसे सक्रिय करने के लिए, 'सक्रियकृत' जाँचपेटी को 'नीति' टैब में मुद्रण प्रशासन औज़ार में मुद्रक "
+"के लिए चुनें."
+
+#: ../troubleshoot/QueueRejectingJobs.py:31
+msgid "Queue Rejecting Jobs"
+msgstr "कतार कार्य अस्वीकार कर रहा है"
+
+#: ../troubleshoot/QueueRejectingJobs.py:63
+#, python-format
+msgid "The queue '%s' is rejecting jobs."
+msgstr "यह कतार '%s' कार्य अस्वीकार कर रहा है."
+
+#: ../troubleshoot/QueueRejectingJobs.py:70
+msgid ""
+"To make the queue accept jobs, select the 'Accepting Jobs' checkbox in the "
+"'Policies' tab for the printer in the printer administration tool."
+msgstr ""
+"इस कार्य को स्वीकारने के लिए कतार बनाने के लिए, 'कार्य स्वीकार कर रहा है' जाँचपेटी को "
+"'नीति' टैब में मुद्रण प्रशासन औज़ार में मुद्रक के लिए चुनें."
+
+#: ../troubleshoot/RemoteAddress.py:26
+msgid "Remote Address"
+msgstr "दूरस्थ पता"
+
+#: ../troubleshoot/RemoteAddress.py:27
+msgid ""
+"Please enter as many details as you can about the network address of this "
+"printer."
+msgstr "कृपया इस मुद्रक के संजाल पता के बारे में जितना संभव हो उतना विवरण दाखिल करें."
+
+#: ../troubleshoot/RemoteAddress.py:35
+msgid "Server name:"
+msgstr "सर्वर नामः"
+
+#: ../troubleshoot/RemoteAddress.py:42
+msgid "Server IP address:"
+msgstr "सर्वर IP पता:"
+
+#: ../troubleshoot/SchedulerNotRunning.py:28
+msgid "CUPS Service Stopped"
+msgstr "CUPS सेवा अवरोधित"
+
+#: ../troubleshoot/SchedulerNotRunning.py:29
+msgid ""
+"The CUPS print spooler does not appear to be running.  To correct this, "
+"choose System->Administration->Services from the main menu and look for the "
+"'cups' service."
+msgstr ""
+"CUPS मुद्रण स्पूलर चलता हुआ नहीं प्रतीत होता है.  इसे करने के लिए, मुख्य मेन्यू से सिस्टम-"
+">प्रशासन->सेवा चुनें और 'cups' सेवा के लिए देखें."
+
+#: ../troubleshoot/ServerFirewalled.py:26
+msgid "Check Server Firewall"
+msgstr "सर्वर फ़ायरवाल जाँचें"
+
+#: ../troubleshoot/ServerFirewalled.py:27
+msgid "It is not possible to connect to the server."
+msgstr "सर्वर से जोड़ना संभव नहीं है."
+
+#: ../troubleshoot/ServerFirewalled.py:42
+#, python-format
+msgid ""
+"Please check to see if a firewall or router configuration is blocking TCP "
+"port %d on server '%s'."
+msgstr ""
+"कृपया यह देखने के लिए जाँचें कि क्या फ़ायरवाल या रॉटर विन्यास TCP पोर्ट %d को '%s' सर्वर "
+"पर रोक रहा है."
+
+#: ../troubleshoot/Shrug.py:26
+msgid "Sorry!"
+msgstr "माफ करें!"
+
+#: ../troubleshoot/Shrug.py:27
+msgid ""
+"I have not been able to work out what the problem is, but I have collected "
+"some useful information to put in a bug report."
+msgstr ""
+"मैं यह पता करने में असमर्थ हूँ कि समस्या क्या है, लेकिन मैंने कुछ उपयोगी सूचना बग रिपोर्ट में "
+"रखने के लिए जमा कर रखे हैं."
+
+#: ../troubleshoot/Shrug.py:32
+msgid "Diagnostic Output (Advanced)"
+msgstr "निदान आउटपुट (उन्नत)"
+
+#: ../troubleshoot/Welcome.py:43
+msgid "Trouble-shooting Printing"
+msgstr "विघ्न निवारण छपाई"
+
+#: ../troubleshoot/Welcome.py:45
+msgid ""
+"In the next few screens I will ask you some questions about your problem "
+"with printing. Based on your answers I will try to suggest a solution."
+msgstr ""
+"अगले कुछ स्क्रीन में मैं आपसे कुछ प्रश्न छपाई की समस्या के संबंध में पूछूंगा. आपके उत्तर के आधार पर "
+"मैं एक समाधान देने की कोशिश करूंगा."
+
+#: ../troubleshoot/Welcome.py:49
+msgid "Click 'Forward' to begin."
+msgstr "शुरू करने के लिए 'अग्रेषित करें' क्लिक करें."
+
+#: ../applet.py:94
+msgid "Configuring new printer"
+msgstr "नया मुद्रक विन्यस्त कर रहा है"
+
+#. name is a URI, no queue was generated, because no suitable
+#. driver was found
+#: ../applet.py:116 ../applet.py:174
+msgid "Missing printer driver"
+msgstr "गुम मुद्रक ड्राइवर"
+
+#: ../applet.py:123
+#, python-format
+msgid "No printer driver for %s."
+msgstr "%s के लिए कोई मुद्रक नहीं."
+
+#: ../applet.py:125
+msgid "No driver for this printer."
+msgstr "मुद्रक के लिये कोई ड्राइवर नहीं."
+
+#: ../applet.py:172
+msgid "Printer added"
+msgstr "मुद्रक जोड़ा गया"
+
+#: ../applet.py:178
+msgid "Install printer driver"
+msgstr "प्रिंटर ड्राइवर संस्थापित करें"
+
+#: ../applet.py:179
+#, python-format
+msgid "`%s' requires driver installation: %s."
+msgstr "`%s' के लिए ड्राइवर संस्थापन की जरूरत है: %s."
+
+#: ../applet.py:201
+#, python-format
+msgid "`%s' is ready for printing."
+msgstr "`%s' छपाई के लिए तैयार है."
+
+#: ../applet.py:205 ../applet.py:217
+msgid "Print test page"
+msgstr "जाँच पृष्ठ छापें"
+
+#: ../applet.py:208
+msgid "Configure"
+msgstr "विन्यस्त करें"
+
+#: ../applet.py:212
+#, python-format
+msgid "`%s' has been added, using the `%s' driver."
+msgstr "`%s' को जोड़ा गया है, `%s' ड्राइवर का प्रयोग हो रहा है."
+
+#: ../applet.py:220
+msgid "Find driver"
+msgstr "ड्राइवर ढूँढ़ें"
+
+#: ../print-applet.desktop.in.h:1
+msgid "Print Queue Applet"
+msgstr "मुद्रण कतार एप्प्लेट"
+
+#: ../print-applet.desktop.in.h:2
+msgid "System tray icon for managing print jobs"
+msgstr "छपाई काम प्रबंधन के लिये तंत्र ट्रे प्रतीक"
+
+#: ../manage-print-jobs.desktop.in.h:1
+msgid "Cancel, pause, resume or reprint jobs"
+msgstr "रद्द, ठहरायें, फिर बहाल करें या कार्य फिर छापें"
+
+#: ../manage-print-jobs.desktop.in.h:2
+msgid "Manage Print Jobs"
+msgstr "मुद्रण कार्य प्रबंधित करें"
+
+#: ../my-default-printer.desktop.in.h:2
+msgid "Select default printer"
+msgstr "तयशुदा मुद्रक चुनें"

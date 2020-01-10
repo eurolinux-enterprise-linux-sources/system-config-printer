@@ -1,0 +1,4438 @@
+# translation of printconf.pot to Cymraeg
+# This file is distributed under the same license as the printconf package.
+# Copyright (C) 2004 Alan Cox
+# Translation by Owain Green <owaing@oceanfree.net>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: printconf.cy\n"
+"Report-Msgid-Bugs-To: https://bugzilla.redhat.com/bugzilla\n"
+"POT-Creation-Date: 2009-12-22 14:44+0000\n"
+"PO-Revision-Date: 2004-02-24 12:29+0000\n"
+"Last-Translator: Alan Cox <alan@redhat.com>\n"
+"Language-Team: Cymraeg <Cy@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.2\n"
+
+#: ../AdvancedServerSettings.py:42
+#, fuzzy
+msgid "Advanced Server Settings"
+msgstr "Dewisiadau gyrrydd"
+
+#: ../AdvancedServerSettings.py:59
+msgid "Job History"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:70
+msgid "Do not preserve job history"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:72
+msgid "Preserve job history but not files"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:75
+msgid "Preserve job files (allow reprinting)"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:83
+#, fuzzy
+msgid "Browse Servers"
+msgstr "Ciwiau poredig"
+
+#: ../AdvancedServerSettings.py:94
+msgid ""
+"Usually print servers broadcast their queues.  Specify print servers below "
+"to periodically ask for queues instead."
+msgstr ""
+
+#: ../AdvancedServerSettings.py:215
+#, fuzzy
+msgid "Enter IP address"
+msgstr "Enw gwesteiwr neu gyfeiriad IP gweinydd:"
+
+#: ../asyncipp.py:420 ../authconn.py:402 ../authconn.py:404
+#: ../errordialogs.py:65 ../pysmb.py:75 ../pysmb.py:77
+msgid "Not authorized"
+msgstr ""
+
+#: ../asyncipp.py:421 ../authconn.py:405 ../pysmb.py:78
+msgid "The password may be incorrect."
+msgstr ""
+
+#: ../asyncipp.py:432 ../authconn.py:426
+#, fuzzy, python-format
+msgid "Authentication (%s)"
+msgstr "Dilysiant"
+
+#: ../asyncipp.py:497 ../authconn.py:259 ../errordialogs.py:56
+#: ../errordialogs.py:70
+#, fuzzy
+msgid "CUPS server error"
+msgstr "Gweinydd:"
+
+#: ../asyncipp.py:499 ../authconn.py:257
+#, fuzzy, python-format
+msgid "CUPS server error (%s)"
+msgstr "Gweinydd:"
+
+#: ../asyncipp.py:516 ../authconn.py:268 ../errordialogs.py:57
+#: ../troubleshoot/PrintTestPage.py:417
+#, fuzzy, python-format
+msgid "There was an error during the CUPS operation: '%s'."
+msgstr "Bu gwall wrth geisio argraffu'r dudalen brawf."
+
+#: ../asyncipp.py:519 ../authconn.py:271
+#, fuzzy
+msgid "Retry"
+msgstr "Profi"
+
+#: ../asyncipp.py:530 ../authconn.py:218 ../authconn.py:240
+#, fuzzy
+msgid "Operation canceled"
+msgstr "Enw dewisiad"
+
+#: ../authconn.py:37 ../glade/NewPrinterWindow.glade.h:106
+#, fuzzy
+msgid "Username:"
+msgstr "Enw defnyddiwr:"
+
+#: ../authconn.py:38 ../glade/NewPrinterWindow.glade.h:75
+msgid "Password:"
+msgstr "Cyfrinair:"
+
+#: ../authconn.py:39
+#, fuzzy
+msgid "Domain:"
+msgstr "Ymyl uchaf (pt):"
+
+#: ../authconn.py:48 ../authconn.py:428
+#, fuzzy
+msgid "Authentication"
+msgstr "Dilysiant"
+
+#: ../authconn.py:87
+msgid "Remember password"
+msgstr ""
+
+#: ../errordialogs.py:66
+msgid ""
+"The password may be incorrect, or the server may be configured to deny "
+"remote administration."
+msgstr ""
+
+#: ../errordialogs.py:72
+msgid "Bad request"
+msgstr ""
+
+#: ../errordialogs.py:74
+#, fuzzy
+msgid "Not found"
+msgstr "Cysylltiedig yn _lleol"
+
+#: ../errordialogs.py:76
+msgid "Request timeout"
+msgstr ""
+
+#: ../errordialogs.py:78
+#, fuzzy
+msgid "Upgrade required"
+msgstr "Cyfrinair:"
+
+#: ../errordialogs.py:80
+#, fuzzy
+msgid "Server error"
+msgstr "Argraffyd: "
+
+#: ../errordialogs.py:82 ../system-config-printer.py:1216
+#, fuzzy
+msgid "Not connected"
+msgstr "Cysylltiedig yn _lleol"
+
+#: ../errordialogs.py:84
+#, fuzzy, python-format
+msgid "status %s"
+msgstr "Prawf %s"
+
+#: ../errordialogs.py:86
+#, python-format
+msgid "There was an HTTP error: %s."
+msgstr ""
+
+#: ../GroupsPane.py:92
+msgid "_New Group"
+msgstr ""
+
+#: ../GroupsPane.py:95
+msgid "_New Group from Selection"
+msgstr ""
+
+#: ../GroupsPane.py:98 ../system-config-printer.py:407
+#, fuzzy
+msgid "_Rename"
+msgstr "_Gwaredu"
+
+#: ../GroupsPane.py:170
+msgid "The item could not be renamed."
+msgstr ""
+
+#: ../GroupsPane.py:171
+#, fuzzy, python-format
+msgid "The name \"%s\" is already in use. Please use a different name."
+msgstr "Mae'r enw \"%s\" mewn defnydd eisioes. Dewiswch enw gwahanol."
+
+#: ../GroupsPane.py:290
+#, python-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr ""
+
+#: ../GroupsPane.py:296
+msgid ""
+"This will not delete any printer queues from your computer. To delete queues "
+"completely, you must delete them from the 'All Printers' group."
+msgstr ""
+
+#: ../GroupsPane.py:318
+msgid "New Group"
+msgstr ""
+
+#: ../GroupsPaneModel.py:47
+#, fuzzy
+msgid "All Printers"
+msgstr "Argraffyd: "
+
+#: ../GroupsPaneModel.py:60
+msgid "Favorites"
+msgstr ""
+
+#: ../jobviewer.py:167
+msgid "_Hold"
+msgstr ""
+
+#: ../jobviewer.py:169
+#, fuzzy
+msgid "_Release"
+msgstr "_Dileu"
+
+#: ../jobviewer.py:171
+msgid "Re_print"
+msgstr ""
+
+#: ../jobviewer.py:173
+#, fuzzy
+msgid "_Authenticate"
+msgstr "Dilysiant"
+
+#: ../jobviewer.py:211 ../troubleshoot/PrintTestPage.py:82
+msgid "Job"
+msgstr ""
+
+#: ../jobviewer.py:212
+#, fuzzy
+msgid "User"
+msgstr "Defnyddiwr"
+
+#: ../jobviewer.py:213 ../troubleshoot/PrintTestPage.py:86
+#, fuzzy
+msgid "Document"
+msgstr "Sylw"
+
+#: ../jobviewer.py:214 ../my-default-printer.py:153
+#: ../system-config-printer.py:380 ../system-config-printer.py:1364
+#: ../troubleshoot/PrintTestPage.py:84
+#, fuzzy
+msgid "Printer"
+msgstr "Argraffyd: "
+
+#: ../jobviewer.py:215
+#, fuzzy
+msgid "Size"
+msgstr "Maint Tudalen"
+
+#: ../jobviewer.py:231
+msgid "Time submitted"
+msgstr ""
+
+#: ../jobviewer.py:235 ../troubleshoot/PrintTestPage.py:87
+msgid "Status"
+msgstr ""
+
+#: ../jobviewer.py:267
+#, python-format
+msgid "my jobs on %s"
+msgstr ""
+
+#: ../jobviewer.py:269
+msgid "my jobs"
+msgstr ""
+
+#: ../jobviewer.py:274
+msgid "all jobs"
+msgstr ""
+
+#: ../jobviewer.py:275
+#, python-format
+msgid "Document Print Status (%s)"
+msgstr ""
+
+#: ../jobviewer.py:425 ../jobviewer.py:701 ../jobviewer.py:1510
+#: ../jobviewer.py:1515 ../jobviewer.py:1524 ../jobviewer.py:1603
+#: ../system-config-printer.py:2630 ../glade/NewPrinterWindow.glade.h:104
+#: ../troubleshoot/ChooseNetworkPrinter.py:102
+#: ../troubleshoot/ChooseNetworkPrinter.py:103
+#: ../troubleshoot/ChooseNetworkPrinter.py:106
+#: ../troubleshoot/ChooseNetworkPrinter.py:107
+#: ../troubleshoot/ChoosePrinter.py:87 ../troubleshoot/ChoosePrinter.py:88
+#: ../troubleshoot/ChoosePrinter.py:91 ../troubleshoot/ChoosePrinter.py:92
+#: ../troubleshoot/DeviceListed.py:92 ../troubleshoot/DeviceListed.py:93
+#, fuzzy
+msgid "Unknown"
+msgstr "(anhysbys)"
+
+#: ../jobviewer.py:431
+msgid "a minute ago"
+msgstr ""
+
+#: ../jobviewer.py:434
+#, python-format
+msgid "%d minutes ago"
+msgstr ""
+
+#: ../jobviewer.py:438
+msgid "an hour ago"
+msgstr ""
+
+#: ../jobviewer.py:440
+#, python-format
+msgid "%d hours ago"
+msgstr ""
+
+#: ../jobviewer.py:444
+msgid "yesterday"
+msgstr ""
+
+#: ../jobviewer.py:446
+#, python-format
+msgid "%d days ago"
+msgstr ""
+
+#: ../jobviewer.py:450
+msgid "last week"
+msgstr ""
+
+#: ../jobviewer.py:452
+#, python-format
+msgid "%d weeks ago"
+msgstr ""
+
+#: ../jobviewer.py:652 ../jobviewer.py:731
+#, fuzzy
+msgid "authenticating job"
+msgstr "Dilysiant"
+
+#: ../jobviewer.py:699
+#, python-format
+msgid "Authentication required for printing document `%s' (job %d)"
+msgstr ""
+
+#: ../jobviewer.py:873
+#, fuzzy
+msgid "Cancel Job"
+msgstr "_Diddymu"
+
+#: ../jobviewer.py:887
+msgid "Do you really want to cancel this job?"
+msgstr ""
+
+#: ../jobviewer.py:915
+msgid "canceling job"
+msgstr ""
+
+#: ../jobviewer.py:939
+msgid "holding job"
+msgstr ""
+
+#: ../jobviewer.py:963
+msgid "releasing job"
+msgstr ""
+
+#: ../jobviewer.py:1083
+msgid "No documents queued"
+msgstr ""
+
+#: ../jobviewer.py:1085
+msgid "1 document queued"
+msgstr ""
+
+#: ../jobviewer.py:1087
+#, python-format
+msgid "%d documents queued"
+msgstr ""
+
+#: ../jobviewer.py:1310
+#, fuzzy, python-format
+msgid "There was a problem sending document `%s' (job %d) to the printer."
+msgstr ""
+"Roedd problem wrth anfon %s\n"
+"at y ciw '%s':\n"
+"\n"
+
+#: ../jobviewer.py:1313
+#, python-format
+msgid "There was a problem processing document `%s' (job %d)."
+msgstr ""
+
+#. Give up and use the provided message untranslated.
+#: ../jobviewer.py:1320
+#, python-format
+msgid "There was a problem printing document `%s' (job %d): `%s'."
+msgstr ""
+
+#: ../jobviewer.py:1327 ../jobviewer.py:1343
+#, fuzzy
+msgid "Print Error"
+msgstr "Argraffyd: "
+
+#: ../jobviewer.py:1328
+msgid "_Diagnose"
+msgstr ""
+
+#: ../jobviewer.py:1349
+#, python-format
+msgid "The printer called `%s' has been disabled."
+msgstr ""
+
+#: ../jobviewer.py:1538
+#, fuzzy
+msgid "Held for authentication"
+msgstr "Dilysiant"
+
+#: ../jobviewer.py:1540 ../troubleshoot/PrintTestPage.py:42
+#, fuzzy
+msgid "Held"
+msgstr "_Cymorth"
+
+#: ../jobviewer.py:1576
+#, python-format
+msgid "Held until %s"
+msgstr ""
+
+#: ../jobviewer.py:1580
+msgid "Held until day-time"
+msgstr ""
+
+#: ../jobviewer.py:1582
+msgid "Held until evening"
+msgstr ""
+
+#: ../jobviewer.py:1584
+msgid "Held until night-time"
+msgstr ""
+
+#: ../jobviewer.py:1586
+msgid "Held until second shift"
+msgstr ""
+
+#: ../jobviewer.py:1588
+msgid "Held until third shift"
+msgstr ""
+
+#: ../jobviewer.py:1590
+msgid "Held until weekend"
+msgstr ""
+
+#: ../jobviewer.py:1593 ../troubleshoot/PrintTestPage.py:41
+#, fuzzy
+msgid "Pending"
+msgstr "Yn argraffu"
+
+#: ../jobviewer.py:1594 ../system-config-printer.py:198
+#: ../troubleshoot/PrintTestPage.py:43
+msgid "Processing"
+msgstr ""
+
+#: ../jobviewer.py:1595 ../system-config-printer.py:200
+#: ../troubleshoot/PrintTestPage.py:44
+msgid "Stopped"
+msgstr ""
+
+#: ../jobviewer.py:1596 ../troubleshoot/PrintTestPage.py:45
+#, fuzzy
+msgid "Canceled"
+msgstr "_Diddymu"
+
+#: ../jobviewer.py:1597 ../troubleshoot/PrintTestPage.py:46
+#, fuzzy
+msgid "Aborted"
+msgstr "Ynghylch"
+
+#: ../jobviewer.py:1598 ../troubleshoot/PrintTestPage.py:47
+#, fuzzy
+msgid "Completed"
+msgstr "Sylw"
+
+#: ../my-default-printer.py:137 ../my-default-printer.desktop.in.h:1
+#, fuzzy
+msgid "Default Printer"
+msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#: ../my-default-printer.py:141 ../my-default-printer.py:177
+#, fuzzy
+msgid "_Use System Default"
+msgstr "Gosod yn _ragosodyn"
+
+#: ../my-default-printer.py:142 ../my-default-printer.py:179
+#, fuzzy
+msgid "_Set Default"
+msgstr "_Rhagosodion"
+
+#: ../my-default-printer.py:158 ../system-config-printer.py:437
+#: ../troubleshoot/ChooseNetworkPrinter.py:37
+#: ../troubleshoot/ChoosePrinter.py:38
+#, fuzzy
+msgid "Location"
+msgstr "_Gweithred"
+
+#: ../optionwidgets.py:128
+msgid "Conflicts with:"
+msgstr ""
+
+#: ../ppdippstr.py:45
+#, fuzzy
+msgid "Abort job"
+msgstr "Ynghylch"
+
+#: ../ppdippstr.py:46
+msgid "Retry current job"
+msgstr ""
+
+#: ../ppdippstr.py:47
+msgid "Retry job"
+msgstr ""
+
+#: ../ppdippstr.py:48
+#, fuzzy
+msgid "Stop printer"
+msgstr "Argraffydd:"
+
+#: ../ppdippstr.py:54
+#, fuzzy
+msgid "Default behavior"
+msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#: ../ppdippstr.py:55
+#, fuzzy
+msgid "Authenticated"
+msgstr "Dilysiant"
+
+#: ../ppdippstr.py:61 ../system-config-printer.py:6498
+msgid "None"
+msgstr "Dim"
+
+#: ../ppdippstr.py:62
+#, fuzzy
+msgid "Classified"
+msgstr "_dosbarthedig"
+
+#: ../ppdippstr.py:63
+#, fuzzy
+msgid "Confidential"
+msgstr "c_yfrinachol"
+
+#: ../ppdippstr.py:64
+#, fuzzy
+msgid "Secret"
+msgstr "_cyfrinachol"
+
+#: ../ppdippstr.py:65
+#, fuzzy
+msgid "Standard"
+msgstr "_safonol"
+
+#: ../ppdippstr.py:66
+#, fuzzy
+msgid "Top secret"
+msgstr "_tra chyfrinachol"
+
+#: ../ppdippstr.py:67
+#, fuzzy
+msgid "Unclassified"
+msgstr "_annosbarthedig"
+
+#: ../ppdippstr.py:73
+#, fuzzy
+msgid "No hold"
+msgstr "Cysylltiedig yn _lleol"
+
+#: ../ppdippstr.py:74
+msgid "Indefinite"
+msgstr ""
+
+#: ../ppdippstr.py:75
+msgid "Daytime"
+msgstr ""
+
+#: ../ppdippstr.py:76
+#, fuzzy
+msgid "Evening"
+msgstr "Yn argraffu"
+
+#: ../ppdippstr.py:77
+msgid "Night"
+msgstr ""
+
+#: ../ppdippstr.py:78
+msgid "Second shift"
+msgstr ""
+
+#: ../ppdippstr.py:79
+msgid "Third shift"
+msgstr ""
+
+#: ../ppdippstr.py:80
+msgid "Weekend"
+msgstr ""
+
+#: ../ppdippstr.py:90
+#, fuzzy
+msgid "General"
+msgstr "Cyffredinol"
+
+#. HPIJS options
+#: ../ppdippstr.py:93
+#, fuzzy
+msgid "Printout mode"
+msgstr "Model argraffydd"
+
+#: ../ppdippstr.py:95
+msgid "Draft (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:97
+msgid "Draft grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:99
+msgid "Normal (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:101
+msgid "Normal grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:103
+msgid "High quality (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:105
+msgid "High quality grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:106
+msgid "Photo (on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:108
+msgid "Best quality (color on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:110
+msgid "Normal quality (color on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:112
+msgid "Media source"
+msgstr ""
+
+#: ../ppdippstr.py:113
+#, fuzzy
+msgid "Printer default"
+msgstr "Model argraffydd"
+
+#: ../ppdippstr.py:114
+msgid "Photo tray"
+msgstr ""
+
+#: ../ppdippstr.py:115
+msgid "Upper tray"
+msgstr ""
+
+#: ../ppdippstr.py:116
+msgid "Lower tray"
+msgstr ""
+
+#: ../ppdippstr.py:117
+msgid "CD or DVD tray"
+msgstr ""
+
+#: ../ppdippstr.py:118
+msgid "Envelope feeder"
+msgstr ""
+
+#: ../ppdippstr.py:119
+msgid "Large capacity tray"
+msgstr ""
+
+#: ../ppdippstr.py:120
+msgid "Manual feeder"
+msgstr ""
+
+#: ../ppdippstr.py:121
+msgid "Multi-purpose tray"
+msgstr ""
+
+#: ../ppdippstr.py:123
+#, fuzzy
+msgid "Page size"
+msgstr "Label tudalen"
+
+#: ../ppdippstr.py:124
+msgid "Custom"
+msgstr "Addasiedig"
+
+#: ../ppdippstr.py:125
+msgid "Photo or 4x6 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:126
+msgid "Photo or 5x7 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:127
+msgid "Photo with tear-off tab"
+msgstr ""
+
+#: ../ppdippstr.py:128
+msgid "3x5 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:129
+msgid "5x8 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:130
+msgid "A6 with tear-off tab"
+msgstr ""
+
+#: ../ppdippstr.py:131
+msgid "CD or DVD 80mm"
+msgstr ""
+
+#: ../ppdippstr.py:132
+msgid "CD or DVD 120mm"
+msgstr ""
+
+#: ../ppdippstr.py:134
+msgid "Double-sided printing"
+msgstr ""
+
+#: ../ppdippstr.py:135
+msgid "Long edge (standard)"
+msgstr ""
+
+#: ../ppdippstr.py:136
+msgid "Short edge (flip)"
+msgstr ""
+
+#: ../ppdippstr.py:137
+msgid "Off"
+msgstr ""
+
+#: ../ppdippstr.py:140
+msgid "Resolution, quality, ink type, media type"
+msgstr ""
+
+#: ../ppdippstr.py:141
+msgid "Controlled by 'Printout mode'"
+msgstr ""
+
+#: ../ppdippstr.py:143
+msgid "300 dpi, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:145
+msgid "300 dpi, draft, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:147
+msgid "300 dpi, draft, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:149
+msgid "300 dpi, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:151
+msgid "600 dpi, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:153
+msgid "600 dpi, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:155
+msgid "600 dpi, photo, black + color cartridge, photo paper"
+msgstr ""
+
+#: ../ppdippstr.py:157
+msgid "600 dpi, color, black + color cartridge, photo paper, normal"
+msgstr ""
+
+#: ../ppdippstr.py:159
+msgid "1200 dpi, photo, black + color cartridge, photo paper"
+msgstr ""
+
+#: ../system-config-printer.py:142
+msgid "To do this, select System->Administration->Firewall from the main menu."
+msgstr ""
+
+#: ../system-config-printer.py:197
+msgid "Idle"
+msgstr ""
+
+#: ../system-config-printer.py:199
+msgid "Busy"
+msgstr ""
+
+#: ../system-config-printer.py:386 ../system-config-printer.py:1370
+#, fuzzy
+msgid "Class"
+msgstr "Ffugenwau"
+
+#: ../system-config-printer.py:413
+#, fuzzy
+msgid "Set As De_fault"
+msgstr "_Rhagosodion"
+
+#: ../system-config-printer.py:417
+#, fuzzy
+msgid "_Create class"
+msgstr "Argraffydd Jetdirect"
+
+#: ../system-config-printer.py:419
+#, fuzzy
+msgid "View Print _Queue"
+msgstr "Ciw Argraffu Amrwd"
+
+#: ../system-config-printer.py:421
+msgid "_Add to Group"
+msgstr ""
+
+#: ../system-config-printer.py:423
+msgid "Save Results as _Group"
+msgstr ""
+
+#: ../system-config-printer.py:425
+msgid "Save Filter as _Search Group"
+msgstr ""
+
+#: ../system-config-printer.py:429
+msgid "E_nabled"
+msgstr ""
+
+#: ../system-config-printer.py:431
+#, fuzzy
+msgid "_Shared"
+msgstr "Rhaniad"
+
+#: ../system-config-printer.py:435 ../troubleshoot/ChooseNetworkPrinter.py:35
+#: ../troubleshoot/ChoosePrinter.py:36 ../troubleshoot/DeviceListed.py:36
+msgid "Name"
+msgstr "Enw"
+
+#: ../system-config-printer.py:436
+#, fuzzy
+msgid "Description"
+msgstr "Disgrifiad"
+
+#: ../system-config-printer.py:438
+msgid "Manufacturer / Model"
+msgstr ""
+
+#. Printer state reasons list
+#: ../system-config-printer.py:513
+msgid "Message"
+msgstr ""
+
+#: ../system-config-printer.py:548
+msgid "Problems?"
+msgstr ""
+
+#: ../system-config-printer.py:653 ../system-config-printer.py:655
+msgid "Members of this class"
+msgstr ""
+
+#: ../system-config-printer.py:654 ../system-config-printer.py:656
+msgid "Others"
+msgstr ""
+
+#: ../system-config-printer.py:657
+#, fuzzy
+msgid "Devices"
+msgstr "Dyfais"
+
+#: ../system-config-printer.py:658
+#, fuzzy
+msgid "Connections"
+msgstr "Sylw"
+
+#: ../system-config-printer.py:659
+msgid "Makes"
+msgstr ""
+
+#: ../system-config-printer.py:660
+#, fuzzy
+msgid "Models"
+msgstr "Model"
+
+#: ../system-config-printer.py:661
+#, fuzzy
+msgid "Drivers"
+msgstr "Gyrrydd"
+
+#: ../system-config-printer.py:662 ../glade/NewPrinterWindow.glade.h:54
+#, fuzzy
+msgid "Downloadable Drivers"
+msgstr "Gyryddion ar gael:"
+
+#: ../system-config-printer.py:663
+#, fuzzy
+msgid "Users"
+msgstr "Defnyddiwr"
+
+#: ../system-config-printer.py:698
+msgid "Automatic rotation"
+msgstr ""
+
+#: ../system-config-printer.py:983
+#, fuzzy, python-format
+msgid "Printer Properties - '%s' on %s"
+msgstr "Dewisiadau hidlen"
+
+#. The Conflict button was pressed.
+#: ../system-config-printer.py:991
+msgid ""
+"There are conflicting options.\n"
+"Changes can only be applied after\n"
+"these conflicts are resolved."
+msgstr ""
+
+#: ../system-config-printer.py:1210
+#, python-format
+msgid "Printer configuration - %s"
+msgstr "Cyfluniad argraffydd - %s"
+
+#: ../system-config-printer.py:1214
+#, python-format
+msgid "Connected to %s"
+msgstr ""
+
+#. Update our copy of the printer's settings.
+#: ../system-config-printer.py:1254 ../system-config-printer.py:2100
+msgid "obtaining queue details"
+msgstr ""
+
+#: ../system-config-printer.py:1292
+msgid "Remove from Group"
+msgstr ""
+
+#: ../system-config-printer.py:1358
+#, fuzzy
+msgid "Network printer (discovered)"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:1361
+msgid "Network class (discovered)"
+msgstr ""
+
+#: ../system-config-printer.py:1367 ../system-config-printer.py:5768
+#: ../system-config-printer.py:5838 ../system-config-printer.py:5840
+msgid "Fax"
+msgstr ""
+
+#: ../system-config-printer.py:1373 ../system-config-printer.py:1379
+#: ../troubleshoot/LocalOrRemote.py:30
+#, fuzzy
+msgid "Network printer"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:1376
+#, fuzzy
+msgid "Network print share"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:1561 ../glade/ConnectingDialog.glade.h:2
+#, no-c-format, python-format
+msgid "<i>Opening connection to %s</i>"
+msgstr ""
+
+#: ../system-config-printer.py:1944
+msgid "Installable Options"
+msgstr ""
+
+#: ../system-config-printer.py:1945
+#: ../glade/PrinterPropertiesDialog.glade.h:111
+#, fuzzy
+msgid "Printer Options"
+msgstr "Dewisiadau hidlen"
+
+#: ../system-config-printer.py:1982
+#, python-format
+msgid "modifying class %s"
+msgstr ""
+
+#: ../system-config-printer.py:1984 ../system-config-printer.py:3138
+#: ../system-config-printer.py:3163 ../system-config-printer.py:6795
+#: ../system-config-printer.py:6807 ../system-config-printer.py:6829
+#, fuzzy, python-format
+msgid "modifying printer %s"
+msgstr "Ychwanegu ciw argraffu newydd"
+
+#: ../system-config-printer.py:1999
+msgid "This will delete this class!"
+msgstr ""
+
+#: ../system-config-printer.py:2000
+msgid "Proceed anyway?"
+msgstr ""
+
+#. We can authenticate with the server correctly at this point,
+#. but we have never fetched the server settings to see whether
+#. the server is publishing shared printers.  Fetch the settings
+#. now so that we can update the "not published" label if necessary.
+#: ../system-config-printer.py:2088 ../system-config-printer.py:3334
+#, fuzzy
+msgid "fetching server settings"
+msgstr "Dewisiadau gyrrydd"
+
+#: ../system-config-printer.py:2158
+#, fuzzy
+msgid "Set Default Printer"
+msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#: ../system-config-printer.py:2160
+#, fuzzy
+msgid "Do you want to set this as the system-wide default printer?"
+msgstr ""
+"A ydych am gadw'r newidiadau\n"
+"y gwnaethoch i'ch cyfluniad argraffydd?"
+
+#: ../system-config-printer.py:2162
+#, fuzzy
+msgid "Set as the _system-wide default printer"
+msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#: ../system-config-printer.py:2164
+msgid "_Clear my personal default setting"
+msgstr ""
+
+#: ../system-config-printer.py:2165
+#, fuzzy
+msgid "Set as my _personal default printer"
+msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#: ../system-config-printer.py:2170
+#, fuzzy
+msgid "setting default printer"
+msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#: ../system-config-printer.py:2227
+#, fuzzy
+msgid "printing test page"
+msgstr "Nodiadau argraffydd:"
+
+#: ../system-config-printer.py:2240 ../system-config-printer.py:2275
+msgid "Not possible"
+msgstr ""
+
+#: ../system-config-printer.py:2241 ../system-config-printer.py:2276
+msgid ""
+"The remote server did not accept the print job, most likely because the "
+"printer is not shared."
+msgstr ""
+
+#: ../system-config-printer.py:2253 ../system-config-printer.py:2268
+msgid "Submitted"
+msgstr ""
+
+#: ../system-config-printer.py:2254
+#, python-format
+msgid "Test page submitted as job %d"
+msgstr ""
+
+#: ../system-config-printer.py:2261
+msgid "sending maintenance command"
+msgstr ""
+
+#: ../system-config-printer.py:2269
+#, python-format
+msgid "Maintenance command submitted as job %d"
+msgstr ""
+
+#. The underlying cupsGetPPD2() function returned NULL without
+#. setting an IPP error, so it'll be something like a failed
+#. connection.
+#: ../system-config-printer.py:2342 ../system-config-printer.py:2438
+msgid "Error"
+msgstr "Gwall"
+
+#: ../system-config-printer.py:2343
+#, fuzzy
+msgid "There was a problem connecting to the CUPS server."
+msgstr ""
+"Roedd problem wrth anfon %s\n"
+"at y ciw '%s':\n"
+"\n"
+
+#: ../system-config-printer.py:2439
+#, python-format
+msgid "Option '%s' has value '%s' and cannot be edited."
+msgstr ""
+
+#: ../system-config-printer.py:2540
+msgid "Marker levels are not reported for this printer."
+msgstr ""
+
+#: ../system-config-printer.py:2849
+#, fuzzy
+msgid "Cannot Rename"
+msgstr "_Gwaredu"
+
+#: ../system-config-printer.py:2850
+#, fuzzy
+msgid "There are queued jobs."
+msgstr "Nid oes dewisiadau ar gael ar gyfer y gyrrydd yma."
+
+#: ../system-config-printer.py:2868
+msgid "Renaming will lose history"
+msgstr ""
+
+#: ../system-config-printer.py:2870
+msgid "Completed jobs will no longer be available for re-printing."
+msgstr ""
+
+#: ../system-config-printer.py:2941
+#, fuzzy
+msgid "renaming printer"
+msgstr "Ychwanegu ciw argraffu newydd"
+
+#. for classes make sure all members
+#. will get added
+#: ../system-config-printer.py:3026
+#, fuzzy
+msgid "copying printer"
+msgstr "Ychwanegu ciw argraffu newydd"
+
+#: ../system-config-printer.py:3090
+#, fuzzy, python-format
+msgid "Really delete class '%s'?"
+msgstr "Dileu \"%s\" wir?"
+
+#: ../system-config-printer.py:3092
+#, fuzzy, python-format
+msgid "Really delete printer '%s'?"
+msgstr "Dileu \"%s\" wir?"
+
+#: ../system-config-printer.py:3094
+#, fuzzy
+msgid "Really delete selected destinations?"
+msgstr "Dileu \"%s\" wir?"
+
+#: ../system-config-printer.py:3115
+#, fuzzy, python-format
+msgid "deleting printer %s"
+msgstr "Ychwanegu ciw argraffu newydd"
+
+#: ../system-config-printer.py:3201
+msgid "Publish Shared Printers"
+msgstr ""
+
+#: ../system-config-printer.py:3202
+msgid ""
+"Shared printers are not available to other people unless the 'Publish shared "
+"printers' option is enabled in the server settings."
+msgstr ""
+
+#: ../system-config-printer.py:3395
+#, fuzzy
+msgid "modifying server settings"
+msgstr "Dewisiadau gyrrydd"
+
+#: ../system-config-printer.py:3423
+#, fuzzy
+msgid "Review Firewall"
+msgstr "Ffeil Ddyfais"
+
+#: ../system-config-printer.py:3424
+msgid ""
+"You may need to adjust the firewall to allow network printing to this "
+"computer."
+msgstr ""
+
+#: ../system-config-printer.py:3771
+msgid "Browsing not available (pysmbc not installed)"
+msgstr ""
+
+#. SMB list columns
+#: ../system-config-printer.py:3777
+msgid "Share"
+msgstr "Rhaniad"
+
+#: ../system-config-printer.py:3783
+msgid "Comment"
+msgstr "Sylw"
+
+#: ../system-config-printer.py:3798
+msgid ""
+"PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+"PPD.GZ)"
+msgstr ""
+
+#: ../system-config-printer.py:3807
+msgid "All files (*)"
+msgstr ""
+
+#: ../system-config-printer.py:3863 ../system-config-printer.py:6184
+#: ../system-config-printer.py:6222 ../applet.py:129
+#, fuzzy
+msgid "Search"
+msgstr "Rhybudd"
+
+#: ../system-config-printer.py:3887 ../system-config-printer.py:3909
+#: ../glade/NewPrinterWindow.glade.h:72
+#, fuzzy
+msgid "New Printer"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:3896
+msgid "New Class"
+msgstr ""
+
+#: ../system-config-printer.py:3901
+msgid "Change Device URI"
+msgstr ""
+
+#: ../system-config-printer.py:3907
+#, fuzzy
+msgid "Change Driver"
+msgstr "Newid Math"
+
+#: ../system-config-printer.py:4087 ../system-config-printer.py:4167
+#: ../system-config-printer.py:4538 ../system-config-printer.py:6019
+#: ../system-config-printer.py:6209
+#, fuzzy
+msgid "Searching"
+msgstr "Rhybudd"
+
+#: ../system-config-printer.py:4088
+#, fuzzy
+msgid "Searching for downloadable drivers"
+msgstr "Priodweddau rhannu"
+
+#: ../system-config-printer.py:4168 ../system-config-printer.py:4539
+#, fuzzy
+msgid "Searching for drivers"
+msgstr "Priodweddau rhannu"
+
+#. Tell the user why he needs the plugin
+#: ../system-config-printer.py:4913
+msgid "For this printer a proprietary driver plugin from HP is available.\n"
+msgstr ""
+
+#: ../system-config-printer.py:4916
+msgid ""
+"The installation of the plugin is required for your printer to work.\n"
+"\n"
+msgstr ""
+
+#: ../system-config-printer.py:4919
+msgid ""
+"Installing the plugin is optional, it completes or enhances the "
+"functionality\n"
+"of your printer. Without plugin at least basic operations work.\n"
+"\n"
+msgstr ""
+
+#: ../system-config-printer.py:4923
+msgid "The plugin provides the following features:\n"
+msgstr ""
+
+#: ../system-config-printer.py:4926
+msgid " - Printing support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4929
+msgid " - Faster printing\n"
+msgstr ""
+
+#: ../system-config-printer.py:4932
+msgid " - Better printout quality\n"
+msgstr ""
+
+#: ../system-config-printer.py:4935
+msgid " - Extra printing features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4938
+msgid " - Scanning support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4941
+msgid " - Faster scanning\n"
+msgstr ""
+
+#: ../system-config-printer.py:4944
+msgid " - Better scanning image quality\n"
+msgstr ""
+
+#: ../system-config-printer.py:4947
+msgid " - Faxing support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4950
+msgid " - Extra fax features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4953
+msgid " - Better Input/Output support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4956
+msgid " - Extra user interface features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4959
+msgid " - Other extra features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4964
+#, fuzzy
+msgid "Install plugin"
+msgstr "Dewisiadau hidlen"
+
+#: ../system-config-printer.py:4965
+#, fuzzy
+msgid "Do not set up printer"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:4966
+msgid "Set up without plugin"
+msgstr ""
+
+#: ../system-config-printer.py:4968 ../troubleshoot/PrintTestPage.py:118
+msgid "Yes"
+msgstr "Ïe"
+
+#: ../system-config-printer.py:4969 ../troubleshoot/PrintTestPage.py:119
+msgid "No"
+msgstr "Na"
+
+#. device-info
+#. PhysicalDevice obj
+#. Separator?
+#: ../system-config-printer.py:5130
+msgid "Other"
+msgstr ""
+
+#: ../system-config-printer.py:5134
+#, fuzzy
+msgid "Network Printer"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:5138
+#, fuzzy
+msgid "Find Network Printer"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:5153
+#, fuzzy
+msgid "fetching device list"
+msgstr "Dewisiadau gyrrydd"
+
+#: ../system-config-printer.py:5237
+msgid " (Current)"
+msgstr ""
+
+#: ../system-config-printer.py:5307
+msgid "Scanning..."
+msgstr ""
+
+#: ../system-config-printer.py:5362
+#, fuzzy
+msgid "No Print Shares"
+msgstr "Argraffydd:"
+
+#: ../system-config-printer.py:5363
+msgid ""
+"There were no print shares found.  Please check that the Samba service is "
+"marked as trusted in your firewall configuration."
+msgstr ""
+
+#: ../system-config-printer.py:5624 ../system-config-printer.py:5701
+msgid "Print Share Verified"
+msgstr ""
+
+#: ../system-config-printer.py:5625 ../system-config-printer.py:5702
+msgid "This print share is accessible."
+msgstr ""
+
+#: ../system-config-printer.py:5630 ../system-config-printer.py:5706
+msgid "This print share is not accessible."
+msgstr ""
+
+#: ../system-config-printer.py:5633
+msgid "Print Share Inaccessible"
+msgstr ""
+
+#: ../system-config-printer.py:5679
+#, fuzzy
+msgid "Verifying"
+msgstr "(Penodedig)"
+
+#: ../system-config-printer.py:5680
+#, fuzzy
+msgid "Verifying printer"
+msgstr "Ychwanegu ciw argraffu newydd"
+
+#: ../system-config-printer.py:5705
+msgid "Inaccessible"
+msgstr ""
+
+#: ../system-config-printer.py:5760
+msgid "Parallel Port"
+msgstr ""
+
+#: ../system-config-printer.py:5762
+#, fuzzy
+msgid "Serial Port"
+msgstr "Cyffredinol"
+
+#: ../system-config-printer.py:5764
+msgid "USB"
+msgstr ""
+
+#: ../system-config-printer.py:5766 ../system-config-printer.py:5769
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr ""
+
+#: ../system-config-printer.py:5771
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr ""
+
+#: ../system-config-printer.py:5773
+#, fuzzy
+msgid "AppSocket/HP JetDirect"
+msgstr "_JetDirect Rhwydweithiol"
+
+#: ../system-config-printer.py:5782
+#, python-format
+msgid "LPD/LPR queue '%s'"
+msgstr ""
+
+#: ../system-config-printer.py:5784
+msgid "LPD/LPR queue"
+msgstr ""
+
+#: ../system-config-printer.py:5787
+#, fuzzy
+msgid "Windows Printer via SAMBA"
+msgstr "Data Argraffydd Windows (SMB)"
+
+#: ../system-config-printer.py:5789 ../glade/NewPrinterWindow.glade.h:64
+#, fuzzy
+msgid "IPP"
+msgstr "IP:"
+
+#: ../system-config-printer.py:5791
+msgid "HTTP"
+msgstr ""
+
+#: ../system-config-printer.py:5878
+msgid "A printer connected to the parallel port."
+msgstr ""
+
+#: ../system-config-printer.py:5880
+msgid "A printer connected to a USB port."
+msgstr ""
+
+#: ../system-config-printer.py:5882
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device."
+msgstr ""
+
+#: ../system-config-printer.py:5885
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device."
+msgstr ""
+
+#: ../system-config-printer.py:5888
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)."
+msgstr ""
+
+#: ../system-config-printer.py:6020
+#, fuzzy
+msgid "Searching for printers"
+msgstr "Priodweddau rhannu"
+
+#: ../system-config-printer.py:6097
+msgid "No printer was found at that address."
+msgstr ""
+
+#: ../system-config-printer.py:6234
+#, fuzzy
+msgid "-- Select from search results --"
+msgstr "Rhaid i chi benodi model argraffydd."
+
+#: ../system-config-printer.py:6236
+msgid "-- No matches found --"
+msgstr ""
+
+#: ../system-config-printer.py:6430
+#, fuzzy
+msgid " (recommended)"
+msgstr ""
+"(%s yw'r\n"
+"gyrrydd argymelledig)"
+
+#: ../system-config-printer.py:6455
+msgid "This PPD is generated by foomatic."
+msgstr ""
+
+#: ../system-config-printer.py:6480
+#, fuzzy
+msgid "OpenPrinting"
+msgstr "Yn argraffu"
+
+#: ../system-config-printer.py:6491
+msgid "Distributable"
+msgstr ""
+
+#: ../system-config-printer.py:6532
+msgid ", "
+msgstr ""
+
+#: ../system-config-printer.py:6537
+#, python-format
+msgid ""
+"\n"
+"(%s)"
+msgstr ""
+
+#: ../system-config-printer.py:6542
+msgid "No support contacts known"
+msgstr ""
+
+#: ../system-config-printer.py:6546 ../system-config-printer.py:6559
+#, fuzzy
+msgid "Not specified."
+msgstr "Rhaid i chi benodi dyfais."
+
+#. Foomatic database problem of some sort.
+#: ../system-config-printer.py:6599
+msgid "Database error"
+msgstr ""
+
+#: ../system-config-printer.py:6600
+#, python-format
+msgid "The '%s' driver cannot be used with printer '%s %s'."
+msgstr ""
+
+#. This printer references some XML that is not
+#. installed by default.  Point the user at the
+#. package they need to install.
+#: ../system-config-printer.py:6610
+#, python-format
+msgid "You will need to install the '%s' package in order to use this driver."
+msgstr ""
+
+#. This error came from trying to open the PPD file.
+#: ../system-config-printer.py:6617
+msgid "PPD error"
+msgstr ""
+
+#: ../system-config-printer.py:6619
+msgid "Failed to read PPD file.  Possible reason follows:"
+msgstr ""
+
+#. Failed to get PPD downloaded from OpenPrinting XXX
+#: ../system-config-printer.py:6636
+#, fuzzy
+msgid "Downloadable drivers"
+msgstr "Gyryddion ar gael:"
+
+#: ../system-config-printer.py:6637
+msgid "Failed to download PPD."
+msgstr ""
+
+#: ../system-config-printer.py:6644
+#, fuzzy
+msgid "fetching PPD"
+msgstr "Newid Math"
+
+#: ../system-config-printer.py:6673 ../system-config-printer.py:6711
+msgid "No Installable Options"
+msgstr ""
+
+#: ../system-config-printer.py:6768
+#, fuzzy, python-format
+msgid "adding printer %s"
+msgstr "Ychwanegu ciw argraffu newydd"
+
+#: ../system-config-printer.py:6941
+#, fuzzy
+msgid "Would you like to print a test page?"
+msgstr "A hoffech chi argraffu tudalen brawf?"
+
+#: ../system-config-printer.py:7002
+#, fuzzy
+msgid "Install driver"
+msgstr "Gyrrydd argraffydd"
+
+#: ../system-config-printer.py:7003 ../troubleshoot/CheckPPDSanity.py:131
+#, python-format
+msgid "Printer '%s' requires the %s package but it is not currently installed."
+msgstr ""
+
+#: ../system-config-printer.py:7019
+#, fuzzy
+msgid "Missing driver"
+msgstr "Gyrrydd argraffydd"
+
+#: ../system-config-printer.py:7020
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed.  "
+"Please install it before using this printer."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:1
+#, fuzzy
+msgid "A CUPS configuration tool."
+msgstr "Cyfluniad argraffydd"
+
+#: ../glade/AboutDialog.glade.h:2
+msgid "Copyright © 2006-2008 Red Hat, Inc."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:3
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:8
+#, fuzzy
+msgid "system-config-printer"
+msgstr "Cyflunio argraffyddion"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.  Thank you very much for your effort on translating system-config-printer and all our other tools!
+#: ../glade/AboutDialog.glade.h:10
+msgid "translator-credits"
+msgstr ""
+
+#: ../glade/ConnectDialog.glade.h:1
+#, fuzzy
+msgid "CUPS _server:"
+msgstr "Gweinydd:"
+
+#: ../glade/ConnectDialog.glade.h:2
+msgid "Connect to CUPS server"
+msgstr ""
+
+#: ../glade/ConnectDialog.glade.h:3
+#, fuzzy
+msgid "Require _encryption"
+msgstr "Disgrifiad"
+
+#: ../glade/ConnectingDialog.glade.h:3
+msgid "<span weight=\"bold\" size=\"larger\">Connecting to CUPS server</span>"
+msgstr ""
+
+#: ../glade/ConnectingDialog.glade.h:4
+#, fuzzy
+msgid "Connecting to CUPS server"
+msgstr ""
+"Roedd problem wrth anfon %s\n"
+"at y ciw '%s':\n"
+"\n"
+
+#: ../glade/InstallDialog.glade.h:1
+msgid "_Install"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:1
+msgid "Show _completed jobs"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:2
+msgid "_File"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:3
+msgid "_Job"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:4
+#, fuzzy
+msgid "_Refresh"
+msgstr "_Dileu"
+
+#: ../glade/JobsWindow.glade.h:5 ../glade/PrintersWindow.glade.h:17
+msgid "_View"
+msgstr ""
+
+#: ../glade/NewPrinterName.glade.h:1
+#, fuzzy
+msgid "Copy Printer"
+msgstr "Argraffydd:"
+
+#: ../glade/NewPrinterName.glade.h:2
+#, fuzzy
+msgid "New name for the printer"
+msgstr "Argraffydd Jetdirect"
+
+#: ../glade/NewPrinterWindow.glade.h:1
+#, fuzzy
+msgid "<b>Authentication</b>"
+msgstr "Dilysiant"
+
+#: ../glade/NewPrinterWindow.glade.h:2
+#, fuzzy
+msgid "<b>Description</b>"
+msgstr "Disgrifiad"
+
+#: ../glade/NewPrinterWindow.glade.h:3
+msgid "<b>Description</b> (optional)"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:4
+#, fuzzy
+msgid "<b>Enter device URI</b>"
+msgstr "Dyfais Argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:5
+#, fuzzy
+msgid "<b>IPP Printer</b>"
+msgstr "Model argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:6
+#, fuzzy
+msgid "<b>License Terms</b>"
+msgstr "Model argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:7
+msgid "<b>Location of the LPD network printer</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:8
+msgid "<b>Location of the network printer</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:9
+msgid "<b>Location</b> (optional)"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:10
+#, fuzzy
+msgid "<b>Network Printer</b>"
+msgstr "Argraffydd:"
+
+#: ../glade/NewPrinterWindow.glade.h:11
+#, fuzzy
+msgid "<b>Note</b>"
+msgstr "Model argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:12
+msgid "<b>Output Quality</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:13
+#, fuzzy
+msgid "<b>Printer Name</b>"
+msgstr "Model argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:14
+#, fuzzy
+msgid "<b>SMB Printer</b>"
+msgstr "Model argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:15
+#, fuzzy
+msgid "<b>Select Driver</b>"
+msgstr "Model argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:16
+msgid "<b>Settings of the serial port</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:17
+msgid "<i>smb://[workgroup/]server[:port]/printer</i>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:18
+msgid "<span weight=\"bold\" size=\"larger\">Choose Class Members</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:19
+msgid "<span weight=\"bold\" size=\"larger\">Choose Driver</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:20
+msgid "<span weight=\"bold\" size=\"larger\">Describe Printer</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:21
+msgid "<span weight=\"bold\" size=\"larger\">Existing Settings</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:22
+msgid "<span weight=\"bold\" size=\"larger\">Installable Options</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:23
+msgid "<span weight=\"bold\" size=\"larger\">Select Device</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:24
+msgid "Baud Rate"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:25
+msgid "Browse..."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:26
+#, fuzzy
+msgid "Comments..."
+msgstr "Sylw"
+
+#: ../glade/NewPrinterWindow.glade.h:27
+#, fuzzy
+msgid "Connection"
+msgstr "_Gweithred"
+
+#: ../glade/NewPrinterWindow.glade.h:28
+#, fuzzy
+msgid "Data Bits"
+msgstr "Manylion"
+
+#: ../glade/NewPrinterWindow.glade.h:29
+msgid ""
+"Default\n"
+"1200\n"
+"2400\n"
+"4800\n"
+"9600\n"
+"19200\n"
+"38400\n"
+"57600\n"
+"115200"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:38
+#, fuzzy
+msgid ""
+"Default\n"
+"8\n"
+"7"
+msgstr "Rhagosodyn"
+
+#: ../glade/NewPrinterWindow.glade.h:41
+msgid ""
+"Default\n"
+"None\n"
+"Odd\n"
+"Even"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:45
+msgid ""
+"Default\n"
+"None\n"
+"XON/XOFF (Software)\n"
+"RTS/CTS (Hardware)\n"
+"DTR/DSR (Hardware)"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:50
+#: ../glade/PrinterPropertiesDialog.glade.h:35
+#, fuzzy
+msgid "Description:"
+msgstr "Disgrifiad"
+
+#: ../glade/NewPrinterWindow.glade.h:51 ../troubleshoot/DeviceListed.py:40
+#, fuzzy
+msgid "Device URI"
+msgstr "Dyfais: "
+
+#: ../glade/NewPrinterWindow.glade.h:52
+#, fuzzy
+msgid "Device description."
+msgstr "Disgrifiad"
+
+#: ../glade/NewPrinterWindow.glade.h:53
+msgid "DirectJet"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:55
+#, fuzzy
+msgid "Driver details"
+msgstr "Gyrrydd"
+
+#: ../glade/NewPrinterWindow.glade.h:56
+msgid "Empty"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:57
+msgid "Flow Control"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:58
+msgid ""
+"For the printer you have selected there are drivers available for download."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:59
+msgid "Free software"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:60
+msgid "Graphics:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:61
+#, fuzzy
+msgid "Host:"
+msgstr "IP Gwesteiwr"
+
+#: ../glade/NewPrinterWindow.glade.h:62
+msgid "Human-readable description such as \"HP LaserJet with Duplexer\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:63
+msgid "Human-readable location such as \"Lab 1\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:65
+msgid "LPD"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:66
+msgid "License:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:67
+#, fuzzy
+msgid "Line art:"
+msgstr "Nodiadau argraffydd:"
+
+#: ../glade/NewPrinterWindow.glade.h:68
+#, fuzzy
+msgid "Local Driver"
+msgstr "Golygu Argraffydd Lleol"
+
+#: ../glade/NewPrinterWindow.glade.h:69
+#, fuzzy
+msgid "Make and model:"
+msgstr "Mae angen gwneuthurwr a model.\n"
+
+#: ../glade/NewPrinterWindow.glade.h:70
+msgid "Manufacturer"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:71
+#, fuzzy
+msgid "Network"
+msgstr "Argraffydd:"
+
+#: ../glade/NewPrinterWindow.glade.h:73
+msgid "No, I do not accept this license"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:74
+msgid "Parity"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:76
+msgid "Patented algorithms"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:77
+#, fuzzy
+msgid "Photo:"
+msgstr "Porth: "
+
+#: ../glade/NewPrinterWindow.glade.h:78
+msgid "Port number:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:79
+msgid ""
+"PostScript Printer Description (PPD) files can often be found on the driver "
+"disk that comes with the printer. For PostScript printers they are often "
+"part of the Windows<sup>®</sup> driver."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:80
+#, fuzzy
+msgid "Printer model:"
+msgstr "Model argraffydd"
+
+#: ../glade/NewPrinterWindow.glade.h:81
+msgid "Probe"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:82
+#, fuzzy
+msgid "Prompt user if authentication is required"
+msgstr "Dilysiant"
+
+#: ../glade/NewPrinterWindow.glade.h:83
+msgid "Provide PPD file"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:84
+msgid "Queue:"
+msgstr "Ciw:"
+
+#: ../glade/NewPrinterWindow.glade.h:85
+msgid "SCSI"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:86
+msgid "SMB"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:87
+msgid "Search for a printer driver to download"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:88
+#, fuzzy
+msgid "Searching..."
+msgstr "Rhybudd"
+
+#: ../glade/NewPrinterWindow.glade.h:89
+msgid "Select A File"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:90
+msgid "Select printer from database"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:91
+#, fuzzy
+msgid "Serial"
+msgstr "Cyffredinol"
+
+#: ../glade/NewPrinterWindow.glade.h:92
+#, fuzzy
+msgid "Set authentication details now"
+msgstr "Dilysiant"
+
+#: ../glade/NewPrinterWindow.glade.h:93
+msgid "Short name for this printer such as \"laserjet\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:94
+msgid "Supplier:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:95
+#, fuzzy
+msgid "Support:"
+msgstr "Porth:"
+
+#: ../glade/NewPrinterWindow.glade.h:96
+#, fuzzy
+msgid "Text:"
+msgstr "_Profi"
+
+#: ../glade/NewPrinterWindow.glade.h:97
+msgid ""
+"The foomatic printer database contains various manufacturer provided "
+"PostScript Printer Description (PPD) files and also can generate PPD files "
+"for a large number of (non PostScript) printers. But in general manufacturer "
+"provided PPD files provide better access to the specific features of the "
+"printer."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:98
+msgid ""
+"These drivers do not come from your operating system supplier and will not "
+"be covered by their commercial support.  See the support and license terms "
+"of the driver's supplier."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:99
+msgid ""
+"This driver supports additional hardware that may be installed in the "
+"printer."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:100
+msgid ""
+"This is done by assuming that options with the same name do have the same "
+"meaning. Settings of options that are not present in the new PPD will be "
+"lost and options only present in the new PPD will be set to default."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:101
+msgid ""
+"This way all current option settings will be lost. The default settings of "
+"the new PPD will be used. "
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:102
+msgid "Try to copy the option settings over from the old PPD. "
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:103
+msgid "URI:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:105
+msgid "Use the new PPD (Postscript Printer Description) as is."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:107
+msgid ""
+"With this choice no driver download will be performed. In the next steps a "
+"locally installed driver will be selected."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:108
+msgid "Yes, I accept this license"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:109
+#, fuzzy
+msgid "_Search"
+msgstr "Rhybudd"
+
+#: ../glade/NewPrinterWindow.glade.h:110
+#, fuzzy
+msgid "_Verify..."
+msgstr "Penodi..."
+
+#: ../glade/NewPrinterWindow.glade.h:111
+#: ../glade/PrinterPropertiesDialog.glade.h:130
+msgid "move left"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:112
+#: ../glade/PrinterPropertiesDialog.glade.h:131
+msgid "move right"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:1
+msgid " "
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:2
+msgid ""
+"1\n"
+"2\n"
+"4\n"
+"6\n"
+"9\n"
+"16"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:8
+#, fuzzy
+msgid "72 points per inch"
+msgstr "72pt y fodfedd"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:9
+msgid "<b>Banner</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:10
+#, fuzzy
+msgid "<b>Common Options</b>"
+msgstr "Disgrifiad"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:11
+#, fuzzy
+msgid "<b>Image Options</b>"
+msgstr "Disgrifiad"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:12
+#, fuzzy
+msgid "<b>Ink/Toner Levels</b>"
+msgstr "Dyfais Argraffydd"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:13
+msgid "<b>Other Options (Advanced)</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:14
+msgid "<b>Policies</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:15
+msgid "<b>Settings</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:16
+msgid "<b>State</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:17
+msgid "<b>Status Messages</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:18
+msgid "<b>Tests and Maintenance</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:19
+#, fuzzy
+msgid "<b>Text Options</b>"
+msgstr "Disgrifiad"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:20
+msgid ""
+"<i>Not published\n"
+"See server settings</i>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:22
+msgid "Accepting jobs"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:23
+msgid "Access Control"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:24
+msgid "Add or Remove Members"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:25
+msgid "Allow printing for everyone except these users:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:26
+#, fuzzy
+msgid "Bottom margin:"
+msgstr "Ymyl waelod (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:27
+msgid "Brightness:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:28
+#, fuzzy
+msgid "Change..."
+msgstr "_Rhannu..."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:29
+#, fuzzy
+msgid "Characters per inch:"
+msgstr "Sawl nod y fodfedd"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:31
+msgid "Clean Print Heads"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:32
+#, fuzzy
+msgid "Columns:"
+msgstr "Sylw"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:33
+msgid "Copies:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:34
+msgid "Deny printing for everyone except these users:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:36
+#, fuzzy
+msgid "Device URI:"
+msgstr "Dyfais:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:37
+msgid "Enabled"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:38
+msgid "Ending Banner:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:39
+msgid "Error Policy: \t"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:40
+#, fuzzy
+msgid "Finishings:"
+msgstr "Gorffen"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:41
+msgid "Gamma:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:42
+msgid "Hold until:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:43
+msgid "Hue adjustment:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:44
+msgid "Ink/Toner Levels"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:45
+#, fuzzy
+msgid "Installed Options"
+msgstr "Dewisiadau hidlen"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:46
+msgid "Job Options"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:47
+msgid "Job priority:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:48
+#, fuzzy
+msgid "Left margin:"
+msgstr "Ymyl chwith (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:49
+msgid ""
+"Left to right, top to bottom\n"
+"Left to right, bottom to top\n"
+"Right to left, top to bottom\n"
+"Right to left, bottom to top\n"
+"Top to bottom, left to right\n"
+"Top to bottom, right to left\n"
+"Bottom to top, left to right\n"
+"Bottom to top, right to left"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:57
+#, fuzzy
+msgid "Lines per inch:"
+msgstr "Sawl llinell y fodfedd"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:58
+#, fuzzy
+msgid "Location:"
+msgstr "_Gweithred"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:59
+#, fuzzy
+msgid "Make and Model:"
+msgstr "Mae angen gwneuthurwr a model.\n"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:60
+msgid "Media:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:61
+msgid "Members"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:62
+#, fuzzy
+msgid "Mirror"
+msgstr "Gwall"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:63
+msgid "More"
+msgstr ""
+
+#. See section 4.2.6 of this document:
+#. ftp://ftp.pwg.org/pub/pwg/candidates/cs-ippfinishings10-20010205-5100.1.pdf
+#: ../glade/PrinterPropertiesDialog.glade.h:66
+msgid ""
+"None\n"
+"Staple\n"
+"Punch\n"
+"Cover\n"
+"Bind\n"
+"Saddle stitch\n"
+"Edge stitch\n"
+"Fold\n"
+"Trim\n"
+"Bale\n"
+"Booklet maker\n"
+"Job offset\n"
+"Staple (top left)\n"
+"Staple (bottom left)\n"
+"Staple (top right)\n"
+"Staple (bottom right)\n"
+"Edge stitch (left)\n"
+"Edge stitch (top)\n"
+"Edge stitch (right)\n"
+"Edge stitch (bottom)\n"
+"Staple dual (left)\n"
+"Staple dual (top)\n"
+"Staple dual (right)\n"
+"Staple dual (bottom)\n"
+"Bind (left)\n"
+"Bind (top)\n"
+"Bind (right)\n"
+"Bind (bottom)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:94
+msgid ""
+"One-sided\n"
+"Two-sided (long edge)\n"
+"Two-sided (short edge)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:97
+msgid "Operation Policy:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:98
+msgid "Orientation:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:99
+msgid "Pages per side layout:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:100
+msgid "Pages per side:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:101
+msgid "Policies"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:102
+msgid ""
+"Portrait (no rotation)\n"
+"Landscape (90°)\n"
+"Reverse landscape (270°)\n"
+"Reverse portrait (180°)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:106
+msgid "Pretty print"
+msgstr ""
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:108
+#, fuzzy
+msgid "Print Self-Test Page"
+msgstr "Nodiadau argraffydd:"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:110
+#: ../troubleshoot/PrintTestPage.py:72
+#, fuzzy
+msgid "Print Test Page"
+msgstr "Nodiadau argraffydd:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:112
+#, fuzzy
+msgid "Printer Properties"
+msgstr "Dewisiadau hidlen"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:113
+#, fuzzy
+msgid "Printer State:"
+msgstr "Nodiadau argraffydd:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:114
+#, fuzzy
+msgid "Reset"
+msgstr "Profi"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:115
+#, fuzzy
+msgid "Reset to system default"
+msgstr "Gosod yn _ragosodyn"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:116
+#, fuzzy
+msgid "Right margin:"
+msgstr "Ymyl dde (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:117
+msgid "Saturation:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:118
+msgid "Scale to fit"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:119
+msgid "Scaling:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:120
+#, fuzzy
+msgid "Settings"
+msgstr "Gosod"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:121
+msgid "Shared"
+msgstr "Rhaniad"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:122
+msgid "Sides:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:123
+msgid ""
+"Specify the default job options for this printer.  Jobs arriving at this "
+"print server will have these options added if they are not already set by "
+"the application."
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:124
+msgid "Starting Banner:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:125
+#, fuzzy
+msgid "There are no status messages for this printer."
+msgstr "Dyma'r negeseuon a ymddangosont yn y cofnodion gwallau:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:126
+msgid "To add a new option, enter its name in the box below and click to add."
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:127
+#, fuzzy
+msgid "Top margin:"
+msgstr "Ymyl uchaf (pt):"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:128
+msgid "Word wrap"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:129
+#, fuzzy
+msgid "default"
+msgstr "Rhagosodyn"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:132
+msgid "none"
+msgstr "dim"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:133
+msgid "points"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:134
+#, fuzzy
+msgid "user"
+msgstr "Defnyddiwr"
+
+#: ../glade/PrintersWindow.glade.h:1
+#, fuzzy
+msgid "Adjust server settings"
+msgstr "Dewisiadau gyrrydd"
+
+#: ../glade/PrintersWindow.glade.h:2
+msgid "Choose a different CUPS server"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:3
+#, fuzzy
+msgid "Show printer groups"
+msgstr "Creu Ciw Newydd"
+
+#: ../glade/PrintersWindow.glade.h:4
+msgid "Show printers shared by other systems"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:5
+#, fuzzy
+msgid "System-Config-Printer"
+msgstr "Cyflunio argraffyddion"
+
+#: ../glade/PrintersWindow.glade.h:6
+#, fuzzy
+msgid "_Class"
+msgstr "Ffugenwau"
+
+#: ../glade/PrintersWindow.glade.h:7
+#, fuzzy
+msgid "_Connect..."
+msgstr "Sylw"
+
+#: ../glade/PrintersWindow.glade.h:8
+#, fuzzy
+msgid "_Discovered Printers"
+msgstr "Nodiadau gyrrydd:"
+
+#: ../glade/PrintersWindow.glade.h:9
+msgid "_Group"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:10
+msgid "_Groups"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:11
+msgid "_Help"
+msgstr "_Cymorth"
+
+#: ../glade/PrintersWindow.glade.h:12
+#, fuzzy
+msgid "_New"
+msgstr "Newydd"
+
+#: ../glade/PrintersWindow.glade.h:13
+#, fuzzy
+msgid "_Printer"
+msgstr "Argraffyd: "
+
+#: ../glade/PrintersWindow.glade.h:14
+#, fuzzy
+msgid "_Server"
+msgstr "Gweinydd"
+
+#: ../glade/PrintersWindow.glade.h:15
+#, fuzzy
+msgid "_Settings..."
+msgstr "Gosod"
+
+#: ../glade/PrintersWindow.glade.h:16
+msgid "_Troubleshoot"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:1
+#, fuzzy
+msgid "<b>Basic Server Settings</b>"
+msgstr "Dewisiadau gyrrydd"
+
+#: ../glade/ServerSettingsDialog.glade.h:2
+msgid "Allow _remote administration"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:3
+msgid "Allow _users to cancel any job (not just their own)"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:4
+msgid "Allow printing from the _Internet"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:5
+#, fuzzy
+msgid "Basic Server Settings"
+msgstr "Dewisiadau gyrrydd"
+
+#: ../glade/ServerSettingsDialog.glade.h:6
+msgid "Save _debugging information for troubleshooting"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:7
+#, fuzzy
+msgid "_Advanced..."
+msgstr "_Ychwanegu..."
+
+#: ../glade/ServerSettingsDialog.glade.h:8
+msgid "_Publish shared printers connected to this system"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:9
+msgid "_Show printers shared by other systems"
+msgstr ""
+
+#: ../glade/SMBBrowseDialog.glade.h:1
+msgid "SMB Browser"
+msgstr ""
+
+#: ../glade/statusicon_popupmenu.glade.h:1
+#, fuzzy
+msgid "_Configure Printers"
+msgstr "Cyflunio argraffyddion"
+
+#: ../glade/statusicon_popupmenu.glade.h:2
+msgid "_Hide"
+msgstr ""
+
+#: ../glade/WaitWindow.glade.h:1
+msgid "Please Wait"
+msgstr ""
+
+#: ../system-config-printer.desktop.in.h:1
+#, fuzzy
+msgid "Configure printers"
+msgstr "Cyflunio argraffyddion"
+
+#: ../system-config-printer.desktop.in.h:2
+msgid "Printing"
+msgstr "Yn argraffu"
+
+#: ../statereason.py:90
+msgid "Toner low"
+msgstr ""
+
+#: ../statereason.py:91
+#, python-format
+msgid "Printer '%s' is low on toner."
+msgstr ""
+
+#: ../statereason.py:92
+msgid "Toner empty"
+msgstr ""
+
+#: ../statereason.py:93
+#, python-format
+msgid "Printer '%s' has no toner left."
+msgstr ""
+
+#: ../statereason.py:94
+msgid "Cover open"
+msgstr ""
+
+#: ../statereason.py:95
+#, python-format
+msgid "The cover is open on printer '%s'."
+msgstr ""
+
+#: ../statereason.py:96
+msgid "Door open"
+msgstr ""
+
+#: ../statereason.py:97
+#, python-format
+msgid "The door is open on printer '%s'."
+msgstr ""
+
+#: ../statereason.py:98
+msgid "Paper low"
+msgstr ""
+
+#: ../statereason.py:99
+#, python-format
+msgid "Printer '%s' is low on paper."
+msgstr ""
+
+#: ../statereason.py:100
+msgid "Out of paper"
+msgstr ""
+
+#: ../statereason.py:101
+#, python-format
+msgid "Printer '%s' is out of paper."
+msgstr ""
+
+#: ../statereason.py:102
+msgid "Ink low"
+msgstr ""
+
+#: ../statereason.py:103
+#, python-format
+msgid "Printer '%s' is low on ink."
+msgstr ""
+
+#: ../statereason.py:104
+msgid "Ink empty"
+msgstr ""
+
+#: ../statereason.py:105
+#, python-format
+msgid "Printer '%s' has no ink left."
+msgstr ""
+
+#: ../statereason.py:106
+#, fuzzy
+msgid "Printer off-line"
+msgstr "Dewisiadau hidlen"
+
+#: ../statereason.py:107
+#, fuzzy, python-format
+msgid "Printer '%s' is currently off-line."
+msgstr "Dewisiadau hidlen"
+
+#: ../statereason.py:108
+#, fuzzy
+msgid "Not connected?"
+msgstr "Cysylltiedig yn _lleol"
+
+#: ../statereason.py:109
+#, python-format
+msgid "Printer '%s' may not be connected."
+msgstr ""
+
+#: ../statereason.py:110 ../statereason.py:126
+#, fuzzy
+msgid "Printer error"
+msgstr "Argraffyd: "
+
+#: ../statereason.py:111
+#, fuzzy, python-format
+msgid "There is a problem on printer '%s'."
+msgstr ""
+"Roedd problem wrth anfon %s\n"
+"at y ciw '%s':\n"
+"\n"
+
+#: ../statereason.py:122
+#, fuzzy
+msgid "Printer report"
+msgstr "Dewisiadau hidlen"
+
+#: ../statereason.py:124
+#, fuzzy
+msgid "Printer warning"
+msgstr "Yn argraffu"
+
+#: ../statereason.py:144
+#, python-format
+msgid "Printer '%s': '%s'."
+msgstr ""
+
+#: ../timedops.py:102 ../timedops.py:181
+msgid "Please wait"
+msgstr ""
+
+#: ../timedops.py:108 ../timedops.py:188
+#, fuzzy
+msgid "Gathering information"
+msgstr "_Gweithred"
+
+#: ../ToolbarSearchEntry.py:69
+#, fuzzy
+msgid "_Filter:"
+msgstr "Argraffyd: "
+
+#: ../troubleshoot/__init__.py:54
+msgid "Printing troubleshooter"
+msgstr ""
+
+#: ../troubleshoot/base.py:33
+msgid ""
+"To start this tool, select System->Administration->Printing from the main "
+"menu."
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:28
+msgid "Server Not Exporting Printers"
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:29
+msgid ""
+"Although one or more printers are marked as being shared, this print server "
+"is not exporting shared printers to the network."
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:33
+msgid ""
+"Enable the 'Publish shared printers connected to this system' option in the "
+"server settings using the printing administration tool."
+msgstr ""
+
+#: ../troubleshoot/CheckPPDSanity.py:44 ../applet.py:185
+#, fuzzy
+msgid "Install"
+msgstr "Gyrrydd argraffydd"
+
+#: ../troubleshoot/CheckPPDSanity.py:96
+#, fuzzy
+msgid "Invalid PPD File"
+msgstr "Gwerth annilys"
+
+#: ../troubleshoot/CheckPPDSanity.py:106
+#, python-format
+msgid ""
+"The PPD file for printer '%s' does not conform to the specification.  "
+"Possible reason follows:"
+msgstr ""
+
+#. Perhaps cupstestppd is not in the path.
+#: ../troubleshoot/CheckPPDSanity.py:112
+#, fuzzy, python-format
+msgid "There is a problem with the PPD file for printer '%s'."
+msgstr ""
+"Roedd problem wrth anfon %s\n"
+"at y ciw '%s':\n"
+"\n"
+
+#: ../troubleshoot/CheckPPDSanity.py:122
+#, fuzzy
+msgid "Missing Printer Driver"
+msgstr "Gyrrydd argraffydd"
+
+#: ../troubleshoot/CheckPPDSanity.py:136
+#, fuzzy, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed."
+msgstr ""
+"Mae ciwiau argraffu NCP yn mynnu'r raglen \"nprint\", sydd ddim i'w weld yn "
+"arsefydlog."
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:29
+#, fuzzy
+msgid "Choose Network Printer"
+msgstr "Argraffydd:"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:30
+msgid ""
+"Please select the network printer you are trying to use from the list below. "
+"If it does not appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:39
+#: ../troubleshoot/ChoosePrinter.py:40 ../troubleshoot/DeviceListed.py:38
+#, fuzzy
+msgid "Information"
+msgstr "_Gweithred"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:75
+#: ../troubleshoot/ChoosePrinter.py:64 ../troubleshoot/DeviceListed.py:70
+#, fuzzy
+msgid "Not listed"
+msgstr "Cysylltiedig yn _lleol"
+
+#: ../troubleshoot/ChoosePrinter.py:30
+#, fuzzy
+msgid "Choose Printer"
+msgstr "Argraffydd:"
+
+#: ../troubleshoot/ChoosePrinter.py:31
+msgid ""
+"Please select the printer you are trying to use from the list below. If it "
+"does not appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/DeviceListed.py:30
+#, fuzzy
+msgid "Choose Device"
+msgstr "Dyfais Addasiedig"
+
+#: ../troubleshoot/DeviceListed.py:31
+msgid ""
+"Please select the device you want to use from the list below. If it does not "
+"appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:31
+msgid "Debugging"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:32
+msgid ""
+"I would like to enable debugging output from the CUPS scheduler.  This may "
+"cause the scheduler to restart.  Click the button below to enable debugging."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:36
+msgid "Enable Debugging"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:215
+msgid "Debug logging enabled."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:217
+msgid "Debug logging was already enabled."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogParse.py:29
+msgid "Error log messages"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogParse.py:30
+#, fuzzy
+msgid "There are messages in the error log."
+msgstr "Dyma'r negeseuon a ymddangosont yn y cofnodion gwallau:"
+
+#: ../troubleshoot/Locale.py:29
+msgid "Incorrect Page Size"
+msgstr ""
+
+#: ../troubleshoot/Locale.py:30
+msgid ""
+"The page size for the print job was not the printer's default page size.  If "
+"this is not intentional it may cause alignment problems."
+msgstr ""
+
+#: ../troubleshoot/Locale.py:43
+#, fuzzy
+msgid "Print job page size:"
+msgstr "Nodiadau argraffydd:"
+
+#: ../troubleshoot/Locale.py:48
+#, fuzzy
+msgid "Printer page size:"
+msgstr "Dyfais Argraffydd:"
+
+#: ../troubleshoot/LocalOrRemote.py:26
+#, fuzzy
+msgid "Printer Location"
+msgstr "Dewisiadau hidlen"
+
+#: ../troubleshoot/LocalOrRemote.py:27
+msgid "Is the printer connected to this computer or available on the network?"
+msgstr ""
+
+#: ../troubleshoot/LocalOrRemote.py:29
+#, fuzzy
+msgid "Locally connected printer"
+msgstr "Dileu \"%s\" wir?"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:28
+#, fuzzy
+msgid "Queue Not Shared"
+msgstr "Enw Ciw"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:29
+msgid "The CUPS printer on the server is not shared."
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:29
+msgid "Status Messages"
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:30
+msgid "There are status messages associated with this queue."
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:58
+#, fuzzy, python-format
+msgid "The printer's state message is: '%s'."
+msgstr "Nodiadau argraffydd:"
+
+#: ../troubleshoot/PrinterStateReasons.py:83
+msgid "Errors are listed below:"
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:88
+msgid "Warnings are listed below:"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:62
+#, fuzzy
+msgid "Test Page"
+msgstr "Nodiadau argraffydd:"
+
+#: ../troubleshoot/PrintTestPage.py:63
+msgid ""
+"Now print a test page.  If you are having problems printing a specific "
+"document, print that document now and mark the print job below."
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:75
+msgid "Cancel All Jobs"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:81
+#, fuzzy
+msgid "Test"
+msgstr "_Profi"
+
+#: ../troubleshoot/PrintTestPage.py:111
+msgid "Did the marked print jobs print correctly?"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:143
+#, python-format
+msgid "Remember to load paper of type '%s' into the printer first."
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:416
+msgid "Error submitting test page"
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:56
+#: ../troubleshoot/QueueRejectingJobs.py:66
+#, fuzzy, python-format
+msgid "The reason given is: '%s'."
+msgstr "Nodiadau argraffydd:"
+
+#: ../troubleshoot/QueueNotEnabled.py:58
+msgid "This may be due to the printer being disconnected or switched off."
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:62
+#, fuzzy
+msgid "Queue Not Enabled"
+msgstr "Enw Ciw"
+
+#: ../troubleshoot/QueueNotEnabled.py:63
+#, python-format
+msgid "The queue '%s' is not enabled."
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:71
+msgid ""
+"To enable it, select the 'Enabled' checkbox in the 'Policies' tab for the "
+"printer in the printer administration tool."
+msgstr ""
+
+#: ../troubleshoot/QueueRejectingJobs.py:31
+#, fuzzy
+msgid "Queue Rejecting Jobs"
+msgstr "Dewisiadau ciw"
+
+#: ../troubleshoot/QueueRejectingJobs.py:63
+#, fuzzy, python-format
+msgid "The queue '%s' is rejecting jobs."
+msgstr "Dewisiadau ciw"
+
+#: ../troubleshoot/QueueRejectingJobs.py:70
+msgid ""
+"To make the queue accept jobs, select the 'Accepting Jobs' checkbox in the "
+"'Policies' tab for the printer in the printer administration tool."
+msgstr ""
+
+#: ../troubleshoot/RemoteAddress.py:26
+#, fuzzy
+msgid "Remote Address"
+msgstr "Argraffydd Jetdirect"
+
+#: ../troubleshoot/RemoteAddress.py:27
+msgid ""
+"Please enter as many details as you can about the network address of this "
+"printer."
+msgstr ""
+
+#: ../troubleshoot/RemoteAddress.py:35
+#, fuzzy
+msgid "Server name:"
+msgstr "Enw defnyddiwr:"
+
+#: ../troubleshoot/RemoteAddress.py:42
+#, fuzzy
+msgid "Server IP address:"
+msgstr "Enw gwesteiwr neu gyfeiriad IP gweinydd:"
+
+#: ../troubleshoot/SchedulerNotRunning.py:28
+msgid "CUPS Service Stopped"
+msgstr ""
+
+#: ../troubleshoot/SchedulerNotRunning.py:29
+msgid ""
+"The CUPS print spooler does not appear to be running.  To correct this, "
+"choose System->Administration->Services from the main menu and look for the "
+"'cups' service."
+msgstr ""
+
+#: ../troubleshoot/ServerFirewalled.py:26
+msgid "Check Server Firewall"
+msgstr ""
+
+#: ../troubleshoot/ServerFirewalled.py:27
+#, fuzzy
+msgid "It is not possible to connect to the server."
+msgstr ""
+"Roedd problem wrth anfon %s\n"
+"at y ciw '%s':\n"
+"\n"
+
+#: ../troubleshoot/ServerFirewalled.py:42
+#, python-format
+msgid ""
+"Please check to see if a firewall or router configuration is blocking TCP "
+"port %d on server '%s'."
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:26
+msgid "Sorry!"
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:27
+msgid ""
+"I have not been able to work out what the problem is, but I have collected "
+"some useful information to put in a bug report."
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:32
+msgid "Diagnostic Output (Advanced)"
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:43
+msgid "Trouble-shooting Printing"
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:45
+msgid ""
+"In the next few screens I will ask you some questions about your problem "
+"with printing. Based on your answers I will try to suggest a solution."
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:49
+msgid "Click 'Forward' to begin."
+msgstr ""
+
+#: ../applet.py:94
+#, fuzzy
+msgid "Configuring new printer"
+msgstr "Cyflunio argraffyddion"
+
+#. name is a URI, no queue was generated, because no suitable
+#. driver was found
+#: ../applet.py:116 ../applet.py:174
+#, fuzzy
+msgid "Missing printer driver"
+msgstr "Gyrrydd argraffydd"
+
+#: ../applet.py:123
+#, fuzzy, python-format
+msgid "No printer driver for %s."
+msgstr "_Nodiadau argraffydd/gyrrydd..."
+
+#: ../applet.py:125
+#, fuzzy
+msgid "No driver for this printer."
+msgstr "Argraffydd Jetdirect"
+
+#: ../applet.py:172
+#, fuzzy
+msgid "Printer added"
+msgstr "Model argraffydd"
+
+#: ../applet.py:178
+#, fuzzy
+msgid "Install printer driver"
+msgstr "Gyrrydd argraffydd"
+
+#: ../applet.py:179
+#, python-format
+msgid "`%s' requires driver installation: %s."
+msgstr ""
+
+#: ../applet.py:201
+#, python-format
+msgid "`%s' is ready for printing."
+msgstr ""
+
+#: ../applet.py:205 ../applet.py:217
+#, fuzzy
+msgid "Print test page"
+msgstr "Nodiadau argraffydd:"
+
+#: ../applet.py:208
+#, fuzzy
+msgid "Configure"
+msgstr "Cyflunio argraffyddion"
+
+#: ../applet.py:212
+#, python-format
+msgid "`%s' has been added, using the `%s' driver."
+msgstr ""
+
+#: ../applet.py:220
+#, fuzzy
+msgid "Find driver"
+msgstr "Gyrrydd argraffydd"
+
+#: ../print-applet.desktop.in.h:1
+#, fuzzy
+msgid "Print Queue Applet"
+msgstr "Golygu dewisiad ciw"
+
+#: ../print-applet.desktop.in.h:2
+msgid "System tray icon for managing print jobs"
+msgstr ""
+
+#: ../manage-print-jobs.desktop.in.h:1
+msgid "Cancel, pause, resume or reprint jobs"
+msgstr ""
+
+#: ../manage-print-jobs.desktop.in.h:2
+msgid "Manage Print Jobs"
+msgstr ""
+
+#: ../my-default-printer.desktop.in.h:2
+#, fuzzy
+msgid "Select default printer"
+msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#, fuzzy
+#~ msgid "Document printed"
+#~ msgstr "Sylw"
+
+#~ msgid "Queue"
+#~ msgstr "Ciw"
+
+#, fuzzy
+#~ msgid "It is not possible to obtain a list of queues from '%s'."
+#~ msgstr ""
+#~ "Roedd problem wrth anfon %s\n"
+#~ "at y ciw '%s':\n"
+#~ "\n"
+
+#, fuzzy
+#~ msgid "No queues"
+#~ msgstr "Ciw _newydd"
+
+#, fuzzy
+#~ msgid "There are no queues available."
+#~ msgstr "Nid oes dewisiadau ar gael ar gyfer y gyrrydd yma."
+
+#, fuzzy
+#~ msgid "Job %d completed"
+#~ msgstr "Sylw"
+
+#, fuzzy
+#~ msgid "<b>HP Printer (HPLIP) via network</b>"
+#~ msgstr "Model argraffydd"
+
+#, fuzzy
+#~ msgid "Not Found"
+#~ msgstr "Cysylltiedig yn _lleol"
+
+#, fuzzy
+#~ msgid "Authentication Required"
+#~ msgstr "Dilysiant"
+
+#, fuzzy
+#~ msgid "Job requires authentication to proceed."
+#~ msgstr "Dilysiant"
+
+#, fuzzy
+#~ msgid "Authenticate"
+#~ msgstr "Dilysiant"
+
+#, fuzzy
+#~ msgid "Adding"
+#~ msgstr "Yn argraffu"
+
+#, fuzzy
+#~ msgid "Adding printer"
+#~ msgstr "Ychwanegu ciw argraffu newydd"
+
+#, fuzzy
+#~ msgid "Printer status"
+#~ msgstr "Nodiadau argraffydd:"
+
+#, fuzzy
+#~ msgid "the printer's manufacturer"
+#~ msgstr "Dewiswch y gwneuthurwr"
+
+#, fuzzy
+#~ msgid "<b>Recommended Driver</b>"
+#~ msgstr "Model argraffydd"
+
+#, fuzzy
+#~ msgid "<b>Download Printer Driver</b>"
+#~ msgstr "Model argraffydd"
+
+#, fuzzy
+#~ msgid "<b>Installed Options</b>"
+#~ msgstr "Disgrifiad"
+
+#, fuzzy
+#~ msgid "Set As Default"
+#~ msgstr "_Rhagosodion"
+
+#, fuzzy
+#~ msgid "Remote class"
+#~ msgstr "Argraffydd Jetdirect"
+
+#, fuzzy
+#~ msgid "Remote printer"
+#~ msgstr "Argraffydd Jetdirect"
+
+#, fuzzy
+#~ msgid "Local printer"
+#~ msgstr "Golygu Argraffydd Lleol"
+
+#, fuzzy
+#~ msgid "New _Printer"
+#~ msgstr "Argraffydd:"
+
+#, fuzzy
+#~ msgid "_Edit"
+#~ msgstr "Golygu"
+
+#, fuzzy
+#~ msgid "_Server Settings..."
+#~ msgstr "Dewisiadau gyrrydd"
+
+#, fuzzy
+#~ msgid "Create a new printer queue"
+#~ msgstr "Creu Ciw Newydd"
+
+#, fuzzy
+#~ msgid "Make:"
+#~ msgstr "Enw:"
+
+#, fuzzy
+#~ msgid "No default printer set."
+#~ msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#, fuzzy
+#~ msgid "Cancel Tests"
+#~ msgstr "Diddymu"
+
+#, fuzzy
+#~ msgid "Default Printer:"
+#~ msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#, fuzzy
+#~ msgid "Make Default"
+#~ msgstr "_Rhagosodion"
+
+#~ msgid "User name:"
+#~ msgstr "Enw defnyddiwr:"
+
+#, fuzzy
+#~ msgid "Search terms:"
+#~ msgstr "Rhaniad: "
+
+#, fuzzy
+#~ msgid "Copy this printer queue"
+#~ msgstr "Golygu ciw argraffu"
+
+#, fuzzy
+#~ msgid "Delete this printer queue"
+#~ msgstr "Dileu'r ciw dewisiedig"
+
+#, fuzzy
+#~ msgid "Goto Server"
+#~ msgstr "Gweinydd"
+
+#, fuzzy
+#~ msgid "Queue Not Accepting Jobs"
+#~ msgstr "Dewisiadau ciw"
+
+#, fuzzy
+#~ msgid "Printer's state reasons:"
+#~ msgstr "Nodiadau argraffydd:"
+
+#, fuzzy
+#~ msgid "3"
+#~ msgstr "A3"
+
+#, fuzzy
+#~ msgid "Printername"
+#~ msgstr "Model argraffydd"
+
+#~ msgid "About"
+#~ msgstr "Ynghylch"
+
+#~ msgid "Apply"
+#~ msgstr "Gweithredoli"
+
+#, fuzzy
+#~ msgid "Comments: "
+#~ msgstr "Sylw"
+
+#, fuzzy
+#~ msgid "Device"
+#~ msgstr "Dyfais"
+
+#, fuzzy
+#~ msgid "Driver"
+#~ msgstr "Gyrrydd"
+
+#, fuzzy
+#~ msgid "Make Default Printer"
+#~ msgstr "Dyma ddisgrifiad yr argraffydd."
+
+#, fuzzy
+#~ msgid "System-Config-Printer %s"
+#~ msgstr "Cyflunio argraffyddion"
+
+#, fuzzy
+#~ msgid "Specify default job options."
+#~ msgstr "Ailosod i'r gosodiadau rhagosodedig"
+
+#, fuzzy
+#~ msgid "localhost"
+#~ msgstr "lleol"
+
+#, fuzzy
+#~ msgid "smb://"
+#~ msgstr "smb"
+
+#~ msgid "Ok"
+#~ msgstr "Iawn"
+
+#~ msgid "Info"
+#~ msgstr "Gwybodaeth"
+
+#~ msgid "Exit"
+#~ msgstr "Gadael"
+
+#~ msgid ""
+#~ "You have made changes, would you like to save them? If you say no, your "
+#~ "changes will be lost."
+#~ msgstr ""
+#~ "Rydych wedi gwneud newidiadau, a hoffech chi eu cadw? Os dywedwch na, fe "
+#~ "gollir eich newidiadau."
+
+#~ msgid "Finish Making New Queue"
+#~ msgstr "Gorffen Gwneud Ciw Newydd"
+
+#~ msgid "About to create the following queue:"
+#~ msgstr "Ar fin creu'r ciw canlynol:"
+
+#~ msgid "Back"
+#~ msgstr "Yn ôl"
+
+#~ msgid "Type:"
+#~ msgstr "Math:"
+
+#~ msgid "Lpd Queue:"
+#~ msgstr "Ciw lpd:"
+
+#~ msgid "Share:"
+#~ msgstr "Rhaniad:"
+
+#~ msgid "Workgroup:"
+#~ msgstr "Grŵp gwaith:"
+
+#~ msgid "User:"
+#~ msgstr "Defnyddiwr:"
+
+#~ msgid "Driver:"
+#~ msgstr "Gyrrydd:"
+
+#~ msgid "Name and Type"
+#~ msgstr "Enw a Math"
+
+#~ msgid "Next"
+#~ msgstr "Nesaf"
+
+#~ msgid "Queue Type"
+#~ msgstr "Math Ciw"
+
+#~ msgid ""
+#~ "The name \"%s\" is bad. Please choose a name of the form [a-zA-Z][a-zA-Z0-"
+#~ "9_-]*."
+#~ msgstr ""
+#~ "Mae'r enw \"%s\" yn wael. Dewiswch enw ar ffurf [a-zA-Z][a-zA-Z0-9_-]*."
+
+#~ msgid ""
+#~ "Pick the printer device from the list, or enter it using \"Custom\" below."
+#~ msgstr ""
+#~ "Dewiswch y ddyfais argraffydd o'r restr, neu ei rhoi gan ddefnyddio "
+#~ "\"Addasiedig\" isod."
+
+#~ msgid "Specify Device:"
+#~ msgstr "Penodwch Ddyfais:"
+
+#~ msgid "Specify the device to use."
+#~ msgstr "Penodwch y ddyfais i'w defnyddio."
+
+#~ msgid "Enter the LPD server and queue to use."
+#~ msgstr "Rhowch y gweinydd LPD a'r ciw i'w defnyddio."
+
+#~ msgid "LPD Data"
+#~ msgstr "Data LPD"
+
+#~ msgid "You must specify a server."
+#~ msgstr "Mae'n rhaid i chi benodi gweinydd."
+
+#~ msgid "Enter the SMB share to use."
+#~ msgstr "Rhowch y rhaniad SMB i'w ddefnyddio."
+
+#~ msgid "Workgroup"
+#~ msgstr "Grŵp gwaith"
+
+#~ msgid "Passwd"
+#~ msgstr "Cyfrinair"
+
+#~ msgid "You must specify a SMB share to print to."
+#~ msgstr "Rhaid i chi benodi rhaniad SMB i argraffu iddo."
+
+#~ msgid "Enter the NCP server and queue to use."
+#~ msgstr "Rhowch y gweinydd NCP a'r ciw i'w defnyddio."
+
+#~ msgid "Novell Netware Printer (NCP) Data"
+#~ msgstr "Data Argraffydd Novell Netware (NCP)"
+
+#~ msgid "You must specify an NCP server to print to."
+#~ msgstr "Rhaid i chi benodi gweinydd NCP i argraffu iddo."
+
+#~ msgid "You must specify a queue on the NCP server to print to."
+#~ msgstr "Rhaid i chi benodi ciw ar y gweinydd NCP i argraffu iddo."
+
+#~ msgid "Enter the Jetdirect ip and port to use."
+#~ msgstr "Rhowch yr ip a phorth Jetdirect i'w defnyddio."
+
+#~ msgid "Ip"
+#~ msgstr "Ip"
+
+#~ msgid "Port"
+#~ msgstr "Porth"
+
+#~ msgid "Jetdirect (JETDIRECT) Data"
+#~ msgstr "Data Jetdirect (JETDIRECT)"
+
+#~ msgid "You must specify the ip address of a JetDirect printer."
+#~ msgstr "Rhaid i chi benodi cyfeiriad ip argraffydd JetDirect."
+
+#~ msgid "Queue Driver"
+#~ msgstr "Gyrrydd Ciw"
+
+#~ msgid "Select the Driver to use with this Queue."
+#~ msgstr "Dewiswch y Gyrrydd i'w ddefnyddio â'r Ciw yma."
+
+#~ msgid "You must specify a driver."
+#~ msgstr "Rhaid i chi benodi gyrrydd."
+
+#~ msgid "Edit Queue"
+#~ msgstr "Golygu Ciw"
+
+#~ msgid "Names"
+#~ msgstr "Enwau"
+
+#~ msgid "Type"
+#~ msgstr "Math"
+
+#~ msgid "Done"
+#~ msgstr "Wedi gwneud"
+
+#~ msgid "Aliases:"
+#~ msgstr "Ffugenwau:"
+
+#~ msgid "Edit Name and Aliases"
+#~ msgstr "Golygu Enw a Ffugenwau"
+
+#~ msgid "Add Alias"
+#~ msgstr "Ychwanegu Ffugenw"
+
+#~ msgid "Edit Alias"
+#~ msgstr "Golygu Ffugenw"
+
+#~ msgid "Delete Alias"
+#~ msgstr "Dileu Ffugenw"
+
+#~ msgid "Alias:"
+#~ msgstr "Ffugenw:"
+
+#~ msgid "Add an Alias"
+#~ msgstr "Ychwanegu Ffugenw"
+
+#~ msgid "Edit the alias"
+#~ msgstr "Golygu'r ffugenw"
+
+#~ msgid "You must select an alias to edit."
+#~ msgstr "Rhaid i chi ddewis ffugenw i'w olygu."
+
+#~ msgid "You must select an alias to delete."
+#~ msgstr "Rhaid i chi ddewis ffugenw i'w ddileu."
+
+#~ msgid "Strict RFC1179"
+#~ msgstr "RFC1179 llym"
+
+#~ msgid "Translate \\n->\\r\\n"
+#~ msgstr "Trosi \\n->\\r\\n"
+
+#~ msgid "Edit Driver"
+#~ msgstr "Golygu Gyrrydd"
+
+#~ msgid "Edit Driver Options"
+#~ msgstr "Golygu Dewisiadau Gyrrydd"
+
+#~ msgid "Edit %s"
+#~ msgstr "Golygu %s"
+
+#~ msgid "Integer: Min %s | Max %s"
+#~ msgstr "Cyfanrif: Isaf %s | Uchaf %s"
+
+#~ msgid "Value must be a number"
+#~ msgstr "Rhaid i'r werth fod yn rif"
+
+#~ msgid "Float: Min %s | Max %s"
+#~ msgstr "Arnawf: Isaf %s | Uchaf %s"
+
+#~ msgid "US Letter"
+#~ msgstr "Llythyr UD"
+
+#~ msgid "Tabloid"
+#~ msgstr "Tabloid"
+
+#~ msgid "Ledger"
+#~ msgstr "Llyfr cyfrifon"
+
+#~ msgid "Legal"
+#~ msgstr "Cyfreithiol"
+
+#~ msgid "Statement"
+#~ msgstr "Datganiad"
+
+#~ msgid "Executive"
+#~ msgstr "Gweithredwr"
+
+#~ msgid "A4"
+#~ msgstr "A4"
+
+#~ msgid "A5"
+#~ msgstr "A5"
+
+#~ msgid "B4"
+#~ msgstr "B4"
+
+#~ msgid "B5"
+#~ msgstr "B5"
+
+#~ msgid "Folio"
+#~ msgstr "Ffolio"
+
+#~ msgid "Quatro"
+#~ msgstr "Cwatro"
+
+#~ msgid "10x14"
+#~ msgstr "10x14"
+
+#~ msgid ""
+#~ "You have made changes, would you like to save them?\n"
+#~ "If you say no, you will not be able to print test pages."
+#~ msgstr ""
+#~ "Rydych wedi gwneud newidiadau, a hoffech eu cadw?\n"
+#~ "Os dywedwch na, ni fyddwch yn gallu argraffu tudalennau prawf."
+
+#~ msgid "Sent %s to \"%s\"."
+#~ msgstr "Anfonwyd %s at \"%s\"."
+
+#~ msgid "You must select a printer queue to delete."
+#~ msgstr "Rhaid i chi ddewis ciw argraffydd i'w ddileu."
+
+#~ msgid "You cannot delete an imported printer."
+#~ msgstr "Ni allwch ddileu argraffydd mewnforedig."
+
+#~ msgid "Confirm Delete"
+#~ msgstr "Cadarnhau Dileu"
+
+#~ msgid "Delete"
+#~ msgstr "Dileu"
+
+#~ msgid "You must select a printer queue to edit."
+#~ msgstr "Rhaid i chi ddewis ciw argraffydd i'w olygu."
+
+#~ msgid ""
+#~ "This imported printer is protected from overrides. You can not edit it."
+#~ msgstr ""
+#~ "Mae'r argraffydd mewnforedig yma wedi'i amddiffyn yn erbyn gwrthwneud. Ni "
+#~ "allwch ei olygu."
+
+#~ msgid "Override?"
+#~ msgstr "Gwrthwneud?"
+
+#~ msgid "This is an imported printer. Do you want to create a local override?"
+#~ msgstr "Mae hwn yn argraffydd mewnforedig. A ydych am greu wrthwneud lleol?"
+
+#~ msgid "You must select a queue to print to."
+#~ msgstr "Rhaid i chi ddewis ciw i argraffu iddo."
+
+#~ msgid "Initializing alchemist edit environment ..."
+#~ msgstr "Yn ymgychwyn amgylched golygu alchemist ..."
+
+#~ msgid "Initializing linux printing database ..."
+#~ msgstr "Yn ymgychwyn cronfa ddata argraffu linux ..."
+
+#~ msgid "Importing CUPS queues ..."
+#~ msgstr "Yn mewnforio ciwiau CUPS ..."
+
+#~ msgid ""
+#~ "Failed to parse alchemist context: \n"
+#~ "%s"
+#~ msgstr ""
+#~ "Methwyd dyrannu cyd-destun alchemist: \n"
+#~ "%s"
+
+#~ msgid "Invalid printconf context"
+#~ msgstr "Cyd-destun printconf annilys"
+
+#~ msgid "\"%s\" is not a valid queue name."
+#~ msgstr "Nid yw \"%s\" yn enw ciw dilys."
+
+#~ msgid "Need device, make and model.\n"
+#~ msgstr "Mae angen dyfais, gwneuthurwr a model.\n"
+
+#~ msgid "add-local: queue name '%s' not unique\n"
+#~ msgstr "add-local: nid yw'r enw ciw \"%s\" yn unigryw\n"
+
+#~ msgid "add-local: no suitable name available\n"
+#~ msgstr "add-local: dim enw addas ar gael\n"
+
+#~ msgid "add-local: No information available about %s %s\n"
+#~ msgstr "add-local: Dim gwybodaeth ar gaem am %s %s\n"
+
+#~ msgid "Now run printconf-backend (or restart lpd service)."
+#~ msgstr "Nawr rhedwch printconf-backend (neu ailddechrau'r gwasanaeth lpd)."
+
+#~ msgid "You must run printconf-tui as root."
+#~ msgstr "Rhaid i che redeg printconf-tui fel y gwraidd."
+
+#~ msgid "Conflicting commands: %s and %s"
+#~ msgstr "Gorchmynion yn gwrthdaro: %s a %s"
+
+#~ msgid "No handler for command: "
+#~ msgstr "Dim trinydd ar gyfer y gorchymyn: "
+
+#~ msgid "You must be root to run this program.\n"
+#~ msgstr "Rhaid i chi fod yn wraidd i redeg y raglen hon.\n"
+
+#~ msgid "Queue name"
+#~ msgstr "Enw ciw"
+
+#~ msgid "_Don't save"
+#~ msgstr "_Peidio â chadw"
+
+#~ msgid "_Save"
+#~ msgstr "_Cadw"
+
+#~ msgid ""
+#~ "Loading printer information.\n"
+#~ "Please wait..."
+#~ msgstr ""
+#~ "Yn llwytho gwybodaeth argraffydd.\n"
+#~ "Arhoswch..."
+
+#~ msgid "Notes from the Linux Printing Database"
+#~ msgstr "Nodiadau o'r Gronfa Ddata Argraffu Linux"
+
+#~ msgid "Generic (click to select manufacturer)"
+#~ msgstr "Cyffredinol (cliciwch i ddewis gwneuthurwr)"
+
+#~ msgid ""
+#~ "You are changing an option\n"
+#~ "that has no effect in the print\n"
+#~ "spooler you are using (%s)."
+#~ msgstr ""
+#~ "Rydych yn newid dewisiad\n"
+#~ "sydd heb effaith yn y sbwlydd\n"
+#~ "argraffu rydych yn ei ddefnyddio (%s)."
+
+#~ msgid ""
+#~ "Applying changes.\n"
+#~ "Please wait..."
+#~ msgstr ""
+#~ "Yn gweithredoli newidiadau.\n"
+#~ "Arhoswch..."
+
+#~ msgid "Failed to write queues."
+#~ msgstr "Methwyd ysgrifennu ciwiau."
+
+#~ msgid ""
+#~ "Sent %s\n"
+#~ "to '%s' queue.  Does it look okay?"
+#~ msgstr ""
+#~ "Anfonwyd %s\n"
+#~ "at y ciw '%s'.  A yw'n edrych yn iawn?"
+
+#~ msgid "'%s' does not look like a PPD file."
+#~ msgstr "Nid yw '%s' yn bodoli, neu nid yw'n ysgrifenadwy."
+
+#~ msgid "File cannot be opened for reading."
+#~ msgstr "Na ellir agor y ffeil i'w ddarllen."
+
+#~ msgid "PPD imported."
+#~ msgstr "Mewnforiwyd y PPD."
+
+#~ msgid "PPD import failed."
+#~ msgstr "Methu mewnforio PPD."
+
+#~ msgid "Invalid name"
+#~ msgstr "Enw annilys"
+
+#~ msgid "There is already a queue with that name."
+#~ msgstr "Mae ciw o'r enw yna'n barod."
+
+#~ msgid "An existing queue has an alias of that name."
+#~ msgstr "Mae gan giw cyfredol ffugenw â'r enw yna."
+
+#~ msgid "'%s' does not exist, or is not writable."
+#~ msgstr "Nid yw '%s' yn bodoli, neu nid yw'n ysgrifenadwy."
+
+#~ msgid "Custom device"
+#~ msgstr "Dyfais addasiedig"
+
+#~ msgid "You must select a device."
+#~ msgstr "Rhaid i chi ddewis dyfais."
+
+#~ msgid "You must specify a path."
+#~ msgstr "Rhaid i chi benodi llwybr."
+
+#~ msgid "You must specify a queue."
+#~ msgstr "Rhaid i chi benodi ciw."
+
+#~ msgid "You must choose an SMB share to print to."
+#~ msgstr "Rhaid i chi ddewis rhaniad SMB i argraffu iddo."
+
+#~ msgid "You must choose a share, not a host."
+#~ msgstr "Rhad i chi ddewis rhaniad, nid gwesteiwr."
+
+#~ msgid "You must specify an SMB share to print to."
+#~ msgstr "Rhaid i chi benodi rhaniad SMB i argraffu iddo."
+
+#~ msgid "You must specify a queue on the NCP server."
+#~ msgstr "Rhaid i chi benodi ciw ar y gweinydd NCP."
+
+#~ msgid "You must specify a JetDirect printer to print to."
+#~ msgstr "Rhaid i chi benodi argraffydd JetDirect i argraffu iddo."
+
+#~ msgid "You must specify an IP port number."
+#~ msgstr "Rhaid i chi benodi rhif porth IP."
+
+#~ msgid "Select the printer manufacturer and model."
+#~ msgstr "Dewiswch gwneuthurwr a model yr argraffydd."
+
+#~ msgid ""
+#~ "Select the printer manufacturer and model. Depending on how the remote "
+#~ "queue is configured, you may need to select the generic PostScript option "
+#~ "here."
+#~ msgstr ""
+#~ "Dewiswch gwneuthurwr a model yr argraffydd. Yn dibynnu ar sut cyfluniwyd "
+#~ "y ciw pell, gall fod angen i chi ddewis y dewisiad PostScript cyffredinol "
+#~ "yma."
+
+#~ msgid ""
+#~ "About to create the following queue:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Ar fin creu'r ciw canlynol:\n"
+#~ "\n"
+
+#~ msgid "Type: "
+#~ msgstr "Math: "
+
+#~ msgid "Queue: "
+#~ msgstr "Ciw: "
+
+#~ msgid ""
+#~ "Would you like to print a test page?\n"
+#~ "Answering 'yes' will apply all changes\n"
+#~ "and print a test page to this printer."
+#~ msgstr ""
+#~ "A hoffech chi argraffu tudalen brawf?\n"
+#~ "Bydd ateb 'hoffwn' yn gweithredoli pob newid\n"
+#~ "ac yn argraffu tudalen brawf i'r argraffydd yma."
+
+#~ msgid "Number of columns on a page"
+#~ msgstr "Nifer o golofnau ar dudalen"
+
+#~ msgid "Billing label"
+#~ msgstr "Label bilio"
+
+#~ msgid ""
+#~ "HH:MM:SS or '%s'.\n"
+#~ "Use GMT."
+#~ msgstr ""
+#~ "AA:MM:EE neu '%s'.\n"
+#~ "Defnyddiwch GMT."
+
+#~ msgid ""
+#~ "Banner pages (start,end):\n"
+#~ "for example, '%s'"
+#~ msgstr ""
+#~ "Tudalennau baner (dechrau,diwedd):\n"
+#~ "er enghraifft, '%s'"
+
+#~ msgid "Landscape (%s or %s)"
+#~ msgstr "Tirlun (%s neu %s)"
+
+#~ msgid ""
+#~ "Number of document pages per\n"
+#~ "printed page: 1, 2, 4, 6, 9, or 16"
+#~ msgstr ""
+#~ "Nifer o dudalennau dogfen i bob\n"
+#~ "tudalen argraffedig: 1, 2, 4 ,6, 9, neu 16."
+
+#~ msgid "Top margin in pt (1/72 in)"
+#~ msgstr "Ymyl uchaf mewn pt (1/72 modfedd)"
+
+#~ msgid "Left margin in pt (1/72 in)"
+#~ msgstr "Ymyl chwith mewn pt (1/72 modfedd)"
+
+#~ msgid "Right margin in pt (1/72 in)"
+#~ msgstr "Ymyl dde mewn pt (1/72 modfedd)"
+
+#~ msgid "Bottom margin in pt (1/72 in)"
+#~ msgstr "Ymyl waelod mewn pt (1/72 modfedd)"
+
+#~ msgid ""
+#~ "'%s', '%s', '%s'\n"
+#~ "'%s' or '%s'"
+#~ msgstr ""
+#~ "'%s', '%s', '%s'\n"
+#~ "'%s' neu '%s'"
+
+#~ msgid "Pretty-print text (%s or %s)"
+#~ msgstr "Argraffu testun yn hardd (%s neu %s)"
+
+#~ msgid "Scaling (percentage)"
+#~ msgstr "Chwyddo (canran)"
+
+#~ msgid "Word-wrapping (%s or %s)"
+#~ msgstr "Amlapio-geiriau (%s neu %s)"
+
+#~ msgid "Value"
+#~ msgstr "Gwerth"
+
+#~ msgid "Can't determine the printer model attached to this device."
+#~ msgstr "Methu pennu model yr argraffyd ynghlwm i'r ddyfais yma."
+
+#~ msgid "I don't know enough about this printer model to choose a driver."
+#~ msgstr ""
+#~ "Dydw i ddim yn gwybod digon am y model argraffydd yma i ddewis gyrrydd."
+
+#~ msgid "Add queue option"
+#~ msgstr "Ychwanegu dewisiad ciw"
+
+#~ msgid "Invalid option name"
+#~ msgstr "Enw dewisiad annilys"
+
+#~ msgid "Value for this option"
+#~ msgstr "Gwerth ar gyfer y dewisiad yma"
+
+#~ msgid ""
+#~ "(this is the\n"
+#~ "recommended driver)"
+#~ msgstr ""
+#~ "(hwn yw'r\n"
+#~ "gyrrydd argymelledig)"
+
+#~ msgid ""
+#~ "This driver requires Hewlett Packard's hpijs driver (available in the "
+#~ "hpijs package) which does not appear to be installed."
+#~ msgstr ""
+#~ "Mae'r gyrrydd yma'n mynnu gyrrydd hpijs Hewlett Packard (ar gael yn y "
+#~ "pecyn hpijs) sydd ddim i'w weld yn arsefydlog."
+
+#~ msgid "Do you wish to use it anyway?"
+#~ msgstr "A ydych am ei ddefnyddio beth bynnag?"
+
+#~ msgid ""
+#~ "This driver requires the Omni Print Driver System, which does not appear "
+#~ "to be installed."
+#~ msgstr ""
+#~ "Mae'r gyrrydd yma'n mynnu'r System Gyryddion Argraffu Omni, sydd ddim i'w "
+#~ "weld yn arsefydlog."
+
+#~ msgid ""
+#~ "This driver requires the oki4drv daemon to be running, and it does not "
+#~ "appear to be."
+#~ msgstr ""
+#~ "Mae'r gyrrydd yma'n mynnu bod yr ellyll oki4drv yn rhedeg, ac nid yw i "
+#~ "weld yn gwneud hynny."
+
+#~ msgid "Local Printer Device"
+#~ msgstr "Dyfais Argraffydd Lleol"
+
+#~ msgid "IPP Print Queue"
+#~ msgstr "Ciw Argraffu IPP"
+
+#~ msgid "Unix Print Queue"
+#~ msgstr "Ciw Argraffu Unix"
+
+#~ msgid "Windows Print Queue"
+#~ msgstr "Ciw Argraffu Windows"
+
+#~ msgid ""
+#~ "SMB print queues require the \"smbclient\" program, which does not appear "
+#~ "to be installed."
+#~ msgstr ""
+#~ "Mae ciwiau argraffu SMB yn mynnu'r raglen \"smbclient\", sydd ddim i'w "
+#~ "weld yn arsefydlog."
+
+#~ msgid ""
+#~ "It is part of the \"samba-client\" package, as distributed by Red Hat."
+#~ msgstr ""
+#~ "Mae'n ran o'r pecyn \"samba-client\", fel y'i dosberthir gan Red Hat."
+
+#~ msgid "Do you wish to enable it anyway?"
+#~ msgstr "A ydych am ei weithredoli beth bynnag?"
+
+#~ msgid "Novell Print Queue"
+#~ msgstr "Ciw Argraffu Novell"
+
+#~ msgid "It is part of the \"ncpfs\" package, as distributed by Red Hat."
+#~ msgstr "Mae'n ran o'r pecyn \"ncpfs\", fel y'i dosberthir gan Red Hat."
+
+#~ msgid "Custom Command"
+#~ msgstr "Gorchymyn Addasiedig"
+
+#~ msgid "Postscript Printer"
+#~ msgstr "Argraffydd Postscript"
+
+#~ msgid "Text Only Printer"
+#~ msgstr "Argraffydd Testun yn Unig"
+
+#~ msgid "Custom Filter"
+#~ msgstr "Hidlen Addasiedig"
+
+#~ msgid "ERROR: No box named \"%s\" found.\n"
+#~ msgstr "GWALL: Ni ganfuwyd blwch o'r enw \"%s\".\n"
+
+#~ msgid "ERROR: box \"%s\" is not a writable interface.\n"
+#~ msgstr "GWALL: nid yw'r blwch \"%s\" yn ryngwyneb ysgrifenadwy.\n"
+
+#~ msgid "Send Form-Feed (FF)"
+#~ msgstr "Anfon Dalen-Borthiad (FF)"
+
+#~ msgid "Send End-of-Transmission (EOT)"
+#~ msgstr "Anfon Diwedd-Trosglwyddiad (EOT)"
+
+#~ msgid "Assume Unknown Data is Text"
+#~ msgstr "Tybio bod Data Anhysbys yn Destun"
+
+#~ msgid "Prerender Postscript"
+#~ msgstr "Cyn-lunio Postscript"
+
+#~ msgid "Convert Text to Postscript"
+#~ msgstr "Trosi Testun yn Bostscript"
+
+#~ msgid "Effective Filter Locale"
+#~ msgstr "Lleoliad Hidlen Effeithiol"
+
+#~ msgid "Couldn't load driver information.\n"
+#~ msgstr "Methwyd llwytho gwybodaeth gyrrydd.\n"
+
+#~ msgid "You must run printconf-backend as root."
+#~ msgstr "Rhaid i chi redeg printconf-backend fel y gwraidd."
+
+#~ msgid "Sharing properties - %s"
+#~ msgstr "Priodweddau rhannu - %s"
+
+#~ msgid "All hosts"
+#~ msgstr "Pob gwesteiwr"
+
+#~ msgid "Network device %s"
+#~ msgstr "Dyfais rhwydwaith %s"
+
+#~ msgid "Network devices %s"
+#~ msgstr "Dyfeisiau Rhwydwaith %s"
+
+#~ msgid "Network address %s"
+#~ msgstr "Cyfeiriad rhwydwaith %s"
+
+#~ msgid "Add allowed hosts - %s"
+#~ msgstr "Ychwanegu gwesteiwr caniataol - %s"
+
+#~ msgid "Edit allowed hosts - %s"
+#~ msgstr "Golygu gwesteiwyr caniataol - %s"
+
+#~ msgid ""
+#~ "LPD connections will be accepted\n"
+#~ "on all interfaces, and jobs for\n"
+#~ "all queues will be accepted."
+#~ msgstr ""
+#~ "Derbynir cysylltiadau LPD o bob \n"
+#~ "ryngwyneb, a derbynir swydd o bob \n"
+#~ "ciwiau."
+
+#~ msgid "Invalid network address"
+#~ msgstr "Cyfeiriad rhwydwaith annilys"
+
+#~ msgid "Invalid netmask"
+#~ msgstr "Masg rhwyd annilys"
+
+#~ msgid "Invalid IP address"
+#~ msgstr "Cyfeiriad IP annilys"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "="
+#~ msgstr "="
+
+#~ msgid "ASC_II text test page"
+#~ msgstr "Tudalen brawf testun ASC_II"
+
+#~ msgid "Add a new option"
+#~ msgstr "Ychwanegu dewisiad newydd"
+
+#~ msgid "Add a new queue"
+#~ msgstr "Ychwanegu ciw newydd"
+
+#~ msgid "Add an allowed host"
+#~ msgstr "Ychwanegu gwesteiwr caniataol"
+
+#~ msgid "Add/edit queue option"
+#~ msgstr "Ychwanegu/golygu dewisiad ciw"
+
+#~ msgid "Allowed hosts"
+#~ msgstr "Gwesteiwyr caniataol"
+
+#~ msgid "Apply changes"
+#~ msgstr "Gweithredoli newidiadau"
+
+#~ msgid "At end of job:"
+#~ msgstr "Ar ddiwedd swydd:"
+
+#~ msgid "At start of job:"
+#~ msgstr "Ar ddechrau swydd:"
+
+#~ msgid "Autoselect driver"
+#~ msgstr "Awtoddewis gyrrydd"
+
+#~ msgid "Banner pages"
+#~ msgstr "Tudalennau baner"
+
+#~ msgid "Big5 PostScript test page"
+#~ msgstr "Tudalen brawf PostScript Big5"
+
+#~ msgid "Choose the queue type"
+#~ msgstr "Dewiswch y math ciw"
+
+#~ msgid "Choose the type of queue you want to use"
+#~ msgstr "Dewiswch y math o giw yr ydych am ei ddefnyddio"
+
+#~ msgid "Choose which other computers may use this queue."
+#~ msgstr "Dewiswch ba gyfrifiaduron eraill cânt ddefnyddio'r ciw yma."
+
+#~ msgid "Edit the selected queue"
+#~ msgstr "Golygu'r ciw dewisiedig"
+
+#~ msgid "Edit this host"
+#~ msgstr "Golygu'r gwesteiwr yma"
+
+#~ msgid "Edit this option"
+#~ msgstr "Golygu'r dewisiad yma"
+
+#~ msgid "Enable _LPD protocol"
+#~ msgstr "Galluogi'r protocol _LPD"
+
+#~ msgid "Enter the device you would like to use."
+#~ msgstr "Rhowch y ddyfais yr hoffech ei defnyddio."
+
+#~ msgid "Finish, and create the new print queue"
+#~ msgstr "Gorffen, a chreu'r ciw argraffu newydd"
+
+#~ msgid "For example: /dev/lp0"
+#~ msgstr "Er enghraifft: /dev/lp0"
+
+#~ msgid "IP port number (often 9100)"
+#~ msgstr "Rhif porth IP (9100 yn aml)"
+
+#~ msgid ""
+#~ "If you like, you can enter a description of the printer to help you "
+#~ "identify it more easily."
+#~ msgstr ""
+#~ "Os hoffwch, gallwch roi disgrifiad o'r argraffydd i'ch cynorthwyo i'w "
+#~ "dynodi'n hwylusach."
+
+#~ msgid "Imageable Area"
+#~ msgstr "Ardal Ddelweddadwy"
+
+#~ msgid "JPE_G test"
+#~ msgstr "Prawf JPE_G"
+
+#~ msgid "Japanese EUC PostScript test page"
+#~ msgstr "Tudalen brawf PostScript Siapaneg EUC"
+
+#~ msgid "Japanese JIS PostScript test page"
+#~ msgstr "Tudalen brawf PostScript Siapaneg JIS"
+
+#~ msgid "Japanese SJIS PostScript test page"
+#~ msgstr "Tudalen brawf PostScript Siapaneg SJIS"
+
+#~ msgid "Japanese _EUC text test page"
+#~ msgstr "Tudalen brawf PostScript Siapaneg _EUC"
+
+#~ msgid "Japanese _JIS text test page"
+#~ msgstr "Tudalen brawf PostScript Siapaneg _JIS"
+
+#~ msgid "Japanese _SJIS text test page"
+#~ msgstr "Tudalen brawf PostScript Siapaneg _SJIS"
+
+#~ msgid "Linefeed translation"
+#~ msgstr "Trosiad llin-borthi"
+
+#~ msgid "Network _devices"
+#~ msgstr "_Dyfeisiau Rhwydwaith"
+
+#~ msgid "Networked CUPS (_IPP)"
+#~ msgstr "CUPS(_IPP) Rhwydweithiol"
+
+#~ msgid "Networked _Novell (NCP)"
+#~ msgstr "_Novell (NCP) Rhwydweithiol"
+
+#~ msgid "Networked _UNIX (LPD)"
+#~ msgstr "_UNIX (LPD) Rhwydweithiol"
+
+#~ msgid "Networked _Windows (SMB)"
+#~ msgstr "_Windows (SMB) Rhwydweithiol"
+
+#~ msgid ""
+#~ "On the following screens, you will be asked to provide basic information "
+#~ "for adding a new print queue.  You will be able to edit the more advanced "
+#~ "options afterwards.\n"
+#~ "\n"
+#~ "Nothing will be done to your settings until you hit \"Finish\" on the "
+#~ "last screen."
+#~ msgstr ""
+#~ "Ar y sgrînau canlynol, fe'ch gofynnir i ddarparu gwybodaeth sylfaenol ar "
+#~ "gyfer ychwanegu ciw argraffu newydd.  Byddwch yn gallu golygu'r "
+#~ "dewisiadau uwch wedyn.\n"
+#~ "\n"
+#~ "Ni wneir unrhywbeth i'ch gosodiadau nes i chi daro \"Gorffen\" ar y sgrîn "
+#~ "olaf."
+
+#~ msgid "Path:"
+#~ msgstr "Llwybr:"
+
+#~ msgid "Patience"
+#~ msgstr "Amynnedd"
+
+#~ msgid ""
+#~ "Please enter a name for this queue.  Choose a short name that begins with "
+#~ "a letter and contains no spaces."
+#~ msgstr ""
+#~ "Rhowch enw ar gyfer y ciw yma.  Dewiswch enw byr sy'n dechrau â llythyren "
+#~ "ac sydd heb ofodau ynddo."
+
+#~ msgid "Printer hostname or IP address"
+#~ msgstr "Enw gwesteiwr neu gyfeiriadu IP argraffydd"
+
+#~ msgid "Queue type"
+#~ msgstr "Math ciw"
+
+#~ msgid "Queue type:"
+#~ msgstr "Math ciw:"
+
+#~ msgid "Remove this host from the list"
+#~ msgstr "Gwaredu'r gwesteiwr yma o'r restr"
+
+#~ msgid "Remove this option"
+#~ msgstr "Gwaredu'r dewisiad yma"
+
+#~ msgid "Rescan devices"
+#~ msgstr "Ailsyllu dyfeisiau"
+
+#~ msgid "Select a queue type:"
+#~ msgstr "Dewiswch fath ciw:"
+
+#~ msgid "Select the appropriate printer manufacturer and model."
+#~ msgstr "Dewiswch y gwneuthurwr a model argraffydd priodol."
+
+#~ msgid "Set as de_fault"
+#~ msgstr "Gosod yn rago_sodyn"
+
+#~ msgid "Set as default queue"
+#~ msgstr "Gosod yn giw ragosodedig"
+
+#~ msgid "Short description:"
+#~ msgstr "Disgrifiad byr:"
+
+#~ msgid "Short description: "
+#~ msgstr "Disgrifiad byr: "
+
+#~ msgid "Single _IP address"
+#~ msgstr "Cyfeiriad _IP unigol"
+
+#~ msgid "Strict RFC1179 compliance"
+#~ msgstr "Cydymffurfiad RFC1179 hollol"
+
+#~ msgid "These settings are system-wide."
+#~ msgstr "Mae'r gosodiadau yma'n system-eang."
+
+#~ msgid "This allows older systems to print to this machine"
+#~ msgstr "Mae hyn yn galluogi systemau henach i argraffu i'r peiriant yma."
+
+#~ msgid "This enables CUPS IPP browsing"
+#~ msgstr "Mae hyn yn galluogi pori IPP CUPS"
+
+#~ msgid ""
+#~ "This is the name of the queue.  It must begin with a letter and contain "
+#~ "no spaces."
+#~ msgstr ""
+#~ "Dyma enw'r ciw.  Rhaid iddo ddechrau â llythyren a pheidio a chynnwys "
+#~ "gofodau."
+
+#~ msgid "Type in an IP address"
+#~ msgstr "Teipiwch gyfeiriad IP i mewn"
+
+#~ msgid "Type in the netmask, or the CIDR mask length"
+#~ msgstr "Teipiwch y masg rhwyd, neu'r hyd masg CIDR i mewn"
+
+#~ msgid "Type in the share name"
+#~ msgstr "Teipiwch yr enw rhaniad i mewn"
+
+#~ msgid "Use control-F to search"
+#~ msgstr "Defnyddiwch rheoli-F i chwilio"
+
+#~ msgid "_A4 PostScript test page"
+#~ msgstr "Tudalen brawf PostScript _A4"
+
+#~ msgid "_All hosts"
+#~ msgstr "_Pob gwesteiwr"
+
+#~ msgid "_Apply"
+#~ msgstr "_Gweithredoli"
+
+#~ msgid "_Automatically find remote shared queues"
+#~ msgstr "Canfod ciwiau rhanedig pell yn _awtomatig"
+
+#~ msgid "_Big5 text test page"
+#~ msgstr "tudalen brawf testun _Big5"
+
+#~ msgid "_CUPS test page"
+#~ msgstr "tudalen brawf _CUPS"
+
+#~ msgid "_Contents"
+#~ msgstr "_Cynnwys"
+
+#~ msgid "_Custom device"
+#~ msgstr "Dyfais _Addasiedig"
+
+#~ msgid "_Delete queue"
+#~ msgstr "_Dileu ciw"
+
+#~ msgid "_Duplex test"
+#~ msgstr "Prawf _deublyg"
+
+#~ msgid "_Edit queue"
+#~ msgstr "_Golygu ciw"
+
+#~ msgid "_Edit..."
+#~ msgstr "_Golygu..."
+
+#~ msgid "_Import PPD..."
+#~ msgstr "_Mewnforio PPD..."
+
+#~ msgid "_Network address"
+#~ msgstr "Cyfeiriad _rhwydwaith"
+
+#~ msgid "_Notes..."
+#~ msgstr "_Nodiadau..."
+
+#~ msgid "_Rescan devices"
+#~ msgstr "_Ailsyllu dyfeisiau"
+
+#~ msgid "_This queue is available to other computers"
+#~ msgstr "_Mae'r ciw yma ar gael i gyfrifiaduron eraill"
+
+#~ msgid "_US Letter PostScript test page"
+#~ msgstr "Tudalen brawf PostScript Llythyr _UD"
+
+#~ msgid "_none"
+#~ msgstr "_dim"
+
+#~ msgid "ipp"
+#~ msgstr "ipp"
+
+#~ msgid "jetdirect"
+#~ msgstr "jetdirect"
+
+#~ msgid "lpd"
+#~ msgstr "lpd"
+
+#~ msgid "ncp"
+#~ msgstr "ncp"

@@ -1,0 +1,4425 @@
+# Translation of printconf to Persian.
+# Copyright (C) 2003 Abbas Izad
+# Copyright (C) 2005 Sharif FarsiWeb, Inc.
+# This file is distributed under the same license as the printconf package.
+# Abbas Izad <abbasizad@hotmail.com>, 2003.
+# Meelad Zakaria <meelad@farsiweb.info>, 2005.
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: printconf\n"
+"Report-Msgid-Bugs-To: https://bugzilla.redhat.com/bugzilla\n"
+"POT-Creation-Date: 2009-12-22 14:44+0000\n"
+"PO-Revision-Date: 2005-04-18 12:02+0430\n"
+"Last-Translator: Meelad Zakaria <meelad@farsiweb.info>\n"
+"Language-Team: Persian <farsi@lists.sharif.edu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../AdvancedServerSettings.py:42
+#, fuzzy
+msgid "Advanced Server Settings"
+msgstr "گزینه‌های گرداننده"
+
+#: ../AdvancedServerSettings.py:59
+msgid "Job History"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:70
+msgid "Do not preserve job history"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:72
+msgid "Preserve job history but not files"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:75
+msgid "Preserve job files (allow reprinting)"
+msgstr ""
+
+#: ../AdvancedServerSettings.py:83
+#, fuzzy
+msgid "Browse Servers"
+msgstr "صف‌های مرور شده"
+
+#: ../AdvancedServerSettings.py:94
+msgid ""
+"Usually print servers broadcast their queues.  Specify print servers below "
+"to periodically ask for queues instead."
+msgstr ""
+
+#: ../AdvancedServerSettings.py:215
+#, fuzzy
+msgid "Enter IP address"
+msgstr "نام میزبان یا نشانی IP کارگزار:"
+
+#: ../asyncipp.py:420 ../authconn.py:402 ../authconn.py:404
+#: ../errordialogs.py:65 ../pysmb.py:75 ../pysmb.py:77
+msgid "Not authorized"
+msgstr ""
+
+#: ../asyncipp.py:421 ../authconn.py:405 ../pysmb.py:78
+msgid "The password may be incorrect."
+msgstr ""
+
+#: ../asyncipp.py:432 ../authconn.py:426
+#, fuzzy, python-format
+msgid "Authentication (%s)"
+msgstr "تأیید هویت"
+
+#: ../asyncipp.py:497 ../authconn.py:259 ../errordialogs.py:56
+#: ../errordialogs.py:70
+#, fuzzy
+msgid "CUPS server error"
+msgstr "کارگزار:"
+
+#: ../asyncipp.py:499 ../authconn.py:257
+#, fuzzy, python-format
+msgid "CUPS server error (%s)"
+msgstr "کارگزار:"
+
+#: ../asyncipp.py:516 ../authconn.py:268 ../errordialogs.py:57
+#: ../troubleshoot/PrintTestPage.py:417
+#, fuzzy, python-format
+msgid "There was an error during the CUPS operation: '%s'."
+msgstr "هنگام تلاش برای چاپ صفحه‌ی آزمایشی، خطایی پیش آمد."
+
+#: ../asyncipp.py:519 ../authconn.py:271
+#, fuzzy
+msgid "Retry"
+msgstr "آزمایش"
+
+#: ../asyncipp.py:530 ../authconn.py:218 ../authconn.py:240
+#, fuzzy
+msgid "Operation canceled"
+msgstr "نام گزینه"
+
+#: ../authconn.py:37 ../glade/NewPrinterWindow.glade.h:106
+#, fuzzy
+msgid "Username:"
+msgstr "نام کاربر:"
+
+#: ../authconn.py:38 ../glade/NewPrinterWindow.glade.h:75
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: ../authconn.py:39
+#, fuzzy
+msgid "Domain:"
+msgstr "حاشیه‌ی بالا (پونت):‏"
+
+#: ../authconn.py:48 ../authconn.py:428
+#, fuzzy
+msgid "Authentication"
+msgstr "تأیید هویت"
+
+#: ../authconn.py:87
+msgid "Remember password"
+msgstr ""
+
+#: ../errordialogs.py:66
+msgid ""
+"The password may be incorrect, or the server may be configured to deny "
+"remote administration."
+msgstr ""
+
+#: ../errordialogs.py:72
+msgid "Bad request"
+msgstr ""
+
+#: ../errordialogs.py:74
+#, fuzzy
+msgid "Not found"
+msgstr "متصل به _طور محلی"
+
+#: ../errordialogs.py:76
+msgid "Request timeout"
+msgstr ""
+
+#: ../errordialogs.py:78
+#, fuzzy
+msgid "Upgrade required"
+msgstr "گذرواژه:"
+
+#: ../errordialogs.py:80
+#, fuzzy
+msgid "Server error"
+msgstr "چاپگر: "
+
+#: ../errordialogs.py:82 ../system-config-printer.py:1216
+#, fuzzy
+msgid "Not connected"
+msgstr "متصل به _طور محلی"
+
+#: ../errordialogs.py:84
+#, fuzzy, python-format
+msgid "status %s"
+msgstr "آزمایش %s"
+
+#: ../errordialogs.py:86
+#, python-format
+msgid "There was an HTTP error: %s."
+msgstr ""
+
+#: ../GroupsPane.py:92
+msgid "_New Group"
+msgstr ""
+
+#: ../GroupsPane.py:95
+msgid "_New Group from Selection"
+msgstr ""
+
+#: ../GroupsPane.py:98 ../system-config-printer.py:407
+#, fuzzy
+msgid "_Rename"
+msgstr "_حذف"
+
+#: ../GroupsPane.py:170
+msgid "The item could not be renamed."
+msgstr ""
+
+#: ../GroupsPane.py:171
+#, fuzzy, python-format
+msgid "The name \"%s\" is already in use. Please use a different name."
+msgstr "نام «%s» از قبل استفاده شده است. لطفاً نام دیگری انتخاب کنید."
+
+#: ../GroupsPane.py:290
+#, python-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr ""
+
+#: ../GroupsPane.py:296
+msgid ""
+"This will not delete any printer queues from your computer. To delete queues "
+"completely, you must delete them from the 'All Printers' group."
+msgstr ""
+
+#: ../GroupsPane.py:318
+msgid "New Group"
+msgstr ""
+
+#: ../GroupsPaneModel.py:47
+#, fuzzy
+msgid "All Printers"
+msgstr "چاپگر: "
+
+#: ../GroupsPaneModel.py:60
+msgid "Favorites"
+msgstr ""
+
+#: ../jobviewer.py:167
+msgid "_Hold"
+msgstr ""
+
+#: ../jobviewer.py:169
+#, fuzzy
+msgid "_Release"
+msgstr "_حذف"
+
+#: ../jobviewer.py:171
+msgid "Re_print"
+msgstr ""
+
+#: ../jobviewer.py:173
+#, fuzzy
+msgid "_Authenticate"
+msgstr "تأیید هویت"
+
+#: ../jobviewer.py:211 ../troubleshoot/PrintTestPage.py:82
+msgid "Job"
+msgstr ""
+
+#: ../jobviewer.py:212
+#, fuzzy
+msgid "User"
+msgstr "کاربر"
+
+#: ../jobviewer.py:213 ../troubleshoot/PrintTestPage.py:86
+#, fuzzy
+msgid "Document"
+msgstr "توضیح"
+
+#: ../jobviewer.py:214 ../my-default-printer.py:153
+#: ../system-config-printer.py:380 ../system-config-printer.py:1364
+#: ../troubleshoot/PrintTestPage.py:84
+#, fuzzy
+msgid "Printer"
+msgstr "چاپگر: "
+
+#: ../jobviewer.py:215
+#, fuzzy
+msgid "Size"
+msgstr "اندازه‌ی صفحه"
+
+#: ../jobviewer.py:231
+msgid "Time submitted"
+msgstr ""
+
+#: ../jobviewer.py:235 ../troubleshoot/PrintTestPage.py:87
+msgid "Status"
+msgstr ""
+
+#: ../jobviewer.py:267
+#, python-format
+msgid "my jobs on %s"
+msgstr ""
+
+#: ../jobviewer.py:269
+msgid "my jobs"
+msgstr ""
+
+#: ../jobviewer.py:274
+msgid "all jobs"
+msgstr ""
+
+#: ../jobviewer.py:275
+#, python-format
+msgid "Document Print Status (%s)"
+msgstr ""
+
+#: ../jobviewer.py:425 ../jobviewer.py:701 ../jobviewer.py:1510
+#: ../jobviewer.py:1515 ../jobviewer.py:1524 ../jobviewer.py:1603
+#: ../system-config-printer.py:2630 ../glade/NewPrinterWindow.glade.h:104
+#: ../troubleshoot/ChooseNetworkPrinter.py:102
+#: ../troubleshoot/ChooseNetworkPrinter.py:103
+#: ../troubleshoot/ChooseNetworkPrinter.py:106
+#: ../troubleshoot/ChooseNetworkPrinter.py:107
+#: ../troubleshoot/ChoosePrinter.py:87 ../troubleshoot/ChoosePrinter.py:88
+#: ../troubleshoot/ChoosePrinter.py:91 ../troubleshoot/ChoosePrinter.py:92
+#: ../troubleshoot/DeviceListed.py:92 ../troubleshoot/DeviceListed.py:93
+#, fuzzy
+msgid "Unknown"
+msgstr "(نامعلوم)"
+
+#: ../jobviewer.py:431
+msgid "a minute ago"
+msgstr ""
+
+#: ../jobviewer.py:434
+#, python-format
+msgid "%d minutes ago"
+msgstr ""
+
+#: ../jobviewer.py:438
+msgid "an hour ago"
+msgstr ""
+
+#: ../jobviewer.py:440
+#, python-format
+msgid "%d hours ago"
+msgstr ""
+
+#: ../jobviewer.py:444
+msgid "yesterday"
+msgstr ""
+
+#: ../jobviewer.py:446
+#, python-format
+msgid "%d days ago"
+msgstr ""
+
+#: ../jobviewer.py:450
+msgid "last week"
+msgstr ""
+
+#: ../jobviewer.py:452
+#, python-format
+msgid "%d weeks ago"
+msgstr ""
+
+#: ../jobviewer.py:652 ../jobviewer.py:731
+#, fuzzy
+msgid "authenticating job"
+msgstr "تأیید هویت"
+
+#: ../jobviewer.py:699
+#, python-format
+msgid "Authentication required for printing document `%s' (job %d)"
+msgstr ""
+
+#: ../jobviewer.py:873
+#, fuzzy
+msgid "Cancel Job"
+msgstr "ان_صراف"
+
+#: ../jobviewer.py:887
+msgid "Do you really want to cancel this job?"
+msgstr ""
+
+#: ../jobviewer.py:915
+msgid "canceling job"
+msgstr ""
+
+#: ../jobviewer.py:939
+msgid "holding job"
+msgstr ""
+
+#: ../jobviewer.py:963
+msgid "releasing job"
+msgstr ""
+
+#: ../jobviewer.py:1083
+msgid "No documents queued"
+msgstr ""
+
+#: ../jobviewer.py:1085
+msgid "1 document queued"
+msgstr ""
+
+#: ../jobviewer.py:1087
+#, python-format
+msgid "%d documents queued"
+msgstr ""
+
+#: ../jobviewer.py:1310
+#, fuzzy, python-format
+msgid "There was a problem sending document `%s' (job %d) to the printer."
+msgstr ""
+"اشکالی در فرستادن %s به\n"
+"صف «%s» وجود داشت:\n"
+"\n"
+
+#: ../jobviewer.py:1313
+#, python-format
+msgid "There was a problem processing document `%s' (job %d)."
+msgstr ""
+
+#. Give up and use the provided message untranslated.
+#: ../jobviewer.py:1320
+#, python-format
+msgid "There was a problem printing document `%s' (job %d): `%s'."
+msgstr ""
+
+#: ../jobviewer.py:1327 ../jobviewer.py:1343
+#, fuzzy
+msgid "Print Error"
+msgstr "چاپگر: "
+
+#: ../jobviewer.py:1328
+msgid "_Diagnose"
+msgstr ""
+
+#: ../jobviewer.py:1349
+#, python-format
+msgid "The printer called `%s' has been disabled."
+msgstr ""
+
+#: ../jobviewer.py:1538
+#, fuzzy
+msgid "Held for authentication"
+msgstr "تأیید هویت"
+
+#: ../jobviewer.py:1540 ../troubleshoot/PrintTestPage.py:42
+#, fuzzy
+msgid "Held"
+msgstr "_راهنما"
+
+#: ../jobviewer.py:1576
+#, python-format
+msgid "Held until %s"
+msgstr ""
+
+#: ../jobviewer.py:1580
+msgid "Held until day-time"
+msgstr ""
+
+#: ../jobviewer.py:1582
+msgid "Held until evening"
+msgstr ""
+
+#: ../jobviewer.py:1584
+msgid "Held until night-time"
+msgstr ""
+
+#: ../jobviewer.py:1586
+msgid "Held until second shift"
+msgstr ""
+
+#: ../jobviewer.py:1588
+msgid "Held until third shift"
+msgstr ""
+
+#: ../jobviewer.py:1590
+msgid "Held until weekend"
+msgstr ""
+
+#: ../jobviewer.py:1593 ../troubleshoot/PrintTestPage.py:41
+#, fuzzy
+msgid "Pending"
+msgstr "در حال چاپ"
+
+#: ../jobviewer.py:1594 ../system-config-printer.py:198
+#: ../troubleshoot/PrintTestPage.py:43
+msgid "Processing"
+msgstr ""
+
+#: ../jobviewer.py:1595 ../system-config-printer.py:200
+#: ../troubleshoot/PrintTestPage.py:44
+msgid "Stopped"
+msgstr ""
+
+#: ../jobviewer.py:1596 ../troubleshoot/PrintTestPage.py:45
+#, fuzzy
+msgid "Canceled"
+msgstr "ان_صراف"
+
+#: ../jobviewer.py:1597 ../troubleshoot/PrintTestPage.py:46
+#, fuzzy
+msgid "Aborted"
+msgstr "درباره"
+
+#: ../jobviewer.py:1598 ../troubleshoot/PrintTestPage.py:47
+#, fuzzy
+msgid "Completed"
+msgstr "توضیح"
+
+#: ../my-default-printer.py:137 ../my-default-printer.desktop.in.h:1
+#, fuzzy
+msgid "Default Printer"
+msgstr "این شرح چاپگر است."
+
+#: ../my-default-printer.py:141 ../my-default-printer.py:177
+#, fuzzy
+msgid "_Use System Default"
+msgstr "تنظیم به عنوان _پیش‌فرض"
+
+#: ../my-default-printer.py:142 ../my-default-printer.py:179
+#, fuzzy
+msgid "_Set Default"
+msgstr "_پیش‌فرض‌ها"
+
+#: ../my-default-printer.py:158 ../system-config-printer.py:437
+#: ../troubleshoot/ChooseNetworkPrinter.py:37
+#: ../troubleshoot/ChoosePrinter.py:38
+#, fuzzy
+msgid "Location"
+msgstr "_کنش"
+
+#: ../optionwidgets.py:128
+msgid "Conflicts with:"
+msgstr ""
+
+#: ../ppdippstr.py:45
+#, fuzzy
+msgid "Abort job"
+msgstr "درباره"
+
+#: ../ppdippstr.py:46
+msgid "Retry current job"
+msgstr ""
+
+#: ../ppdippstr.py:47
+msgid "Retry job"
+msgstr ""
+
+#: ../ppdippstr.py:48
+#, fuzzy
+msgid "Stop printer"
+msgstr "چاپگر:"
+
+#: ../ppdippstr.py:54
+#, fuzzy
+msgid "Default behavior"
+msgstr "این شرح چاپگر است."
+
+#: ../ppdippstr.py:55
+#, fuzzy
+msgid "Authenticated"
+msgstr "تأیید هویت"
+
+#: ../ppdippstr.py:61 ../system-config-printer.py:6498
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: ../ppdippstr.py:62
+#, fuzzy
+msgid "Classified"
+msgstr "_طبقه‌بندی شده"
+
+#: ../ppdippstr.py:63
+#, fuzzy
+msgid "Confidential"
+msgstr "_محرمانه"
+
+#: ../ppdippstr.py:64
+#, fuzzy
+msgid "Secret"
+msgstr "_سرّی"
+
+#: ../ppdippstr.py:65
+#, fuzzy
+msgid "Standard"
+msgstr "_عادی"
+
+#: ../ppdippstr.py:66
+#, fuzzy
+msgid "Top secret"
+msgstr "_به‌کلی سرّی"
+
+#: ../ppdippstr.py:67
+#, fuzzy
+msgid "Unclassified"
+msgstr "طبقه‌بندی _نشده"
+
+#: ../ppdippstr.py:73
+#, fuzzy
+msgid "No hold"
+msgstr "متصل به _طور محلی"
+
+#: ../ppdippstr.py:74
+msgid "Indefinite"
+msgstr ""
+
+#: ../ppdippstr.py:75
+msgid "Daytime"
+msgstr ""
+
+#: ../ppdippstr.py:76
+#, fuzzy
+msgid "Evening"
+msgstr "در حال چاپ"
+
+#: ../ppdippstr.py:77
+msgid "Night"
+msgstr ""
+
+#: ../ppdippstr.py:78
+msgid "Second shift"
+msgstr ""
+
+#: ../ppdippstr.py:79
+msgid "Third shift"
+msgstr ""
+
+#: ../ppdippstr.py:80
+msgid "Weekend"
+msgstr ""
+
+#: ../ppdippstr.py:90
+#, fuzzy
+msgid "General"
+msgstr "عام"
+
+#. HPIJS options
+#: ../ppdippstr.py:93
+#, fuzzy
+msgid "Printout mode"
+msgstr "مدل چاپگر"
+
+#: ../ppdippstr.py:95
+msgid "Draft (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:97
+msgid "Draft grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:99
+msgid "Normal (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:101
+msgid "Normal grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:103
+msgid "High quality (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:105
+msgid "High quality grayscale (auto-detect-paper type)"
+msgstr ""
+
+#: ../ppdippstr.py:106
+msgid "Photo (on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:108
+msgid "Best quality (color on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:110
+msgid "Normal quality (color on photo paper)"
+msgstr ""
+
+#: ../ppdippstr.py:112
+msgid "Media source"
+msgstr ""
+
+#: ../ppdippstr.py:113
+#, fuzzy
+msgid "Printer default"
+msgstr "مدل چاپگر"
+
+#: ../ppdippstr.py:114
+msgid "Photo tray"
+msgstr ""
+
+#: ../ppdippstr.py:115
+msgid "Upper tray"
+msgstr ""
+
+#: ../ppdippstr.py:116
+msgid "Lower tray"
+msgstr ""
+
+#: ../ppdippstr.py:117
+msgid "CD or DVD tray"
+msgstr ""
+
+#: ../ppdippstr.py:118
+msgid "Envelope feeder"
+msgstr ""
+
+#: ../ppdippstr.py:119
+msgid "Large capacity tray"
+msgstr ""
+
+#: ../ppdippstr.py:120
+msgid "Manual feeder"
+msgstr ""
+
+#: ../ppdippstr.py:121
+msgid "Multi-purpose tray"
+msgstr ""
+
+#: ../ppdippstr.py:123
+#, fuzzy
+msgid "Page size"
+msgstr "برچسب صفحه"
+
+#: ../ppdippstr.py:124
+msgid "Custom"
+msgstr "سفارشی"
+
+#: ../ppdippstr.py:125
+msgid "Photo or 4x6 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:126
+msgid "Photo or 5x7 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:127
+msgid "Photo with tear-off tab"
+msgstr ""
+
+#: ../ppdippstr.py:128
+msgid "3x5 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:129
+msgid "5x8 inch index card"
+msgstr ""
+
+#: ../ppdippstr.py:130
+msgid "A6 with tear-off tab"
+msgstr ""
+
+#: ../ppdippstr.py:131
+msgid "CD or DVD 80mm"
+msgstr ""
+
+#: ../ppdippstr.py:132
+msgid "CD or DVD 120mm"
+msgstr ""
+
+#: ../ppdippstr.py:134
+msgid "Double-sided printing"
+msgstr ""
+
+#: ../ppdippstr.py:135
+msgid "Long edge (standard)"
+msgstr ""
+
+#: ../ppdippstr.py:136
+msgid "Short edge (flip)"
+msgstr ""
+
+#: ../ppdippstr.py:137
+msgid "Off"
+msgstr ""
+
+#: ../ppdippstr.py:140
+msgid "Resolution, quality, ink type, media type"
+msgstr ""
+
+#: ../ppdippstr.py:141
+msgid "Controlled by 'Printout mode'"
+msgstr ""
+
+#: ../ppdippstr.py:143
+msgid "300 dpi, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:145
+msgid "300 dpi, draft, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:147
+msgid "300 dpi, draft, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:149
+msgid "300 dpi, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:151
+msgid "600 dpi, color, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:153
+msgid "600 dpi, grayscale, black + color cartridge"
+msgstr ""
+
+#: ../ppdippstr.py:155
+msgid "600 dpi, photo, black + color cartridge, photo paper"
+msgstr ""
+
+#: ../ppdippstr.py:157
+msgid "600 dpi, color, black + color cartridge, photo paper, normal"
+msgstr ""
+
+#: ../ppdippstr.py:159
+msgid "1200 dpi, photo, black + color cartridge, photo paper"
+msgstr ""
+
+#: ../system-config-printer.py:142
+msgid "To do this, select System->Administration->Firewall from the main menu."
+msgstr ""
+
+#: ../system-config-printer.py:197
+msgid "Idle"
+msgstr ""
+
+#: ../system-config-printer.py:199
+msgid "Busy"
+msgstr ""
+
+#: ../system-config-printer.py:386 ../system-config-printer.py:1370
+#, fuzzy
+msgid "Class"
+msgstr "نام‌های مستعار"
+
+#: ../system-config-printer.py:413
+#, fuzzy
+msgid "Set As De_fault"
+msgstr "_پیش‌فرض‌ها"
+
+#: ../system-config-printer.py:417
+#, fuzzy
+msgid "_Create class"
+msgstr "چاپگر Jetdirect"
+
+#: ../system-config-printer.py:419
+#, fuzzy
+msgid "View Print _Queue"
+msgstr "صف چاپ خام"
+
+#: ../system-config-printer.py:421
+msgid "_Add to Group"
+msgstr ""
+
+#: ../system-config-printer.py:423
+msgid "Save Results as _Group"
+msgstr ""
+
+#: ../system-config-printer.py:425
+msgid "Save Filter as _Search Group"
+msgstr ""
+
+#: ../system-config-printer.py:429
+msgid "E_nabled"
+msgstr ""
+
+#: ../system-config-printer.py:431
+#, fuzzy
+msgid "_Shared"
+msgstr "اشتراکی"
+
+#: ../system-config-printer.py:435 ../troubleshoot/ChooseNetworkPrinter.py:35
+#: ../troubleshoot/ChoosePrinter.py:36 ../troubleshoot/DeviceListed.py:36
+msgid "Name"
+msgstr "نام"
+
+#: ../system-config-printer.py:436
+#, fuzzy
+msgid "Description"
+msgstr "شرح"
+
+#: ../system-config-printer.py:438
+msgid "Manufacturer / Model"
+msgstr ""
+
+#. Printer state reasons list
+#: ../system-config-printer.py:513
+msgid "Message"
+msgstr ""
+
+#: ../system-config-printer.py:548
+msgid "Problems?"
+msgstr ""
+
+#: ../system-config-printer.py:653 ../system-config-printer.py:655
+msgid "Members of this class"
+msgstr ""
+
+#: ../system-config-printer.py:654 ../system-config-printer.py:656
+msgid "Others"
+msgstr ""
+
+#: ../system-config-printer.py:657
+#, fuzzy
+msgid "Devices"
+msgstr "دستگاه"
+
+#: ../system-config-printer.py:658
+#, fuzzy
+msgid "Connections"
+msgstr "توضیح"
+
+#: ../system-config-printer.py:659
+msgid "Makes"
+msgstr ""
+
+#: ../system-config-printer.py:660
+#, fuzzy
+msgid "Models"
+msgstr "مدل"
+
+#: ../system-config-printer.py:661
+#, fuzzy
+msgid "Drivers"
+msgstr "گرداننده"
+
+#: ../system-config-printer.py:662 ../glade/NewPrinterWindow.glade.h:54
+#, fuzzy
+msgid "Downloadable Drivers"
+msgstr "گرداننده‌های موجود:"
+
+#: ../system-config-printer.py:663
+#, fuzzy
+msgid "Users"
+msgstr "کاربر"
+
+#: ../system-config-printer.py:698
+msgid "Automatic rotation"
+msgstr ""
+
+#: ../system-config-printer.py:983
+#, fuzzy, python-format
+msgid "Printer Properties - '%s' on %s"
+msgstr "گزینه‌های صافی"
+
+#. The Conflict button was pressed.
+#: ../system-config-printer.py:991
+msgid ""
+"There are conflicting options.\n"
+"Changes can only be applied after\n"
+"these conflicts are resolved."
+msgstr ""
+
+#: ../system-config-printer.py:1210
+#, python-format
+msgid "Printer configuration - %s"
+msgstr "پیکربندی چاپگر ـ %s"
+
+#: ../system-config-printer.py:1214
+#, python-format
+msgid "Connected to %s"
+msgstr ""
+
+#. Update our copy of the printer's settings.
+#: ../system-config-printer.py:1254 ../system-config-printer.py:2100
+msgid "obtaining queue details"
+msgstr ""
+
+#: ../system-config-printer.py:1292
+msgid "Remove from Group"
+msgstr ""
+
+#: ../system-config-printer.py:1358
+#, fuzzy
+msgid "Network printer (discovered)"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:1361
+msgid "Network class (discovered)"
+msgstr ""
+
+#: ../system-config-printer.py:1367 ../system-config-printer.py:5768
+#: ../system-config-printer.py:5838 ../system-config-printer.py:5840
+msgid "Fax"
+msgstr ""
+
+#: ../system-config-printer.py:1373 ../system-config-printer.py:1379
+#: ../troubleshoot/LocalOrRemote.py:30
+#, fuzzy
+msgid "Network printer"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:1376
+#, fuzzy
+msgid "Network print share"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:1561 ../glade/ConnectingDialog.glade.h:2
+#, no-c-format, python-format
+msgid "<i>Opening connection to %s</i>"
+msgstr ""
+
+#: ../system-config-printer.py:1944
+msgid "Installable Options"
+msgstr ""
+
+#: ../system-config-printer.py:1945
+#: ../glade/PrinterPropertiesDialog.glade.h:111
+#, fuzzy
+msgid "Printer Options"
+msgstr "گزینه‌های صافی"
+
+#: ../system-config-printer.py:1982
+#, python-format
+msgid "modifying class %s"
+msgstr ""
+
+#: ../system-config-printer.py:1984 ../system-config-printer.py:3138
+#: ../system-config-printer.py:3163 ../system-config-printer.py:6795
+#: ../system-config-printer.py:6807 ../system-config-printer.py:6829
+#, fuzzy, python-format
+msgid "modifying printer %s"
+msgstr "اضافه کردن یک صف چاپ جدید"
+
+#: ../system-config-printer.py:1999
+msgid "This will delete this class!"
+msgstr ""
+
+#: ../system-config-printer.py:2000
+msgid "Proceed anyway?"
+msgstr ""
+
+#. We can authenticate with the server correctly at this point,
+#. but we have never fetched the server settings to see whether
+#. the server is publishing shared printers.  Fetch the settings
+#. now so that we can update the "not published" label if necessary.
+#: ../system-config-printer.py:2088 ../system-config-printer.py:3334
+#, fuzzy
+msgid "fetching server settings"
+msgstr "گزینه‌های گرداننده"
+
+#: ../system-config-printer.py:2158
+#, fuzzy
+msgid "Set Default Printer"
+msgstr "این شرح چاپگر است."
+
+#: ../system-config-printer.py:2160
+#, fuzzy
+msgid "Do you want to set this as the system-wide default printer?"
+msgstr ""
+"آیا می‌خواهید تغییراتی را که در\n"
+"پیکربندی چاپگر خود داده‌اید ذخیره کنید؟"
+
+#: ../system-config-printer.py:2162
+#, fuzzy
+msgid "Set as the _system-wide default printer"
+msgstr "این شرح چاپگر است."
+
+#: ../system-config-printer.py:2164
+msgid "_Clear my personal default setting"
+msgstr ""
+
+#: ../system-config-printer.py:2165
+#, fuzzy
+msgid "Set as my _personal default printer"
+msgstr "این شرح چاپگر است."
+
+#: ../system-config-printer.py:2170
+#, fuzzy
+msgid "setting default printer"
+msgstr "این شرح چاپگر است."
+
+#: ../system-config-printer.py:2227
+#, fuzzy
+msgid "printing test page"
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../system-config-printer.py:2240 ../system-config-printer.py:2275
+msgid "Not possible"
+msgstr ""
+
+#: ../system-config-printer.py:2241 ../system-config-printer.py:2276
+msgid ""
+"The remote server did not accept the print job, most likely because the "
+"printer is not shared."
+msgstr ""
+
+#: ../system-config-printer.py:2253 ../system-config-printer.py:2268
+msgid "Submitted"
+msgstr ""
+
+#: ../system-config-printer.py:2254
+#, python-format
+msgid "Test page submitted as job %d"
+msgstr ""
+
+#: ../system-config-printer.py:2261
+msgid "sending maintenance command"
+msgstr ""
+
+#: ../system-config-printer.py:2269
+#, python-format
+msgid "Maintenance command submitted as job %d"
+msgstr ""
+
+#. The underlying cupsGetPPD2() function returned NULL without
+#. setting an IPP error, so it'll be something like a failed
+#. connection.
+#: ../system-config-printer.py:2342 ../system-config-printer.py:2438
+msgid "Error"
+msgstr "خطا"
+
+#: ../system-config-printer.py:2343
+#, fuzzy
+msgid "There was a problem connecting to the CUPS server."
+msgstr ""
+"اشکالی در فرستادن %s به\n"
+"صف «%s» وجود داشت:\n"
+"\n"
+
+#: ../system-config-printer.py:2439
+#, python-format
+msgid "Option '%s' has value '%s' and cannot be edited."
+msgstr ""
+
+#: ../system-config-printer.py:2540
+msgid "Marker levels are not reported for this printer."
+msgstr ""
+
+#: ../system-config-printer.py:2849
+#, fuzzy
+msgid "Cannot Rename"
+msgstr "_حذف"
+
+#: ../system-config-printer.py:2850
+#, fuzzy
+msgid "There are queued jobs."
+msgstr "هیچ گزینه‌ای برای این گرداننده موجود نیست."
+
+#: ../system-config-printer.py:2868
+msgid "Renaming will lose history"
+msgstr ""
+
+#: ../system-config-printer.py:2870
+msgid "Completed jobs will no longer be available for re-printing."
+msgstr ""
+
+#: ../system-config-printer.py:2941
+#, fuzzy
+msgid "renaming printer"
+msgstr "اضافه کردن یک صف چاپ جدید"
+
+#. for classes make sure all members
+#. will get added
+#: ../system-config-printer.py:3026
+#, fuzzy
+msgid "copying printer"
+msgstr "اضافه کردن یک صف چاپ جدید"
+
+#: ../system-config-printer.py:3090
+#, fuzzy, python-format
+msgid "Really delete class '%s'?"
+msgstr "واقعاً «%s» حذف شود؟"
+
+#: ../system-config-printer.py:3092
+#, fuzzy, python-format
+msgid "Really delete printer '%s'?"
+msgstr "واقعاً «%s» حذف شود؟"
+
+#: ../system-config-printer.py:3094
+#, fuzzy
+msgid "Really delete selected destinations?"
+msgstr "واقعاً «%s» حذف شود؟"
+
+#: ../system-config-printer.py:3115
+#, fuzzy, python-format
+msgid "deleting printer %s"
+msgstr "اضافه کردن یک صف چاپ جدید"
+
+#: ../system-config-printer.py:3201
+msgid "Publish Shared Printers"
+msgstr ""
+
+#: ../system-config-printer.py:3202
+msgid ""
+"Shared printers are not available to other people unless the 'Publish shared "
+"printers' option is enabled in the server settings."
+msgstr ""
+
+#: ../system-config-printer.py:3395
+#, fuzzy
+msgid "modifying server settings"
+msgstr "گزینه‌های گرداننده"
+
+#: ../system-config-printer.py:3423
+#, fuzzy
+msgid "Review Firewall"
+msgstr "پرونده‌ی دستگاه"
+
+#: ../system-config-printer.py:3424
+msgid ""
+"You may need to adjust the firewall to allow network printing to this "
+"computer."
+msgstr ""
+
+#: ../system-config-printer.py:3771
+msgid "Browsing not available (pysmbc not installed)"
+msgstr ""
+
+#. SMB list columns
+#: ../system-config-printer.py:3777
+msgid "Share"
+msgstr "اشتراک"
+
+#: ../system-config-printer.py:3783
+msgid "Comment"
+msgstr "توضیح"
+
+#: ../system-config-printer.py:3798
+msgid ""
+"PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+"PPD.GZ)"
+msgstr ""
+
+#: ../system-config-printer.py:3807
+msgid "All files (*)"
+msgstr ""
+
+#: ../system-config-printer.py:3863 ../system-config-printer.py:6184
+#: ../system-config-printer.py:6222 ../applet.py:129
+#, fuzzy
+msgid "Search"
+msgstr "هشدار"
+
+#: ../system-config-printer.py:3887 ../system-config-printer.py:3909
+#: ../glade/NewPrinterWindow.glade.h:72
+#, fuzzy
+msgid "New Printer"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:3896
+msgid "New Class"
+msgstr ""
+
+#: ../system-config-printer.py:3901
+msgid "Change Device URI"
+msgstr ""
+
+#: ../system-config-printer.py:3907
+#, fuzzy
+msgid "Change Driver"
+msgstr "تغییر نوع"
+
+#: ../system-config-printer.py:4087 ../system-config-printer.py:4167
+#: ../system-config-printer.py:4538 ../system-config-printer.py:6019
+#: ../system-config-printer.py:6209
+#, fuzzy
+msgid "Searching"
+msgstr "هشدار"
+
+#: ../system-config-printer.py:4088
+#, fuzzy
+msgid "Searching for downloadable drivers"
+msgstr "مشخصات به‌اشتراک‌گذاری"
+
+#: ../system-config-printer.py:4168 ../system-config-printer.py:4539
+#, fuzzy
+msgid "Searching for drivers"
+msgstr "مشخصات به‌اشتراک‌گذاری"
+
+#. Tell the user why he needs the plugin
+#: ../system-config-printer.py:4913
+msgid "For this printer a proprietary driver plugin from HP is available.\n"
+msgstr ""
+
+#: ../system-config-printer.py:4916
+msgid ""
+"The installation of the plugin is required for your printer to work.\n"
+"\n"
+msgstr ""
+
+#: ../system-config-printer.py:4919
+msgid ""
+"Installing the plugin is optional, it completes or enhances the "
+"functionality\n"
+"of your printer. Without plugin at least basic operations work.\n"
+"\n"
+msgstr ""
+
+#: ../system-config-printer.py:4923
+msgid "The plugin provides the following features:\n"
+msgstr ""
+
+#: ../system-config-printer.py:4926
+msgid " - Printing support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4929
+msgid " - Faster printing\n"
+msgstr ""
+
+#: ../system-config-printer.py:4932
+msgid " - Better printout quality\n"
+msgstr ""
+
+#: ../system-config-printer.py:4935
+msgid " - Extra printing features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4938
+msgid " - Scanning support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4941
+msgid " - Faster scanning\n"
+msgstr ""
+
+#: ../system-config-printer.py:4944
+msgid " - Better scanning image quality\n"
+msgstr ""
+
+#: ../system-config-printer.py:4947
+msgid " - Faxing support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4950
+msgid " - Extra fax features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4953
+msgid " - Better Input/Output support\n"
+msgstr ""
+
+#: ../system-config-printer.py:4956
+msgid " - Extra user interface features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4959
+msgid " - Other extra features\n"
+msgstr ""
+
+#: ../system-config-printer.py:4964
+#, fuzzy
+msgid "Install plugin"
+msgstr "گزینه‌های صافی"
+
+#: ../system-config-printer.py:4965
+#, fuzzy
+msgid "Do not set up printer"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:4966
+msgid "Set up without plugin"
+msgstr ""
+
+#: ../system-config-printer.py:4968 ../troubleshoot/PrintTestPage.py:118
+msgid "Yes"
+msgstr "بله"
+
+#: ../system-config-printer.py:4969 ../troubleshoot/PrintTestPage.py:119
+msgid "No"
+msgstr "نه"
+
+#. device-info
+#. PhysicalDevice obj
+#. Separator?
+#: ../system-config-printer.py:5130
+msgid "Other"
+msgstr ""
+
+#: ../system-config-printer.py:5134
+#, fuzzy
+msgid "Network Printer"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:5138
+#, fuzzy
+msgid "Find Network Printer"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:5153
+#, fuzzy
+msgid "fetching device list"
+msgstr "گزینه‌های گرداننده"
+
+#: ../system-config-printer.py:5237
+msgid " (Current)"
+msgstr ""
+
+#: ../system-config-printer.py:5307
+msgid "Scanning..."
+msgstr ""
+
+#: ../system-config-printer.py:5362
+#, fuzzy
+msgid "No Print Shares"
+msgstr "چاپگر:"
+
+#: ../system-config-printer.py:5363
+msgid ""
+"There were no print shares found.  Please check that the Samba service is "
+"marked as trusted in your firewall configuration."
+msgstr ""
+
+#: ../system-config-printer.py:5624 ../system-config-printer.py:5701
+msgid "Print Share Verified"
+msgstr ""
+
+#: ../system-config-printer.py:5625 ../system-config-printer.py:5702
+msgid "This print share is accessible."
+msgstr ""
+
+#: ../system-config-printer.py:5630 ../system-config-printer.py:5706
+msgid "This print share is not accessible."
+msgstr ""
+
+#: ../system-config-printer.py:5633
+msgid "Print Share Inaccessible"
+msgstr ""
+
+#: ../system-config-printer.py:5679
+#, fuzzy
+msgid "Verifying"
+msgstr "(مشخص شده)"
+
+#: ../system-config-printer.py:5680
+#, fuzzy
+msgid "Verifying printer"
+msgstr "اضافه کردن یک صف چاپ جدید"
+
+#: ../system-config-printer.py:5705
+msgid "Inaccessible"
+msgstr ""
+
+#: ../system-config-printer.py:5760
+msgid "Parallel Port"
+msgstr ""
+
+#: ../system-config-printer.py:5762
+#, fuzzy
+msgid "Serial Port"
+msgstr "عمومی"
+
+#: ../system-config-printer.py:5764
+msgid "USB"
+msgstr ""
+
+#: ../system-config-printer.py:5766 ../system-config-printer.py:5769
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr ""
+
+#: ../system-config-printer.py:5771
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr ""
+
+#: ../system-config-printer.py:5773
+#, fuzzy
+msgid "AppSocket/HP JetDirect"
+msgstr "‏JetDirect شبکه‌ای"
+
+#: ../system-config-printer.py:5782
+#, python-format
+msgid "LPD/LPR queue '%s'"
+msgstr ""
+
+#: ../system-config-printer.py:5784
+msgid "LPD/LPR queue"
+msgstr ""
+
+#: ../system-config-printer.py:5787
+#, fuzzy
+msgid "Windows Printer via SAMBA"
+msgstr "داده‌های چاپگر ویندوزی (SMB)"
+
+#: ../system-config-printer.py:5789 ../glade/NewPrinterWindow.glade.h:64
+#, fuzzy
+msgid "IPP"
+msgstr "‏IP:"
+
+#: ../system-config-printer.py:5791
+msgid "HTTP"
+msgstr ""
+
+#: ../system-config-printer.py:5878
+msgid "A printer connected to the parallel port."
+msgstr ""
+
+#: ../system-config-printer.py:5880
+msgid "A printer connected to a USB port."
+msgstr ""
+
+#: ../system-config-printer.py:5882
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device."
+msgstr ""
+
+#: ../system-config-printer.py:5885
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device."
+msgstr ""
+
+#: ../system-config-printer.py:5888
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)."
+msgstr ""
+
+#: ../system-config-printer.py:6020
+#, fuzzy
+msgid "Searching for printers"
+msgstr "مشخصات به‌اشتراک‌گذاری"
+
+#: ../system-config-printer.py:6097
+msgid "No printer was found at that address."
+msgstr ""
+
+#: ../system-config-printer.py:6234
+#, fuzzy
+msgid "-- Select from search results --"
+msgstr "شما باید یک مدل چاپگر انتخاب کنید."
+
+#: ../system-config-printer.py:6236
+msgid "-- No matches found --"
+msgstr ""
+
+#: ../system-config-printer.py:6430
+#, fuzzy
+msgid " (recommended)"
+msgstr ""
+"(گرداننده‌ی توصیه شده\n"
+"‏%s است)"
+
+#: ../system-config-printer.py:6455
+msgid "This PPD is generated by foomatic."
+msgstr ""
+
+#: ../system-config-printer.py:6480
+#, fuzzy
+msgid "OpenPrinting"
+msgstr "در حال چاپ"
+
+#: ../system-config-printer.py:6491
+msgid "Distributable"
+msgstr ""
+
+#: ../system-config-printer.py:6532
+msgid ", "
+msgstr ""
+
+#: ../system-config-printer.py:6537
+#, python-format
+msgid ""
+"\n"
+"(%s)"
+msgstr ""
+
+#: ../system-config-printer.py:6542
+msgid "No support contacts known"
+msgstr ""
+
+#: ../system-config-printer.py:6546 ../system-config-printer.py:6559
+#, fuzzy
+msgid "Not specified."
+msgstr "باید یک دستگاه مشخص کنید."
+
+#. Foomatic database problem of some sort.
+#: ../system-config-printer.py:6599
+msgid "Database error"
+msgstr ""
+
+#: ../system-config-printer.py:6600
+#, python-format
+msgid "The '%s' driver cannot be used with printer '%s %s'."
+msgstr ""
+
+#. This printer references some XML that is not
+#. installed by default.  Point the user at the
+#. package they need to install.
+#: ../system-config-printer.py:6610
+#, python-format
+msgid "You will need to install the '%s' package in order to use this driver."
+msgstr ""
+
+#. This error came from trying to open the PPD file.
+#: ../system-config-printer.py:6617
+msgid "PPD error"
+msgstr ""
+
+#: ../system-config-printer.py:6619
+msgid "Failed to read PPD file.  Possible reason follows:"
+msgstr ""
+
+#. Failed to get PPD downloaded from OpenPrinting XXX
+#: ../system-config-printer.py:6636
+#, fuzzy
+msgid "Downloadable drivers"
+msgstr "گرداننده‌های موجود:"
+
+#: ../system-config-printer.py:6637
+msgid "Failed to download PPD."
+msgstr ""
+
+#: ../system-config-printer.py:6644
+#, fuzzy
+msgid "fetching PPD"
+msgstr "تغییر نوع"
+
+#: ../system-config-printer.py:6673 ../system-config-printer.py:6711
+msgid "No Installable Options"
+msgstr ""
+
+#: ../system-config-printer.py:6768
+#, fuzzy, python-format
+msgid "adding printer %s"
+msgstr "اضافه کردن یک صف چاپ جدید"
+
+#: ../system-config-printer.py:6941
+#, fuzzy
+msgid "Would you like to print a test page?"
+msgstr "آیا می‌خواهید یک صفحه‌ی آزمایشی چاپ کنید؟"
+
+#: ../system-config-printer.py:7002
+#, fuzzy
+msgid "Install driver"
+msgstr "گرداننده‌ی چاپگر"
+
+#: ../system-config-printer.py:7003 ../troubleshoot/CheckPPDSanity.py:131
+#, python-format
+msgid "Printer '%s' requires the %s package but it is not currently installed."
+msgstr ""
+
+#: ../system-config-printer.py:7019
+#, fuzzy
+msgid "Missing driver"
+msgstr "گرداننده‌ی چاپگر"
+
+#: ../system-config-printer.py:7020
+#, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed.  "
+"Please install it before using this printer."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:1
+#, fuzzy
+msgid "A CUPS configuration tool."
+msgstr "پیکربندی چاپگر"
+
+#: ../glade/AboutDialog.glade.h:2
+msgid "Copyright © 2006-2008 Red Hat, Inc."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:3
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA."
+msgstr ""
+
+#: ../glade/AboutDialog.glade.h:8
+#, fuzzy
+msgid "system-config-printer"
+msgstr "پیکربندی چاپگرها"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.  Thank you very much for your effort on translating system-config-printer and all our other tools!
+#: ../glade/AboutDialog.glade.h:10
+msgid "translator-credits"
+msgstr ""
+
+#: ../glade/ConnectDialog.glade.h:1
+#, fuzzy
+msgid "CUPS _server:"
+msgstr "کارگزار:"
+
+#: ../glade/ConnectDialog.glade.h:2
+msgid "Connect to CUPS server"
+msgstr ""
+
+#: ../glade/ConnectDialog.glade.h:3
+#, fuzzy
+msgid "Require _encryption"
+msgstr "شرح"
+
+#: ../glade/ConnectingDialog.glade.h:3
+msgid "<span weight=\"bold\" size=\"larger\">Connecting to CUPS server</span>"
+msgstr ""
+
+#: ../glade/ConnectingDialog.glade.h:4
+#, fuzzy
+msgid "Connecting to CUPS server"
+msgstr ""
+"اشکالی در فرستادن %s به\n"
+"صف «%s» وجود داشت:\n"
+"\n"
+
+#: ../glade/InstallDialog.glade.h:1
+msgid "_Install"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:1
+msgid "Show _completed jobs"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:2
+msgid "_File"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:3
+msgid "_Job"
+msgstr ""
+
+#: ../glade/JobsWindow.glade.h:4
+#, fuzzy
+msgid "_Refresh"
+msgstr "_حذف"
+
+#: ../glade/JobsWindow.glade.h:5 ../glade/PrintersWindow.glade.h:17
+msgid "_View"
+msgstr ""
+
+#: ../glade/NewPrinterName.glade.h:1
+#, fuzzy
+msgid "Copy Printer"
+msgstr "چاپگر:"
+
+#: ../glade/NewPrinterName.glade.h:2
+#, fuzzy
+msgid "New name for the printer"
+msgstr "چاپگر Jetdirect"
+
+#: ../glade/NewPrinterWindow.glade.h:1
+#, fuzzy
+msgid "<b>Authentication</b>"
+msgstr "تأیید هویت"
+
+#: ../glade/NewPrinterWindow.glade.h:2
+#, fuzzy
+msgid "<b>Description</b>"
+msgstr "شرح"
+
+#: ../glade/NewPrinterWindow.glade.h:3
+msgid "<b>Description</b> (optional)"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:4
+#, fuzzy
+msgid "<b>Enter device URI</b>"
+msgstr "دستگاه چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:5
+#, fuzzy
+msgid "<b>IPP Printer</b>"
+msgstr "مدل چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:6
+#, fuzzy
+msgid "<b>License Terms</b>"
+msgstr "مدل چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:7
+msgid "<b>Location of the LPD network printer</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:8
+msgid "<b>Location of the network printer</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:9
+msgid "<b>Location</b> (optional)"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:10
+#, fuzzy
+msgid "<b>Network Printer</b>"
+msgstr "چاپگر:"
+
+#: ../glade/NewPrinterWindow.glade.h:11
+#, fuzzy
+msgid "<b>Note</b>"
+msgstr "مدل چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:12
+msgid "<b>Output Quality</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:13
+#, fuzzy
+msgid "<b>Printer Name</b>"
+msgstr "مدل چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:14
+#, fuzzy
+msgid "<b>SMB Printer</b>"
+msgstr "مدل چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:15
+#, fuzzy
+msgid "<b>Select Driver</b>"
+msgstr "مدل چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:16
+msgid "<b>Settings of the serial port</b>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:17
+msgid "<i>smb://[workgroup/]server[:port]/printer</i>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:18
+msgid "<span weight=\"bold\" size=\"larger\">Choose Class Members</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:19
+msgid "<span weight=\"bold\" size=\"larger\">Choose Driver</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:20
+msgid "<span weight=\"bold\" size=\"larger\">Describe Printer</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:21
+msgid "<span weight=\"bold\" size=\"larger\">Existing Settings</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:22
+msgid "<span weight=\"bold\" size=\"larger\">Installable Options</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:23
+msgid "<span weight=\"bold\" size=\"larger\">Select Device</span>"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:24
+msgid "Baud Rate"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:25
+msgid "Browse..."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:26
+#, fuzzy
+msgid "Comments..."
+msgstr "توضیح"
+
+#: ../glade/NewPrinterWindow.glade.h:27
+#, fuzzy
+msgid "Connection"
+msgstr "_کنش"
+
+#: ../glade/NewPrinterWindow.glade.h:28
+#, fuzzy
+msgid "Data Bits"
+msgstr "جزئیات"
+
+#: ../glade/NewPrinterWindow.glade.h:29
+msgid ""
+"Default\n"
+"1200\n"
+"2400\n"
+"4800\n"
+"9600\n"
+"19200\n"
+"38400\n"
+"57600\n"
+"115200"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:38
+#, fuzzy
+msgid ""
+"Default\n"
+"8\n"
+"7"
+msgstr "پیش‌فرض"
+
+#: ../glade/NewPrinterWindow.glade.h:41
+msgid ""
+"Default\n"
+"None\n"
+"Odd\n"
+"Even"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:45
+msgid ""
+"Default\n"
+"None\n"
+"XON/XOFF (Software)\n"
+"RTS/CTS (Hardware)\n"
+"DTR/DSR (Hardware)"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:50
+#: ../glade/PrinterPropertiesDialog.glade.h:35
+#, fuzzy
+msgid "Description:"
+msgstr "شرح"
+
+#: ../glade/NewPrinterWindow.glade.h:51 ../troubleshoot/DeviceListed.py:40
+#, fuzzy
+msgid "Device URI"
+msgstr "دستگاه: "
+
+#: ../glade/NewPrinterWindow.glade.h:52
+#, fuzzy
+msgid "Device description."
+msgstr "شرح"
+
+#: ../glade/NewPrinterWindow.glade.h:53
+msgid "DirectJet"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:55
+#, fuzzy
+msgid "Driver details"
+msgstr "گرداننده"
+
+#: ../glade/NewPrinterWindow.glade.h:56
+msgid "Empty"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:57
+msgid "Flow Control"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:58
+msgid ""
+"For the printer you have selected there are drivers available for download."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:59
+msgid "Free software"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:60
+msgid "Graphics:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:61
+#, fuzzy
+msgid "Host:"
+msgstr "‏IP میزبان"
+
+#: ../glade/NewPrinterWindow.glade.h:62
+msgid "Human-readable description such as \"HP LaserJet with Duplexer\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:63
+msgid "Human-readable location such as \"Lab 1\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:65
+msgid "LPD"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:66
+msgid "License:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:67
+#, fuzzy
+msgid "Line art:"
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../glade/NewPrinterWindow.glade.h:68
+#, fuzzy
+msgid "Local Driver"
+msgstr "ویرایش چاپگر محلی"
+
+#: ../glade/NewPrinterWindow.glade.h:69
+#, fuzzy
+msgid "Make and model:"
+msgstr "سازنده و مدل لازم است.\n"
+
+#: ../glade/NewPrinterWindow.glade.h:70
+msgid "Manufacturer"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:71
+#, fuzzy
+msgid "Network"
+msgstr "چاپگر:"
+
+#: ../glade/NewPrinterWindow.glade.h:73
+msgid "No, I do not accept this license"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:74
+msgid "Parity"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:76
+msgid "Patented algorithms"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:77
+#, fuzzy
+msgid "Photo:"
+msgstr "درگاه: "
+
+#: ../glade/NewPrinterWindow.glade.h:78
+msgid "Port number:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:79
+msgid ""
+"PostScript Printer Description (PPD) files can often be found on the driver "
+"disk that comes with the printer. For PostScript printers they are often "
+"part of the Windows<sup>®</sup> driver."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:80
+#, fuzzy
+msgid "Printer model:"
+msgstr "مدل چاپگر"
+
+#: ../glade/NewPrinterWindow.glade.h:81
+msgid "Probe"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:82
+#, fuzzy
+msgid "Prompt user if authentication is required"
+msgstr "تأیید هویت"
+
+#: ../glade/NewPrinterWindow.glade.h:83
+msgid "Provide PPD file"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:84
+msgid "Queue:"
+msgstr "صف:"
+
+#: ../glade/NewPrinterWindow.glade.h:85
+msgid "SCSI"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:86
+msgid "SMB"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:87
+msgid "Search for a printer driver to download"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:88
+#, fuzzy
+msgid "Searching..."
+msgstr "هشدار"
+
+#: ../glade/NewPrinterWindow.glade.h:89
+msgid "Select A File"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:90
+msgid "Select printer from database"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:91
+#, fuzzy
+msgid "Serial"
+msgstr "عمومی"
+
+#: ../glade/NewPrinterWindow.glade.h:92
+#, fuzzy
+msgid "Set authentication details now"
+msgstr "تأیید هویت"
+
+#: ../glade/NewPrinterWindow.glade.h:93
+msgid "Short name for this printer such as \"laserjet\""
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:94
+msgid "Supplier:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:95
+#, fuzzy
+msgid "Support:"
+msgstr "درگاه:"
+
+#: ../glade/NewPrinterWindow.glade.h:96
+#, fuzzy
+msgid "Text:"
+msgstr "_آزمایش"
+
+#: ../glade/NewPrinterWindow.glade.h:97
+msgid ""
+"The foomatic printer database contains various manufacturer provided "
+"PostScript Printer Description (PPD) files and also can generate PPD files "
+"for a large number of (non PostScript) printers. But in general manufacturer "
+"provided PPD files provide better access to the specific features of the "
+"printer."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:98
+msgid ""
+"These drivers do not come from your operating system supplier and will not "
+"be covered by their commercial support.  See the support and license terms "
+"of the driver's supplier."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:99
+msgid ""
+"This driver supports additional hardware that may be installed in the "
+"printer."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:100
+msgid ""
+"This is done by assuming that options with the same name do have the same "
+"meaning. Settings of options that are not present in the new PPD will be "
+"lost and options only present in the new PPD will be set to default."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:101
+msgid ""
+"This way all current option settings will be lost. The default settings of "
+"the new PPD will be used. "
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:102
+msgid "Try to copy the option settings over from the old PPD. "
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:103
+msgid "URI:"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:105
+msgid "Use the new PPD (Postscript Printer Description) as is."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:107
+msgid ""
+"With this choice no driver download will be performed. In the next steps a "
+"locally installed driver will be selected."
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:108
+msgid "Yes, I accept this license"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:109
+#, fuzzy
+msgid "_Search"
+msgstr "هشدار"
+
+#: ../glade/NewPrinterWindow.glade.h:110
+#, fuzzy
+msgid "_Verify..."
+msgstr "مشخص کردن..."
+
+#: ../glade/NewPrinterWindow.glade.h:111
+#: ../glade/PrinterPropertiesDialog.glade.h:130
+msgid "move left"
+msgstr ""
+
+#: ../glade/NewPrinterWindow.glade.h:112
+#: ../glade/PrinterPropertiesDialog.glade.h:131
+msgid "move right"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:1
+msgid " "
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:2
+msgid ""
+"1\n"
+"2\n"
+"4\n"
+"6\n"
+"9\n"
+"16"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:8
+#, fuzzy
+msgid "72 points per inch"
+msgstr "‏۷۲ پونت در هر اینچ"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:9
+msgid "<b>Banner</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:10
+#, fuzzy
+msgid "<b>Common Options</b>"
+msgstr "شرح"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:11
+#, fuzzy
+msgid "<b>Image Options</b>"
+msgstr "شرح"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:12
+#, fuzzy
+msgid "<b>Ink/Toner Levels</b>"
+msgstr "دستگاه چاپگر"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:13
+msgid "<b>Other Options (Advanced)</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:14
+msgid "<b>Policies</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:15
+msgid "<b>Settings</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:16
+msgid "<b>State</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:17
+msgid "<b>Status Messages</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:18
+msgid "<b>Tests and Maintenance</b>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:19
+#, fuzzy
+msgid "<b>Text Options</b>"
+msgstr "شرح"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:20
+msgid ""
+"<i>Not published\n"
+"See server settings</i>"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:22
+msgid "Accepting jobs"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:23
+msgid "Access Control"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:24
+msgid "Add or Remove Members"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:25
+msgid "Allow printing for everyone except these users:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:26
+#, fuzzy
+msgid "Bottom margin:"
+msgstr "حاشیه‌ی پایین (پونت)‏:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:27
+msgid "Brightness:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:28
+#, fuzzy
+msgid "Change..."
+msgstr "به ا_شتراک گذاری..."
+
+#: ../glade/PrinterPropertiesDialog.glade.h:29
+#, fuzzy
+msgid "Characters per inch:"
+msgstr "نویسه بر اینچ"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:31
+msgid "Clean Print Heads"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:32
+#, fuzzy
+msgid "Columns:"
+msgstr "توضیح"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:33
+msgid "Copies:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:34
+msgid "Deny printing for everyone except these users:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:36
+#, fuzzy
+msgid "Device URI:"
+msgstr "دستگاه:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:37
+msgid "Enabled"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:38
+msgid "Ending Banner:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:39
+msgid "Error Policy: \t"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:40
+#, fuzzy
+msgid "Finishings:"
+msgstr "پایان"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:41
+msgid "Gamma:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:42
+msgid "Hold until:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:43
+msgid "Hue adjustment:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:44
+msgid "Ink/Toner Levels"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:45
+#, fuzzy
+msgid "Installed Options"
+msgstr "گزینه‌های صافی"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:46
+msgid "Job Options"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:47
+msgid "Job priority:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:48
+#, fuzzy
+msgid "Left margin:"
+msgstr "حاشیه‌ی چپ (پونت):‏"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:49
+msgid ""
+"Left to right, top to bottom\n"
+"Left to right, bottom to top\n"
+"Right to left, top to bottom\n"
+"Right to left, bottom to top\n"
+"Top to bottom, left to right\n"
+"Top to bottom, right to left\n"
+"Bottom to top, left to right\n"
+"Bottom to top, right to left"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:57
+#, fuzzy
+msgid "Lines per inch:"
+msgstr "خط بر اینچ"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:58
+#, fuzzy
+msgid "Location:"
+msgstr "_کنش"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:59
+#, fuzzy
+msgid "Make and Model:"
+msgstr "سازنده و مدل لازم است.\n"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:60
+msgid "Media:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:61
+msgid "Members"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:62
+#, fuzzy
+msgid "Mirror"
+msgstr "خطا"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:63
+msgid "More"
+msgstr ""
+
+#. See section 4.2.6 of this document:
+#. ftp://ftp.pwg.org/pub/pwg/candidates/cs-ippfinishings10-20010205-5100.1.pdf
+#: ../glade/PrinterPropertiesDialog.glade.h:66
+msgid ""
+"None\n"
+"Staple\n"
+"Punch\n"
+"Cover\n"
+"Bind\n"
+"Saddle stitch\n"
+"Edge stitch\n"
+"Fold\n"
+"Trim\n"
+"Bale\n"
+"Booklet maker\n"
+"Job offset\n"
+"Staple (top left)\n"
+"Staple (bottom left)\n"
+"Staple (top right)\n"
+"Staple (bottom right)\n"
+"Edge stitch (left)\n"
+"Edge stitch (top)\n"
+"Edge stitch (right)\n"
+"Edge stitch (bottom)\n"
+"Staple dual (left)\n"
+"Staple dual (top)\n"
+"Staple dual (right)\n"
+"Staple dual (bottom)\n"
+"Bind (left)\n"
+"Bind (top)\n"
+"Bind (right)\n"
+"Bind (bottom)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:94
+msgid ""
+"One-sided\n"
+"Two-sided (long edge)\n"
+"Two-sided (short edge)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:97
+msgid "Operation Policy:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:98
+msgid "Orientation:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:99
+msgid "Pages per side layout:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:100
+msgid "Pages per side:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:101
+msgid "Policies"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:102
+msgid ""
+"Portrait (no rotation)\n"
+"Landscape (90°)\n"
+"Reverse landscape (270°)\n"
+"Reverse portrait (180°)"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:106
+msgid "Pretty print"
+msgstr ""
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:108
+#, fuzzy
+msgid "Print Self-Test Page"
+msgstr "یادداشت‌های چاپگر:"
+
+#. Not more than 25 characters
+#: ../glade/PrinterPropertiesDialog.glade.h:110
+#: ../troubleshoot/PrintTestPage.py:72
+#, fuzzy
+msgid "Print Test Page"
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:112
+#, fuzzy
+msgid "Printer Properties"
+msgstr "گزینه‌های صافی"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:113
+#, fuzzy
+msgid "Printer State:"
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:114
+#, fuzzy
+msgid "Reset"
+msgstr "آزمایش"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:115
+#, fuzzy
+msgid "Reset to system default"
+msgstr "تنظیم به عنوان _پیش‌فرض"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:116
+#, fuzzy
+msgid "Right margin:"
+msgstr "حاشیه‌ی راست (پونت):‏"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:117
+msgid "Saturation:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:118
+msgid "Scale to fit"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:119
+msgid "Scaling:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:120
+#, fuzzy
+msgid "Settings"
+msgstr "در حال برپاسازی"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:121
+msgid "Shared"
+msgstr "اشتراکی"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:122
+msgid "Sides:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:123
+msgid ""
+"Specify the default job options for this printer.  Jobs arriving at this "
+"print server will have these options added if they are not already set by "
+"the application."
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:124
+msgid "Starting Banner:"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:125
+#, fuzzy
+msgid "There are no status messages for this printer."
+msgstr "اینها پیغام‌هایی هستند که در ثبت خطاها آمده‌اند:"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:126
+msgid "To add a new option, enter its name in the box below and click to add."
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:127
+#, fuzzy
+msgid "Top margin:"
+msgstr "حاشیه‌ی بالا (پونت):‏"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:128
+msgid "Word wrap"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:129
+#, fuzzy
+msgid "default"
+msgstr "پیش‌فرض"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:132
+msgid "none"
+msgstr "هیچ‌کدام"
+
+#: ../glade/PrinterPropertiesDialog.glade.h:133
+msgid "points"
+msgstr ""
+
+#: ../glade/PrinterPropertiesDialog.glade.h:134
+#, fuzzy
+msgid "user"
+msgstr "کاربر"
+
+#: ../glade/PrintersWindow.glade.h:1
+#, fuzzy
+msgid "Adjust server settings"
+msgstr "گزینه‌های گرداننده"
+
+#: ../glade/PrintersWindow.glade.h:2
+msgid "Choose a different CUPS server"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:3
+#, fuzzy
+msgid "Show printer groups"
+msgstr "ایجاد یک صف جدید"
+
+#: ../glade/PrintersWindow.glade.h:4
+msgid "Show printers shared by other systems"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:5
+#, fuzzy
+msgid "System-Config-Printer"
+msgstr "پیکربندی چاپگرها"
+
+#: ../glade/PrintersWindow.glade.h:6
+#, fuzzy
+msgid "_Class"
+msgstr "نام‌های مستعار"
+
+#: ../glade/PrintersWindow.glade.h:7
+#, fuzzy
+msgid "_Connect..."
+msgstr "توضیح"
+
+#: ../glade/PrintersWindow.glade.h:8
+#, fuzzy
+msgid "_Discovered Printers"
+msgstr "یادداشتهای گرداننده:"
+
+#: ../glade/PrintersWindow.glade.h:9
+msgid "_Group"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:10
+msgid "_Groups"
+msgstr ""
+
+#: ../glade/PrintersWindow.glade.h:11
+msgid "_Help"
+msgstr "_راهنما"
+
+#: ../glade/PrintersWindow.glade.h:12
+#, fuzzy
+msgid "_New"
+msgstr "جدید"
+
+#: ../glade/PrintersWindow.glade.h:13
+#, fuzzy
+msgid "_Printer"
+msgstr "چاپگر: "
+
+#: ../glade/PrintersWindow.glade.h:14
+#, fuzzy
+msgid "_Server"
+msgstr "کارگزار"
+
+#: ../glade/PrintersWindow.glade.h:15
+#, fuzzy
+msgid "_Settings..."
+msgstr "در حال برپاسازی"
+
+#: ../glade/PrintersWindow.glade.h:16
+msgid "_Troubleshoot"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:1
+#, fuzzy
+msgid "<b>Basic Server Settings</b>"
+msgstr "گزینه‌های گرداننده"
+
+#: ../glade/ServerSettingsDialog.glade.h:2
+msgid "Allow _remote administration"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:3
+msgid "Allow _users to cancel any job (not just their own)"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:4
+msgid "Allow printing from the _Internet"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:5
+#, fuzzy
+msgid "Basic Server Settings"
+msgstr "گزینه‌های گرداننده"
+
+#: ../glade/ServerSettingsDialog.glade.h:6
+msgid "Save _debugging information for troubleshooting"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:7
+#, fuzzy
+msgid "_Advanced..."
+msgstr "ا_ضافه کردن..."
+
+#: ../glade/ServerSettingsDialog.glade.h:8
+msgid "_Publish shared printers connected to this system"
+msgstr ""
+
+#: ../glade/ServerSettingsDialog.glade.h:9
+msgid "_Show printers shared by other systems"
+msgstr ""
+
+#: ../glade/SMBBrowseDialog.glade.h:1
+msgid "SMB Browser"
+msgstr ""
+
+#: ../glade/statusicon_popupmenu.glade.h:1
+#, fuzzy
+msgid "_Configure Printers"
+msgstr "پیکربندی چاپگرها"
+
+#: ../glade/statusicon_popupmenu.glade.h:2
+msgid "_Hide"
+msgstr ""
+
+#: ../glade/WaitWindow.glade.h:1
+msgid "Please Wait"
+msgstr ""
+
+#: ../system-config-printer.desktop.in.h:1
+#, fuzzy
+msgid "Configure printers"
+msgstr "پیکربندی چاپگرها"
+
+#: ../system-config-printer.desktop.in.h:2
+msgid "Printing"
+msgstr "در حال چاپ"
+
+#: ../statereason.py:90
+msgid "Toner low"
+msgstr ""
+
+#: ../statereason.py:91
+#, python-format
+msgid "Printer '%s' is low on toner."
+msgstr ""
+
+#: ../statereason.py:92
+msgid "Toner empty"
+msgstr ""
+
+#: ../statereason.py:93
+#, python-format
+msgid "Printer '%s' has no toner left."
+msgstr ""
+
+#: ../statereason.py:94
+msgid "Cover open"
+msgstr ""
+
+#: ../statereason.py:95
+#, python-format
+msgid "The cover is open on printer '%s'."
+msgstr ""
+
+#: ../statereason.py:96
+msgid "Door open"
+msgstr ""
+
+#: ../statereason.py:97
+#, python-format
+msgid "The door is open on printer '%s'."
+msgstr ""
+
+#: ../statereason.py:98
+msgid "Paper low"
+msgstr ""
+
+#: ../statereason.py:99
+#, python-format
+msgid "Printer '%s' is low on paper."
+msgstr ""
+
+#: ../statereason.py:100
+msgid "Out of paper"
+msgstr ""
+
+#: ../statereason.py:101
+#, python-format
+msgid "Printer '%s' is out of paper."
+msgstr ""
+
+#: ../statereason.py:102
+msgid "Ink low"
+msgstr ""
+
+#: ../statereason.py:103
+#, python-format
+msgid "Printer '%s' is low on ink."
+msgstr ""
+
+#: ../statereason.py:104
+msgid "Ink empty"
+msgstr ""
+
+#: ../statereason.py:105
+#, python-format
+msgid "Printer '%s' has no ink left."
+msgstr ""
+
+#: ../statereason.py:106
+#, fuzzy
+msgid "Printer off-line"
+msgstr "گزینه‌های صافی"
+
+#: ../statereason.py:107
+#, fuzzy, python-format
+msgid "Printer '%s' is currently off-line."
+msgstr "گزینه‌های صافی"
+
+#: ../statereason.py:108
+#, fuzzy
+msgid "Not connected?"
+msgstr "متصل به _طور محلی"
+
+#: ../statereason.py:109
+#, python-format
+msgid "Printer '%s' may not be connected."
+msgstr ""
+
+#: ../statereason.py:110 ../statereason.py:126
+#, fuzzy
+msgid "Printer error"
+msgstr "چاپگر: "
+
+#: ../statereason.py:111
+#, fuzzy, python-format
+msgid "There is a problem on printer '%s'."
+msgstr ""
+"اشکالی در فرستادن %s به\n"
+"صف «%s» وجود داشت:\n"
+"\n"
+
+#: ../statereason.py:122
+#, fuzzy
+msgid "Printer report"
+msgstr "گزینه‌های صافی"
+
+#: ../statereason.py:124
+#, fuzzy
+msgid "Printer warning"
+msgstr "در حال چاپ"
+
+#: ../statereason.py:144
+#, python-format
+msgid "Printer '%s': '%s'."
+msgstr ""
+
+#: ../timedops.py:102 ../timedops.py:181
+msgid "Please wait"
+msgstr ""
+
+#: ../timedops.py:108 ../timedops.py:188
+#, fuzzy
+msgid "Gathering information"
+msgstr "_کنش"
+
+#: ../ToolbarSearchEntry.py:69
+#, fuzzy
+msgid "_Filter:"
+msgstr "چاپگر: "
+
+#: ../troubleshoot/__init__.py:54
+msgid "Printing troubleshooter"
+msgstr ""
+
+#: ../troubleshoot/base.py:33
+msgid ""
+"To start this tool, select System->Administration->Printing from the main "
+"menu."
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:28
+msgid "Server Not Exporting Printers"
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:29
+msgid ""
+"Although one or more printers are marked as being shared, this print server "
+"is not exporting shared printers to the network."
+msgstr ""
+
+#: ../troubleshoot/CheckLocalServerPublishing.py:33
+msgid ""
+"Enable the 'Publish shared printers connected to this system' option in the "
+"server settings using the printing administration tool."
+msgstr ""
+
+#: ../troubleshoot/CheckPPDSanity.py:44 ../applet.py:185
+#, fuzzy
+msgid "Install"
+msgstr "گرداننده‌ی چاپگر"
+
+#: ../troubleshoot/CheckPPDSanity.py:96
+#, fuzzy
+msgid "Invalid PPD File"
+msgstr "مقدار نامعتبر"
+
+#: ../troubleshoot/CheckPPDSanity.py:106
+#, python-format
+msgid ""
+"The PPD file for printer '%s' does not conform to the specification.  "
+"Possible reason follows:"
+msgstr ""
+
+#. Perhaps cupstestppd is not in the path.
+#: ../troubleshoot/CheckPPDSanity.py:112
+#, fuzzy, python-format
+msgid "There is a problem with the PPD file for printer '%s'."
+msgstr ""
+"اشکالی در فرستادن %s به\n"
+"صف «%s» وجود داشت:\n"
+"\n"
+
+#: ../troubleshoot/CheckPPDSanity.py:122
+#, fuzzy
+msgid "Missing Printer Driver"
+msgstr "گرداننده‌ی چاپگر"
+
+#: ../troubleshoot/CheckPPDSanity.py:136
+#, fuzzy, python-format
+msgid ""
+"Printer '%s' requires the '%s' program but it is not currently installed."
+msgstr ""
+"صف‌های چاپ NCP به برنامه‌ی «nprint» احتیاج دارند، که به نظر نمی‌رسد نصب شده باشد."
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:29
+#, fuzzy
+msgid "Choose Network Printer"
+msgstr "چاپگر:"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:30
+msgid ""
+"Please select the network printer you are trying to use from the list below. "
+"If it does not appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:39
+#: ../troubleshoot/ChoosePrinter.py:40 ../troubleshoot/DeviceListed.py:38
+#, fuzzy
+msgid "Information"
+msgstr "_کنش"
+
+#: ../troubleshoot/ChooseNetworkPrinter.py:75
+#: ../troubleshoot/ChoosePrinter.py:64 ../troubleshoot/DeviceListed.py:70
+#, fuzzy
+msgid "Not listed"
+msgstr "متصل به _طور محلی"
+
+#: ../troubleshoot/ChoosePrinter.py:30
+#, fuzzy
+msgid "Choose Printer"
+msgstr "چاپگر:"
+
+#: ../troubleshoot/ChoosePrinter.py:31
+msgid ""
+"Please select the printer you are trying to use from the list below. If it "
+"does not appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/DeviceListed.py:30
+#, fuzzy
+msgid "Choose Device"
+msgstr "دستگاه سفارشی"
+
+#: ../troubleshoot/DeviceListed.py:31
+msgid ""
+"Please select the device you want to use from the list below. If it does not "
+"appear in the list, select 'Not listed'."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:31
+msgid "Debugging"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:32
+msgid ""
+"I would like to enable debugging output from the CUPS scheduler.  This may "
+"cause the scheduler to restart.  Click the button below to enable debugging."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:36
+msgid "Enable Debugging"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:215
+msgid "Debug logging enabled."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogCheckpoint.py:217
+msgid "Debug logging was already enabled."
+msgstr ""
+
+#: ../troubleshoot/ErrorLogParse.py:29
+msgid "Error log messages"
+msgstr ""
+
+#: ../troubleshoot/ErrorLogParse.py:30
+#, fuzzy
+msgid "There are messages in the error log."
+msgstr "اینها پیغام‌هایی هستند که در ثبت خطاها آمده‌اند:"
+
+#: ../troubleshoot/Locale.py:29
+msgid "Incorrect Page Size"
+msgstr ""
+
+#: ../troubleshoot/Locale.py:30
+msgid ""
+"The page size for the print job was not the printer's default page size.  If "
+"this is not intentional it may cause alignment problems."
+msgstr ""
+
+#: ../troubleshoot/Locale.py:43
+#, fuzzy
+msgid "Print job page size:"
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../troubleshoot/Locale.py:48
+#, fuzzy
+msgid "Printer page size:"
+msgstr "دستگاه چاپگر:"
+
+#: ../troubleshoot/LocalOrRemote.py:26
+#, fuzzy
+msgid "Printer Location"
+msgstr "گزینه‌های صافی"
+
+#: ../troubleshoot/LocalOrRemote.py:27
+msgid "Is the printer connected to this computer or available on the network?"
+msgstr ""
+
+#: ../troubleshoot/LocalOrRemote.py:29
+#, fuzzy
+msgid "Locally connected printer"
+msgstr "واقعاً «%s» حذف شود؟"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:28
+#, fuzzy
+msgid "Queue Not Shared"
+msgstr "نام صف"
+
+#: ../troubleshoot/NetworkCUPSPrinterShared.py:29
+msgid "The CUPS printer on the server is not shared."
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:29
+msgid "Status Messages"
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:30
+msgid "There are status messages associated with this queue."
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:58
+#, fuzzy, python-format
+msgid "The printer's state message is: '%s'."
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../troubleshoot/PrinterStateReasons.py:83
+msgid "Errors are listed below:"
+msgstr ""
+
+#: ../troubleshoot/PrinterStateReasons.py:88
+msgid "Warnings are listed below:"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:62
+#, fuzzy
+msgid "Test Page"
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../troubleshoot/PrintTestPage.py:63
+msgid ""
+"Now print a test page.  If you are having problems printing a specific "
+"document, print that document now and mark the print job below."
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:75
+msgid "Cancel All Jobs"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:81
+#, fuzzy
+msgid "Test"
+msgstr "_آزمایش"
+
+#: ../troubleshoot/PrintTestPage.py:111
+msgid "Did the marked print jobs print correctly?"
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:143
+#, python-format
+msgid "Remember to load paper of type '%s' into the printer first."
+msgstr ""
+
+#: ../troubleshoot/PrintTestPage.py:416
+msgid "Error submitting test page"
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:56
+#: ../troubleshoot/QueueRejectingJobs.py:66
+#, fuzzy, python-format
+msgid "The reason given is: '%s'."
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../troubleshoot/QueueNotEnabled.py:58
+msgid "This may be due to the printer being disconnected or switched off."
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:62
+#, fuzzy
+msgid "Queue Not Enabled"
+msgstr "نام صف"
+
+#: ../troubleshoot/QueueNotEnabled.py:63
+#, python-format
+msgid "The queue '%s' is not enabled."
+msgstr ""
+
+#: ../troubleshoot/QueueNotEnabled.py:71
+msgid ""
+"To enable it, select the 'Enabled' checkbox in the 'Policies' tab for the "
+"printer in the printer administration tool."
+msgstr ""
+
+#: ../troubleshoot/QueueRejectingJobs.py:31
+#, fuzzy
+msgid "Queue Rejecting Jobs"
+msgstr "گزینه‌های صف"
+
+#: ../troubleshoot/QueueRejectingJobs.py:63
+#, fuzzy, python-format
+msgid "The queue '%s' is rejecting jobs."
+msgstr "گزینه‌های صف"
+
+#: ../troubleshoot/QueueRejectingJobs.py:70
+msgid ""
+"To make the queue accept jobs, select the 'Accepting Jobs' checkbox in the "
+"'Policies' tab for the printer in the printer administration tool."
+msgstr ""
+
+#: ../troubleshoot/RemoteAddress.py:26
+#, fuzzy
+msgid "Remote Address"
+msgstr "چاپگر Jetdirect"
+
+#: ../troubleshoot/RemoteAddress.py:27
+msgid ""
+"Please enter as many details as you can about the network address of this "
+"printer."
+msgstr ""
+
+#: ../troubleshoot/RemoteAddress.py:35
+#, fuzzy
+msgid "Server name:"
+msgstr "نام کاربر:"
+
+#: ../troubleshoot/RemoteAddress.py:42
+#, fuzzy
+msgid "Server IP address:"
+msgstr "نام میزبان یا نشانی IP کارگزار:"
+
+#: ../troubleshoot/SchedulerNotRunning.py:28
+msgid "CUPS Service Stopped"
+msgstr ""
+
+#: ../troubleshoot/SchedulerNotRunning.py:29
+msgid ""
+"The CUPS print spooler does not appear to be running.  To correct this, "
+"choose System->Administration->Services from the main menu and look for the "
+"'cups' service."
+msgstr ""
+
+#: ../troubleshoot/ServerFirewalled.py:26
+msgid "Check Server Firewall"
+msgstr ""
+
+#: ../troubleshoot/ServerFirewalled.py:27
+#, fuzzy
+msgid "It is not possible to connect to the server."
+msgstr ""
+"اشکالی در فرستادن %s به\n"
+"صف «%s» وجود داشت:\n"
+"\n"
+
+#: ../troubleshoot/ServerFirewalled.py:42
+#, python-format
+msgid ""
+"Please check to see if a firewall or router configuration is blocking TCP "
+"port %d on server '%s'."
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:26
+msgid "Sorry!"
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:27
+msgid ""
+"I have not been able to work out what the problem is, but I have collected "
+"some useful information to put in a bug report."
+msgstr ""
+
+#: ../troubleshoot/Shrug.py:32
+msgid "Diagnostic Output (Advanced)"
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:43
+msgid "Trouble-shooting Printing"
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:45
+msgid ""
+"In the next few screens I will ask you some questions about your problem "
+"with printing. Based on your answers I will try to suggest a solution."
+msgstr ""
+
+#: ../troubleshoot/Welcome.py:49
+msgid "Click 'Forward' to begin."
+msgstr ""
+
+#: ../applet.py:94
+#, fuzzy
+msgid "Configuring new printer"
+msgstr "پیکربندی چاپگرها"
+
+#. name is a URI, no queue was generated, because no suitable
+#. driver was found
+#: ../applet.py:116 ../applet.py:174
+#, fuzzy
+msgid "Missing printer driver"
+msgstr "گرداننده‌ی چاپگر"
+
+#: ../applet.py:123
+#, fuzzy, python-format
+msgid "No printer driver for %s."
+msgstr "_یادداشت‌های گرداننده/چاپگر..."
+
+#: ../applet.py:125
+#, fuzzy
+msgid "No driver for this printer."
+msgstr "چاپگر Jetdirect"
+
+#: ../applet.py:172
+#, fuzzy
+msgid "Printer added"
+msgstr "مدل چاپگر"
+
+#: ../applet.py:178
+#, fuzzy
+msgid "Install printer driver"
+msgstr "گرداننده‌ی چاپگر"
+
+#: ../applet.py:179
+#, python-format
+msgid "`%s' requires driver installation: %s."
+msgstr ""
+
+#: ../applet.py:201
+#, python-format
+msgid "`%s' is ready for printing."
+msgstr ""
+
+#: ../applet.py:205 ../applet.py:217
+#, fuzzy
+msgid "Print test page"
+msgstr "یادداشت‌های چاپگر:"
+
+#: ../applet.py:208
+#, fuzzy
+msgid "Configure"
+msgstr "پیکربندی چاپگرها"
+
+#: ../applet.py:212
+#, python-format
+msgid "`%s' has been added, using the `%s' driver."
+msgstr ""
+
+#: ../applet.py:220
+#, fuzzy
+msgid "Find driver"
+msgstr "گرداننده‌ی چاپگر"
+
+#: ../print-applet.desktop.in.h:1
+#, fuzzy
+msgid "Print Queue Applet"
+msgstr "ویرایش گزینه‌ی صف"
+
+#: ../print-applet.desktop.in.h:2
+msgid "System tray icon for managing print jobs"
+msgstr ""
+
+#: ../manage-print-jobs.desktop.in.h:1
+msgid "Cancel, pause, resume or reprint jobs"
+msgstr ""
+
+#: ../manage-print-jobs.desktop.in.h:2
+msgid "Manage Print Jobs"
+msgstr ""
+
+#: ../my-default-printer.desktop.in.h:2
+#, fuzzy
+msgid "Select default printer"
+msgstr "این شرح چاپگر است."
+
+#, fuzzy
+#~ msgid "Document printed"
+#~ msgstr "توضیح"
+
+#~ msgid "Queue"
+#~ msgstr "صف"
+
+#, fuzzy
+#~ msgid "It is not possible to obtain a list of queues from '%s'."
+#~ msgstr ""
+#~ "اشکالی در فرستادن %s به\n"
+#~ "صف «%s» وجود داشت:\n"
+#~ "\n"
+
+#, fuzzy
+#~ msgid "No queues"
+#~ msgstr "صف _جدید"
+
+#, fuzzy
+#~ msgid "There are no queues available."
+#~ msgstr "هیچ گزینه‌ای برای این گرداننده موجود نیست."
+
+#, fuzzy
+#~ msgid "Job %d completed"
+#~ msgstr "توضیح"
+
+#, fuzzy
+#~ msgid "<b>HP Printer (HPLIP) via network</b>"
+#~ msgstr "مدل چاپگر"
+
+#, fuzzy
+#~ msgid "Not Found"
+#~ msgstr "متصل به _طور محلی"
+
+#, fuzzy
+#~ msgid "Authentication Required"
+#~ msgstr "تأیید هویت"
+
+#, fuzzy
+#~ msgid "Job requires authentication to proceed."
+#~ msgstr "تأیید هویت"
+
+#, fuzzy
+#~ msgid "Authenticate"
+#~ msgstr "تأیید هویت"
+
+#, fuzzy
+#~ msgid "Adding"
+#~ msgstr "در حال چاپ"
+
+#, fuzzy
+#~ msgid "Adding printer"
+#~ msgstr "اضافه کردن یک صف چاپ جدید"
+
+#, fuzzy
+#~ msgid "Printer status"
+#~ msgstr "یادداشت‌های چاپگر:"
+
+#, fuzzy
+#~ msgid "the printer's manufacturer"
+#~ msgstr "سازنده را انتخاب کنید"
+
+#, fuzzy
+#~ msgid "<b>Recommended Driver</b>"
+#~ msgstr "مدل چاپگر"
+
+#, fuzzy
+#~ msgid "<b>Download Printer Driver</b>"
+#~ msgstr "مدل چاپگر"
+
+#, fuzzy
+#~ msgid "<b>Installed Options</b>"
+#~ msgstr "شرح"
+
+#, fuzzy
+#~ msgid "Set As Default"
+#~ msgstr "_پیش‌فرض‌ها"
+
+#, fuzzy
+#~ msgid "Remote class"
+#~ msgstr "چاپگر Jetdirect"
+
+#, fuzzy
+#~ msgid "Remote printer"
+#~ msgstr "چاپگر Jetdirect"
+
+#, fuzzy
+#~ msgid "Local printer"
+#~ msgstr "ویرایش چاپگر محلی"
+
+#, fuzzy
+#~ msgid "New _Printer"
+#~ msgstr "چاپگر:"
+
+#, fuzzy
+#~ msgid "_Edit"
+#~ msgstr "ویرایش"
+
+#, fuzzy
+#~ msgid "_Server Settings..."
+#~ msgstr "گزینه‌های گرداننده"
+
+#, fuzzy
+#~ msgid "Create a new printer queue"
+#~ msgstr "ایجاد یک صف جدید"
+
+#, fuzzy
+#~ msgid "Make:"
+#~ msgstr "نام:"
+
+#, fuzzy
+#~ msgid "No default printer set."
+#~ msgstr "این شرح چاپگر است."
+
+#, fuzzy
+#~ msgid "Cancel Tests"
+#~ msgstr "انصراف"
+
+#, fuzzy
+#~ msgid "Default Printer:"
+#~ msgstr "این شرح چاپگر است."
+
+#, fuzzy
+#~ msgid "Make Default"
+#~ msgstr "_پیش‌فرض‌ها"
+
+#~ msgid "User name:"
+#~ msgstr "نام کاربر:"
+
+#, fuzzy
+#~ msgid "Search terms:"
+#~ msgstr "اشتراک: "
+
+#, fuzzy
+#~ msgid "Copy this printer queue"
+#~ msgstr "ویرایش یک صف چاپ"
+
+#, fuzzy
+#~ msgid "Delete this printer queue"
+#~ msgstr "حذف صف انتخاب شده"
+
+#, fuzzy
+#~ msgid "Goto Server"
+#~ msgstr "کارگزار"
+
+#, fuzzy
+#~ msgid "Queue Not Accepting Jobs"
+#~ msgstr "گزینه‌های صف"
+
+#, fuzzy
+#~ msgid "Printer's state reasons:"
+#~ msgstr "یادداشت‌های چاپگر:"
+
+#, fuzzy
+#~ msgid "3"
+#~ msgstr "A3"
+
+#, fuzzy
+#~ msgid "Printername"
+#~ msgstr "مدل چاپگر"
+
+#~ msgid "About"
+#~ msgstr "درباره"
+
+#~ msgid "Apply"
+#~ msgstr "اعمال"
+
+#, fuzzy
+#~ msgid "Comments: "
+#~ msgstr "توضیح"
+
+#, fuzzy
+#~ msgid "Device"
+#~ msgstr "دستگاه"
+
+#, fuzzy
+#~ msgid "Driver"
+#~ msgstr "گرداننده"
+
+#, fuzzy
+#~ msgid "Make Default Printer"
+#~ msgstr "این شرح چاپگر است."
+
+#, fuzzy
+#~ msgid "System-Config-Printer %s"
+#~ msgstr "پیکربندی چاپگرها"
+
+#, fuzzy
+#~ msgid "Specify default job options."
+#~ msgstr "تنظیم مجدد به گزینه‌های پیش‌فرض"
+
+#, fuzzy
+#~ msgid "localhost"
+#~ msgstr "محلی"
+
+#, fuzzy
+#~ msgid "smb://"
+#~ msgstr "smb"
+
+#~ msgid "Ok"
+#~ msgstr "تأیید"
+
+#~ msgid "Info"
+#~ msgstr "اطلاعات"
+
+#~ msgid "Exit"
+#~ msgstr "خروج"
+
+#~ msgid ""
+#~ "You have made changes, would you like to save them? If you say no, your "
+#~ "changes will be lost."
+#~ msgstr ""
+#~ "شما تغییراتی داده‌اید، آیا می‌خواهید آنها را ذخیره کنید؟ اگر بگویید نه، "
+#~ "تغییرات شما از دست خواهند رفت."
+
+#~ msgid "Finish Making New Queue"
+#~ msgstr "پایان ساختن صف جدید"
+
+#~ msgid "About to create the following queue:"
+#~ msgstr "در آستانه‌ی ایجاد صف زیر:"
+
+#~ msgid "Back"
+#~ msgstr "عقب"
+
+#~ msgid "Type:"
+#~ msgstr "نوع:"
+
+#~ msgid "Lpd Queue:"
+#~ msgstr "صف Lpd:"
+
+#~ msgid "Share:"
+#~ msgstr "اشتراک:"
+
+#~ msgid "Workgroup:"
+#~ msgstr "گروه کاری:"
+
+#~ msgid "User:"
+#~ msgstr "کاربر:"
+
+#~ msgid "Driver:"
+#~ msgstr "گرداننده:"
+
+#~ msgid "Name and Type"
+#~ msgstr "نام و نوع"
+
+#~ msgid "Next"
+#~ msgstr "بعدی"
+
+#~ msgid "Queue Type"
+#~ msgstr "نوع صف"
+
+#~ msgid ""
+#~ "The name \"%s\" is bad. Please choose a name of the form [a-zA-Z][a-zA-Z0-"
+#~ "9_-]*."
+#~ msgstr ""
+#~ "نام «%s» مناسب نیست. لطفاً نامی به شکل ‎[a-zA-Z][a-zA-Z0-9]‎*‎ را انتخاب کنید."
+
+#~ msgid ""
+#~ "Pick the printer device from the list, or enter it using \"Custom\" below."
+#~ msgstr ""
+#~ "دستگاه چاپگر را از فهرست انتخاب کرده، یا آن را با استفاده از «سفارشی» در "
+#~ "زیر وارد کنید."
+
+#~ msgid "Specify Device:"
+#~ msgstr "دستگاه را مشخص کنید:"
+
+#~ msgid "Specify the device to use."
+#~ msgstr "دستگاهی را که می‌خواهید استفاده شود، مشخص کنید."
+
+#~ msgid "Enter the LPD server and queue to use."
+#~ msgstr "کارگزار LPD و صفی را که می‌خواهید استفاده شود، وارد کنید."
+
+#~ msgid "LPD Data"
+#~ msgstr "داده‌های LPD"
+
+#~ msgid "You must specify a server."
+#~ msgstr "باید یک کارگزار مشخص کنید."
+
+#~ msgid "Enter the SMB share to use."
+#~ msgstr "اشتراک SMB را که می‌خواهید استفاده شود، وارد کنید."
+
+#~ msgid "Workgroup"
+#~ msgstr "گروه کاری"
+
+#~ msgid "Passwd"
+#~ msgstr "گذرواژه"
+
+#~ msgid "You must specify a SMB share to print to."
+#~ msgstr "باید یک اشتراک SMB مشخص کنید تا در آن چاپ شود."
+
+#~ msgid "Enter the NCP server and queue to use."
+#~ msgstr "کارگزار NCP و صفی را که می‌خواهید استفاده شود، وارد کنید."
+
+#~ msgid "Novell Netware Printer (NCP) Data"
+#~ msgstr "داده‌های چاپگر نت‌ویر نوول (NCP)"
+
+#~ msgid "You must specify an NCP server to print to."
+#~ msgstr "باید یک کارگزار NCP مشخص کنید تا در آن چاپ شود."
+
+#~ msgid "You must specify a queue on the NCP server to print to."
+#~ msgstr "شما باید صفی روی کارگزار NCP مشخص کنید تا در آن چاپ شود."
+
+#~ msgid "Enter the Jetdirect ip and port to use."
+#~ msgstr "نشانی IP و درگاه Jetdirect را که می‌خواهید استفاده کنید، وارد کنید."
+
+#~ msgid "Ip"
+#~ msgstr "‏IP"
+
+#~ msgid "Port"
+#~ msgstr "درگاه"
+
+#~ msgid "Jetdirect (JETDIRECT) Data"
+#~ msgstr "داده‌های Jetdirect ‏(JETDIRECT)"
+
+#~ msgid "You must specify the ip address of a JetDirect printer."
+#~ msgstr "باید نشانی IP یک چاپگر JetDirect را مشخص کنید."
+
+#~ msgid "Queue Driver"
+#~ msgstr "گرداننده‌ی صف"
+
+#~ msgid "Select the Driver to use with this Queue."
+#~ msgstr "گرداننده‌ای را که با این صف استفاده می‌شود، انتخاب کنید"
+
+#~ msgid "You must specify a driver."
+#~ msgstr "باید یک گرداننده مشخص کنید."
+
+#~ msgid "Edit Queue"
+#~ msgstr "ویرایش صف"
+
+#~ msgid "Names"
+#~ msgstr "نام‌ها"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "Done"
+#~ msgstr "انجام شد"
+
+#~ msgid "Aliases:"
+#~ msgstr "نام‌های مستعار:"
+
+#~ msgid "Edit Name and Aliases"
+#~ msgstr "ویرایش نام و نام‌های مستعار"
+
+#~ msgid "Add Alias"
+#~ msgstr "اضافه کردن نام مستعار"
+
+#~ msgid "Edit Alias"
+#~ msgstr "ویرایش نام مستعار"
+
+#~ msgid "Delete Alias"
+#~ msgstr "حذف نام مستعار"
+
+#~ msgid "Alias:"
+#~ msgstr "نام مستعار:"
+
+#~ msgid "Add an Alias"
+#~ msgstr "افزودن یک نام مستعار"
+
+#~ msgid "Edit the alias"
+#~ msgstr "ویرایش کردن نام مستعار"
+
+#~ msgid "You must select an alias to edit."
+#~ msgstr "باید یک نام مستعار انتخاب کنید تا ویرایش شود."
+
+#~ msgid "You must select an alias to delete."
+#~ msgstr "باید یک نام مستعار انتخاب کنید تا حذف شود."
+
+#~ msgid "Strict RFC1179"
+#~ msgstr "RFC 1179 اکید"
+
+#~ msgid "Translate \\n->\\r\\n"
+#~ msgstr "ترجمه‌ی ‎\\n به ‎\\r\\n"
+
+#~ msgid "Edit Driver"
+#~ msgstr "ویرایش گرداننده"
+
+#~ msgid "Edit Driver Options"
+#~ msgstr "ویرایش گزینه‌های گرداننده"
+
+#~ msgid "Edit %s"
+#~ msgstr "ویرایش %s"
+
+#~ msgid "Integer: Min %s | Max %s"
+#~ msgstr "عدد صحیح: حداقل %s | حداکثر %s"
+
+#~ msgid "Value must be a number"
+#~ msgstr "مقدار باید عدد باشد"
+
+#~ msgid "Float: Min %s | Max %s"
+#~ msgstr "عدد اعشاری: حداقل %s | حداکثر %s"
+
+#~ msgid "US Letter"
+#~ msgstr "نامه‌‌ی امریکایی"
+
+#~ msgid "Tabloid"
+#~ msgstr "نیم‌ورق روزنامه‌ای"
+
+#~ msgid "Ledger"
+#~ msgstr "دفترکل"
+
+#~ msgid "Legal"
+#~ msgstr "حقوقی"
+
+#~ msgid "Statement"
+#~ msgstr "بیانیه"
+
+#~ msgid "Executive"
+#~ msgstr "حکم"
+
+#~ msgid "A4"
+#~ msgstr "A4"
+
+#~ msgid "A5"
+#~ msgstr "A5"
+
+#~ msgid "B4"
+#~ msgstr "B4"
+
+#~ msgid "B5"
+#~ msgstr "B5"
+
+#~ msgid "Folio"
+#~ msgstr "رحلی"
+
+#~ msgid "Quatro"
+#~ msgstr "ربعی"
+
+#~ msgid "10x14"
+#~ msgstr "۱۰×۱۴"
+
+#~ msgid ""
+#~ "You have made changes, would you like to save them?\n"
+#~ "If you say no, you will not be able to print test pages."
+#~ msgstr ""
+#~ "شما تغییراتی داده‌اید، آیا می‌خواهید آنها را ذخیره کنید؟\n"
+#~ "اگر بگویید نه، نخواهید توانست صفحات آزمایشی را چاپ کنید."
+
+#~ msgid "Sent %s to \"%s\"."
+#~ msgstr "‏%s به «%s» فرستاده شد."
+
+#~ msgid "You must select a printer queue to delete."
+#~ msgstr "باید یک صف چاپگر را انتخاب کنید تا حذف شود."
+
+#~ msgid "You cannot delete an imported printer."
+#~ msgstr "نمی‌توانید یک چاپگر وارداتی را حذف کنید."
+
+#~ msgid "Confirm Delete"
+#~ msgstr "تصدیق حذف"
+
+#~ msgid "Delete"
+#~ msgstr "حذف کردن"
+
+#~ msgid "You must select a printer queue to edit."
+#~ msgstr "باید یک صف چاپگر را انتخاب کنید تا ویرایش شود."
+
+#~ msgid ""
+#~ "This imported printer is protected from overrides. You can not edit it."
+#~ msgstr ""
+#~ "این چاپگر وارداتی در مقابل تنظیمات تحت‌الشعاع قرار دهنده محافظت شده است. "
+#~ "شما نمی‌توانید آن را ویرایش کنید."
+
+#~ msgid "Override?"
+#~ msgstr "تحت‌الشعاع قرار بگیرد؟"
+
+#~ msgid "This is an imported printer. Do you want to create a local override?"
+#~ msgstr ""
+#~ "این یک چاپگر وارد شده است. آیا می‌خواهید یک دسته تنظیمات تحت‌الشعاع قرار "
+#~ "دهنده‌ی محلی ایجاد کنید؟"
+
+#~ msgid "You must select a queue to print to."
+#~ msgstr "باید یک صف را  انتخاب کنید تا در آن چاپ شود."
+
+#~ msgid "Initializing alchemist edit environment ..."
+#~ msgstr "در حال راه‌اندازی محیط ویرایش alchemist ..."
+
+#~ msgid "Initializing linux printing database ..."
+#~ msgstr "در حال راه‌اندازی پایگاه‌داده‌ی چاپ لینوکس ..."
+
+#~ msgid "Importing CUPS queues ..."
+#~ msgstr "در حال وارد کردن صف‌های CUPS ..."
+
+#~ msgid ""
+#~ "Failed to parse alchemist context: \n"
+#~ "%s"
+#~ msgstr ""
+#~ "تجزیه‌ی مفاد alchemist شکست خورد: \n"
+#~ "%s"
+
+#~ msgid "Invalid printconf context"
+#~ msgstr "مفاد نامعتبر printconf"
+
+#~ msgid "\"%s\" is not a valid queue name."
+#~ msgstr "«%s» نام صف معتبری نیست."
+
+#~ msgid "Need device, make and model.\n"
+#~ msgstr "دستگاه، سازنده، و مدل لازم است.\n"
+
+#~ msgid "add-local: queue name '%s' not unique\n"
+#~ msgstr "‏add-local: نام صف «%s» یگانه نیست\n"
+
+#~ msgid "add-local: no suitable name available\n"
+#~ msgstr "‏add-local: نام مناسبی موجود نیست\n"
+
+#~ msgid "add-local: No information available about %s %s\n"
+#~ msgstr "‏add-local: اطلاعاتی درباره‌ی %s %s موجود نیست\n"
+
+#~ msgid "Now run printconf-backend (or restart lpd service)."
+#~ msgstr ""
+#~ "اکنون printconf-backend را اجرا کنید (یا سرویس lpd را راه‌اندازی مجدد "
+#~ "کنید)."
+
+#~ msgid "You must run printconf-tui as root."
+#~ msgstr "باید printconf-tui را با root اجرا کنید."
+
+#~ msgid "Conflicting commands: %s and %s"
+#~ msgstr "مغایرت فرمان‌ها: %s و %s"
+
+#~ msgid "No handler for command: "
+#~ msgstr "متصدی‌ای برای فرمان وجود ندارد "
+
+#~ msgid "You must be root to run this program.\n"
+#~ msgstr "برای اجرای این برنامه باید root باشید.\n"
+
+#~ msgid "Queue name"
+#~ msgstr "نام صف"
+
+#~ msgid "_Don't save"
+#~ msgstr "ذخیره _نشود"
+
+#~ msgid "_Save"
+#~ msgstr "_ذخیره"
+
+#~ msgid ""
+#~ "Loading printer information.\n"
+#~ "Please wait..."
+#~ msgstr ""
+#~ "در حال بارکردن اطلاعات چاپگر.\n"
+#~ "لطفاً صبر کنید..."
+
+#~ msgid "Notes from the Linux Printing Database"
+#~ msgstr "یادداشت‌هایی از پایگاه‌داده‌ی چاپ لینوکس"
+
+#~ msgid "Generic (click to select manufacturer)"
+#~ msgstr "عام (برای انتخاب سازنده کلیک کنید)‏"
+
+#~ msgid ""
+#~ "You are changing an option\n"
+#~ "that has no effect in the print\n"
+#~ "spooler you are using (%s)."
+#~ msgstr ""
+#~ "شما دارید گزینه‌ای را تغییر می‌دهید که\n"
+#~ "هیچ تأثیری در قرقره‌ی چاپی که\n"
+#~ "از آن استفاده می‌کنید (%s) ندارد."
+
+#~ msgid ""
+#~ "Applying changes.\n"
+#~ "Please wait..."
+#~ msgstr ""
+#~ "در حال اِعمال تغییرات.\n"
+#~ "لطفاً صبر کنید..."
+
+#~ msgid "Failed to write queues."
+#~ msgstr "نوشتن صف‌ها شکست خورد."
+
+#~ msgid ""
+#~ "Sent %s\n"
+#~ "to '%s' queue.  Does it look okay?"
+#~ msgstr ""
+#~ "‏%s به صف\n"
+#~ "«‏%s» فرستاده شد.  آیا درست به نظر می‌رسد؟"
+
+#~ msgid "'%s' does not look like a PPD file."
+#~ msgstr "‏«%s» شبیه پرونده‌های PDD نیست."
+
+#~ msgid "File cannot be opened for reading."
+#~ msgstr "نمی‌توان پرونده را برای خواندن باز کرد."
+
+#~ msgid "PPD imported."
+#~ msgstr "PPD وارد شد."
+
+#~ msgid "PPD import failed."
+#~ msgstr "وارد کردن PPD شکست خورد."
+
+#~ msgid "Invalid name"
+#~ msgstr "نام نامعتبر"
+
+#~ msgid "There is already a queue with that name."
+#~ msgstr "صفی با این نام از قبل وجود دارد."
+
+#~ msgid "An existing queue has an alias of that name."
+#~ msgstr "این نام، نام مستعار یکی از صف‌های موجود است."
+
+#~ msgid "'%s' does not exist, or is not writable."
+#~ msgstr "‏«%s» وجود ندارد، یا قابل نوشتن نیست."
+
+#~ msgid "Custom device"
+#~ msgstr "دستگاه سفارشی"
+
+#~ msgid "You must select a device."
+#~ msgstr "شما باید دستگاهی را انتخاب کنید."
+
+#~ msgid "You must specify a path."
+#~ msgstr "شما باید مسیری را مشخص کنید."
+
+#~ msgid "You must specify a queue."
+#~ msgstr "شما باید صفی را مشخص کنید."
+
+#~ msgid "You must choose an SMB share to print to."
+#~ msgstr "شما باید یک اشتراک SMB انتخاب کنید تا در آن چاپ شود."
+
+#~ msgid "You must choose a share, not a host."
+#~ msgstr "شما باید یک اشتراک انتخاب کنید، نه یک میزبان."
+
+#~ msgid "You must specify an SMB share to print to."
+#~ msgstr "شما باید یک اشتراک SMB مشخص کنید تا در آن چاپ شود."
+
+#~ msgid "You must specify a queue on the NCP server."
+#~ msgstr "شما باید صفی روی کارگزار NCP مشخص کنید."
+
+#~ msgid "You must specify a JetDirect printer to print to."
+#~ msgstr "شما باید یک چاپگر JetDirect مشخص کنید تا در آن چاپ شود."
+
+#~ msgid "You must specify an IP port number."
+#~ msgstr "شما باید شماره‌ی درگاه IP را مشخص کنید."
+
+#~ msgid "Select the printer manufacturer and model."
+#~ msgstr "سازنده و مدل چاپگر را انتخاب کنید."
+
+#~ msgid ""
+#~ "Select the printer manufacturer and model. Depending on how the remote "
+#~ "queue is configured, you may need to select the generic PostScript option "
+#~ "here."
+#~ msgstr ""
+#~ "سازنده و مدل چاپگر را انتخاب کنید. بسته به چگونگی پیکربندیِ صفِ راهِ دور، "
+#~ "ممکن است لازم باشد که در اینجا گزینه‌ی پست‌اسکریپت عمومی را انتخاب کنید."
+
+#~ msgid "Type: "
+#~ msgstr "نوع: "
+
+#~ msgid "Queue: "
+#~ msgstr "صف: "
+
+#~ msgid ""
+#~ "Would you like to print a test page?\n"
+#~ "Answering 'yes' will apply all changes\n"
+#~ "and print a test page to this printer."
+#~ msgstr ""
+#~ "آیا می‌خواهید یک صفحه‌ی آزمایشی چاپ کنید؟\n"
+#~ "پاسخ «بله» همه‌ی تغییرات را اعمال خواهد کرد\n"
+#~ "و یک صفحه‌ی آزمایشی با این چاپگر چاپ می‌کند."
+
+#~ msgid "Number of columns on a page"
+#~ msgstr "تعداد ستون‌ها در یک صفحه"
+
+#, fuzzy
+#~ msgid "Billing label"
+#~ msgstr "برچسب اعلامی"
+
+#~ msgid ""
+#~ "HH:MM:SS or '%s'.\n"
+#~ "Use GMT."
+#~ msgstr ""
+#~ "‏HH:MM:SS یا «%s».‏\n"
+#~ "استفاده از وقت گرینیچ."
+
+#~ msgid ""
+#~ "Banner pages (start,end):\n"
+#~ "for example, '%s'"
+#~ msgstr ""
+#~ "صفحات عنوان (آغاز،پایان):\n"
+#~ "برای مثال، '%s'"
+
+#~ msgid "Landscape (%s or %s)"
+#~ msgstr "منظره‌ای (%s یا %s)"
+
+#~ msgid ""
+#~ "Number of document pages per\n"
+#~ "printed page: 1, 2, 4, 6, 9, or 16"
+#~ msgstr ""
+#~ "تعداد صفحات نوشتار در هر صفحه‌ی\n"
+#~ "چاپ شده: ۱، ۲، ۴، ۶، ۹، یا ۱۶"
+
+#~ msgid "Top margin in pt (1/72 in)"
+#~ msgstr "حاشیه‌ی بالا بر حسب پونت (۷۲/۱ اینچ)‏"
+
+#~ msgid "Left margin in pt (1/72 in)"
+#~ msgstr "حاشیه‌ی چپ بر حسب پونت (۷۲/۱ اینچ)‏"
+
+#~ msgid "Right margin in pt (1/72 in)"
+#~ msgstr "حاشیه‌ی راست به نقطه (۷۲/۱ اینچ)‏"
+
+#~ msgid "Bottom margin in pt (1/72 in)"
+#~ msgstr "حاشیه‌ی پایین بر حسب پونت (۷۲/۱ اینچ)‏"
+
+#~ msgid ""
+#~ "'%s', '%s', '%s'\n"
+#~ "'%s' or '%s'"
+#~ msgstr ""
+#~ "«‏%s»،‏ «%s»،‏ «%s»‏\n"
+#~ "«‏%s» یا «%s»"
+
+#~ msgid "Pretty-print text (%s or %s)"
+#~ msgstr "متن چاپ زیبا (%s یا %s)"
+
+#~ msgid "Scaling (percentage)"
+#~ msgstr "مقیاس (درصد)‏"
+
+#~ msgid "Word-wrapping (%s or %s)"
+#~ msgstr "پیچیدن واژه (%s یا %s)"
+
+#~ msgid "Value"
+#~ msgstr "مقدار"
+
+#~ msgid "Can't determine the printer model attached to this device."
+#~ msgstr "نمی‌توان مدل چاپگری را که به این دستگاه وصل شده تعیین کرد."
+
+#~ msgid "I don't know enough about this printer model to choose a driver."
+#~ msgstr ""
+#~ "اطلاعات این برنامه درباره‌ی مدل این چاپگر برای انتخاب گرداننده‌ کافی نیست."
+
+#~ msgid "Add queue option"
+#~ msgstr "افزودن گزینه‌ی صف"
+
+#~ msgid "Invalid option name"
+#~ msgstr "نام گزینه‌ی نامعتبر"
+
+#~ msgid "Value for this option"
+#~ msgstr "مقداری برای این گزینه"
+
+#~ msgid ""
+#~ "(this is the\n"
+#~ "recommended driver)"
+#~ msgstr ""
+#~ "(این گرداننده‌ی\n"
+#~ "توصیه شده است)"
+
+#~ msgid ""
+#~ "This driver requires Hewlett Packard's hpijs driver (available in the "
+#~ "hpijs package) which does not appear to be installed."
+#~ msgstr ""
+#~ "این گرداننده، به گرداننده‌ی hpijs هیولت پاکارد (موجود در بسته‌ی hpijs) "
+#~ "احتیاج دارد که به نظر نمی‌رسد نصب شده باشد."
+
+#~ msgid "Do you wish to use it anyway?"
+#~ msgstr "آیا می‌خواهید به هر حال از آن استفاده کنید؟"
+
+#~ msgid ""
+#~ "This driver requires the Omni Print Driver System, which does not appear "
+#~ "to be installed."
+#~ msgstr ""
+#~ "این گرداننده به سیستم گرداننده‌ی چاپ Omni احتیاج دارد که به نظر نمی‌رسد نصب "
+#~ "شده باشد."
+
+#~ msgid ""
+#~ "This driver requires the oki4drv daemon to be running, and it does not "
+#~ "appear to be."
+#~ msgstr ""
+#~ "این گرداننده احتیاج دارد که شبح oki4drv در حال اجرا باشد، که به نظر "
+#~ "نمی‌رسد این طور باشد."
+
+#~ msgid "Local Printer Device"
+#~ msgstr "دستگاه چاپگر محلی"
+
+#~ msgid "IPP Print Queue"
+#~ msgstr "صف چاپ IPP"
+
+#~ msgid "Unix Print Queue"
+#~ msgstr "صف چاپ یونیکس"
+
+#~ msgid "Windows Print Queue"
+#~ msgstr "صف چاپ ویندوز"
+
+#~ msgid ""
+#~ "SMB print queues require the \"smbclient\" program, which does not appear "
+#~ "to be installed."
+#~ msgstr ""
+#~ "صف‌های چاپ SMB به برنامه‌ی «smbclient» احتیاج دارند، که به نظر نمی‌رسد نصب "
+#~ "شده باشد."
+
+#~ msgid ""
+#~ "It is part of the \"samba-client\" package, as distributed by Red Hat."
+#~ msgstr "این بخشی از بسته‌ی «samba-client» است."
+
+#~ msgid "Do you wish to enable it anyway?"
+#~ msgstr "آیا می‌خواهید به هر حال آن را به کار بیاندازید؟"
+
+#~ msgid "Novell Print Queue"
+#~ msgstr "صف چاپ نوول"
+
+#~ msgid "It is part of the \"ncpfs\" package, as distributed by Red Hat."
+#~ msgstr "این بخشی از بسته‌ی «ncpfs» است."
+
+#~ msgid "Custom Command"
+#~ msgstr "فرمان سفارشی"
+
+#~ msgid "Postscript Printer"
+#~ msgstr "چاپگر پست‌اسکریپت"
+
+#~ msgid "Text Only Printer"
+#~ msgstr "چاپگر فقط متنی"
+
+#~ msgid "Custom Filter"
+#~ msgstr "صافی سفارشی"
+
+#~ msgid "ERROR: No box named \"%s\" found.\n"
+#~ msgstr "خطا: جعبه‌ای به نام «%s» پیدا نشد.\n"
+
+#~ msgid "ERROR: box \"%s\" is not a writable interface.\n"
+#~ msgstr "خطا: جعبه‌ی «%s» یک واسط قابل نوشتن نیست.\n"
+
+#~ msgid "Send Form-Feed (FF)"
+#~ msgstr "فرستادن Form-Feed‏ (FF)"
+
+#~ msgid "Send End-of-Transmission (EOT)"
+#~ msgstr "فرستادن End-of-Transmission‏ (EOT)"
+
+#~ msgid "Assume Unknown Data is Text"
+#~ msgstr "فرض متن بودن داده‌های ناشناخته"
+
+#~ msgid "Prerender Postscript"
+#~ msgstr "پیش‌ترسیم پست‌اسکریپت"
+
+#~ msgid "Convert Text to Postscript"
+#~ msgstr "تبدیل متن به پست‌اسکریپت"
+
+#~ msgid "Effective Filter Locale"
+#~ msgstr "تنظیمات محلی صافی مؤثر"
+
+#~ msgid "Couldn't load driver information.\n"
+#~ msgstr "بار کردن اطلاعات گرداننده ممکن نبود.\n"
+
+#~ msgid "You must run printconf-backend as root."
+#~ msgstr "باید printconf-backend را با root اجرا کنید."
+
+#~ msgid "Sharing properties - %s"
+#~ msgstr "ویژگی‌های به‌اشتراک‌گذاری ـ %s"
+
+#~ msgid "All hosts"
+#~ msgstr "همه‌ی میزبان‌ها"
+
+#~ msgid "Network device %s"
+#~ msgstr "دستگاه شبکه‌ی %s"
+
+#~ msgid "Network devices %s"
+#~ msgstr "دستگاه‌های شبکه‌ی %s"
+
+#~ msgid "Network address %s"
+#~ msgstr "نشانی شبکه‌ی %s"
+
+#~ msgid "Add allowed hosts - %s"
+#~ msgstr "اضافه کردن میزبان‌های مجاز ـ %s"
+
+#~ msgid "Edit allowed hosts - %s"
+#~ msgstr "ویرایش میزبان‌های مجاز ـ %s"
+
+#~ msgid ""
+#~ "LPD connections will be accepted\n"
+#~ "on all interfaces, and jobs for\n"
+#~ "all queues will be accepted."
+#~ msgstr ""
+#~ "اتصال‌های LPD روی همه‌ی واسط‌ها\n"
+#~ "پذیرفته خواهند شد، و کار برای همه‌ی\n"
+#~ "صف‌ها پذیرفته خواهد شد."
+
+#~ msgid "Invalid network address"
+#~ msgstr "نشانی شبکه‌ی نامعتبر"
+
+#~ msgid "Invalid netmask"
+#~ msgstr "نقاب شبکه‌ی نامعتبر"
+
+#~ msgid "Invalid IP address"
+#~ msgstr "نشانی IP نامعتبر"
+
+#~ msgid "ASC_II text test page"
+#~ msgstr "صفحه‌ی آزمایشی با متن _اسکی"
+
+#~ msgid "Add a new option"
+#~ msgstr "اضافه کردن یک گزینه‌ی جدید"
+
+#~ msgid "Add a new queue"
+#~ msgstr "اضافه کردن یک صف جدید"
+
+#~ msgid "Add an allowed host"
+#~ msgstr "اضافه کردن یک میزبان مجاز"
+
+#~ msgid "Add/edit queue option"
+#~ msgstr "اضافه کردن/ویرایش گزینه‌ی صف"
+
+#~ msgid "Allowed hosts"
+#~ msgstr "میزبان‌های مجاز"
+
+#~ msgid "Apply changes"
+#~ msgstr "اعمال تغییرات"
+
+#~ msgid "At end of job:"
+#~ msgstr "در پایان کار:"
+
+#~ msgid "At start of job:"
+#~ msgstr "در آغاز کار:"
+
+#~ msgid "Autoselect driver"
+#~ msgstr "انتخاب خودکار گرداننده"
+
+#~ msgid "Banner pages"
+#~ msgstr "صفحات عنوان"
+
+#~ msgid "Big5 PostScript test page"
+#~ msgstr "صفحه‌ی آزمایشی پست‌اسکریپت Big5 (چینی)"
+
+#~ msgid "Choose the queue type"
+#~ msgstr "نوع صف را انتخاب کنید"
+
+#~ msgid "Choose the type of queue you want to use"
+#~ msgstr "نوع صفی را که می‌خواهید استفاده کنید انتخاب کنید"
+
+#~ msgid "Choose which other computers may use this queue."
+#~ msgstr ""
+#~ "کامپیوتر‌های دیگری را که ممکن است از این صف استفاده کنند انتخاب کنید."
+
+#~ msgid "Edit the selected queue"
+#~ msgstr "ویرایش صف انتخاب شده"
+
+#~ msgid "Edit this host"
+#~ msgstr "ویرایش این میزبان"
+
+#~ msgid "Edit this option"
+#~ msgstr "ویرایش این گزینه"
+
+#~ msgid "Enable _LPD protocol"
+#~ msgstr "به کار انداختن قرارداد LPD"
+
+#~ msgid "Enter the device you would like to use."
+#~ msgstr "دستگاهی را که می‌خواهید استفاده کنید وارد کنید."
+
+#~ msgid "Finish, and create the new print queue"
+#~ msgstr "پایان، و ایجاد صف چاپ جدید"
+
+#~ msgid "For example: /dev/lp0"
+#~ msgstr "برای مثال: ‎/dev/lp0"
+
+#~ msgid "IP port number (often 9100)"
+#~ msgstr "شماره‌ی درگاه IP (اغلب ۹۱۰۰)"
+
+#~ msgid ""
+#~ "If you like, you can enter a description of the printer to help you "
+#~ "identify it more easily."
+#~ msgstr ""
+#~ "اگر دوست دارید می‌توانید برای کمک به شناسایی آسان‌تر چاپگر، شرحی از آن وارد "
+#~ "کنید."
+
+#~ msgid "Imageable Area"
+#~ msgstr "ناحیه‌ی قابل چاپ"
+
+#~ msgid "JPE_G test"
+#~ msgstr "آزما_یش JPEG"
+
+#~ msgid "Japanese EUC PostScript test page"
+#~ msgstr "صفحه‌ی آزمایشی پست‌اسکریپت EUC ژاپنی"
+
+#~ msgid "Japanese JIS PostScript test page"
+#~ msgstr "صفحه‌ی آزمایشی پست‌اسکریپت JIS ژاپنی"
+
+#~ msgid "Japanese SJIS PostScript test page"
+#~ msgstr "صفحه‌ی آزمایشی پست‌اسکریپت SJIS ژاپنی"
+
+#~ msgid "Japanese _EUC text test page"
+#~ msgstr "صفحه‌ی آزمایشی متن EUC ژا_پنی"
+
+#~ msgid "Japanese _JIS text test page"
+#~ msgstr "صفحه‌ی آزمایشی متن JIS ژ_اپنی"
+
+#~ msgid "Japanese _SJIS text test page"
+#~ msgstr "صفحه‌ی آزمایشی متن SJIS ژاپن_ی"
+
+#~ msgid "Linefeed translation"
+#~ msgstr "تبدیل تغذیه‌ی‌خط"
+
+#~ msgid "Network _devices"
+#~ msgstr "_دستگاه‌های شبکه"
+
+#~ msgid "Networked CUPS (_IPP)"
+#~ msgstr "‏CUPS _شبکه‌ای (IPP)"
+
+#~ msgid "Networked _Novell (NCP)"
+#~ msgstr "_نوول شبکه‌ای (NCP)"
+
+#~ msgid "Networked _UNIX (LPD)"
+#~ msgstr "_یونیکس شبکه‌ای (LPD)"
+
+#~ msgid "Networked _Windows (SMB)"
+#~ msgstr "_ویندوز شبکه‌ای (SMB)"
+
+#~ msgid ""
+#~ "On the following screens, you will be asked to provide basic information "
+#~ "for adding a new print queue.  You will be able to edit the more advanced "
+#~ "options afterwards.\n"
+#~ "\n"
+#~ "Nothing will be done to your settings until you hit \"Finish\" on the "
+#~ "last screen."
+#~ msgstr ""
+#~ "در صفحه‌های بعد، از شما خواسته خواهد شد که اطلاعات پایه‌ای را برای اضافه "
+#~ "کردن یک صف چاپ جدید ارائه کنید.  شما بعداً خواهید توانست گزینه‌های پیشرفته "
+#~ "را ویرایش کنید.\n"
+#~ "\n"
+#~ "تا وقتی که «پایان» را در آخرین صفحه فشار ندهید، هیچ تغییری در تنظیمات شما "
+#~ "داده نخواهد شد."
+
+#~ msgid "Path:"
+#~ msgstr "مسیر:"
+
+#~ msgid "Patience"
+#~ msgstr "بردباری"
+
+#~ msgid ""
+#~ "Please enter a name for this queue.  Choose a short name that begins with "
+#~ "a letter and contains no spaces."
+#~ msgstr ""
+#~ "لطفاً نامی برای این صف وارد کنید.  نام کوتاهی انتخاب کنید که با یک حرف "
+#~ "شروع شود و هیچ فاصله‌ای نداشته باشد."
+
+#~ msgid "Printer hostname or IP address"
+#~ msgstr "نام میزبان یا نشانی IP چاپگر"
+
+#~ msgid "Queue type"
+#~ msgstr "نوع صف"
+
+#~ msgid "Queue type:"
+#~ msgstr "نوع صف:"
+
+#~ msgid "Remove this host from the list"
+#~ msgstr "حذف این میزبان از فهرست"
+
+#~ msgid "Remove this option"
+#~ msgstr "حذف این گزینه"
+
+#~ msgid "Rescan devices"
+#~ msgstr "پویش مجدد دستگاه‌ها"
+
+#~ msgid "Select a queue type:"
+#~ msgstr "یک نوع صف انتخاب کنید:"
+
+#~ msgid "Select the appropriate printer manufacturer and model."
+#~ msgstr "مدل و سازنده‌ی مربوط به چاپگر را انتخاب کنید."
+
+#~ msgid "Set as de_fault"
+#~ msgstr "تنظیم به عنوان پی_ش‌فرض"
+
+#~ msgid "Set as default queue"
+#~ msgstr "تنظیم به عنوان صف پیش‌فرض"
+
+#~ msgid "Short description:"
+#~ msgstr "شرح کوتاه:"
+
+#~ msgid "Short description: "
+#~ msgstr "شرح کوتاه: "
+
+#~ msgid "Single _IP address"
+#~ msgstr "_نشانی IP تنها"
+
+#~ msgid "Strict RFC1179 compliance"
+#~ msgstr "سازگاری اکید با RFC 1179"
+
+#~ msgid "These settings are system-wide."
+#~ msgstr "این تنظیمات در کل سیستم یکسان هستند"
+
+#~ msgid "This allows older systems to print to this machine"
+#~ msgstr "سیستم‌های قدیمی را‌ قادر می‌سازد که در این ماشین چاپ کنند"
+
+#~ msgid "This enables CUPS IPP browsing"
+#~ msgstr "مرور CUPS IPP را به کار می‌اندازد"
+
+#~ msgid ""
+#~ "This is the name of the queue.  It must begin with a letter and contain "
+#~ "no spaces."
+#~ msgstr "این نام صف است.  باید با یک حرف شروع شود و هیچ فاصله‌ای نداشته باشد."
+
+#~ msgid "Type in an IP address"
+#~ msgstr "یک نشانی IP وارد کنید"
+
+#~ msgid "Type in the netmask, or the CIDR mask length"
+#~ msgstr "نقاب‌شبکه، یا طول نقاب CIDR را وارد کنید"
+
+#~ msgid "Type in the share name"
+#~ msgstr "نام اشتراک را وارد کنید"
+
+#~ msgid "Use control-F to search"
+#~ msgstr "برای جستجو از کلید مهار+F استفاده کنید"
+
+#~ msgid "_A4 PostScript test page"
+#~ msgstr "صفحه‌ی آزمایشی _پست‌اسکریپت A4"
+
+#~ msgid "_All hosts"
+#~ msgstr "_همه‌ی میزبان‌ها"
+
+#~ msgid "_Apply"
+#~ msgstr "ا_عمال"
+
+#~ msgid "_Automatically find remote shared queues"
+#~ msgstr "پیدا کردن _خودکار صف‌های اشتراکی دوردست"
+
+#~ msgid "_Big5 text test page"
+#~ msgstr "_صفحه‌ی آزمایشی متن Big5 (چینی)"
+
+#~ msgid "_CUPS test page"
+#~ msgstr "ص_فحه‌ی آزمایشی CUPS"
+
+#~ msgid "_Contents"
+#~ msgstr "_محتویات"
+
+#~ msgid "_Custom device"
+#~ msgstr "دستگاه س_فارشی"
+
+#~ msgid "_Delete queue"
+#~ msgstr "_حذف صف"
+
+#~ msgid "_Duplex test"
+#~ msgstr "آزمایش دو_تایی"
+
+#~ msgid "_Edit queue"
+#~ msgstr "_ویرایش صف"
+
+#~ msgid "_Edit..."
+#~ msgstr "_ویرایش..."
+
+#~ msgid "_Import PPD..."
+#~ msgstr "وار_د کردن PDD..."
+
+#~ msgid "_Network address"
+#~ msgstr "نشانی شب_که‌ای"
+
+#~ msgid "_Notes..."
+#~ msgstr "یاد_داشت‌ها..."
+
+#~ msgid "_Rescan devices"
+#~ msgstr "_پویش مجدد دستگاه‌ها"
+
+#~ msgid "_This queue is available to other computers"
+#~ msgstr "ا_ین صف برای کامپیوتر‌های دیگر موجود است"
+
+#~ msgid "_US Letter PostScript test page"
+#~ msgstr "_صفحه‌ی آزمایشی پست‌اسکریپت در قالب کاغذ نامه‌ی امریکایی"
+
+#~ msgid "_none"
+#~ msgstr "_هیچ‌کدام"
+
+#~ msgid "ipp"
+#~ msgstr "ipp"
+
+#~ msgid "jetdirect"
+#~ msgstr "jetdirect"
+
+#~ msgid "lpd"
+#~ msgstr "lpd"
+
+#~ msgid "ncp"
+#~ msgstr "ncp"
