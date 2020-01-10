@@ -7,7 +7,7 @@
 Summary: A printer administration tool
 Name: system-config-printer
 Version: 1.1.16
-Release: 22%{?dist}
+Release: 23%{?dist}
 License: GPLv2+
 URL: http://cyberelk.net/tim/software/system-config-printer/
 Group: System Environment/Base
@@ -69,6 +69,9 @@ Patch49: system-config-printer-high-cpu-usage.patch
 Patch50: system-config-printer-display-unset.patch
 Patch51: system-config-printer-firewall.patch
 Patch52: system-config-printer-CVE-2011-2520.patch
+Patch53: system-config-printer-tooltips.patch
+
+Patch100: pycups-thread-storage.patch
 
 BuildRequires: cups-devel >= 1.2
 BuildRequires: python-devel >= 2.4
@@ -287,6 +290,16 @@ popd
 # Adapted to system-config-firewall API change (bug #717985, CVE-2011-2520).
 %patch52 -p1 -b .CVE-2011-2520
 
+# Don't handle tooltips during mainloop recursion (bug #739745).
+%patch53 -p1 -b .tooltips
+
+pushd pycups-%{pycups_version}
+
+# Use thread-local storage for password callback function (bug #744519).
+%patch100 -p1 -b .thread-storage
+
+popd
+
 %build
 %configure --with-udev-rules --with-polkit-1
 
@@ -403,6 +416,10 @@ rm -rf %buildroot
 exit 0
 
 %changelog
+* Fri Jan 20 2012 Tim Waugh <twaugh@redhat.com> - 1.1.16-23
+- Use thread-local storage for password callback function (bug #744519).
+- Don't handle tooltips during mainloop recursion (bug #739745).
+
 * Thu Aug 11 2011 Tim Waugh <twaugh@redhat.com> - 1.1.16-22
 - Marked another patch as required even for an unpatched build
   (bug #708519).
