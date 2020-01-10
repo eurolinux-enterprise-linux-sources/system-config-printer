@@ -7,7 +7,7 @@
 Summary: A printer administration tool
 Name: system-config-printer
 Version: 1.1.16
-Release: 25%{?dist}
+Release: 26%{?dist}
 License: GPLv2+
 URL: http://cyberelk.net/tim/software/system-config-printer/
 Group: System Environment/Base
@@ -70,10 +70,12 @@ Patch50: system-config-printer-display-unset.patch
 Patch51: system-config-printer-firewall.patch
 Patch52: system-config-printer-CVE-2011-2520.patch
 Patch53: system-config-printer-tooltips.patch
+Patch54: system-config-printer-incomplete-trans.patch
 
 Patch100: pycups-thread-storage.patch
 Patch101: pycups-utf8-crash.patch
 Patch102: pycups-cups.IPPError-doc.patch
+Patch103: pycups-deleteprinter.patch
 
 BuildRequires: cups-devel >= 1.2
 BuildRequires: python-devel >= 2.4
@@ -295,6 +297,9 @@ popd
 # Don't handle tooltips during mainloop recursion (bug #739745).
 %patch53 -p1 -b .tooltips
 
+# [ALL_LANG][RHEL6.8 RC][system-config-printer] - Translation incomplete (bug #1333633)
+%patch54 -p1 -b .incomplete-trans
+
 pushd pycups-%{pycups_version}
 
 # Use thread-local storage for password callback function (bug #744519).
@@ -305,6 +310,9 @@ pushd pycups-%{pycups_version}
 
 # Fixed pycups documentation (bug #854937).
 %patch102 -p1
+
+# Segfault when moving / removing printer from class (bug #784817)
+%patch103 -p2 -b .deleteprinter
 
 popd
 
@@ -424,6 +432,10 @@ rm -rf %buildroot
 exit 0
 
 %changelog
+* Mon Oct 17 2016 Zdenek Dohnal <zdohnal@redhat.com> - 1.1.16-26
+- 1333633 - [ALL_LANG][RHEL6.8 RC][system-config-printer] - Translation incomplete
+- 784817 - Segfault when moving / removing printer from class
+
 * Tue Jan  6 2015 Tim Waugh <twaugh@redhat.com> - 1.1.16-25
 - Don't ship backup file from patching in examples directory
   (bug #1063224).

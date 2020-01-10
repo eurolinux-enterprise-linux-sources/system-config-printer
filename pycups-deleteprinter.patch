@@ -1,0 +1,47 @@
+diff -up system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c.deleteprinter system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c
+--- system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c.deleteprinter	2016-10-17 14:11:37.788605284 +0200
++++ system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c	2016-10-17 14:17:38.650463921 +0200
+@@ -3242,6 +3242,10 @@ Connection_addPrinterToClass (Connection
+ static PyObject *
+ Connection_deletePrinterFromClass (Connection *self, PyObject *args)
+ {
++  const char *requested_attrs[] = {
++    "member-names",
++    "member-uris"
++  };
+   PyObject *printernameobj;
+   char *printername;
+   PyObject *classnameobj;
+@@ -3269,6 +3273,10 @@ Connection_deletePrinterFromClass (Conne
+   free (classname);
+   ippAddString (request, IPP_TAG_OPERATION, IPP_TAG_URI,
+ 		"printer-uri", NULL, classuri);
++  ippAddStrings (request, IPP_TAG_OPERATION, IPP_TAG_KEYWORD,
++		 "requested-attributes",
++		 sizeof(requested_attrs) / sizeof(requested_attrs[0]),
++		 NULL, requested_attrs);
+   Connection_begin_allow_threads (self);
+   answer = cupsDoRequest (self->http, request, "/");
+   Connection_end_allow_threads (self);
+@@ -3290,6 +3298,13 @@ Connection_deletePrinterFromClass (Conne
+     return NULL;
+   }
+ 
++  printers = ippFindAttribute (answer, "member-uris", IPP_TAG_URI);
++  if (!printers || i >= printers->num_values) {
++    ippDelete (answer);
++    PyErr_SetString (PyExc_RuntimeError, "No member URIs returned");
++    return NULL;
++  }
++
+   request = ippNewRequest (CUPS_ADD_CLASS);
+   ippAddString (request, IPP_TAG_OPERATION, IPP_TAG_URI,
+ 		"printer-uri", NULL, classuri);
+@@ -3301,7 +3316,6 @@ Connection_deletePrinterFromClass (Conne
+     // Trim the printer from the list.
+     ipp_attribute_t *newlist;
+     int j;
+-    printers = ippFindAttribute (answer, "member-uris", IPP_TAG_URI);
+     newlist = ippAddStrings (request, IPP_TAG_PRINTER, IPP_TAG_URI,
+ 			     "member-uris", printers->num_values - 1,
+ 			     NULL, NULL);
