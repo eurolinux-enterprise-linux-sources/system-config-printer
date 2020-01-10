@@ -7,7 +7,7 @@
 Summary: A printer administration tool
 Name: system-config-printer
 Version: 1.1.16
-Release: 23%{?dist}
+Release: 25%{?dist}
 License: GPLv2+
 URL: http://cyberelk.net/tim/software/system-config-printer/
 Group: System Environment/Base
@@ -72,6 +72,8 @@ Patch52: system-config-printer-CVE-2011-2520.patch
 Patch53: system-config-printer-tooltips.patch
 
 Patch100: pycups-thread-storage.patch
+Patch101: pycups-utf8-crash.patch
+Patch102: pycups-cups.IPPError-doc.patch
 
 BuildRequires: cups-devel >= 1.2
 BuildRequires: python-devel >= 2.4
@@ -298,6 +300,12 @@ pushd pycups-%{pycups_version}
 # Use thread-local storage for password callback function (bug #744519).
 %patch100 -p1 -b .thread-storage
 
+# Prevent pycups segmentation fault when handling UTF-8 input (bug #1063224).
+%patch101 -p1 -b .utf8-crash
+
+# Fixed pycups documentation (bug #854937).
+%patch102 -p1
+
 popd
 
 %build
@@ -416,6 +424,14 @@ rm -rf %buildroot
 exit 0
 
 %changelog
+* Tue Jan  6 2015 Tim Waugh <twaugh@redhat.com> - 1.1.16-25
+- Don't ship backup file from patching in examples directory
+  (bug #1063224).
+
+* Tue Jan  6 2015 Tim Waugh <twaugh@redhat.com> - 1.1.16-24
+- Fixed pycups documentation (bug #854937).
+- Prevent pycups segmentation fault when handling UTF-8 input (bug #1063224).
+
 * Fri Jan 20 2012 Tim Waugh <twaugh@redhat.com> - 1.1.16-23
 - Use thread-local storage for password callback function (bug #744519).
 - Don't handle tooltips during mainloop recursion (bug #739745).

@@ -1,0 +1,24 @@
+diff -up pycups-1.9.47/cupsmodule.c.cups.IPPError-doc pycups-1.9.47/cupsmodule.c
+--- pycups-1.9.47/cupsmodule.c.cups.IPPError-doc	2015-01-06 16:32:28.212165192 +0000
++++ pycups-1.9.47/cupsmodule.c	2015-01-06 16:32:46.109256918 +0000
+@@ -842,7 +842,7 @@ initcups (void)
+     "Use it like this::\n"
+     "  try:\n"
+     "    ...\n"
+-    "  except cups.IPPError (status, description):\n"
++    "  except cups.IPPError as (status, description):\n"
+     "    print 'IPP status is %d' % status\n"
+     "    print 'Meaning:', description\n"));
+   IPPError = PyErr_NewException ("cups.IPPError", NULL, obj);
+diff -up pycups-1.9.47/examples/cupstree.py.cups.IPPError-doc pycups-1.9.47/examples/cupstree.py
+--- pycups-1.9.47/examples/cupstree.py.cups.IPPError-doc	2009-06-19 12:25:38.000000000 +0100
++++ pycups-1.9.47/examples/cupstree.py	2015-01-06 16:32:46.110256923 +0000
+@@ -20,7 +20,7 @@ def getippqueue (dev, queue, depth):
+ 	except RuntimeError:
+ 		# Failed to connect.
+ 		return
+-	except cups.IPPError, e:
++	except cups.IPPError as e:
+ 		if e == cups.IPP_OPERATION_NOT_SUPPORTED:
+ 			# CUPS-Get-Printers not supported so not a CUPS server.
+ 			printers = {}
