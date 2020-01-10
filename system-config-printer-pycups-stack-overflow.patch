@@ -1,0 +1,12 @@
+diff -up system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c.stack-overflow system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c
+--- system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c.stack-overflow	2011-06-14 17:19:52.352345245 +0200
++++ system-config-printer-1.1.16/pycups-1.9.47/cupsconnection.c	2011-06-14 17:20:12.328548093 +0200
+@@ -2872,7 +2872,7 @@ Connection_deletePrinterOptionDefault (C
+   char *name;
+   PyObject *optionobj;
+   char *option;
+-  const char *const suffix = "-default";
++  const char const suffix[] = "-default";
+   char *opt;
+   ipp_t *request, *answer;
+   int i;

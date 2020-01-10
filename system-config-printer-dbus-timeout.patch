@@ -1,0 +1,13 @@
+diff -up system-config-printer-1.1.16/asyncpk1.py.dbus-timeout system-config-printer-1.1.16/asyncpk1.py
+--- system-config-printer-1.1.16/asyncpk1.py.dbus-timeout	2010-09-28 12:10:55.297917020 +0100
++++ system-config-printer-1.1.16/asyncpk1.py	2010-09-28 12:11:02.932916120 +0100
+@@ -77,7 +77,8 @@ class _PK1AsyncMethodCall:
+         try:
+             pk_method (*self._pk_args,
+                         reply_handler=self._pk_reply_handler,
+-                        error_handler=self._pk_error_handler)
++                        error_handler=self._pk_error_handler,
++                        timeout=3600)
+         except TypeError, e:
+             debugprint ("Type error in PK call: %s" % e)
+             self.call_fallback_fn ()

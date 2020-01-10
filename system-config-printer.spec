@@ -7,7 +7,7 @@
 Summary: A printer administration tool
 Name: system-config-printer
 Version: 1.1.16
-Release: 17%{?dist}.2
+Release: 22%{?dist}
 License: GPLv2+
 URL: http://cyberelk.net/tim/software/system-config-printer/
 Group: System Environment/Base
@@ -59,7 +59,16 @@ Patch39: system-config-printer-various-i18n-l10n.patch
 Patch40: system-config-printer-jobiters.patch
 Patch41: system-config-printer-state-reason-blacklist.patch
 Patch42: system-config-printer-pycups-build.patch
-Patch43: system-config-printer-CVE-2011-2520.patch
+Patch43: system-config-printer-leftover-tmp-files.patch
+Patch44: system-config-printer-pycups-stack-overflow.patch
+Patch45: system-config-printer-autowrap-latest.patch
+Patch46: system-config-printer-dbus-timeout.patch
+Patch47: system-config-printer-untranslated.patch
+Patch48: system-config-printer-no-jockey.patch
+Patch49: system-config-printer-high-cpu-usage.patch
+Patch50: system-config-printer-display-unset.patch
+Patch51: system-config-printer-firewall.patch
+Patch52: system-config-printer-CVE-2011-2520.patch
 
 BuildRequires: cups-devel >= 1.2
 BuildRequires: python-devel >= 2.4
@@ -119,7 +128,7 @@ printers.
 %prep
 %setup -q -a 1 -a 2
 # Don't require epydoc.
-%patch1 -p1 -b .no-epydoc
+%patch1 -p1 -b .no-epydoc %{?_rawbuild}
 
 # Fixed typo (bug #550097).
 %patch2 -p1 -b .typo
@@ -177,6 +186,7 @@ printers.
 %patch19 -p1 -b .duplicate-current
 
 # Better error handling when renaming a printer (bug #561401).
+# Don't rename when names differ only in size of characters (bug #636523).
 %patch20 -p1 -b .rename-error-handling
 
 # Avoid crash filling makes list when no make detected (bug #562641).
@@ -230,7 +240,7 @@ printers.
 # Initialise auto_make to the empty string (bug #592346).
 %patch37 -p1 -b .auto_make
 
-# Include updated translations (bug #575678).
+# Include updated translations (bug #575678, bug #634436).
 %patch38 -p1 -b .translations
 
 # Various i18n/l10n bugs (bug #588847).
@@ -244,11 +254,38 @@ printers.
 
 # Make pycups build.
 pushd pycups-%{pycups_version}
-%patch42 -p1 -b .pycups-build
+%patch42 -p1 -b .pycups-build %{?_rawbuild}
 popd
 
+# Don't leave symlinks in /tmp after adding a printer (bug #556548).
+%patch43 -p1 -b .leftover-tmp-files
+
+# Fixed stack overflow in pycups (bug #584991).
+%patch44 -p1 -b .stack-overflow
+
+# Fixed gtk_label_autowrap.py by updating it to latest version (bug #633595).
+%patch45 -p1 -b .autowrap-latest
+
+# Set D-Bus timeout when calling asynchronously (bug #634252). 
+%patch46 -p1 -b .dbus-timeout
+
+# More translatable strings marked as such (bug #634436).
+%patch47 -p1 -b .untranslated
+
+# Stub out getJockeyDriver_thread() (bug #639624).
+%patch48 -p1 -b .no-jockey
+
+# Applet could cause high cupsd CPU usage (bug #645426).
+%patch49 -p1 -b .high-cpu-usage
+
+# don't crash when DISPLAY is unset (bug #676339, bug #676343).
+%patch50 -p1 -b .display-unset
+
+# Adjust firewall as appropriate (bug #591633).
+%patch51 -p1 -b .firewall
+
 # Adapted to system-config-firewall API change (bug #717985, CVE-2011-2520).
-%patch43 -p1 -b .CVE-2011-2520
+%patch52 -p1 -b .CVE-2011-2520
 
 %build
 %configure --with-udev-rules --with-polkit-1
@@ -285,6 +322,7 @@ rm -rf %buildroot
 
 %files libs -f system-config-printer.lang
 %defattr(-,root,root,-)
+%doc COPYING
 %doc --parents pycups-%{pycups_version}/{COPYING,ChangeLog,README,NEWS,TODO,examples,html}
 %doc --parents pysmbc-%{pysmbc_version}/{COPYING,ChangeLog,README,NEWS,TODO,test.py,html}
 %config(noreplace) %{_sysconfdir}/dbus-1/system.d/newprinternotification.conf
@@ -308,7 +346,7 @@ rm -rf %buildroot
 
 %files
 %defattr(-,root,root,-)
-%doc COPYING ChangeLog README
+%doc ChangeLog README
 %{_bindir}/%{name}
 %{_bindir}/%{name}-applet
 %{_bindir}/my-default-printer
@@ -365,12 +403,35 @@ rm -rf %buildroot
 exit 0
 
 %changelog
-* Mon Jul 11 2011 Tim Waugh <twaugh@redhat.com> - 1.1.16-17:.2
+* Thu Aug 11 2011 Tim Waugh <twaugh@redhat.com> - 1.1.16-22
+- Marked another patch as required even for an unpatched build
+  (bug #708519).
+
+* Mon Jul 11 2011 Tim Waugh <twaugh@redhat.com> - 1.1.16-21
 - Build pycups with -fno-strict-aliasing compiler option to avoid
   compiler warnings.
 
-* Fri Jul  8 2011 Tim Waugh <twaugh@redhat.com> - 1.1.16-17:.1
+* Fri Jul  8 2011 Tim Waugh <twaugh@redhat.com> - 1.1.16-20
 - Adapted to system-config-firewall API change (bug #717985, CVE-2011-2520).
+
+* Thu Jul  7 2011 Tim Waugh <twaugh@redhat.com> - 1.1.16-19
+- Adjust firewall as appropriate (bug #591633).
+
+* Tue Jun 14 2011 Jiri Popelka <jpopelka@redhat.com> 1.1.16-18
+- Don't leave symlinks in /tmp after adding a printer (bug #556548).
+- Fixed probe-printer-typo.patch (bug #579864).
+- Fixed stack overflow in pycups (bug #584991).
+- Moved COPYING file from main package to libs subpackage (bug #613708).
+- Fixed gtk_label_autowrap.py by updating it to latest version (bug #633595).
+- Set D-Bus timeout when calling asynchronously (bug #634252).
+- More translatable strings marked as such (bug #634436).
+- Backport translations from upstream (bug #634436).
+- Don't rename when names differ only in size of characters (bug #636523).
+- Stub out getJockeyDriver_thread() (bug #639624).
+- Applet could cause high cupsd CPU usage (bug #645426).
+- Don't crash when DISPLAY is unset (bug #676339, bug #676343).
+- Use ?_rawbuild macro required for Coverity to scan defects
+  in downstream patches separately (bug #708519).
 
 * Mon Jul 19 2010 Tim Waugh <twaugh@redhat.com> - 1.1.16-17
 - Ignore other-warning state reason (bug #615287).

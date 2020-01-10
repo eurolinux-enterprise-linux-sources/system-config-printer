@@ -1,0 +1,19 @@
+diff -up system-config-printer-1.1.16/system-config-printer.py~ system-config-printer-1.1.16/system-config-printer.py
+--- system-config-printer-1.1.16/system-config-printer.py~	2010-10-13 15:49:30.045988786 +0100
++++ system-config-printer-1.1.16/system-config-printer.py	2010-10-13 15:56:42.825988892 +0100
+@@ -4073,6 +4073,7 @@ class NewPrinterGUI(GtkGUI):
+         self.jockey_driver_result = False
+         self.jockey_installed_files = []
+         try:
++            raise RuntimeError, "Jockey cannot be used."
+             bus = dbus.SessionBus()
+             obj = bus.get_object("com.ubuntu.DeviceDriver", "/GUI")
+             jockeyloader = \
+@@ -4090,7 +4091,6 @@ class NewPrinterGUI(GtkGUI):
+             self.jockey_driver_result = e
+             debugprint (self.jockey_driver_result)
+         except Exception, e:
+-            nonfatalException()
+             self.jockey_driver_result = e
+             debugprint ("Non-D-Bus error on Jockey call: %s" % e)
+ 

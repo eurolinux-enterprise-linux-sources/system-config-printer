@@ -1,0 +1,58 @@
+diff -up system-config-printer-1.1.16/applet.py.display_unset system-config-printer-1.1.16/applet.py
+--- system-config-printer-1.1.16/applet.py.display_unset	2011-06-14 19:03:48.887338510 +0200
++++ system-config-printer-1.1.16/applet.py	2011-06-14 19:05:47.694342592 +0200
+@@ -28,7 +28,6 @@ import dbus
+ import dbus.glib
+ import dbus.service
+ import gobject
+-import pynotify
+ import time
+ import locale
+ import gettext
+@@ -43,8 +42,14 @@ except locale.Error, e:
+     os.environ['LC_ALL'] = 'C'
+     locale.setlocale (locale.LC_ALL, "")
+ 
++try:
++    import pynotify
++except (RuntimeError, ImportError), e:
++    print "%s:" % DOMAIN, e
++    print "This is a graphical application and requires DISPLAY to be set."
++    sys.exit (1)
++
+ APPDIR="/usr/share/system-config-printer"
+-DOMAIN="system-config-printer"
+ ICON="printer"
+ SEARCHING_ICON="document-print-preview"
+ 
+diff -up system-config-printer-1.1.16/system-config-printer.py.display_unset system-config-printer-1.1.16/system-config-printer.py
+--- system-config-printer-1.1.16/system-config-printer.py.display_unset	2011-06-14 19:04:06.108342571 +0200
++++ system-config-printer-1.1.16/system-config-printer.py	2011-06-14 19:05:14.467511150 +0200
+@@ -23,12 +23,7 @@
+ # config is generated from config.py.in by configure
+ import config
+ 
+-import errno
+-import sys, os, tempfile, time, traceback, re, httplib, glob
+-import subprocess
+-import signal, thread
+-from timedops import *
+-import dbus
++import sys
+ try:
+     import gtk.glade
+ except RuntimeError, e:
+@@ -36,6 +31,13 @@ except RuntimeError, e:
+     print "This is a graphical application and requires DISPLAY to be set."
+     sys.exit (1)
+ 
++import errno
++import os, tempfile, time, traceback, re, httplib, glob
++import subprocess
++import signal, thread
++from timedops import *
++import dbus
++
+ import glib
+ def show_uri (uri):
+     gtk.show_uri (gtk.gdk.screen_get_default (),

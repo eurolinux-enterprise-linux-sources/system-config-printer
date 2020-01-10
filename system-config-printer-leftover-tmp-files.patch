@@ -1,0 +1,11 @@
+diff -up system-config-printer-1.1.16/system-config-printer.py.leftover-tmp-files system-config-printer-1.1.16/system-config-printer.py
+--- system-config-printer-1.1.16/system-config-printer.py.leftover-tmp-files	2010-10-19 16:55:03.384839904 +0100
++++ system-config-printer-1.1.16/system-config-printer.py	2010-10-19 16:55:37.844965118 +0100
+@@ -2854,6 +2854,7 @@ class GUI(GtkGUI, monitor.Watcher):
+             self.jobviewers[0].on_delete_event ()
+         del self.mainlist
+         del self.printers
++        del self.printer
+         gtk.main_quit()
+ 
+     # Rename
