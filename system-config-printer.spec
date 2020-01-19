@@ -1,7 +1,7 @@
 Summary: A printer administration tool
 Name: system-config-printer
 Version: 1.4.1
-Release: 10%{?dist}
+Release: 16%{?dist}
 License: GPLv2+
 URL: http://cyberelk.net/tim/software/system-config-printer/
 Group: System Environment/Base
@@ -29,6 +29,7 @@ Patch20: system-config-printer-rename-race.patch
 Patch21: system-config-printer-utf8-978970.patch
 Patch22: system-config-printer-misplaced-paren.patch
 Patch23: system-config-printer-translations.patch
+Patch24: system-config-printer-smp-mflags.patch
 
 BuildRequires: cups-devel >= 1.2
 BuildRequires: desktop-file-utils >= 0.2.92
@@ -144,13 +145,17 @@ printers.
 # Updated translations (bug #998918).
 %patch23 -p1 -b .translations
 
+# Fixed makefile to work with _smp_mflags (patch from upstream).
+%patch24 -p1 -b .smp-mflags
+
+sed -i.cflags-override -e '/^CFLAGS/d' Makefile.{am,in}
+
 %build
 %configure --with-udev-rules
+make %{?_smp_mflags}
 
 %install
-make DESTDIR=%buildroot install \
-	udevrulesdir=%{_prefix}/lib/udev/rules.d \
-	udevhelperdir=%{_prefix}/lib/udev
+make DESTDIR=%buildroot install
 
 %{__mkdir_p} %buildroot%{_localstatedir}/run/udev-configure-printer
 touch %buildroot%{_localstatedir}/run/udev-configure-printer/usb-uris
@@ -243,6 +248,24 @@ touch %buildroot%{_localstatedir}/run/udev-configure-printer/usb-uris
 exit 0
 
 %changelog
+* Fri Feb 28 2014 Tim Waugh <twaugh@redhat.com> 1.4.1-16
+- Don't override CFLAGS in Makefile.am (bug #1070798).
+
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4.1-15
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.1-14
+- Mass rebuild 2013-12-27
+
+* Fri Dec  6 2013 Tim Waugh <twaugh@redhat.com> 1.4.1-13
+- Include upstream Makefile fixes for udev directories (bug #1038268).
+
+* Fri Dec  6 2013 Tim Waugh <twaugh@redhat.com> 1.4.1-12
+- Actually run make in the %%build section (bug #1038268).
+
+* Wed Dec  4 2013 Tim Waugh <twaugh@redhat.com> 1.4.1-11
+- Updated translations (bug #1030381).
+
 * Wed Aug 21 2013 Tim Waugh <twaugh@redhat.com> 1.4.1-10
 - Updated translations (bug #998918).
 
