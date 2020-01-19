@@ -4,7 +4,7 @@
 Summary: A printer administration tool
 Name: system-config-printer
 Version: 1.4.1
-Release: 19%{?dist}
+Release: 21%{?dist}
 License: GPLv2+
 URL: http://cyberelk.net/tim/software/system-config-printer/
 Group: System Environment/Base
@@ -35,6 +35,11 @@ Patch23: system-config-printer-translations.patch
 Patch24: system-config-printer-smp-mflags.patch
 Patch25: system-config-printer-gdk-color.patch
 Patch26: system-config-printer-document-count.patch
+Patch27: system-config-printer-warning-no-pysmbc.patch
+Patch28: system-config-printer-cursor-handling.patch
+Patch29: system-config-printer-gtk3.patch
+Patch30: system-config-printer-nested-class.patch
+Patch31: system-config-printer-firewall-already-enabled.patch
 
 BuildRequires: cups-devel >= 1.2
 BuildRequires: desktop-file-utils >= 0.2.92
@@ -45,8 +50,8 @@ BuildRequires: xmlto
 BuildRequires: systemd-units, systemd-devel
 
 Requires: gobject-introspection%{?_isa}
-Requires: pygobject3-base%{?_isa}
-Requires: gtk2%{?_isa}
+Requires: python-gobject-base%{?_isa}
+Requires: gtk3%{?_isa}
 Requires: desktop-file-utils >= 0.2.92
 Requires: dbus-x11
 Requires: dbus-python%{?_isa}
@@ -55,6 +60,7 @@ Requires: gnome-icon-theme
 Requires: desktop-notification-daemon
 Requires: libnotify%{?_isa}
 Requires: libgnome-keyring%{?_isa}
+Requires: pycairo%{?_isa}
 Requires(post): systemd-units
 Requires(preun): systemd-units
 Requires(postun): systemd-units
@@ -70,7 +76,7 @@ Requires: python
 Requires: python-cups >= 1.9.60
 Requires: gobject-introspection
 Requires: pygobject3-base
-Requires: gtk2
+Requires: gtk3
 Requires: dbus-python
 BuildArch: noarch
 Obsoletes: %{name}-libs < 1.3.12-10
@@ -158,6 +164,21 @@ printers.
 
 # Applied upstream patch to fix job retrieval (bug #1119227).
 %patch26 -p1 -b .document-count
+
+# cannot add samba printer without python-smbc (bug #1145739)
+%patch27 -p1 -b .warning-no-pysmbc
+
+# Tracebacks due to selection/cursor handling (bug #1203219)
+%patch28 -p1 -b .cursor-handling
+
+# system-config-printer should require gtk3 instead of gtk2 (bug #1296815)
+%patch29 -p1 -b .gtk3
+
+# Nested class are not allowed (bug #1140627)
+%patch30 -p1 -b .nested-class
+
+# system-config-printer doesn't react to ALREADY_ENABLED firewall exception (bug #1530598)
+%patch31 -p1 -b .firewall-already-enabled
 
 sed -i.cflags-override -e '/^CFLAGS/d' Makefile.{am,in}
 
@@ -259,6 +280,16 @@ touch %buildroot%{_localstatedir}/run/udev-configure-printer/usb-uris
 exit 0
 
 %changelog
+* Wed Jan 10 2018 Zdenek Dohnal <zdohnal@redhat.com> - 1.4.1-21
+- 1530598 - system-config-printer doesn't react to ALREADY_ENABLED firewall exception
+
+* Thu Nov 02 2017 Zdenek Dohnal <zdohnal@redhat.com> - 1.4.1-20
+- 1145739 - cannot add samba printer without python-smbc
+- 1203219 - Tracebacks due to selection/cursor handling
+- 1296815 - system-config-printer should require gtk3 instead of gtk2
+- 1164188 - ImportError: No module named cairo
+- 1140627 - Nested class are not allowed
+
 * Fri Aug 15 2014 Tim Waugh <twaugh@redhat.com> 1.4.1-19
 - Rebuilt.
 

@@ -1,0 +1,14 @@
+diff -up system-config-printer-1.4.1/newprinter.py.cursor-handling system-config-printer-1.4.1/newprinter.py
+--- system-config-printer-1.4.1/newprinter.py.cursor-handling	2017-11-02 19:52:53.493150352 +0100
++++ system-config-printer-1.4.1/newprinter.py	2017-11-02 19:54:03.912595627 +0100
+@@ -1627,7 +1627,8 @@ class NewPrinterGUI(GtkGUI):
+                 model, iter = treeview.get_selection ().get_selected ()
+                 if not iter:
+                     path, column = treeview.get_cursor()
+-                    iter = model.get_iter (path)
++                    if path:
++                        iter = model.get_iter (path)
+                     #driver = model.get_value (iter, 1)
+                 accepted = (iter != None)
+ 
+diff -up system-config-printer-1.4.1/system-config-printer.py.cursor-handling system-config-printer-1.4.1/system-config-printer.py

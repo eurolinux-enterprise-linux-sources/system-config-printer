@@ -1,0 +1,25 @@
+diff -up system-config-printer-1.4.1/newprinter.py.nested-class system-config-printer-1.4.1/newprinter.py
+--- system-config-printer-1.4.1/newprinter.py.nested-class	2017-11-03 14:57:39.481589227 +0100
++++ system-config-printer-1.4.1/newprinter.py	2017-11-03 15:00:20.885299434 +0100
+@@ -827,7 +827,8 @@ class NewPrinterGUI(GtkGUI):
+             self.printers = {}
+ 
+         for printer in self.printers.keys():
+-            model.append((printer,))
++            if not self.printers[printer].type & cups.CUPS_PRINTER_CLASS:
++                model.append((printer,))
+ 
+     def on_btnNCAddMember_clicked(self, button):
+         moveClassMembers(self.tvNCNotMembers, self.tvNCMembers)
+diff -up system-config-printer-1.4.1/printerproperties.py.nested-class system-config-printer-1.4.1/printerproperties.py
+--- system-config-printer-1.4.1/printerproperties.py.nested-class	2017-11-03 14:57:50.936497690 +0100
++++ system-config-printer-1.4.1/printerproperties.py	2017-11-03 14:59:18.429798522 +0100
+@@ -1820,7 +1820,7 @@ class PrinterPropertiesDialog(GtkGUI):
+             if name != self.printer.name:
+                 if name in self.printer.class_members:
+                     model_members.append((name, ))
+-                else:
++                elif not self.printer.type & cups.CUPS_PRINTER_CLASS:
+                     model_not_members.append((name, ))
+ 
+     def on_btnClassAddMember_clicked(self, button):

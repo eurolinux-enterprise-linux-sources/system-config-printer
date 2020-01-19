@@ -1,0 +1,34 @@
+diff -up system-config-printer-1.4.1/firewallsettings.py.firewall-already-enabled system-config-printer-1.4.1/firewallsettings.py
+--- system-config-printer-1.4.1/firewallsettings.py.firewall-already-enabled	2013-05-09 13:10:43.000000000 +0200
++++ system-config-printer-1.4.1/firewallsettings.py	2018-01-12 17:33:35.395041295 +0100
+@@ -118,7 +118,15 @@ class FirewallD:
+         if not self._get_fw_data ():
+             return
+ 
+-        self._fw_data.addService (service)
++        from firewall.errors import FirewallError
++        import firewall.errors
++        try:
++            self._fw_data.addService (service)
++        except FirewallError as e:
++            if e.code is firewall.errors.ALREADY_ENABLED:
++                pass
++            else:
++                raise FirewallError (e.code, e.msg)
+ 
+     def check_ipp_client_allowed (self):
+         if not self._get_fw_data ():
+diff -up system-config-printer-1.4.1/newprinter.py.firewall-already-enabled system-config-printer-1.4.1/newprinter.py
+--- system-config-printer-1.4.1/newprinter.py.firewall-already-enabled	2018-01-12 17:00:32.515561070 +0100
++++ system-config-printer-1.4.1/newprinter.py	2018-01-12 17:35:50.044367360 +0100
+@@ -1979,7 +1979,9 @@ class NewPrinterGUI(GtkGUI):
+     def adjust_firewall_response (self, dialog, response):
+         dialog.destroy ()
+         if response == Gtk.ResponseType.YES:
+-            self.firewall.add_service (firewallsettings.IPP_SERVER_SERVICE)
++            ipp_server_allowed = self.firewall.check_ipp_server_allowed ()
++            if not ipp_server_allowed:
++                self.firewall.add_service (firewallsettings.IPP_SERVER_SERVICE)
+             self.firewall.write ()
+ 
+         debugprint ("Fetching devices after firewall dialog response")

@@ -1,0 +1,15 @@
+diff -up system-config-printer-1.4.1/system-config-printer.py.gtk3 system-config-printer-1.4.1/system-config-printer.py
+--- system-config-printer-1.4.1/system-config-printer.py.gtk3	2017-11-03 09:48:40.821871880 +0100
++++ system-config-printer-1.4.1/system-config-printer.py	2017-11-03 09:50:06.977237581 +0100
+@@ -27,9 +27,11 @@ import config
+ import sys, os, time, re
+ import thread
+ import dbus
++import gi
+ from gi.repository import GdkPixbuf
+ try:
+     from gi.repository import Gdk
++    gi.require_version('Gtk', '3.0')
+     from gi.repository import Gtk
+     Gtk.init (sys.argv)
+ except RuntimeError, e:
