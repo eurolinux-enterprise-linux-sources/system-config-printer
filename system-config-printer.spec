@@ -1,7 +1,10 @@
+# Enable hardened build, as the udev part runs with privilege.
+%define _hardened_build 1
+
 Summary: A printer administration tool
 Name: system-config-printer
 Version: 1.4.1
-Release: 16%{?dist}
+Release: 19%{?dist}
 License: GPLv2+
 URL: http://cyberelk.net/tim/software/system-config-printer/
 Group: System Environment/Base
@@ -30,6 +33,8 @@ Patch21: system-config-printer-utf8-978970.patch
 Patch22: system-config-printer-misplaced-paren.patch
 Patch23: system-config-printer-translations.patch
 Patch24: system-config-printer-smp-mflags.patch
+Patch25: system-config-printer-gdk-color.patch
+Patch26: system-config-printer-document-count.patch
 
 BuildRequires: cups-devel >= 1.2
 BuildRequires: desktop-file-utils >= 0.2.92
@@ -148,6 +153,12 @@ printers.
 # Fixed makefile to work with _smp_mflags (patch from upstream).
 %patch24 -p1 -b .smp-mflags
 
+# Applied upstream patch to fix Gdk.color traceback (bug #1112334).
+%patch25 -p1 -b .gdk-color
+
+# Applied upstream patch to fix job retrieval (bug #1119227).
+%patch26 -p1 -b .document-count
+
 sed -i.cflags-override -e '/^CFLAGS/d' Makefile.{am,in}
 
 %build
@@ -248,6 +259,17 @@ touch %buildroot%{_localstatedir}/run/udev-configure-printer/usb-uris
 exit 0
 
 %changelog
+* Fri Aug 15 2014 Tim Waugh <twaugh@redhat.com> 1.4.1-19
+- Rebuilt.
+
+* Fri Aug 15 2014 Tim Waugh <twaugh@redhat.com> 1.4.1-18
+- Enable hardened build, as the udev part runs with privilege
+  (bug #1092554).
+
+* Mon Aug  4 2014 Tim Waugh <twaugh@redhat.com> 1.4.1-17
+- Applied upstream patch to fix job retrieval (bug #1119227).
+- Applied upstream patch to fix Gdk.color traceback (bug #1112334).
+
 * Fri Feb 28 2014 Tim Waugh <twaugh@redhat.com> 1.4.1-16
 - Don't override CFLAGS in Makefile.am (bug #1070798).
 
